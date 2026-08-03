@@ -10,12 +10,14 @@ export function TopNav() {
       <div className="mx-auto flex h-16 w-full max-w-[1920px] items-center justify-between px-6 sm:px-10 lg:px-16">
         <div className="flex items-center gap-10">
           <Link href="/" className="shrink-0">
-            <Image src="/logo.webp" alt="Company logo" width={611} height={128} className="h-8 w-auto" priority />
+            <Image src="/logo.webp" alt="Company logo" width={611} height={128} className="h-10 w-auto" priority />
           </Link>
           <DesktopNav />
         </div>
-        <NavActions />
-        <MobileNav />
+        <div className="flex items-center gap-2">
+          <NavActions />
+          <MobileNav />
+        </div>
       </div>
     </header>
   );

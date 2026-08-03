@@ -210,7 +210,7 @@ export function MobileNav() {
         <nav
           id="mobile-nav-panel"
           aria-label="Main"
-          className="fixed inset-x-0 top-[var(--nav-height,64px)] bottom-0 z-40 flex flex-col gap-6 overflow-y-auto bg-white p-8 dark:bg-black"
+          className="fixed inset-x-0 top-[var(--nav-height,64px)] z-40 flex max-h-[calc(100vh-var(--nav-height,64px))] flex-col gap-6 overflow-hidden bg-background p-8"
         >
           {NAV_LINKS.map((link) => (
             <NavLink key={link.href} href={link.href} onClick={() => setOpen(false)}>
@@ -227,6 +227,18 @@ export function MobileNav() {
 Notes:
 - `--nav-height` is a placeholder — set it to the header's actual rendered height (either a fixed
   Tailwind value if the header height is constant, or measured via `ResizeObserver` if it isn't).
+- The panel sizes to its content (`flex flex-col`, no `bottom-0`/`h-full` forcing it to stretch),
+  capped at `max-h-[calc(100vh-var(--nav-height))]` so it never exceeds the available viewport
+  height, with `overflow-hidden` so it never shows a scrollbar — appropriate as long as the nav
+  link count stays short enough to fit on a phone screen; if it grows past that, `overflow-y-auto`
+  (accepting a scrollbar) is the correct trade-off over silently clipping links via `overflow-hidden`.
+- **If the panel's background is a fixed color that doesn't follow the site's light/dark theme**
+  (unlike `bg-background` above), double-check `NavLink`'s text color still contrasts against it —
+  a `dark:` variant assumes the element it's on inverts with the page, which isn't true once the
+  panel's own background is pinned to one fixed value. This matters especially when dark mode is
+  driven by `prefers-color-scheme` (a media query) rather than a `.dark` class toggle, since there's
+  no way to scope a class-based override to just this subtree — the fix has to live in the
+  component itself (e.g. an opt-out prop on `NavLink` that drops the `dark:` variant for this case).
 - This example uses a simple conditional render + full-screen panel. For a slide/fade transition,
   wrap the panel in a small animation library (e.g. `motion`/Framer Motion) rather than hand-rolling
   CSS transitions on mount/unmount timing — that's a common source of subtle bugs (panel unmounts
@@ -243,18 +255,23 @@ Notes:
 apps/web/src/components/nav/
 ├── TopNav.tsx        # composes DesktopNav + NavActions + MobileNav inside the full-bleed/capped header
 ├── DesktopNav.tsx     # link row, hidden below `lg`
-├── NavActions.tsx      # right-side utility buttons (language/search/primary CTA), hidden below `lg`
+├── NavActions.tsx      # right-side utility buttons (language/search/primary CTA), visible at every breakpoint
 ├── MobileNav.tsx      # hamburger + panel, hidden at `lg` and up
 ├── NavLink.tsx        # shared active-state-aware link
 └── nav-links.ts       # NAV_LINKS data — the only file that changes per-project nav content
 ```
 
-The logo `Link` and `DesktopNav` are wrapped together in one flex container in `TopNav.tsx` (not
-left as separate top-level flex children) — with 4 top-level items, `justify-between` would space
-them apart individually instead of grouping logo + nav links as a single block on the left, with
-`NavActions` alone on the right. `NavActions` is currently desktop-only (`lg:flex`) — it has no
-mobile-panel equivalent yet; decide deliberately whether the mobile hamburger panel needs a
-scaled-down version of these actions before shipping, don't let it be an oversight.
+The logo `Link` and `DesktopNav` are wrapped together in one flex container, and `NavActions` +
+`MobileNav` are wrapped together in another, rather than left as 4 separate top-level flex
+children — with 4 ungrouped items, `justify-between` would space them apart individually instead
+of producing "logo + nav links" on the left and "actions + hamburger" on the right. Unlike
+`DesktopNav` (hidden below `lg`, replaced by the hamburger panel), `NavActions` is visible at every
+breakpoint — on mobile it sits directly on the bar to the left of the hamburger button, not inside
+the hamburger panel. Because of this, `NavActions`' own sizing has to hold up standalone on a
+360–390px viewport, not just at `lg`+ — see the `Contact Us` → `Contact` truncation below `sm`.
+The three `NavActions` buttons are `h-9` (36px), deliberately smaller than the 44px hamburger
+button next to them and the logo (`h-10`, 40px) — the logo is meant to read as visually larger
+than the utility button row, not matched to it.
 
 Per `docs/architecture.md`'s convention, this lives under `src/components/` (shared, not tied to
 one feature) — mount `<TopNav />` once in `apps/web/src/app/layout.tsx`, above `{children}`.
