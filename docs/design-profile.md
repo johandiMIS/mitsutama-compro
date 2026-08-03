@@ -15,6 +15,7 @@ Defined in `apps/web/src/app/globals.css`:
   --foreground: #171717;
   --primary: #e91f28;
   --primary-hover: #bf1921;
+  --surface: #e2e2e2;
 }
 
 @theme inline {
@@ -22,6 +23,7 @@ Defined in `apps/web/src/app/globals.css`:
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
+  --color-surface: var(--surface);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -41,11 +43,16 @@ Defined in `apps/web/src/app/globals.css`:
 | Button text (on primary) | `#ffffff` | same | `text-white` — fixed white, not theme-dependent, since it's specifically for light text on the red fill |
 | Secondary/body text | zinc-600 | zinc-400 | `text-zinc-600 dark:text-zinc-400` — paragraph copy across Hero/About/Services/ContactCta |
 | Hairline borders/dividers | black 8% | white 14.5% | `border-black/[.08] dark:border-white/[.145]` — section dividers, nav border, service card borders |
+| Surface (utility button bg) | `#e2e2e2` | same (constant across themes) | `bg-surface` — the language/search icon buttons in `NavActions.tsx` |
 
 There is currently no dedicated "secondary color" distinct from this neutral scale — `zinc-*` at
 varying shades **is** the secondary palette (used for de-emphasized text and borders, never as a
-background fill). `--primary`/`--primary-hover` intentionally don't change between light/dark —
-the brand red stays constant while the neutral background/foreground pair inverts around it.
+background fill). `--primary`/`--primary-hover`/`--surface` intentionally don't change between
+light/dark — they stay constant while the neutral background/foreground pair inverts around them.
+**Open question:** `--surface` (`#e2e2e2`, a light gray) was specified without a dark-mode
+counterpart, same as `--primary` — but unlike the brand red, a light-gray chip sitting on the
+`zinc-900` dark background may read as visually inconsistent (too bright against the surrounding
+dark chrome). Revisit if that turns out to look wrong once seen against the actual dark nav.
 
 **Accessibility note:** white text on `#e91f28` measures **4.48:1** contrast (WCAG AA requires
 4.5:1 for normal-weight text at the current `text-base`/`font-medium` size) — a hair under the
@@ -110,8 +117,13 @@ Type scale actually in use:
 
 ## Shape
 
-- `rounded-full` — every button/pill (`Hero`/`ContactCta` CTAs, hamburger button).
+- `rounded-full` — the primary CTA buttons/pill (`Hero`/`ContactCta`), hamburger button.
 - `rounded-2xl` — Services cards only. No other card/panel treatment exists yet.
+- **No radius (square corners)** — the `NavActions` button trio (language, search, Contact Us in
+  `TopNav`). A deliberate exception to the `rounded-full` CTA convention above, not an
+  inconsistency — this cluster is meant to read as distinct utility chrome, not a primary CTA.
+  Don't accidentally round these to match Hero/ContactCta; don't accidentally un-round Hero/
+  ContactCta to match these, either — the two shapes signal different things.
 
 ## Recommendations
 

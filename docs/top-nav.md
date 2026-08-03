@@ -110,6 +110,9 @@ export const NAV_LINKS = [
 ];
 ```
 
+Active-link color assumes a `--color-primary` token exists (see `docs/design-profile.md`) —
+swap `text-primary`/`hover:text-primary` for a plain color if the project doesn't have one yet.
+
 ```tsx
 // NavLink.tsx — active-state-aware link, shared by desktop and mobile
 "use client";
@@ -136,8 +139,8 @@ export function NavLink({
       aria-current={isActive ? "page" : undefined}
       className={
         isActive
-          ? "font-medium text-black underline underline-offset-4 dark:text-zinc-50"
-          : "text-zinc-600 transition-colors hover:text-black dark:text-zinc-400 dark:hover:text-zinc-50"
+          ? "font-medium text-primary underline underline-offset-4"
+          : "text-black transition-colors hover:text-primary dark:text-zinc-50"
       }
     >
       {children}
@@ -238,12 +241,20 @@ Notes:
 
 ```
 apps/web/src/components/nav/
-├── TopNav.tsx        # composes DesktopNav + MobileNav inside the full-bleed/capped header
+├── TopNav.tsx        # composes DesktopNav + NavActions + MobileNav inside the full-bleed/capped header
 ├── DesktopNav.tsx     # link row, hidden below `lg`
+├── NavActions.tsx      # right-side utility buttons (language/search/primary CTA), hidden below `lg`
 ├── MobileNav.tsx      # hamburger + panel, hidden at `lg` and up
 ├── NavLink.tsx        # shared active-state-aware link
 └── nav-links.ts       # NAV_LINKS data — the only file that changes per-project nav content
 ```
+
+The logo `Link` and `DesktopNav` are wrapped together in one flex container in `TopNav.tsx` (not
+left as separate top-level flex children) — with 4 top-level items, `justify-between` would space
+them apart individually instead of grouping logo + nav links as a single block on the left, with
+`NavActions` alone on the right. `NavActions` is currently desktop-only (`lg:flex`) — it has no
+mobile-panel equivalent yet; decide deliberately whether the mobile hamburger panel needs a
+scaled-down version of these actions before shipping, don't let it be an oversight.
 
 Per `docs/architecture.md`'s convention, this lives under `src/components/` (shared, not tied to
 one feature) — mount `<TopNav />` once in `apps/web/src/app/layout.tsx`, above `{children}`.

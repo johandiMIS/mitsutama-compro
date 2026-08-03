@@ -60,6 +60,10 @@ Usage: `<PhoneIcon />` (defaults) or `<PhoneIcon size={24} color="#e91f28" />` (
 - **Stroke-based, not filled**, for consistency with the icons already in the project — `fill="none"`
   on the `<svg>`, `stroke={color}` on each path. Filled icons would need their own `fill={color}`
   convention instead; don't mix both styles in the same icon set without a reason.
+- **Flag icons are a deliberate exception to the `color` prop** (e.g. `UkFlagIcon.tsx`) — a flag
+  has fixed real-world colors, so it only accepts `size`, not `color`. Don't force a `color` prop
+  onto a flag component just for interface consistency; an unused prop that silently does nothing
+  is worse than an intentionally narrower one.
 
 ## File structure
 

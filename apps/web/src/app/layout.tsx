@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "[Company Name]",
+  title: "Mitsutama Indo Teknik",
   description: "Replace with a short company description for search engines.",
 };
 
