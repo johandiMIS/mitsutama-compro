@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
+import { CloseIcon } from "../icons/CloseIcon";
+import { MenuIcon } from "../icons/MenuIcon";
 import { NAV_LINKS } from "./nav-links";
 import { NavLink } from "./NavLink";
 
@@ -46,25 +48,7 @@ export function MobileNav() {
         onClick={() => setOpen((v) => !v)}
         className="flex h-11 w-11 items-center justify-center rounded-full"
       >
-        {open ? (
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path
-              d="M6 6L18 18M18 6L6 18"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-            />
-          </svg>
-        ) : (
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path
-              d="M4 7H20M4 12H20M4 17H20"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-            />
-          </svg>
-        )}
+        {open ? <CloseIcon /> : <MenuIcon />}
       </button>
 
       {open && (
