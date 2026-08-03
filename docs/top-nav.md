@@ -75,15 +75,19 @@ export function TopNav() {
 
 ## 3. Responsive breakpoint: hamburger below `lg`
 
-Tailwind v4 default breakpoints: `sm` 640px, `md` 768px, `lg` 1024px, `xl` 1280px, `2xl` 1536px
-(no custom breakpoints are configured in this repo — confirm that's still true before assuming).
+Tailwind v4 default breakpoints: `sm` 640px, `md` 768px, `lg` 1024px, `xl` 1280px, `2xl` 1536px.
+**This repo overrides `lg` to 1180px** (and adds a custom `xs` at 475px) via `--breakpoint-lg`/
+`--breakpoint-xs` in a plain `@theme` block in `globals.css` — confirm the current values there
+before assuming either the Tailwind defaults or the 1024px this doc originally recommended; a
+redefined `--breakpoint-lg` changes every `lg:` usage project-wide, not just the nav.
 
-**Default recommendation: collapse to hamburger below `lg` (1024px)**, not the more common `md`
-(768px). Reasoning: this nav will eventually also host a language switcher (see
-[`i18n-next.md`](./i18n-next.md)) alongside the regular links and a CTA — that's more controls
-competing for horizontal space than a typical 3-4-link nav, so tablet-width (768–1023px)
-viewports need the extra room the mobile layout provides. Revisit to `md` only if the actual link
-count stays small (≤3 items) once real content is in.
+**Default recommendation (before this repo's override): collapse to hamburger below `lg`**, not
+the more common `md` (768px). Reasoning: this nav also hosts `NavActions` (language/search/CTA)
+alongside the regular links — that's more controls competing for horizontal space than a typical
+3-4-link nav, so tablet-width viewports need the extra room the mobile layout provides. This repo
+pushed the actual cutoff even further right (1180px instead of 1024px) for the same reason at a
+larger scale once `NavActions` was added to the desktop row too — revisit downward only if the
+actual link/action count shrinks enough that 1024px (or `md`) comfortably fits everything again.
 
 ```tsx
 // DesktopNav.tsx — hidden below lg, flex row at lg and up
@@ -255,7 +259,7 @@ Notes:
 apps/web/src/components/nav/
 ├── TopNav.tsx        # composes DesktopNav + NavActions + MobileNav inside the full-bleed/capped header
 ├── DesktopNav.tsx     # link row, hidden below `lg`
-├── NavActions.tsx      # right-side utility buttons (language/search/primary CTA), visible at every breakpoint
+├── NavActions.tsx      # right-side utility buttons (language/search/primary CTA)
 ├── MobileNav.tsx      # hamburger + panel, hidden at `lg` and up
 ├── NavLink.tsx        # shared active-state-aware link
 └── nav-links.ts       # NAV_LINKS data — the only file that changes per-project nav content
@@ -264,11 +268,34 @@ apps/web/src/components/nav/
 The logo `Link` and `DesktopNav` are wrapped together in one flex container, and `NavActions` +
 `MobileNav` are wrapped together in another, rather than left as 4 separate top-level flex
 children — with 4 ungrouped items, `justify-between` would space them apart individually instead
-of producing "logo + nav links" on the left and "actions + hamburger" on the right. Unlike
-`DesktopNav` (hidden below `lg`, replaced by the hamburger panel), `NavActions` is visible at every
-breakpoint — on mobile it sits directly on the bar to the left of the hamburger button, not inside
-the hamburger panel. Because of this, `NavActions`' own sizing has to hold up standalone on a
-360–390px viewport, not just at `lg`+ — see the `Contact Us` → `Contact` truncation below `sm`.
+of producing "logo + nav links" on the left and "actions + hamburger" on the right.
+
+`NavActions` is **not** simply hidden below `lg` like `DesktopNav` — it has a third placement, not
+just two:
+- **`lg` and up:** inline on the bar, grouped with the logo/`DesktopNav` side (desktop layout).
+- **`xs` (475px, a custom breakpoint — see below) up to `lg`:** inline on the bar, to the left of
+  the hamburger button (same component, just a narrower row).
+- **Below `xs`:** hidden from the bar entirely and rendered a second time *inside* the hamburger
+  panel, after the `NAV_LINKS` list. `NavActions` takes an optional `onContactClick` so the
+  Contact-Us link can close the panel the same way `NavLink`'s `onClick` does — the panel's own
+  `pathname`-based auto-close doesn't fire for a `#contact` hash link since the pathname itself
+  doesn't change.
+
+475px isn't one of Tailwind's default breakpoints (`sm`/`md`/`lg`/`xl`/`2xl`), so a custom one is
+defined once and reused (`--breakpoint-xs: 475px;` in a plain `@theme` block in `globals.css` —
+not `@theme inline`, which is for values that need to resolve through another `var()`), giving a
+normal mobile-first `xs:` variant rather than a one-off `min-[475px]:` arbitrary value repeated at
+every call site.
+
+**Watch for background collisions when the same component renders in two containers with
+different backgrounds.** `NavActions`' icon buttons use the `--surface` token — fine against the
+bar's `bg-background`, but invisible against the hamburger panel, which is *also* `bg-surface`
+(same color, no edge). Fixed with a `border border-black/20` on those two buttons so they stay
+visible regardless of what they're placed on, rather than giving `NavActions` two different
+background variants for two contexts.
+
+Because of the standalone-on-mobile placement, `NavActions`' own sizing has to hold up standalone
+on a 360–390px viewport, not just at `lg`+ — see the `Contact Us` → `Contact` truncation below `sm`.
 The three `NavActions` buttons are `h-9` (36px), deliberately smaller than the 44px hamburger
 button next to them and the logo (`h-10`, 40px) — the logo is meant to read as visually larger
 than the utility button row, not matched to it.

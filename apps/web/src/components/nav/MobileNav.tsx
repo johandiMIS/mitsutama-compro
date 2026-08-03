@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { CloseIcon } from "../icons/CloseIcon";
 import { MenuIcon } from "../icons/MenuIcon";
 import { NAV_LINKS } from "./nav-links";
+import { NavActions } from "./NavActions";
 import { NavLink } from "./NavLink";
 
 export function MobileNav() {
@@ -62,6 +63,9 @@ export function MobileNav() {
               {link.label}
             </NavLink>
           ))}
+          <div className="xs:hidden">
+            <NavActions onContactClick={() => setOpen(false)} />
+          </div>
         </nav>
       )}
     </div>

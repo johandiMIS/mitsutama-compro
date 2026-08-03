@@ -8,7 +8,7 @@ export function Header() {
             <div className="mx-auto flex h-8 w-full max-w-[1920px] items-center justify-end px-6 text-sm sm:px-10 lg:px-16 gap-3">
                 <a href="tel:+10000000000" className="flex items-center gap-2 hover:opacity-80">
                     <PhoneIcon />
-                    <span className="hidden sm:inline">021-5927050</span>
+                    <span>021-5927050</span>
                 </a>
                 <p>|</p>
                 <Link href="/login" className="flex items-center gap-2 hover:opacity-80">
