@@ -65,14 +65,23 @@ red itself.
 
 ```ts
 // apps/web/src/app/layout.tsx
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const lufga = localFont({
+  src: [
+    { path: "./fonts/lufga/Lufga-Regular.otf", weight: "400", style: "normal" },
+    { path: "./fonts/lufga/Lufga-Medium.otf", weight: "500", style: "normal" },
+    { path: "./fonts/lufga/Lufga-SemiBold.otf", weight: "600", style: "normal" },
+    { path: "./fonts/lufga/Lufga-Bold.otf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-lufga",
+  display: "swap",
+});
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 ```
 
 ```css
 /* globals.css */
 @theme inline {
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-lufga);
   --font-mono: var(--font-geist-mono);
 }
 body {
@@ -80,10 +89,17 @@ body {
 }
 ```
 
-- **Body/UI font: Geist Sans.** (Fixed as part of writing this doc — `body`'s `font-family` was
-  hardcoded to `Arial, Helvetica, sans-serif` with no reference to `--font-sans` anywhere in the
-  tree, so Geist was loaded but never actually rendered. Now applied at the `body` level with the
-  original Arial/Helvetica chain kept only as an inert fallback.)
+- **Body/UI font: Lufga**, self-hosted via `next/font/local` (**not** a Google Font — a commercial
+  typeface by Adam Ladd Design; the licensing source of the font files added to this repo is the
+  project owner's responsibility, not verified as part of this change). Font files live at
+  `apps/web/src/app/fonts/lufga/*.otf`. Only the four static weights actually referenced by
+  Tailwind classes in the codebase are included — Regular (400, the unstyled default), Medium (500,
+  `font-medium`), SemiBold (600, `font-semibold`), Bold (700, `font-bold`) — matching real weight
+  files rather than letting the browser fake/synthesize bold from Regular. No italic files are
+  included since no component uses `italic`. If a new component needs a weight/style outside this
+  set (e.g. Light, or any italic), add the corresponding `.otf` from the source zip to the same
+  folder and a matching entry to the `src` array — don't let the browser synthesize a style that has
+  a real static file sitting unused in the source archive.
 - **Monospace: Geist Mono** — loaded, currently unused anywhere (no `font-mono` class exists yet).
   Fine to leave in place for future use (code snippets, tabular numbers), or remove the
   `Geist_Mono` import/variable if it's confirmed nothing will ever need it.

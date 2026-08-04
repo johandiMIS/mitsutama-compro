@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SectionContainer } from "@/components/SectionContainer";
 import { DesktopNav } from "./DesktopNav";
 import { MobileNav } from "./MobileNav";
 import { NavActions } from "./NavActions";
@@ -7,7 +8,7 @@ import { NavActions } from "./NavActions";
 export function TopNav() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-black/[.08] bg-background/80 backdrop-blur dark:border-white/[.145]">
-      <div className="mx-auto flex h-16 w-full max-w-[1920px] items-center justify-between px-6 sm:px-10 lg:px-16">
+      <SectionContainer className="flex h-16 items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/" className="shrink-0">
             <Image src="/logo.webp" alt="Company logo" width={611} height={128} className="h-10 w-auto" priority />
@@ -20,7 +21,7 @@ export function TopNav() {
           </div>
           <MobileNav />
         </div>
-      </div>
+      </SectionContainer>
     </header>
   );
 }

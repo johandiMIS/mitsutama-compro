@@ -1,13 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
+import { Geist_Mono } from "next/font/google";
 import { Header } from "@/components/header/header";
 import { MinScreenNotice } from "@/components/MinScreenNotice";
 import { TopNav } from "@/components/nav/TopNav";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const lufga = localFont({
+  src: [
+    { path: "./fonts/lufga/Lufga-Regular.otf", weight: "400", style: "normal" },
+    { path: "./fonts/lufga/Lufga-Medium.otf", weight: "500", style: "normal" },
+    { path: "./fonts/lufga/Lufga-SemiBold.otf", weight: "600", style: "normal" },
+    { path: "./fonts/lufga/Lufga-Bold.otf", weight: "700", style: "normal" },
+  ],
+  variable: "--font-lufga",
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -28,7 +35,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${lufga.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <MinScreenNotice />
