@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { PhoneIcon } from "../icons/PhoneIcon";
 import { SearchIcon } from "../icons/SearchIcon";
 import { UkFlagIcon } from "../icons/UkFlagIcon";
 
@@ -22,8 +23,9 @@ export function NavActions({ onContactClick }: { onContactClick?: () => void } =
       <Link
         href="#contact"
         onClick={onContactClick}
-        className="flex h-9 items-center justify-center bg-primary px-4 text-sm font-medium text-white transition-colors hover:bg-primary-hover sm:px-6"
+        className="flex h-9 items-center justify-center gap-2 bg-primary px-4 text-sm font-medium text-white transition-colors hover:bg-primary-hover sm:px-6"
       >
+        <PhoneIcon size={14} color="#ffffff" />
         Contact<span className="hidden sm:inline">&nbsp;Us</span>
       </Link>
     </div>
