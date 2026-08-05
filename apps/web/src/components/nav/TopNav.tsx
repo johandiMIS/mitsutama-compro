@@ -7,7 +7,7 @@ import { NavActions } from "./NavActions";
 
 export function TopNav() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-black/[.08] bg-background/80 backdrop-blur dark:border-white/[.145]">
+    <header className="sticky top-0 z-50 w-full bg-background/80 backdrop-blur dark:border-white/[.145]">
       <SectionContainer className="flex h-16 items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/" className="shrink-0">

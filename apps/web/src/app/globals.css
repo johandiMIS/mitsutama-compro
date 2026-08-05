@@ -16,6 +16,7 @@
   --primary-hover: #bf1921;
   --primary-foreground: #ffffff;
   --surface: #e2e2e2;
+  --brand-navy: #2d3282;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -53,6 +54,7 @@
   --color-primary-hover: var(--primary-hover);
   --color-primary-foreground: var(--primary-foreground);
   --color-surface: var(--surface);
+  --color-brand-navy: var(--brand-navy);
   --font-sans: var(--font-lufga);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);

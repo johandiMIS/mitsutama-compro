@@ -18,15 +18,17 @@ function CarouselDots({
   React.useEffect(() => {
     if (!api) return
 
-    setScrollSnaps(api.scrollSnapList())
-    const onSelect = () => setSelectedIndex(api.selectedScrollSnap())
-    onSelect()
-    api.on("select", onSelect)
-    api.on("reInit", onSelect)
+    const onChange = () => {
+      setScrollSnaps(api.scrollSnapList())
+      setSelectedIndex(api.selectedScrollSnap())
+    }
+    onChange()
+    api.on("select", onChange)
+    api.on("reInit", onChange)
 
     return () => {
-      api.off("select", onSelect)
-      api.off("reInit", onSelect)
+      api.off("select", onChange)
+      api.off("reInit", onChange)
     }
   }, [api])
 
