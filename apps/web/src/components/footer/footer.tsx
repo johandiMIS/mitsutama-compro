@@ -10,8 +10,8 @@ export function Footer() {
 
   return (
     <footer className="w-full border-t-4 border-primary bg-black text-white">
-      <SectionContainer className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 lg:grid-cols-4">
-        <div className="flex flex-col gap-4">
+      <SectionContainer className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 xl:grid-cols-5">
+        <div className="flex flex-col gap-4 xl:col-span-2">
           <Link href="/" className="flex items-center gap-3">
             <Image
               src="/logo-square.webp"
