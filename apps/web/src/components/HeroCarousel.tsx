@@ -16,7 +16,7 @@ const DUMMY_SLIDE_IMAGES = [
   "/building.webp",
   "/industries/industries-automotive.webp",
   "/why-choose-us.webp",
-  "/industries/industries-automotive.webp",
+  // "/industries/industries-automotive.webp",
 ];
 
 export function HeroCarousel() {
