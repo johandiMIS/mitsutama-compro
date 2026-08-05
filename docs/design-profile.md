@@ -131,15 +131,43 @@ Type scale actually in use:
 - **z-index scale:** `z-50` (TopNav header), `z-40` (mobile nav panel) — keep any future overlay
   (modal, toast) above `z-50` or explicitly reason about where it sits relative to the nav.
 
+### Gap scale
+
+Gap values follow an 8px-multiple scale (Tailwind's spacing unit is 4px, so these are always even
+steps). New spacing decisions — `gap-*`, and by extension `p-*`/`m-*` — should snap to one of these
+six values rather than picking an arbitrary Tailwind step:
+
+| px | rem | Tailwind class | Used for |
+|---|---|---|---|
+| 8px | 0.5rem | `gap-2` | Tightest grouping — icon+label pairs (`SectionTagline`, `NavActions`, `TopNav`'s action cluster) |
+| 16px | 1rem | `gap-4` | Default content gap — card/list internals (`FeatureCard`, `FeatureListItem`, the stacks inside `About`/`Partners`/`WhyChooseUs`) |
+| 24px | 1.5rem | `gap-6` | Grid gaps between cards (`Services`, `Industries`), `Hero`/`ContactCta` top-level stacks |
+| 32px | 2rem | `gap-8` | Larger block separation within a section (`WhyChooseUs` content stack) |
+| 40px | 2.5rem | `gap-10` | Section-level separation — between a section's header block and its content grid/list (`About`, `Services`, `Partners`, `Industries`, `WhyChooseUs`, `TopNav`'s logo+nav cluster) |
+| 64px | 4rem | `gap-16` | Reserved for large top-level separation — not in use yet, available for a future wide header/content split |
+
+**Pre-existing off-scale exceptions**, kept as-is rather than "fixed" as a drive-by edit while
+touching something else: `gap-1` (4px — `FeatureCard`'s and `FeatureListItem`'s title-to-description)
+and `gap-3` (12px — `Industries`' list items, `Header`'s bar). Both are tight inline pairs where the
+half-step reads better than jumping straight to 8px; revisit only if one of those components is
+being touched for another reason anyway.
+
 ## Shape
 
-- `rounded-full` — the primary CTA buttons/pill (`Hero`/`ContactCta`), hamburger button.
-- `rounded-2xl` — Services cards only. No other card/panel treatment exists yet.
-- **No radius (square corners)** — the `NavActions` button trio (language, search, Contact Us in
-  `TopNav`). A deliberate exception to the `rounded-full` CTA convention above, not an
-  inconsistency — this cluster is meant to read as distinct utility chrome, not a primary CTA.
-  Don't accidentally round these to match Hero/ContactCta; don't accidentally un-round Hero/
-  ContactCta to match these, either — the two shapes signal different things.
+**Default: no radius (square corners).** Any new panel/card/container/button starts square unless
+one of the deliberate exceptions below applies — don't add a `rounded-*` class "because it looks
+nicer" without a reason; square is the baseline this project has settled on.
+
+- `rounded-full` — the primary CTA buttons/pill (`Hero`/`ContactCta`), hamburger button. A
+  deliberate exception, not the default — reserved for primary-CTA/pill treatment specifically.
+- **Square (no radius), matching the default** — `NavActions` button trio (language, search,
+  Contact Us in `TopNav`), `FeatureCard` (`About`'s cards), `FeatureListItem`
+  (`WhyChooseUs`'s icon rows), the Industries image panel, Partners logo placeholders. Don't
+  accidentally round these to match Hero/ContactCta's pill CTAs — the two shapes signal different
+  things (primary action vs. everything else).
+- **`rounded-2xl` — Services cards only, not yet migrated to the square default above.** A holdover
+  from before this project settled on square-by-default; revisit if Services is touched again, but
+  don't change it as a drive-by edit while working on something else.
 
 ## Recommendations
 
