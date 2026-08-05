@@ -19,7 +19,7 @@ export function Services() {
   return (
     <section
       id="services"
-      className="w-full scroll-mt-16 py-20"
+      className="w-full scroll-mt-16 py-8"
     >
       <SectionContainer className="flex flex-col items-center gap-10">
         <h2 className="text-2xl font-semibold tracking-tight text-black dark:text-zinc-50">

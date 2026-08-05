@@ -120,8 +120,11 @@ Type scale actually in use:
 - **Content width cap:** `max-w-[1920px]` — nav only so far (`TopNav.tsx`), per `docs/top-nav.md`.
   Homepage sections instead cap per-element: `max-w-2xl` (Hero heading), `max-w-xl` (Hero/ContactCta
   paragraphs), `max-w-4xl` (Services grid).
-- **Section vertical rhythm:** `py-20` (About/Services/ContactCta), `py-24 sm:py-32` for Hero (taller,
-  since it's the top banner).
+- **Section vertical rhythm:** `py-8` (32px, matching the [Gap scale](#gap-scale) below) — uniform
+  across every homepage section (`Hero`/`Partners`/`About`/`Industries`/`WhyChooseUs`/`Services`/
+  `ContactCta`). No section gets taller padding than another, including `Hero` — a deliberate
+  reset from an earlier version of this doc that gave `Hero` taller `py-24 sm:py-32` banner padding;
+  that's no longer the case.
 - **Section horizontal padding:** `px-6` flat, no responsive scaling yet on homepage sections
   (`TopNav` is the only place that scales `px-6 → sm:px-10 → lg:px-16`, since it needs the extra
   room at the 1920px cap — see `top-nav.md` § 2).

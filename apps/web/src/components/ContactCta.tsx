@@ -4,7 +4,7 @@ export function ContactCta() {
   return (
     <section
       id="contact"
-      className="w-full scroll-mt-16 py-20"
+      className="w-full scroll-mt-16 py-8"
     >
       <SectionContainer className="flex flex-col items-center gap-6 text-center">
         <h2 className="text-2xl font-semibold tracking-tight text-black dark:text-zinc-50">

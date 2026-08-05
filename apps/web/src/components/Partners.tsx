@@ -17,7 +17,7 @@ const DUMMY_PARTNERS = [
 
 export function Partners() {
   return (
-    <section id="partners" className="w-full scroll-mt-16 py-20 text-center">
+    <section id="partners" className="w-full scroll-mt-16 py-8 text-center">
       <SectionContainer className="flex flex-col items-center gap-10">
         <div className="flex flex-col items-center gap-4">
           <p className="max-w-2xl text-base font-bold leading-7 text-zinc-600 dark:text-zinc-400">

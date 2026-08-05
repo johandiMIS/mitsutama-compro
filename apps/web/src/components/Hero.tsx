@@ -22,7 +22,7 @@ export function Hero() {
   const [api, setApi] = React.useState<CarouselApi>();
 
   return (
-    <section className="w-full py-24 sm:py-32">
+    <section className="w-full py-8">
       <SectionContainer className="flex flex-col items-center gap-6 text-center">
         <h1 className="max-w-2xl text-4xl font-semibold tracking-tight text-black sm:text-5xl dark:text-zinc-50">
           [Company Name]

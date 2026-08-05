@@ -54,12 +54,12 @@ export function Industries() {
   const active = INDUSTRIES[activeIndex];
 
   return (
-    <section id="industries" className="w-full scroll-mt-16 py-20">
+    <section id="industries" className="w-full scroll-mt-16 py-8">
       <SectionContainer className="flex flex-col w-full items-start gap-10 text-left lg:grid-cols-2">
         <div className="flex flex-col items-start gap-4">
           <SectionTagline>INDUSTRIES WE SERVE</SectionTagline>
           <SectionTitle>Tailored Solutions for Every Industry</SectionTitle>
-          <p className="max-w-md text-base leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-400">
             Delivering precision testing, measurement, calibration, and engineering solutions that
             drive quality, reliability, and innovation.
           </p>

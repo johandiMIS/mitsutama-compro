@@ -38,7 +38,7 @@ export function About() {
   return (
     <section
       id="about"
-      className="w-full scroll-mt-16 py-20"
+      className="w-full scroll-mt-16 py-8"
     >
       <SectionContainer className="flex flex-col items-start gap-10 text-center">
         <div className="flex w-full flex-col items-start gap-4">
