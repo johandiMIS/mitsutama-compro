@@ -24,16 +24,16 @@ export function Hero() {
   return (
     <section className="w-full py-8">
       <SectionContainer className="flex flex-col items-center gap-6 text-center">
-        <h1 className="max-w-2xl text-4xl font-semibold tracking-tight text-black sm:text-5xl dark:text-zinc-50">
+        <h1 className="max-w-2xl text-[39px] font-semibold tracking-tight text-black dark:text-zinc-50">
           [Company Name]
         </h1>
-        <p className="max-w-xl text-lg text-zinc-600 dark:text-zinc-400">
+        <p className="max-w-xl text-sm text-zinc-600 dark:text-zinc-400">
           Replace this with your company&apos;s tagline — a short line describing what you do and
           who you do it for.
         </p>
         <a
           href="mailto:hello@example.com"
-          className="mt-2 flex h-12 items-center justify-center rounded-full bg-primary px-8 text-base font-medium text-white transition-colors hover:bg-primary-hover"
+          className="mt-2 flex h-12 items-center justify-center rounded-full bg-primary px-8 text-base font-semibold text-white transition-colors hover:bg-primary-hover"
         >
           Get in Touch
         </a>
@@ -48,10 +48,10 @@ export function Hero() {
               {DUMMY_SLIDES.map((slide) => (
                 <CarouselItem key={slide.title}>
                   <div className="flex h-64 flex-col items-center justify-center gap-2 rounded-2xl bg-surface px-6 text-center sm:h-80">
-                    <h2 className="text-2xl font-semibold tracking-tight text-black">
+                    <h2 className="text-base font-semibold tracking-tight text-black">
                       {slide.title}
                     </h2>
-                    <p className="max-w-md text-base text-zinc-600">{slide.body}</p>
+                    <p className="max-w-md text-sm text-zinc-600">{slide.body}</p>
                   </div>
                 </CarouselItem>
               ))}

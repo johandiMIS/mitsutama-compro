@@ -104,16 +104,42 @@ body {
   Fine to leave in place for future use (code snippets, tabular numbers), or remove the
   `Geist_Mono` import/variable if it's confirmed nothing will ever need it.
 
-Type scale actually in use:
+### Font rules
 
-| Class | Used for |
-|---|---|
-| `text-4xl sm:text-5xl` + `font-semibold tracking-tight` | Hero `<h1>` |
-| `text-2xl` + `font-semibold tracking-tight` | Section `<h2>` (About/Services/ContactCta) |
-| `text-lg` + `font-medium` | Service card `<h3>`; mobile nav panel links |
-| `text-lg` | Hero paragraph |
-| `text-base` | Body paragraphs (About/ContactCta), button label text |
-| `text-sm` | Service card description text |
+Six fixed (size, weight) pairs — every text element in the project resolves to one of these, no
+other size/weight combination is used:
+
+| Token | Size | Weight | Tailwind classes | Used for |
+|---|---|---|---|---|
+| `tagline` | 12px | 400 (regular) | `text-xs` | `SectionTagline` — the eyebrow label above every section title |
+| `title` | 39px | 600 (semibold) | `text-[39px] font-semibold tracking-tight` | `SectionTitle`, and every other page/section-level heading (Hero `<h1>`) |
+| `body-base-medium` | 16px | 600 (semibold) | `text-base font-semibold` | Card/list sub-headings (`FeatureCard`, `InsightCard`, `PartnerCard`, `FeatureListItem`, `Industries` active panel `<h3>`), CTA button labels |
+| `body-sm-medium` | 14px | 600 (semibold) | `text-sm font-semibold` | Emphasized small text — nav links, footer links/list items, "View All", card category labels, `Industries` list buttons |
+| `body-sm` | 14px | 400 (regular) | `text-sm` | Default paragraph copy and secondary/meta text |
+| `body-xs` | 12px | 400 (regular) | `text-xs` | Fine print — footer copyright line |
+
+Only these six pairs are valid: `font-medium` (500) and `font-bold` (700) don't appear anywhere in
+the project — anything that needs emphasis takes `font-semibold` (600) instead, everything else
+stays at the unstyled default (400, no `font-normal` class needed). Sizes outside {12, 14, 16,
+39}px (`text-lg`, `text-xl`, `text-2xl`, `text-4xl`, `text-5xl`, arbitrary px values other than
+`39`) don't appear either — every heading collapses to `title`, every other piece of text collapses
+to whichever body token is closest in size and weight.
+
+**Applied project-wide** (2026-08-05) — notable roundings made migrating existing components onto
+this scale, since the strict 6-token set didn't leave room for everything that was there before:
+- Hero's `<h1>` was `text-4xl sm:text-5xl` (36px/48px) — now flat `title` (39px), same size as every
+  section heading. There's deliberately no separate "hero/display" tier above `title`.
+- Regular paragraph copy that was `text-base`/`text-lg` (16px/18px, regular weight) is now `body-sm`
+  (14px) — there's no regular-weight 16px token in this scale.
+- Anything that was `font-medium` (nav links, footer links/list items, "View All", card category
+  labels, CTA buttons) or `font-bold` (`Partners` intro line, `PartnerCard` name) is now
+  `font-semibold`, paired with whichever size token it already matched.
+- `SectionTagline` previously had no explicit size class (inherited the page's base 16px) — now
+  explicitly `text-xs` so it actually renders at the `tagline` token's 12px.
+- `Services.tsx` was left untouched — it's already off the homepage pending a full redesign, so
+  restyling it now would be thrown away.
+- `ui/button.tsx` and `ui/carousel*.tsx` (shadcn primitives, not project-authored content) were left
+  untouched — same treatment as their pre-existing lint issues, out of scope for this pass.
 
 ## Spacing & layout
 

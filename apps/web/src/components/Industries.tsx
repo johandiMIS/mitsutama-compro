@@ -59,7 +59,7 @@ export function Industries() {
         <div className="flex flex-col items-start gap-4">
           <SectionTagline>INDUSTRIES WE SERVE</SectionTagline>
           <SectionTitle>Tailored Solutions for Every Industry</SectionTitle>
-          <p className="max-w-2xl text-base leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-2xl text-sm leading-7 text-zinc-600 dark:text-zinc-400">
             Delivering precision testing, measurement, calibration, and engineering solutions that
             drive quality, reliability, and innovation.
           </p>
@@ -96,7 +96,7 @@ export function Industries() {
               className="object-cover"
               sizes="(min-width: 1280px) 75vw, 100vw"
             />
-            <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-background/90 p-6 backdrop-blur">
+            <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-background/70 p-6 backdrop-blur">
               <h3 className="text-base font-semibold text-black dark:text-zinc-50">
                 {active.title}
               </h3>

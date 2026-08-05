@@ -56,7 +56,7 @@ export function MobileNav() {
         <nav
           id="mobile-nav-panel"
           aria-label="Main"
-          className="fixed inset-x-0 top-16 z-40 flex max-h-[calc(100vh-4rem)] flex-col gap-6 overflow-hidden border-b border-black/[.08] bg-surface p-8 text-lg dark:border-white/[.145]"
+          className="fixed inset-x-0 top-16 z-40 flex max-h-[calc(100vh-4rem)] flex-col gap-6 overflow-hidden border-b border-black/[.08] bg-surface p-8 text-sm dark:border-white/[.145]"
         >
           {NAV_LINKS.map((link) => (
             <NavLink key={link.href} href={link.href} onClick={() => setOpen(false)} onLightSurface>

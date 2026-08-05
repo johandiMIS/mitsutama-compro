@@ -55,7 +55,7 @@ export function WhyChooseUs() {
           <div className="flex flex-col items-start gap-4">
             <SectionTagline>WHY CHOOSE US</SectionTagline>
             <SectionTitle className="text-white">Why choose us</SectionTitle>
-            <p className="max-w-xl text-base leading-7 text-zinc-400">
+            <p className="max-w-xl text-sm leading-7 text-zinc-400">
               Trusted engineering expertise, reliable support, and industry-proven solutions that
               help your business achieve accurate, dependable, and sustainable results.
             </p>

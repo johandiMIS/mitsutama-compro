@@ -27,7 +27,7 @@ export function NavLink({
       aria-current={isActive ? "page" : undefined}
       className={
         isActive
-          ? "font-medium text-primary underline underline-offset-4"
+          ? "font-semibold text-primary underline underline-offset-4"
           : onLightSurface
             ? "text-black transition-colors hover:text-primary"
             : "text-black transition-colors hover:text-primary dark:text-zinc-50"

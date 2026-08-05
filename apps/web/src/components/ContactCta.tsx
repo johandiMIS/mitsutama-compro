@@ -1,24 +1,38 @@
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import { SectionContainer } from "@/components/SectionContainer";
+import { SectionTagline } from "@/components/SectionTagline";
+import { SectionTitle } from "@/components/SectionTitle";
+
+// Dummy background — swap for the real red triangle-pattern texture once available.
+const PLACEHOLDER_BG_IMAGE = "/why-choose-us.webp";
 
 export function ContactCta() {
   return (
     <section
       id="contact"
-      className="w-full scroll-mt-16 py-8"
+      className="relative w-full scroll-mt-16 overflow-hidden bg-primary py-16"
     >
-      <SectionContainer className="flex flex-col items-center gap-6 text-center">
-        <h2 className="text-2xl font-semibold tracking-tight text-black dark:text-zinc-50">
-          Ready to work together?
-        </h2>
-        <p className="max-w-xl text-base text-zinc-600 dark:text-zinc-400">
-          Replace this with a closing call-to-action, then swap the link below for a real contact
-          page or form once one exists.
-        </p>
+      <Image
+        src={PLACEHOLDER_BG_IMAGE}
+        alt=""
+        fill
+        className="object-cover opacity-20 mix-blend-overlay"
+        sizes="100vw"
+      />
+      <SectionContainer className="relative flex flex-col items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col items-start gap-4">
+          <SectionTagline variant="white">LET&apos;S DISCUSS YOUR PROJECT</SectionTagline>
+          <SectionTitle className="max-w-xl text-white">
+            Need engineering solutions you can trust?
+          </SectionTitle>
+        </div>
         <a
           href="mailto:hello@example.com"
-          className="flex h-12 items-center justify-center rounded-full bg-primary px-8 text-base font-medium text-white transition-colors hover:bg-primary-hover"
+          className="flex h-12 shrink-0 items-center justify-center gap-2 rounded-md bg-white px-6 text-base font-semibold text-primary transition-colors hover:bg-zinc-100"
         >
-          Contact Us
+          Request a Consultation
+          <ArrowRight className="h-4 w-4" />
         </a>
       </SectionContainer>
     </section>

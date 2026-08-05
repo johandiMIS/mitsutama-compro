@@ -1,9 +1,20 @@
 import type { ReactNode } from "react";
 
-export function SectionTagline({ children }: { children: ReactNode }) {
+const VARIANT_CLASSES = {
+  primary: "text-primary",
+  white: "text-white",
+};
+
+export function SectionTagline({
+  children,
+  variant = "primary",
+}: {
+  children: ReactNode;
+  variant?: keyof typeof VARIANT_CLASSES;
+}) {
   return (
-    <div className="flex items-center gap-2 text-primary">
-      <span aria-hidden="true" className="h-px w-4 bg-primary" />
+    <div className={`flex items-center gap-2 text-xs ${VARIANT_CLASSES[variant]}`}>
+      <span aria-hidden="true" className="h-px w-4 bg-current" />
       <p>{children}</p>
     </div>
   );

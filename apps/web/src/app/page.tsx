@@ -2,8 +2,9 @@ import { About } from "@/components/About";
 import { ContactCta } from "@/components/ContactCta";
 import { Hero } from "@/components/Hero";
 import { Industries } from "@/components/Industries";
+import { LatestInsight } from "@/components/LatestInsight";
 import { Partners } from "@/components/Partners";
-import { Services } from "@/components/Services";
+import { TechnologyPartners } from "@/components/TechnologyPartners";
 import { WhyChooseUs } from "@/components/WhyChooseUs";
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
       <About />
       <Industries />
       <WhyChooseUs />
-      <Services />
+      <TechnologyPartners />
+      <LatestInsight />
       <ContactCta />
     </div>
   );

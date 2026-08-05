@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Geist_Mono } from "next/font/google";
+import { Footer } from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
 import { MinScreenNotice } from "@/components/MinScreenNotice";
 import { TopNav } from "@/components/nav/TopNav";
@@ -42,6 +43,7 @@ export default function RootLayout({
         <Header />
         <TopNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
