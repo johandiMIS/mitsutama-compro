@@ -1,18 +1,25 @@
 "use client";
 
+import Image from "next/image";
 import AutoScroll from "embla-carousel-auto-scroll";
 import { SectionContainer } from "@/components/SectionContainer";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 
-// Dummy partner logos — replace with real partner logos once available.
-const DUMMY_PARTNERS = [
-  "National Research Center",
-  "Energy Utility",
-  "Battery Manufacturer",
-  "Semiconductor Fab",
-  "Technical University",
-  "Automotive OEM",
-  "Government Metrology"
+// width/height are each logo's actual pixel dimensions, so the rendered
+// aspect ratio matches the source file when scaled to a fixed 32px height.
+const PARTNERS = [
+  { name: "ALVA", logo: "/partners/alva.png", width: 564, height: 128 },
+  { name: "BRIN", logo: "/partners/brin.png", width: 328, height: 128 },
+  { name: "ESDM", logo: "/partners/esdm.png", width: 316, height: 128 },
+  { name: "GT Radial", logo: "/partners/gtradial.png", width: 840, height: 128 },
+  { name: "INKA", logo: "/partners/inka.png", width: 412, height: 128 },
+  { name: "ITB", logo: "/partners/itb.png", width: 228, height: 128 },
+  { name: "Mitsubishi", logo: "/partners/mitsubishi.png", width: 456, height: 128 },
+  { name: "Pertamina", logo: "/partners/pertamina.png", width: 548, height: 128 },
+  { name: "PLN", logo: "/partners/pln.png", width: 356, height: 128 },
+  { name: "Polytron", logo: "/partners/polytron.png", width: 128, height: 128 },
+  { name: "Wuling", logo: "/partners/wuling.png", width: 612, height: 128 },
+  { name: "Yamaha", logo: "/partners/yamaha.png", width: 608, height: 128 },
 ];
 
 export function Partners() {
@@ -34,10 +41,16 @@ export function Partners() {
         >
           <CarouselContent>
             {/* Duplicated so there's enough width to loop seamlessly at any screen size. */}
-            {[...DUMMY_PARTNERS, ...DUMMY_PARTNERS].map((name, index) => (
-              <CarouselItem key={`${name}-${index}`} className="basis-auto pl-6">
-                <div className="flex h-16 w-40 shrink-0 items-center justify-center rounded-lg text-sm font-semibold text-zinc-500 dark:text-zinc-400">
-                  {name}
+            {[...PARTNERS, ...PARTNERS].map((partner, index) => (
+              <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-4">
+                <div className="flex mx-8 mt-4 items-center justify-center">
+                  <Image
+                    src={partner.logo}
+                    alt={`${partner.name} logo`}
+                    width={partner.width}
+                    height={partner.height}
+                    className="h-8 w-auto object-contain"
+                  />
                 </div>
               </CarouselItem>
             ))}
