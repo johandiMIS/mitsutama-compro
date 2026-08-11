@@ -1,20 +1,15 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import { Geist_Mono } from "next/font/google";
+import { Geist_Mono, Lato } from "next/font/google";
 import { Footer } from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
 import { MinScreenNotice } from "@/components/MinScreenNotice";
 import { TopNav } from "@/components/nav/TopNav";
 import "./globals.css";
 
-const lufga = localFont({
-  src: [
-    { path: "./fonts/lufga/Lufga-Regular.otf", weight: "400", style: "normal" },
-    { path: "./fonts/lufga/Lufga-Medium.otf", weight: "500", style: "normal" },
-    { path: "./fonts/lufga/Lufga-SemiBold.otf", weight: "600", style: "normal" },
-    { path: "./fonts/lufga/Lufga-Bold.otf", weight: "700", style: "normal" },
-  ],
-  variable: "--font-lufga",
+const lato = Lato({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-lato",
   display: "swap",
 });
 
@@ -36,7 +31,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${lufga.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${lato.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <MinScreenNotice />

@@ -18,7 +18,7 @@ export function Footer() {
               alt="Mitsutama Indo Teknik"
               width={64}
               height={64}
-              className="h-10 w-auto"
+              className="h-10 w-10"
             />
             <span className="text-base leading-tight font-semibold">
               Mitsutama
@@ -37,7 +37,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <p className="text-sm text-zinc-500">Navigate</p>
           <ul className="flex flex-col gap-3">
-            {NAV_LINKS.map((link) => (
+            {NAV_LINKS.filter((link) => !link.dropdown).map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="text-sm font-semibold hover:text-primary">
                   {link.label}

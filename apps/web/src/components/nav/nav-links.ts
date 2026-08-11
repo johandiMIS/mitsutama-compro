@@ -1,9 +1,13 @@
-export const NAV_LINKS = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
-  { href: "/products", label: "Products" },
-  { href: "/services", label: "Services" },
-  { href: "/solutions", label: "Solutions" },
-  { href: "/partners", label: "Partners" },
-  { href: "/insight", label: "Insight" },
+export type NavLinkItem =
+  | { label: string; href: string; dropdown: false }
+  | { label: string; dropdown: true };
+
+export const NAV_LINKS: NavLinkItem[] = [
+  { href: "#home", label: "Home", dropdown: false },
+  { href: "#about", label: "About", dropdown: false },
+  { label: "Products", dropdown: true },
+  { label: "Services", dropdown: true },
+  { label: "Solutions", dropdown: true },
+  { href: "#partners", label: "Partners", dropdown: false },
+  { href: "#insights", label: "Insight", dropdown: false },
 ];

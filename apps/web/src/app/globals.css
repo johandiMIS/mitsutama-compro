@@ -55,7 +55,7 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-surface: var(--surface);
   --color-brand-navy: var(--brand-navy);
-  --font-sans: var(--font-lufga);
+  --font-sans: var(--font-lato);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);

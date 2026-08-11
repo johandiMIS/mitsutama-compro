@@ -6,6 +6,7 @@ import { CloseIcon } from "../icons/CloseIcon";
 import { MenuIcon } from "../icons/MenuIcon";
 import { NAV_LINKS } from "./nav-links";
 import { NavActions } from "./NavActions";
+import { NavDropdownTrigger } from "./NavDropdownTrigger";
 import { NavLink } from "./NavLink";
 
 export function MobileNav() {
@@ -58,11 +59,15 @@ export function MobileNav() {
           aria-label="Main"
           className="fixed inset-x-0 top-16 z-40 flex max-h-[calc(100vh-4rem)] flex-col gap-6 overflow-hidden border-b border-black/[.08] bg-surface p-8 text-sm dark:border-white/[.145]"
         >
-          {NAV_LINKS.map((link) => (
-            <NavLink key={link.href} href={link.href} onClick={() => setOpen(false)} onLightSurface>
-              {link.label}
-            </NavLink>
-          ))}
+          {NAV_LINKS.map((link) =>
+            link.dropdown ? (
+              <NavDropdownTrigger key={link.label} label={link.label} onLightSurface />
+            ) : (
+              <NavLink key={link.href} href={link.href} onClick={() => setOpen(false)} onLightSurface>
+                {link.label}
+              </NavLink>
+            ),
+          )}
           <div className="xs:hidden">
             <NavActions onContactClick={() => setOpen(false)} />
           </div>

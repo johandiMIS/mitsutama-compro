@@ -13,7 +13,7 @@ const HERO_STATS = [
 
 export function Hero() {
   return (
-    <section className="relative w-full overflow-hidden py-8">
+    <section id="home" className="relative w-full scroll-mt-16 overflow-hidden pt-0 py-8">
       <div className="aspect-[1440/664] relative">
         <Image src="/Hero.webp" alt="" fill priority className="object-cover" sizes="100vw" />
         <div className="absolute top-[2.4%] w-[57%] h-[98%] overflow-hidden" style={{

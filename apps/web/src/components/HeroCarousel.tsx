@@ -39,6 +39,7 @@ export function HeroCarousel() {
                 fill
                 className="object-cover"
                 sizes="57vw"
+                priority={index === 0}
               />
             </CarouselItem>
           ))}
