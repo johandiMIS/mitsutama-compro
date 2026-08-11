@@ -27,7 +27,7 @@ This is a machine-level enterprise policy, not a project issue. Two workarounds 
 Run from repo root (Turborepo fans out to both apps via `pnpm-workspace.yaml`: `apps/*`):
 
 ```bash
-pnpm dev          # apps/web on :3000, apps/api on :3001 (bypasses turbo, see note above)
+pnpm dev          # apps/web on :3006, apps/api on :3007 (bypasses turbo, see note above)
 pnpm build        # turbo run build (packages/* build before apps/*)
 pnpm lint         # turbo run lint
 pnpm test         # turbo run test

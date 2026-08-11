@@ -33,7 +33,7 @@ using your own PostgreSQL instance.
 pnpm dev
 ```
 
-Runs `apps/web` on http://localhost:3000 and `apps/api` on http://localhost:3001.
+Runs `apps/web` on http://localhost:3006 and `apps/api` on http://localhost:3007.
 
 ## Build
 

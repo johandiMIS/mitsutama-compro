@@ -222,8 +222,8 @@ export class EmailService {
 const envSchema = z.object({
   // pre-existing vars, validated for the first time
   DATABASE_URL: z.string().url(),
-  PORT: z.coerce.number().int().positive().default(3001),
-  WEB_ORIGIN: z.string().url().default('http://localhost:3000'),
+  PORT: z.coerce.number().int().positive().default(3007),
+  WEB_ORIGIN: z.string().url().default('http://localhost:3006'),
 
   // new: email module
   BREVO_API_KEY: z.string().min(1),
