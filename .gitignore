@@ -27,5 +27,8 @@ pnpm-debug.log*
 # prisma
 apps/api/generated/
 
+# generated deploy scripts (host-specific, see docs/deployment.md section 4)
+/deploy-commands.sh
+
 # claude
 .claude/settings.local.json
