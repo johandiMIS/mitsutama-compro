@@ -28,7 +28,7 @@ pnpm-debug.log*
 apps/api/generated/
 
 # generated deploy scripts (host-specific, see docs/deployment.md section 4)
-/deploy-commands.sh
+/deploy-commands.md
 
 # claude
 .claude/settings.local.json

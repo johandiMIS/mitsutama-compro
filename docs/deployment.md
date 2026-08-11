@@ -209,15 +209,16 @@ context) to do it:
 > Read `docs/deployment.md`. Ask me for values for every placeholder in it (`<app>`,
 > `<client-domain>`, `<api-domain>`, `<client-port>`, `<api-port>`, `<app-root>`, plus the
 > `apps/` folder names and the two nginx `sites-available` filenames). Then write
-> `deploy-commands.sh` in the repo root: one script with every command from sections 1–3,
-> placeholders substituted with my answers, ordered so it actually runs top to bottom without
-> manual intervention — that means port setting before pm2 start, and any `nano <file>` /
-> "content:" pairs rewritten as non-interactive `sudo tee <file> > /dev/null <<'EOF' ... EOF`
-> heredocs instead of an interactive editor. Comment each block with which guide section it
-> came from.
+> `deploy-commands.md` in the repo root: a Markdown file with one fenced code block per command
+> group from sections 1–3, placeholders substituted with my answers, ordered so the blocks
+> actually run correctly if pasted top to bottom — that means port setting before pm2 start, and
+> any `nano <file>` / "content:" pairs rewritten as non-interactive
+> `sudo tee <file> > /dev/null <<'EOF' ... EOF` heredocs instead of an interactive editor. Label
+> each block with which guide section it came from.
 
 The assistant should treat the resulting file as disposable output, not something to hand-edit
-or commit — it embeds real domains/paths for one specific deploy (see the `deploy-commands.sh`
-entry in `.gitignore`). Copy/paste its contents into an SSH session on the VPS, either the whole
-file at once or one commented block at a time. Ask again whenever the values change (new domain,
+or commit — it embeds real domains/paths for one specific deploy (see the `deploy-commands.md`
+entry in `.gitignore`). Copy each block by hand into an SSH session on the VPS as you go — that's
+the point of generating Markdown instead of a runnable script: you read and paste one step at a
+time rather than executing it unattended. Ask again whenever the values change (new domain,
 different app slug, redeploying a second app on the same box) to regenerate it.
