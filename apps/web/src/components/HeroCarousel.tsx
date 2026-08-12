@@ -11,12 +11,13 @@ import {
 } from "@/components/ui/carousel";
 import { CarouselDots } from "@/components/ui/carousel-dots";
 
-// Dummy slide images — replace with the real 5 hero photos once available.
-const DUMMY_SLIDE_IMAGES = [
-  "/building.webp",
-  "/industries/industries-automotive.webp",
-  "/why-choose-us.webp",
-  // "/industries/industries-automotive.webp",
+const SLIDE_IMAGES = [
+  "/hero/hero-1.webp",
+  "/hero/hero-2.webp",
+  "/hero/hero-3.webp",
+  "/hero/hero-4.webp",
+  "/hero/hero-5.webp",
+  "/hero/hero-6.webp",
 ];
 
 export function HeroCarousel() {
@@ -31,7 +32,7 @@ export function HeroCarousel() {
         className="h-full"
       >
         <CarouselContent className="h-full">
-          {DUMMY_SLIDE_IMAGES.map((image, index) => (
+          {SLIDE_IMAGES.map((image, index) => (
             <CarouselItem key={`${image}-${index}`} className="relative h-full">
               <Image
                 src={image}

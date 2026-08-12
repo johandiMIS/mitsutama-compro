@@ -4,8 +4,7 @@ import { SectionContainer } from "@/components/SectionContainer";
 import { SectionTagline } from "@/components/SectionTagline";
 import { SectionTitle } from "@/components/SectionTitle";
 
-// Dummy background — swap for the real red triangle-pattern texture once available.
-const PLACEHOLDER_BG_IMAGE = "/why-choose-us.webp";
+const CTA_BG_IMAGE = "/cta_bg.webp";
 
 export function ContactCta() {
   return (
@@ -14,10 +13,10 @@ export function ContactCta() {
       className="relative w-full scroll-mt-16 overflow-hidden bg-primary py-16"
     >
       <Image
-        src={PLACEHOLDER_BG_IMAGE}
+        src={CTA_BG_IMAGE}
         alt=""
         fill
-        className="object-cover opacity-20 mix-blend-overlay"
+        className="object-cover"
         sizes="100vw"
       />
       <SectionContainer className="relative flex flex-col items-start gap-8 sm:flex-row sm:items-center sm:justify-between">
