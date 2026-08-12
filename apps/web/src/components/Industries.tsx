@@ -88,7 +88,7 @@ export function Industries() {
             })}
           </ul>
 
-          <div className="relative aspect-[4/3] w-full overflow-hidden bg-surface xl:col-span-9">
+          <div className="relative aspect-[3/4] w-full overflow-hidden bg-surface sm:aspect-[4/3] xl:col-span-9">
             <Image
               src={active.image}
               alt={active.name}
@@ -96,11 +96,11 @@ export function Industries() {
               className="object-cover"
               sizes="(min-width: 1280px) 75vw, 100vw"
             />
-            <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-background/70 p-6 backdrop-blur">
+            <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-background/70 p-4 backdrop-blur sm:p-6">
               <h3 className="text-base font-semibold text-black dark:text-zinc-50">
                 {active.title}
               </h3>
-              <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+              <p className="line-clamp-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400 sm:line-clamp-none">
                 {active.description}
               </p>
             </div>

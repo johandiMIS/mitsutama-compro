@@ -12,7 +12,7 @@ export function InsightCard({
   date: string;
 }) {
   return (
-    <article className="relative aspect-[4/3] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800">
+    <article className="relative aspect-[3/4] w-full overflow-hidden border border-zinc-200 dark:border-zinc-800 sm:aspect-[4/3]">
       <Image
         src={image}
         alt={title}
@@ -20,9 +20,9 @@ export function InsightCard({
         className="object-cover"
         sizes="(min-width: 640px) 33vw, 100vw"
       />
-      <div className="absolute inset-x-0 bottom-0 flex flex-col gap-2 bg-white p-6 backdrop-blur">
+      <div className="absolute inset-x-0 bottom-0 flex flex-col gap-2 bg-white p-4 backdrop-blur sm:p-6">
         <p className="text-sm font-semibold text-primary">{category}</p>
-        <h3 className="text-base font-semibold text-black">{title}</h3>
+        <h3 className="line-clamp-2 text-base font-semibold text-black">{title}</h3>
         <p className="text-sm text-zinc-500">{date}</p>
       </div>
     </article>

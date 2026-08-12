@@ -42,8 +42,8 @@ export function Partners() {
           <CarouselContent>
             {/* Duplicated so there's enough width to loop seamlessly at any screen size. */}
             {[...PARTNERS, ...PARTNERS].map((partner, index) => (
-              <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-4">
-                <div className="flex mx-8 mt-4 items-center justify-center">
+              <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-2 sm:pl-4">
+                <div className="flex mx-3 mt-4 items-center justify-center sm:mx-8">
                   <Image
                     src={partner.logo}
                     alt={`${partner.name} logo`}

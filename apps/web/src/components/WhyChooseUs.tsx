@@ -41,9 +41,9 @@ export function WhyChooseUs() {
   return (
     <section id="why-choose-us" className="w-full scroll-mt-16 bg-zinc-900 py-8">
       <SectionContainer className="grid w-full grid-cols-1 gap-10 text-left xl:grid-cols-12">
-        <div className="relative min-h-80 w-full overflow-hidden bg-zinc-800 xl:col-span-4 xl:h-full">
+        <div className="relative aspect-[208/277] w-full overflow-hidden bg-zinc-800 xl:aspect-auto xl:col-span-4 xl:h-full">
           <Image
-            src="/why-choose-us.webp"
+            src="/choose-us.webp"
             alt="Engineer inspecting industrial testing equipment"
             fill
             className="object-cover"
