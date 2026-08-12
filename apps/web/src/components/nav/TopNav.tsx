@@ -11,7 +11,7 @@ export function TopNav() {
       <SectionContainer className="flex h-[64px] items-center justify-between">
         <div className="flex items-center gap-10">
           <Link href="/" className="shrink-0">
-            <Image src="/logo2.webp" alt="Company logo" width={611} height={128} className="h-[30.6px] w-[153px]" priority />
+            <Image src="/logo.webp" alt="Company logo" width={612} height={127} className="h-[30.6px] w-[153px]" priority />
           </Link>
           <DesktopNav />
         </div>
