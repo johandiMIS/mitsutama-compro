@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 import { SectionContainer } from "@/components/SectionContainer";
+import { ChevronRightIcon } from "@/components/icons/ChevronRightIcon";
 
 /** Deeper than --primary: the band sits behind white text and the brand red is too bright for it. */
 const BAND_RED = "#c5242b";
@@ -23,7 +23,7 @@ export function PageHero({ title, breadcrumbs }: { title: string; breadcrumbs: B
             {breadcrumbs.map((crumb, index) => (
               <li key={crumb.label} className="flex items-center gap-2">
                 {index > 0 && (
-                  <ChevronRight className="h-3 w-3 text-white/70" aria-hidden="true" />
+                  <ChevronRightIcon size={12} color="rgba(255,255,255,0.7)" />
                 )}
                 {crumb.href ? (
                   <Link href={crumb.href} className="text-white/90 transition-colors hover:text-white">

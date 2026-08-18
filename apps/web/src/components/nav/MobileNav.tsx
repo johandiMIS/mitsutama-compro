@@ -3,12 +3,12 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ChevronDown } from "lucide-react";
 import { CloseIcon } from "../icons/CloseIcon";
 import { MenuIcon } from "../icons/MenuIcon";
 import { NAV_LINKS } from "./nav-links";
 import { NAV_ICON_BUTTON, NavContactButton, NavIconActions } from "./NavActions";
 import { NavLink } from "./NavLink";
+import { ChevronDownIcon } from "@/components/icons/ChevronDownIcon";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
@@ -94,10 +94,12 @@ export function MobileNav() {
                   }`}
                 >
                   {link.label}
-                  <ChevronDown
-                    className={`h-4 w-4 shrink-0 transition-transform ${isExpanded ? "rotate-180" : ""}`}
+                  <span
                     aria-hidden="true"
-                  />
+                    className={`inline-flex shrink-0 transition-transform ${isExpanded ? "rotate-180" : ""}`}
+                  >
+                    <ChevronDownIcon />
+                  </span>
                 </button>
 
                 {isExpanded && (

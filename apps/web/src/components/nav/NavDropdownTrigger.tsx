@@ -1,4 +1,4 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDownIcon } from "@/components/icons/ChevronDownIcon";
 
 export function NavDropdownTrigger({
   label,
@@ -37,10 +37,13 @@ export function NavDropdownTrigger({
       }
     >
       {label}
-      <ChevronDown
-        className={`h-4 w-4 transition-transform ${open ? "rotate-180" : ""}`}
+      {/* IconProps carries no className, so the flip lives on a wrapper. */}
+      <span
         aria-hidden="true"
-      />
+        className={`inline-flex transition-transform ${open ? "rotate-180" : ""}`}
+      >
+        <ChevronDownIcon />
+      </span>
     </button>
   );
 }

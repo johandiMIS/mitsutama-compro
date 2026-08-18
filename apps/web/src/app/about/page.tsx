@@ -1,8 +1,13 @@
 import type { Metadata } from "next";
 import { About } from "@/components/About";
 import { AboutIntro } from "@/components/AboutIntro";
+import { CompanyValue } from "@/components/CompanyValue";
+import { ContactCta } from "@/components/ContactCta";
+import { CoreSolutions } from "@/components/CoreSolutions";
+import { LegalInformation } from "@/components/LegalInformation";
 import { PageHero } from "@/components/PageHero";
 import { Partners } from "@/components/Partners";
+import { VisionMission } from "@/components/VisionMission";
 
 export const metadata: Metadata = {
   title: "About Us | Mitsutama Indo Teknik",
@@ -17,6 +22,11 @@ export default function AboutPage() {
       <AboutIntro />
       <Partners />
       <About />
+      <VisionMission />
+      <CoreSolutions />
+      <LegalInformation />
+      <CompanyValue />
+      <ContactCta />
     </div>
   );
 }
