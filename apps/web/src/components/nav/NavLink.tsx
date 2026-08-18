@@ -34,7 +34,7 @@ export function NavLink({
             ? "font-semibold text-primary underline underline-offset-4"
             : "text-black transition-colors hover:text-primary"
           : isActive
-            ? "px-2 py-[22px] font-semibold text-primary shadow-[inset_0_-2px_0_0_var(--color-primary)]"
+            ? "px-2 py-[22px] font-semibold text-primary shadow-[inset_0_2px_0_0_var(--color-primary)]"
             : "px-2 py-[22px] text-black transition-colors hover:text-primary dark:text-zinc-50"
       }
     >

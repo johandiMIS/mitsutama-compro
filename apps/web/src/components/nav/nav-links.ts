@@ -110,12 +110,13 @@ const SOLUTION_GROUPS: NavMenuGroup[] = [
 ];
 
 export const NAV_LINKS: NavLinkItem[] = [
-  { href: "#home", label: "Home", dropdown: false },
-  { href: "#about", label: "About", dropdown: false },
+  // Root-relative so the anchors still resolve from sub-pages such as /about.
+  { href: "/#home", label: "Home", dropdown: false },
+  { href: "/about", label: "About", dropdown: false },
   // `columns` is the desktop mega-menu width, per the supplied designs.
   { label: "Products", dropdown: true, columns: 3, groups: PRODUCT_GROUPS },
   { label: "Services", dropdown: true, columns: 2, groups: SERVICE_GROUPS },
   { label: "Solutions", dropdown: true, columns: 2, groups: SOLUTION_GROUPS },
-  { href: "#partners", label: "Partners", dropdown: false },
-  { href: "#insights", label: "Insight", dropdown: false },
+  { href: "/#partners", label: "Partners", dropdown: false },
+  { href: "/#insights", label: "Insight", dropdown: false },
 ];
