@@ -33,15 +33,19 @@ export function HeroCarousel() {
       >
         <CarouselContent className="h-full">
           {SLIDE_IMAGES.map((image, index) => (
-            <CarouselItem key={`${image}-${index}`} className="relative h-full">
-              <Image
-                src={image}
-                alt=""
-                fill
-                className="object-cover"
-                sizes="57vw"
-                priority={index === 0}
-              />
+            <CarouselItem key={`${image}-${index}`} className="relative h-full overflow-hidden">
+              {/* Square image box, centred and full-bleed across the slide: the
+                  carousel/clip container crops it rather than reshaping the photo. */}
+              <div className="absolute left-1/2 top-1/2 aspect-square w-full -translate-x-1/2 -translate-y-1/2">
+                <Image
+                  src={image}
+                  alt=""
+                  fill
+                  className="object-cover"
+                  sizes="(min-width: 1180px) 57vw, 100vw"
+                  priority={index === 0}
+                />
+              </div>
             </CarouselItem>
           ))}
         </CarouselContent>
