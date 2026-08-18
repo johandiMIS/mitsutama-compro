@@ -16,7 +16,7 @@ export function TopNav() {
           <DesktopNav />
         </div>
         <div className="flex items-center gap-2">
-          <div className="hidden xs:flex">
+          <div className="hidden lg:flex">
             <NavActions />
           </div>
           <MobileNav />

@@ -21,30 +21,30 @@ const INDUSTRIES = [
   },
   {
     name: "Electronics & Semiconductor",
-    title: "Precision Electronics Testing",
+    title: "PCB, Power Supply & Quality Control",
     description:
-      "Replace with a short description of testing and measurement services for this industry.",
+      "Precision testing and measurement solutions for electronic components, power systems, and manufacturing quality assurance.",
     image: PLACEHOLDER_IMAGE,
   },
   {
     name: "Energy & Battery",
-    title: "Battery & Energy System Validation",
+    title: "EV, ESS & Charge-Discharge Testing",
     description:
-      "Replace with a short description of testing and measurement services for this industry.",
+      "Comprehensive testing solutions for electric vehicle batteries, energy storage systems (ESS), and battery performance validation.",
     image: PLACEHOLDER_IMAGE,
   },
   {
     name: "Aerospace & Defense",
-    title: "Aerospace-Grade Reliability Testing",
+    title: "Structural & Acoustic Testing",
     description:
-      "Replace with a short description of testing and measurement services for this industry.",
+      "High-precision measurement solutions for structural integrity, vibration analysis, and acoustic performance testing.",
     image: PLACEHOLDER_IMAGE,
   },
   {
     name: "Building & Environmental",
-    title: "Environmental & Structural Testing",
+    title: "HVAC, Noise & Air Quality",
     description:
-      "Replace with a short description of testing and measurement services for this industry.",
+      "Testing and monitoring solutions for HVAC systems, environmental noise, indoor air quality, and regulatory compliance.",
     image: PLACEHOLDER_IMAGE,
   },
 ];
@@ -88,21 +88,35 @@ export function Industries() {
             })}
           </ul>
 
-          <div className="relative aspect-[3/4] w-full overflow-hidden bg-surface sm:aspect-[4/3] xl:col-span-9">
-            <Image
-              src={active.image}
-              alt={active.name}
-              fill
-              className="object-cover"
-              sizes="(min-width: 1280px) 75vw, 100vw"
-            />
-            <div className="absolute inset-x-0 bottom-0 flex flex-col gap-1 bg-background/70 p-4 backdrop-blur sm:p-6">
-              <h3 className="text-base font-semibold text-black dark:text-zinc-50">
-                {active.title}
-              </h3>
-              <p className="line-clamp-2 text-sm leading-6 text-zinc-600 dark:text-zinc-400 sm:line-clamp-none">
-                {active.description}
-              </p>
+          <div className="relative w-full bg-surface xl:col-span-9">
+            <div className="relative aspect-[3/4] w-full overflow-hidden sm:aspect-[4/3]">
+              <Image
+                src={active.image}
+                alt={active.name}
+                fill
+                className="object-cover"
+                sizes="(min-width: 1280px) 75vw, 100vw"
+              />
+            </div>
+            {/* Every industry's caption is rendered stacked in the same grid cell, with the
+                inactive ones hidden — so the box is always as tall as the longest copy and
+                keeps one height across all five, instead of resizing per selection. */}
+            <div className="grid bg-surface p-4 sm:absolute sm:inset-x-0 sm:bottom-0 sm:bg-background/70 sm:p-6 sm:backdrop-blur">
+              {INDUSTRIES.map((industry) => (
+                <div
+                  key={industry.name}
+                  aria-hidden={industry !== active}
+                  className={`col-start-1 row-start-1 flex flex-col gap-1 ${industry === active ? "" : "invisible"
+                    }`}
+                >
+                  <h3 className="text-base font-semibold text-black dark:text-zinc-50">
+                    {industry.title}
+                  </h3>
+                  <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                    {industry.description}
+                  </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
