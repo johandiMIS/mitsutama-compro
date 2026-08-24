@@ -16,9 +16,9 @@ export function Footer() {
             <Image
               src="/logo-square.webp"
               alt="Mitsutama Indo Teknik"
-              width={64}
-              height={64}
-              className="h-10 w-10"
+              width={205}
+              height={128}
+              className="h-10 w-auto"
             />
             <span className="text-base leading-tight font-semibold">
               Mitsutama

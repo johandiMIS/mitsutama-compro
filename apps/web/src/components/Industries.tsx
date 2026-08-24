@@ -7,45 +7,41 @@ import { SectionTagline } from "@/components/SectionTagline";
 import { SectionTitle } from "@/components/SectionTitle";
 import { ArrowRightIcon } from "@/components/icons/ArrowRightIcon";
 
-// All five industries share one placeholder image for now — swap each `image` for its own
-// photo once available (5 total), no other changes needed once that happens.
-const PLACEHOLDER_IMAGE = "/industries/industries-automotive.webp";
-
 const INDUSTRIES = [
   {
     name: "Automotive",
     title: "NVH, Engine & Thermal Testing",
     description:
       "Advanced testing solutions for vehicle performance, noise, vibration, thermal management, and powertrain validation.",
-    image: PLACEHOLDER_IMAGE,
+    image: "/industries/industries-automotive.webp",
   },
   {
     name: "Electronics & Semiconductor",
     title: "PCB, Power Supply & Quality Control",
     description:
       "Precision testing and measurement solutions for electronic components, power systems, and manufacturing quality assurance.",
-    image: PLACEHOLDER_IMAGE,
+    image: "/industries/industries-electronics-semiconductor.webp",
   },
   {
     name: "Energy & Battery",
     title: "EV, ESS & Charge-Discharge Testing",
     description:
       "Comprehensive testing solutions for electric vehicle batteries, energy storage systems (ESS), and battery performance validation.",
-    image: PLACEHOLDER_IMAGE,
+    image: "/industries/industries-energy-battery.webp",
   },
   {
     name: "Aerospace & Defense",
     title: "Structural & Acoustic Testing",
     description:
       "High-precision measurement solutions for structural integrity, vibration analysis, and acoustic performance testing.",
-    image: PLACEHOLDER_IMAGE,
+    image: "/industries/industries-aerospace-defense.webp",
   },
   {
     name: "Building & Environmental",
     title: "HVAC, Noise & Air Quality",
     description:
       "Testing and monitoring solutions for HVAC systems, environmental noise, indoor air quality, and regulatory compliance.",
-    image: PLACEHOLDER_IMAGE,
+    image: "/industries/industries-building-environmental.webp",
   },
 ];
 
