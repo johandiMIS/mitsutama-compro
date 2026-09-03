@@ -9,10 +9,13 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="w-full border-t-4 border-primary bg-black text-white">
+    // always-dark: black in both themes, so the ink tokens inside are pinned to their dark
+    // values by `.always-dark` and need no `dark:` variants.
+    <footer className="always-dark w-full border-t-4 border-primary bg-black">
       <SectionContainer className="grid grid-cols-1 gap-10 py-12 sm:grid-cols-2 xl:grid-cols-5">
         <div className="flex flex-col gap-4 xl:col-span-2">
           <Link href="/" className="flex items-center gap-3">
+            {/* dark-mode:exempt — the square mark is brand red/navy only, no dark ink to lose. */}
             <Image
               src="/logo-square.webp"
               alt="Mitsutama Indo Teknik"
@@ -26,20 +29,20 @@ export function Footer() {
               Indo Teknik
             </span>
           </Link>
-          <p className="max-w-xs text-sm text-zinc-400">
+          <p className="max-w-xs text-sm text-muted-ink">
             Your trusted Technology Solution Provider for Industry, Research & Education.
           </p>
-          <p className="text-sm font-semibold tracking-wide text-primary">
+          <p className="text-sm font-semibold tracking-wide text-brand-ink">
             ENGINEERING-DRIVEN. DATA-ACCURATE. INDUSTRY-TRUSTED.
           </p>
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-zinc-500">Navigate</p>
+          <p className="text-sm text-muted-ink">Navigate</p>
           <ul className="flex flex-col gap-3">
             {NAV_LINKS.filter((link) => !link.dropdown).map((link) => (
               <li key={link.href}>
-                <Link href={link.href} className="text-sm font-semibold hover:text-primary">
+                <Link href={link.href} className="text-sm font-semibold hover:text-brand-ink">
                   {link.label}
                 </Link>
               </li>
@@ -48,7 +51,7 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-zinc-500">Partners</p>
+          <p className="text-sm text-muted-ink">Partners</p>
           <ul className="flex flex-col gap-3">
             {TECHNOLOGY_PARTNERS.map((partner) => (
               <li key={partner.name} className="text-sm font-semibold">
@@ -59,15 +62,15 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-zinc-500">Get in Touch</p>
+          <p className="text-sm text-muted-ink">Get in Touch</p>
           {/* Dummy address — replace with the real office address once confirmed. */}
-          <p className="max-w-xs text-sm text-zinc-400">
+          <p className="max-w-xs text-sm text-muted-ink">
             Kawasan Industri Sinar Kemis, Jl. Sinar Kemis Blok E No. 5, Pasar Kemis, Kab. Tangerang,
             Banten 15560.
           </p>
           <a
             href="tel:+10000000000"
-            className="flex items-center gap-2 text-sm font-semibold hover:text-primary"
+            className="flex items-center gap-2 text-sm font-semibold hover:text-brand-ink"
           >
             <PhoneIcon />
             021-5927050
@@ -76,7 +79,7 @@ export function Footer() {
       </SectionContainer>
 
       <SectionContainer className="border-t border-white/10 py-6">
-        <p className="text-xs text-zinc-500">
+        <p className="text-xs text-muted-ink">
           &copy; {year} PT. Mitsutama Indo Teknik. All rights reserved.
         </p>
       </SectionContainer>

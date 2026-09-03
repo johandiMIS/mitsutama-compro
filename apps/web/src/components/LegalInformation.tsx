@@ -45,10 +45,10 @@ export function LegalInformation() {
                   key={registration.label}
                   className="flex flex-col gap-2 border border-black/[.08] px-5 py-4 dark:border-white/[.145]"
                 >
-                  <dt className="text-sm font-semibold text-black dark:text-zinc-50">
+                  <dt className="text-sm font-semibold text-foreground">
                     {registration.label}
                   </dt>
-                  <dd className="text-sm text-zinc-600 dark:text-zinc-400">
+                  <dd className="text-sm text-muted-ink">
                     {registration.value}
                   </dd>
                 </div>
@@ -56,10 +56,10 @@ export function LegalInformation() {
             </dl>
 
             <div className="flex flex-col gap-2">
-              <h3 className="text-sm font-semibold text-black dark:text-zinc-50">
+              <h3 className="text-sm font-semibold text-foreground">
                 Registered Business Activities
               </h3>
-              <ul className="list-disc space-y-1 pl-5 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+              <ul className="list-disc space-y-1 pl-5 text-sm leading-6 text-muted-ink">
                 {BUSINESS_ACTIVITIES.map((activity) => (
                   <li key={activity}>{activity}</li>
                 ))}

@@ -58,6 +58,8 @@ export function Hero() {
         <div className="relative aspect-[3/2] w-full">
           <HeroCarousel />
         </div>
+        {/* always-dark: the brand-red panel is dark in both themes, so the white text and
+            white-outlined buttons below are correct as-is — do not pair them with `dark:`. */}
         <div className="flex flex-col gap-6 bg-primary px-6 py-10 text-white sm:px-10">
           <HeroTagline />
           <SectionTitle className="text-[28px] leading-tight text-white sm:text-[34px]">
@@ -90,6 +92,7 @@ export function Hero() {
         }}>
           <HeroCarousel />
         </div>
+        {/* always-dark, same as the stacked panel above. */}
         <div className="absolute right-0 top-0 flex h-[97.5%] w-[43%] flex-col justify-center gap-6 bg-primary px-10 py-10 text-white">
           <HeroTagline />
           <SectionTitle className="text-white">

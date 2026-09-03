@@ -51,6 +51,7 @@ function CarouselDots({
           onClick={() => api?.scrollTo(index)}
           className={cn(
             "h-2 w-2 shadow-sm transition-colors",
+            // dark-mode:exempt — the dots only ever sit over hero photography, never the page.
             index === selectedIndex ? "bg-primary" : "bg-white"
           )}
         />

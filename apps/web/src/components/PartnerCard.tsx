@@ -14,7 +14,9 @@ export function PartnerCard({
       {/* `fill` rather than width/height props: the logos are all 6:1, but the box they sit in is
           whatever a third of the grid happens to be, so a declared ratio would always disagree with
           the rendered one. object-contain letterboxes each logo inside the 64px-tall strip. */}
-      <div className="relative h-16 w-full">
+      {/* always-light: the principals' marks are dark navy/black ink we may not recolour,
+          so they keep their own white chip in both themes (invisible on the light page). */}
+      <div className="always-light relative h-16 w-full p-2">
         <Image
           src={logo}
           alt={`${name} logo`}
@@ -24,8 +26,8 @@ export function PartnerCard({
         />
       </div>
       <div className="flex flex-col gap-1">
-        <h3 className="text-base font-semibold text-black dark:text-zinc-50">{name}</h3>
-        <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">{category}</p>
+        <h3 className="text-base font-semibold text-foreground">{name}</h3>
+        <p className="text-sm leading-6 text-muted-ink">{category}</p>
       </div>
     </div>
   );

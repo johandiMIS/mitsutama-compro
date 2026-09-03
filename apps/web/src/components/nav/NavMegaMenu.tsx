@@ -40,7 +40,7 @@ function chunk<T>(items: T[], size: number): T[][] {
 
 function GroupHeading({ children }: { children: string }) {
   return (
-    <p className="text-xs uppercase tracking-[0.08em] text-zinc-500">{children}</p>
+    <p className="text-xs uppercase tracking-[0.08em] text-muted-ink">{children}</p>
   );
 }
 
@@ -53,7 +53,7 @@ function ItemList({ items, onNavigate }: { items: NavMenuItem[]; onNavigate?: ()
           <Link
             href={item.href}
             onClick={onNavigate}
-            className="text-[13px] font-semibold text-black transition-colors hover:text-primary"
+            className="text-[13px] font-semibold text-foreground transition-colors hover:text-brand-ink"
           >
             {item.label}
           </Link>

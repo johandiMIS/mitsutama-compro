@@ -5,7 +5,9 @@ import { PhoneIcon } from "../icons/PhoneIcon";
 
 export function Header() {
     return (
-        <div className="w-full bg-zinc-900 text-white">
+        // always-dark: a dark strip in both themes. `bg-band` steps up to zinc-800 in dark
+        // mode so the strip still separates from the nav below it.
+        <div className="always-dark w-full bg-band">
             <SectionContainer className="flex h-8 items-center justify-end gap-3 text-sm">
                 <a href="tel:+10000000000" className="flex items-center gap-2 hover:opacity-80">
                     <PhoneIcon />

@@ -10,13 +10,24 @@
 }
 
 :root {
+  color-scheme: light;
+
   --background: #ffffff;
   --foreground: #171717;
+  /* Brand red as a *fill* (buttons, panels, rules) — constant across themes. */
   --primary: #e91f28;
   --primary-hover: #bf1921;
   --primary-foreground: #ffffff;
+  /* Brand red as *ink* (text/icons). Lifted in dark so 12-14px copy still clears AA;
+     #e91f28 only measures 3.96:1 on the dark page. Never use this for a fill. */
+  --brand-ink: #e91f28;
+  /* De-emphasised body copy — replaces the old `text-zinc-600 dark:text-zinc-400` pairs. */
+  --muted-ink: #52525b;
   --surface: #e2e2e2;
   --brand-navy: #2d3282;
+  /* Always-dark section band (Header, VisionMission, WhyChooseUs). One step lighter in dark
+     mode so it still separates from the page instead of melting into it. */
+  --band: #18181b;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -53,6 +64,9 @@
   --color-primary: var(--primary);
   --color-primary-hover: var(--primary-hover);
   --color-primary-foreground: var(--primary-foreground);
+  --color-brand-ink: var(--brand-ink);
+  --color-muted-ink: var(--muted-ink);
+  --color-band: var(--band);
   --color-surface: var(--surface);
   --color-brand-navy: var(--brand-navy);
   --font-sans: var(--font-lato);
@@ -94,13 +108,19 @@
   --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-/* --primary/--primary-hover/--surface intentionally stay constant across light/dark
-   (see docs/design-profile.md) — only the neutral background/foreground pair and shadcn's
-   own generated semantic tokens invert here. */
+/* --primary/--primary-hover/--brand-navy intentionally stay constant across light/dark
+   (see docs/design-profile.md): they only ever sit on fixed brand fills, so there is nothing
+   for them to adapt to. Everything else here has a real dark value. */
 @media (prefers-color-scheme: dark) {
   :root {
+    color-scheme: dark;
+
     --background: #18181b;
     --foreground: #ededed;
+    --brand-ink: #ff5a61;
+    --muted-ink: #a1a1aa;
+    --surface: #27272a;
+    --band: #27272a;
     --card: oklch(0.205 0 0);
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.205 0 0);
@@ -123,6 +143,37 @@
     --sidebar-accent-foreground: oklch(0.985 0 0);
     --sidebar-border: oklch(1 0 0 / 10%);
     --sidebar-ring: oklch(0.556 0 0);
+  }
+}
+
+/* Theme-constant islands.
+   `.always-dark` marks a region that is dark in BOTH themes (the black footer, the zinc band
+   sections, the top utility bar); `.always-light` marks one that is light in both (a white chip
+   under third-party logo artwork we may not recolour). Each re-points the theme-varying ink
+   tokens to the values that are correct for its own fixed background, so components inside can
+   keep using `text-foreground`/`text-muted-ink`/`text-brand-ink` with no `dark:` variants at all
+   — and nothing inherits a foreground from the wrong theme. Set the island's own background
+   alongside it (`bg-black`, `bg-band`, `bg-primary`, …). */
+/* In @layer base so a utility on the same element still wins — `always-light text-brand-ink`
+   has to resolve to the brand red, not to this rule's default foreground. */
+@layer base {
+  .always-dark {
+    color-scheme: dark;
+    --foreground: #ededed;
+    --muted-ink: #a1a1aa;
+    --brand-ink: #ff5a61;
+    --surface: #3f3f46;
+    color: var(--foreground);
+  }
+
+  .always-light {
+    color-scheme: light;
+    --foreground: #171717;
+    --muted-ink: #52525b;
+    --brand-ink: #e91f28;
+    --surface: #e2e2e2;
+    background-color: #ffffff;
+    color: var(--foreground);
   }
 }
 

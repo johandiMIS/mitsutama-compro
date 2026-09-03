@@ -18,20 +18,25 @@ export function CoreSolutions() {
         <div className="flex flex-col items-start gap-4">
           <SectionTagline>OUR CORE SOLUTIONS</SectionTagline>
           <SectionTitle>Four Core Solutions. One Reliable Partner.</SectionTitle>
-          <p className="max-w-4xl text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-4xl text-sm leading-7 text-muted-ink">
             From measurement accuracy to system performance, we provide integrated solutions
             designed to ensure reliable results throughout your testing process.
           </p>
         </div>
 
-        <Image
-          src={FIGURE.src}
-          width={FIGURE.width}
-          height={FIGURE.height}
-          alt="Four core solutions: Calibration for accuracy and traceability, Service for optimal and reliable performance, Integration for integrated testing systems, and Instrumentation from global technology brands."
-          className="h-auto w-full"
-          sizes="100vw"
-        />
+        {/* always-light: the figure bakes in near-black labels and a black axis rule, and there
+            is no dark-inked version of it — so it keeps a white chip in both themes. Replace this
+            with a `-dark` sibling and a `dark:hidden`/`hidden dark:block` pair if one is drawn. */}
+        <div className="always-light w-full p-4">
+          <Image
+            src={FIGURE.src}
+            width={FIGURE.width}
+            height={FIGURE.height}
+            alt="Four core solutions: Calibration for accuracy and traceability, Service for optimal and reliable performance, Integration for integrated testing systems, and Instrumentation from global technology brands."
+            className="h-auto w-full"
+            sizes="100vw"
+          />
+        </div>
       </SectionContainer>
     </section>
   );

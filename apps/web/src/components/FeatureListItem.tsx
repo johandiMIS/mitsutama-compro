@@ -11,6 +11,8 @@ export function FeatureListItem({
    * the taller card height that keeps described items aligned. */
   description?: string;
 }) {
+  // Rendered only inside an `.always-dark` band (VisionMission/WhyChooseUs), so these
+  // tokens resolve to their dark values in both themes — no `dark:` variants belong here.
   return (
     <div
       className={
@@ -23,8 +25,8 @@ export function FeatureListItem({
         {icon}
       </div>
       <div className="flex flex-col gap-1">
-        <h3 className="text-base font-semibold text-white">{title}</h3>
-        {description && <p className="text-sm leading-6 text-zinc-400">{description}</p>}
+        <h3 className="text-base font-semibold text-foreground">{title}</h3>
+        {description && <p className="text-sm leading-6 text-muted-ink">{description}</p>}
       </div>
     </div>
   );

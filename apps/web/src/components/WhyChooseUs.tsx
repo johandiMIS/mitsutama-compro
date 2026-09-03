@@ -39,9 +39,10 @@ const WHY_CHOOSE_US_RIGHT = [
 
 export function WhyChooseUs() {
   return (
-    <section id="why-choose-us" className="w-full scroll-mt-16 bg-zinc-900 py-8">
+    // always-dark: same band treatment as VisionMission.
+    <section id="why-choose-us" className="always-dark w-full scroll-mt-16 bg-band py-8">
       <SectionContainer className="grid w-full grid-cols-1 gap-10 text-left xl:grid-cols-12">
-        <div className="relative aspect-[208/277] w-full overflow-hidden bg-zinc-800 xl:aspect-auto xl:col-span-4 xl:h-full">
+        <div className="relative aspect-[208/277] w-full overflow-hidden bg-white/5 xl:aspect-auto xl:col-span-4 xl:h-full">
           <Image
             src="/choose-us.webp"
             alt="Engineer inspecting industrial testing equipment"
@@ -54,8 +55,8 @@ export function WhyChooseUs() {
         <div className="flex flex-col gap-8 xl:col-span-8">
           <div className="flex flex-col items-start gap-4">
             <SectionTagline>WHY CHOOSE US</SectionTagline>
-            <SectionTitle className="text-white">Why choose us</SectionTitle>
-            <p className="max-w-xl text-sm leading-7 text-zinc-400">
+            <SectionTitle>Why choose us</SectionTitle>
+            <p className="max-w-xl text-sm leading-7 text-muted-ink">
               Trusted engineering expertise, reliable support, and industry-proven solutions that
               help your business achieve accurate, dependable, and sustainable results.
             </p>
@@ -66,7 +67,7 @@ export function WhyChooseUs() {
               {WHY_CHOOSE_US_LEFT.map((feature) => (
                 <FeatureListItem
                   key={feature.title}
-                  icon={<MagnetIcon size={18} color="var(--color-primary)" />}
+                  icon={<MagnetIcon size={18} color="var(--color-brand-ink)" />}
                   title={feature.title}
                   description={feature.description}
                 />
@@ -76,7 +77,7 @@ export function WhyChooseUs() {
               {WHY_CHOOSE_US_RIGHT.map((feature) => (
                 <FeatureListItem
                   key={feature.title}
-                  icon={<MagnetIcon size={18} color="var(--color-primary)" />}
+                  icon={<MagnetIcon size={18} color="var(--color-brand-ink)" />}
                   title={feature.title}
                   description={feature.description}
                 />

@@ -55,7 +55,7 @@ export function Industries() {
         <div className="flex flex-col items-start gap-4">
           <SectionTagline>INDUSTRIES WE SERVE</SectionTagline>
           <SectionTitle>Tailored Solutions for Every Industry</SectionTitle>
-          <p className="max-w-2xl text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-2xl text-sm leading-7 text-muted-ink">
             Delivering precision testing, measurement, calibration, and engineering solutions that
             drive quality, reliability, and innovation.
           </p>
@@ -72,8 +72,8 @@ export function Industries() {
                     onClick={() => setActiveIndex(index)}
                     aria-current={isActive}
                     className={`flex items-center gap-2 text-sm font-semibold transition-colors ${isActive
-                      ? "text-primary"
-                      : "text-black hover:text-primary dark:text-zinc-50"
+                      ? "text-brand-ink"
+                      : "text-foreground hover:text-brand-ink"
                       }`}
                   >
                     {isActive && <ArrowRightIcon size={14} />}
@@ -105,10 +105,10 @@ export function Industries() {
                   className={`col-start-1 row-start-1 flex flex-col gap-1 ${industry === active ? "" : "invisible"
                     }`}
                 >
-                  <h3 className="text-base font-semibold text-black dark:text-zinc-50">
+                  <h3 className="text-base font-semibold text-foreground">
                     {industry.title}
                   </h3>
-                  <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                  <p className="text-sm leading-6 text-muted-ink">
                     {industry.description}
                   </p>
                 </div>

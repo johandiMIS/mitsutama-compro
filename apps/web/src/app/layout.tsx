@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Lato } from "next/font/google";
 import { Footer } from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
@@ -21,6 +21,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mitsutama Indo Teknik",
   description: "Replace with a short company description for search engines.",
+};
+
+/* Mobile browser chrome matches the always-dark utility bar at the very top of the page —
+   `--band`, which is #18181b in light mode and lifts to #27272a in dark. */
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#18181b" },
+    { media: "(prefers-color-scheme: dark)", color: "#27272a" },
+  ],
 };
 
 export default function RootLayout({

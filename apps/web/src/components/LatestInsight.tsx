@@ -40,7 +40,7 @@ export function LatestInsight() {
           </div>
           <a
             href="#"
-            className="flex shrink-0 items-center gap-2 border border-primary px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-white"
+            className="flex shrink-0 items-center gap-2 border border-primary px-4 py-2 text-sm font-semibold text-brand-ink transition-colors hover:bg-primary hover:text-white"
           >
             View All
             <ArrowRightIcon size={14} />

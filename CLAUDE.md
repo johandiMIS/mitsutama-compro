@@ -65,5 +65,10 @@ Target a single app with `--filter`, e.g. `pnpm --filter @compro/web dev` or
   trigger to create `packages/types` per `docs/architecture.md` rather than duplicating it.
 - `docs/auth-passportjs-google.md` and `docs/email-module.md` contain implementation reference
   notes for those specific features — check them before building auth or email flows.
+- `docs/design-profile.md` is the contract for every colour in `apps/web`: components read semantic
+  tokens (`text-foreground`, `text-muted-ink`, `text-brand-ink`, `bg-band`, `bg-surface`) and only
+  `globals.css` names raw colours. Read its **Dark mode** section before adding any `dark:` variant —
+  a needed `dark:` in a component usually means a missing token, or a fixed region that wants the
+  `always-dark`/`always-light` class instead.
 - `docs/shadcn.md` covers shadcn/ui setup conventions and the components registry for `apps/web`
   (not yet initialized) — check it before running `shadcn init`/`add` or building any UI component.

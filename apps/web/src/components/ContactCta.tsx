@@ -8,6 +8,8 @@ const CTA_BG_IMAGE = "/cta_bg.webp";
 
 export function ContactCta() {
   return (
+    // always-dark: brand-red fill behind a photo in both themes, so the white heading and
+    // tagline inside are fixed by design and must not be paired with `dark:`.
     <section
       id="contact"
       className="relative w-full scroll-mt-16 overflow-hidden bg-primary py-16"
@@ -26,9 +28,11 @@ export function ContactCta() {
             Need engineering solutions you can trust?
           </SectionTitle>
         </div>
+        {/* always-light: a white chip on the red band — `.always-light` pins `--brand-ink` to
+            its light value, so the label stays the deep brand red on white in dark mode too. */}
         <a
           href="mailto:hello@example.com"
-          className="flex h-12 shrink-0 items-center justify-center gap-2 rounded-md bg-white px-6 text-base font-semibold text-primary transition-colors hover:bg-zinc-100"
+          className="always-light flex h-12 shrink-0 items-center justify-center gap-2 rounded-md px-6 text-base font-semibold text-brand-ink transition-colors hover:bg-zinc-100"
         >
           Request a Consultation
           <ArrowRight className="h-4 w-4" />

@@ -50,13 +50,13 @@ export function CompanyValue() {
           <div className="flex w-full flex-col items-start gap-6 md:flex-row md:items-center md:justify-between">
             <SectionTitle>The Mitsutama Way</SectionTitle>
             <blockquote className="flex items-start gap-3 bg-zinc-50 px-6 py-5 dark:bg-zinc-800/40 md:max-w-[60%]">
-              <span aria-hidden="true" className="text-xl font-bold leading-none text-primary">
+              <span aria-hidden="true" className="text-xl font-bold leading-none text-brand-ink">
                 &ldquo;
               </span>
-              <p className="text-sm font-semibold leading-6 text-black dark:text-zinc-50">
+              <p className="text-sm font-semibold leading-6 text-foreground">
                 {QUOTE}
               </p>
-              <span aria-hidden="true" className="text-xl font-bold leading-none text-primary">
+              <span aria-hidden="true" className="text-xl font-bold leading-none text-brand-ink">
                 &rdquo;
               </span>
             </blockquote>
@@ -67,7 +67,7 @@ export function CompanyValue() {
           {COMPANY_VALUES.map((value) => (
             <FeatureCard
               key={value.title}
-              icon={<value.icon size={24} color="var(--color-primary)" />}
+              icon={<value.icon size={24} color="var(--color-brand-ink)" />}
               title={value.title}
               description={value.description}
             />

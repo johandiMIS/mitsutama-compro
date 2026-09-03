@@ -25,7 +25,7 @@ export function AboutIntro() {
           </SectionTitle>
           <div className="flex flex-col gap-4">
             {INTRO_PARAGRAPHS.map((paragraph) => (
-              <p key={paragraph} className="text-sm leading-7 text-zinc-600 dark:text-zinc-400">
+              <p key={paragraph} className="text-sm leading-7 text-muted-ink">
                 {paragraph}
               </p>
             ))}
@@ -43,6 +43,7 @@ export function AboutIntro() {
               sizes="(min-width: 1180px) 50vw, 100vw"
             />
           </div>
+          {/* always-dark: the navy badge keeps its fixed white text in both themes. */}
           <div className="absolute bottom-0 -left-4 flex flex-col gap-1 bg-brand-navy px-5 py-4 text-white md:-left-6">
             <p className="text-xs">Established in</p>
             {/* tabular-nums keeps the badge from jittering while the digits count down. */}

@@ -11,7 +11,7 @@ export function SectionTitle({
   return (
     <h2
       className={cn(
-        "text-[39px] font-semibold tracking-tight text-black dark:text-zinc-50",
+        "text-[39px] font-semibold tracking-tight text-foreground",
         className,
       )}
     >

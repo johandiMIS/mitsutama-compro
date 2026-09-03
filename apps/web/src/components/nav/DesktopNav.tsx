@@ -49,7 +49,7 @@ export function DesktopNav() {
         // Positioned against the sticky <header>, so the panel spans the viewport edge to edge.
         <div
           id={panelIdFor(openLink.label)}
-          className="absolute inset-x-0 top-full border-t-2 border-primary bg-background shadow-[0_14px_28px_0_#00000014]"
+          className="absolute inset-x-0 top-full border-t-2 border-primary bg-background shadow-[0_14px_28px_0_#00000014] dark:border-b dark:border-white/[.145] dark:shadow-none"
         >
           <SectionContainer className="py-8">
             <NavMegaMenu

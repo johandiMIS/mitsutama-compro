@@ -13,8 +13,10 @@ export type Breadcrumb = { label: string; href?: string };
 
 export function PageHero({ title, breadcrumbs }: { title: string; breadcrumbs: Breadcrumb[] }) {
   return (
+    // always-dark: a fixed deep-red band in both themes, so the white breadcrumb/title ink
+    // inside is correct as-is and must not be paired with `dark:`.
     <section
-      className="w-full text-white"
+      className="always-dark w-full text-white"
       style={{ backgroundColor: BAND_RED, backgroundImage: TRIANGLE_PATTERN }}
     >
       <SectionContainer className="flex flex-col gap-3 py-12">

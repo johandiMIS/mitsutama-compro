@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 
 const VARIANT_CLASSES = {
-  primary: "text-primary",
+  primary: "text-brand-ink",
   white: "text-white",
 };
 

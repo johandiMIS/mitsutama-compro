@@ -72,7 +72,7 @@ export function MobileNav() {
             if (!link.dropdown) {
               return (
                 <div key={link.href} className="py-3">
-                  <NavLink href={link.href} onClick={close} onLightSurface>
+                  <NavLink href={link.href} onClick={close} inMobilePanel>
                     {link.label}
                   </NavLink>
                 </div>
@@ -90,7 +90,7 @@ export function MobileNav() {
                   aria-controls={panelId}
                   onClick={() => setOpenSection(isExpanded ? null : link.label)}
                   className={`flex w-full items-center justify-between py-3 text-left font-semibold transition-colors ${
-                    isExpanded ? "text-primary" : "text-black hover:text-primary"
+                    isExpanded ? "text-brand-ink" : "text-foreground hover:text-brand-ink"
                   }`}
                 >
                   {link.label}
@@ -105,11 +105,11 @@ export function MobileNav() {
                 {isExpanded && (
                   <div
                     id={panelId}
-                    className="divide-y divide-black/10 border-y border-black/10"
+                    className="divide-y divide-black/10 border-y border-black/10 dark:divide-white/[.145] dark:border-white/[.145]"
                   >
                     {link.groups.map((group) => (
                       <div key={group.title} className="flex flex-col gap-4 py-6">
-                        <p className="text-xs uppercase tracking-[0.08em] text-zinc-500">
+                        <p className="text-xs uppercase tracking-[0.08em] text-muted-ink">
                           {group.title}
                         </p>
                         <ul className="flex flex-col gap-4">
@@ -119,7 +119,7 @@ export function MobileNav() {
                               <Link
                                 href={menuItem.href}
                                 onClick={close}
-                                className="font-semibold text-black transition-colors hover:text-primary"
+                                className="font-semibold text-foreground transition-colors hover:text-brand-ink"
                               >
                                 {menuItem.label}
                               </Link>
@@ -134,7 +134,7 @@ export function MobileNav() {
             );
           })}
 
-          <div className="mt-5 border-t border-black/10 pt-6">
+          <div className="mt-5 border-t border-black/10 pt-6 dark:border-white/[.145]">
             <NavContactButton onClick={close} />
           </div>
         </nav>

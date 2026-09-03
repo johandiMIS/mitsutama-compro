@@ -45,7 +45,7 @@ export function About() {
           <SectionTagline>ABOUT US</SectionTagline>
           <div className="flex w-full flex-col items-start gap-4 md:flex-row md:items-center md:justify-between">
             <SectionTitle>Who we are</SectionTitle>
-            <p className="text-sm leading-7 text-zinc-600 dark:text-zinc-400 text-start md:max-w-[70%]">
+            <p className="text-sm leading-7 text-muted-ink text-start md:max-w-[70%]">
               PT Mitsutama Indo Teknik is an engineering-driven company that delivers more than just equipment.<br />
               We ensure every testing system produces accurate, repeatable, and reliable results that our customers can trust.
             </p>
@@ -56,7 +56,7 @@ export function About() {
           {ABOUT_FEATURES.map((feature) => (
             <div key={feature.title} className="xl:col-span-3">
               <FeatureCard
-                icon={<feature.icon size={24} color="var(--color-primary)" />}
+                icon={<feature.icon size={24} color="var(--color-brand-ink)" />}
                 title={feature.title}
                 description={feature.description}
               />

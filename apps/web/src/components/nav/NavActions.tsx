@@ -6,17 +6,18 @@ import { UkFlagIcon } from "../icons/UkFlagIcon";
 /** Shared square-button chrome — the mobile menu toggle reuses it so the header's three
  * buttons (language, search, toggle) read as one set. */
 export const NAV_ICON_BUTTON =
-  "flex h-9 w-9 items-center justify-center border border-black/20 bg-surface";
+  "flex h-9 w-9 items-center justify-center border border-black/20 bg-surface text-foreground dark:border-white/20";
 
 /** Language + search. Rendered in the header at every width. */
 export function NavIconActions() {
   return (
     <>
       <button type="button" aria-label="Switch language" className={NAV_ICON_BUTTON}>
+        {/* dark-mode:exempt — a flag has fixed real-world colours (see docs/icons.md). */}
         <UkFlagIcon size={18} />
       </button>
       <button type="button" aria-label="Search" className={NAV_ICON_BUTTON}>
-        <SearchIcon size={18} color="#171717" />
+        <SearchIcon size={18} />
       </button>
     </>
   );
@@ -30,7 +31,7 @@ export function NavContactButton({ onClick }: { onClick?: () => void }) {
       onClick={onClick}
       className="inline-flex h-11 items-center justify-center gap-2 bg-primary px-6 text-sm font-semibold text-white transition-colors hover:bg-primary-hover lg:h-9"
     >
-      <PhoneIcon size={14} color="#ffffff" />
+      <PhoneIcon size={14} />
       Contact&nbsp;Us
     </Link>
   );

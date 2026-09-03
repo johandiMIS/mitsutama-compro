@@ -27,7 +27,7 @@ export function Partners() {
     <section id="partners" className="w-full scroll-mt-16 py-8 text-center">
       <SectionContainer className="flex flex-col items-center gap-10">
         <div className="flex flex-col items-center gap-4">
-          <p className="max-w-2xl text-base font-semibold leading-7 text-zinc-600 dark:text-zinc-400">
+          <p className="max-w-2xl text-base font-semibold leading-7 text-muted-ink">
             Trusted Across Industry, Research & Government
           </p>
         </div>
@@ -43,7 +43,10 @@ export function Partners() {
             {/* Duplicated so there's enough width to loop seamlessly at any screen size. */}
             {[...PARTNERS, ...PARTNERS].map((partner, index) => (
               <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-2 sm:pl-4">
-                <div className="flex mx-3 mt-4 items-center justify-center sm:mx-8">
+                {/* always-light: these are third-party client marks (several with black or
+                    dark-grey wordmarks) that we may not recolour, so each keeps its own white
+                    tile. On the light page the tile is white-on-white and invisible. */}
+                <div className="always-light flex mx-3 mt-4 items-center justify-center px-3 py-2 sm:mx-8">
                   <Image
                     src={partner.logo}
                     alt={`${partner.name} logo`}

@@ -15,8 +15,8 @@ export function FeatureCard({
         {icon}
       </div>
       <div className="flex flex-col gap-1">
-        <h3 className="text-base font-semibold text-black dark:text-zinc-50">{title}</h3>
-        <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">{description}</p>
+        <h3 className="text-base font-semibold text-foreground">{title}</h3>
+        <p className="text-sm leading-6 text-muted-ink">{description}</p>
       </div>
     </div>
   );
