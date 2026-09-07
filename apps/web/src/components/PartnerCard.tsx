@@ -10,13 +10,17 @@ export function PartnerCard({
   logo: string;
 }) {
   return (
-    <div className="flex flex-col gap-4 border border-black/[.08] p-4 dark:border-white/[.145]">
+    // always-light: the principals' marks are dark navy/black ink we may not recolour, so the
+    // whole card stays white in both themes rather than just the logo strip. `.always-light`
+    // re-points --foreground/--muted-ink to their light-theme values, so the name and category
+    // below read correctly on the white without any `dark:` variant. The border is likewise a
+    // single black alpha in both themes — a `dark:border-white/[.145]` here would be a bug,
+    // since white-on-white would erase the card outline in dark mode.
+    <div className="always-light flex flex-col gap-4 border border-black/[.08] p-4">
       {/* `fill` rather than width/height props: the logos are all 6:1, but the box they sit in is
           whatever a third of the grid happens to be, so a declared ratio would always disagree with
           the rendered one. object-contain letterboxes each logo inside the 64px-tall strip. */}
-      {/* always-light: the principals' marks are dark navy/black ink we may not recolour,
-          so they keep their own white chip in both themes (invisible on the light page). */}
-      <div className="always-light relative h-16 w-full p-2">
+      <div className="relative h-16 w-full p-2">
         <Image
           src={logo}
           alt={`${name} logo`}

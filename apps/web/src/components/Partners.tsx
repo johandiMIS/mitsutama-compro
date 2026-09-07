@@ -32,33 +32,42 @@ export function Partners() {
           </p>
         </div>
 
-        <Carousel
-          opts={{ loop: true, dragFree: true, align: "start" }}
-          plugins={[
-            AutoScroll({ speed: 1, startDelay: 0, stopOnInteraction: false, stopOnMouseEnter: true }),
-          ]}
-          className="w-full [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
-        >
-          <CarouselContent>
-            {/* Duplicated so there's enough width to loop seamlessly at any screen size. */}
-            {[...PARTNERS, ...PARTNERS].map((partner, index) => (
-              <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-2 sm:pl-4">
-                {/* always-light: these are third-party client marks (several with black or
-                    dark-grey wordmarks) that we may not recolour, so each keeps its own white
-                    tile. On the light page the tile is white-on-white and invisible. */}
-                <div className="always-light flex mx-3 mt-4 items-center justify-center px-3 py-2 sm:mx-8">
-                  <Image
-                    src={partner.logo}
-                    alt={`${partner.name} logo`}
-                    width={partner.width}
-                    height={partner.height}
-                    className="h-8 w-auto object-contain"
-                  />
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-        </Carousel>
+        {/* always-light: the client marks are third-party artwork (several with black or
+            dark-grey wordmarks) that we may not recolour, so the logo strip stays white in both
+            themes. The white sits on this wrapper rather than on the Carousel itself — the
+            carousel's mask-image fades its own pixels to transparent at both ends, so a
+            background on that element would fade out with them. Here the mask instead reveals
+            this white, and the band stays solid edge to edge. The section heading above is
+            outside the wrapper and keeps adapting to the theme. */}
+        <div className="always-light w-full py-4">
+          <Carousel
+            opts={{ loop: true, dragFree: true, align: "start" }}
+            plugins={[
+              AutoScroll({ speed: 1, startDelay: 0, stopOnInteraction: false, stopOnMouseEnter: true }),
+            ]}
+            className="w-full [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]"
+          >
+            <CarouselContent>
+              {/* Duplicated so there's enough width to loop seamlessly at any screen size. */}
+              {[...PARTNERS, ...PARTNERS].map((partner, index) => (
+                <CarouselItem key={`${partner.name}-${index}`} className="basis-auto pl-2 sm:pl-4">
+                  {/* No chip of its own — the wrapper above is already white in both themes, and
+                      it owns the vertical padding so the logos sit centred in the band. Only
+                      horizontal spacing belongs here. */}
+                  <div className="flex mx-3 items-center justify-center px-3 sm:mx-8">
+                    <Image
+                      src={partner.logo}
+                      alt={`${partner.name} logo`}
+                      width={partner.width}
+                      height={partner.height}
+                      className="h-8 w-auto object-contain"
+                    />
+                  </div>
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+          </Carousel>
+        </div>
       </SectionContainer>
     </section>
   );

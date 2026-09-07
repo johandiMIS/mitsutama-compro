@@ -101,8 +101,15 @@ Classify a region before styling it. This is what stops the "invisible text" cla
    `Header` + `bg-band`, `VisionMission`/`WhyChooseUs` + `bg-band`, `Footer` + `bg-black`,
    `Hero`'s red panel and `ContactCta` + `bg-primary`, `PageHero`'s deep-red band.
 3. **Always-light** — light in both themes, because it hosts third-party artwork we may not
-   recolour. Add the `always-light` class: the client-logo tiles in `Partners`, the principal logo
-   strip in `PartnerCard`, the `CoreSolutions` figure, and `ContactCta`'s white button.
+   recolour. Add the `always-light` class: the client-logo carousel in `Partners` (the wrapper
+   around it, not the masked element itself — see Assets), the whole card in `PartnerCard`
+   (root element, so the name and category ride the same island as the logo), the
+   `CoreSolutions` figure, and `ContactCta`'s white button.
+
+   When a whole card becomes always-light, its **border alpha stops being a theme pair**:
+   `border-black/[.08] dark:border-white/[.145]` has to lose the `dark:` half, or the outline
+   disappears into the white card in dark mode. Same rule as fixed `text-white` on an
+   always-dark island — pairing a theme-constant island with a `dark:` variant is a bug.
 
 `.always-dark` / `.always-light` (defined in `globals.css`, inside `@layer base` so a utility on the
 same element still wins) re-point `--foreground`, `--muted-ink`, `--brand-ink` and `--surface` to
@@ -128,6 +135,11 @@ always-dark island is *correct*; pairing it with `dark:` is a bug.
   fixed real-world colours), the hero carousel dots (always over photography).
 - **Third-party logos are never recoloured or inverted** — `filter: invert()` would turn brand red
   into cyan. They go on an `always-light` chip instead.
+- **An `always-light` background never goes on a masked element.** `Partners`' carousel carries a
+  `mask-image` gradient that fades its own pixels to transparent at both ends — a background on
+  that same element fades out with them, leaving a white strip with ghosted edges. Put the
+  `always-light` wrapper *around* the masked element so the mask reveals the white instead. In
+  `Partners` only the logo strip is wrapped; the section heading stays adaptive.
 - **The `core-solution` figures bake in near-black labels** and have no dark-inked twins, so they
   share one `always-light` chip. If dark versions are ever drawn, add them as
   `core-solution-<cut>-dark.webp` and swap the chip for a `dark:hidden`/`hidden dark:block` pair.
