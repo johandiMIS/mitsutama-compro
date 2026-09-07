@@ -12,7 +12,10 @@ export function TopNav() {
         <div className="flex items-center gap-10">
           {/* The wordmark is near-black ink, so it needs a real light-inked twin on dark. Both
               are rendered and one is hidden per theme; `logo-dark.png` is the file used *in* dark
-              mode (i.e. the light-inked one), at the same dimensions as the original. */}
+              mode (i.e. the light-inked one), at the same dimensions as the original.
+              Both carry the same alt: `dark:hidden`/`hidden dark:block` is `display: none`, so the
+              inactive one is already out of the accessibility tree and exactly one names this
+              link. aria-hidden on either would leave the link unnamed in the other theme. */}
           <Link href="/" className="shrink-0">
             <Image
               src="/logo.png"
@@ -24,8 +27,7 @@ export function TopNav() {
             />
             <Image
               src="/logo-dark.png"
-              alt=""
-              aria-hidden="true"
+              alt="Mitsutama Indo Teknik"
               width={612}
               height={123}
               className="hidden h-[31px] w-auto dark:block"

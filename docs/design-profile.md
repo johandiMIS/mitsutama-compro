@@ -118,14 +118,19 @@ always-dark island is *correct*; pairing it with `dark:` is a bug.
 - **`logo.png` is near-black ink**, so `TopNav` renders both it and `logo-dark.png` and toggles with
   `dark:hidden` / `hidden dark:block`. **`-dark` names the mode the file is used *in*, not its ink
   colour** — `logo-dark.png` is the light-inked one, same dimensions as the original.
+- **An asset swapped by CSS keeps its real `alt` on *both* elements**, never `aria-hidden` on one:
+  `dark:hidden` / `xl:hidden` is `display: none`, which already drops the inactive element out of
+  the accessibility tree, so exactly one is announced. Hiding one from assistive tech instead
+  leaves the image unnamed in whichever state the *other* one is the hidden element. Applies to the
+  `TopNav` logo pair and the `CoreSolutions` figure pair.
 - **Marks that need no dark variant** are commented `dark-mode:exempt` at the point of use:
   `logo-square.webp` and `app/icon.png` (brand red/navy only, no dark ink), `UkFlagIcon` (a flag has
   fixed real-world colours), the hero carousel dots (always over photography).
 - **Third-party logos are never recoloured or inverted** — `filter: invert()` would turn brand red
   into cyan. They go on an `always-light` chip instead.
-- **`core-solution-desktop.webp` bakes in near-black labels** and has no dark-inked twin, so it sits
-  on an `always-light` chip. If a dark version is ever drawn, add it as
-  `core-solution-desktop-dark.webp` and swap the chip for a `dark:hidden`/`hidden dark:block` pair.
+- **The `core-solution` figures bake in near-black labels** and have no dark-inked twins, so they
+  share one `always-light` chip. If dark versions are ever drawn, add them as
+  `core-solution-<cut>-dark.webp` and swap the chip for a `dark:hidden`/`hidden dark:block` pair.
 - **Photos are left alone.** Where a photo sits under text the fix is the scrim, not a second asset.
 - `theme-color` is declared per scheme in `layout.tsx`'s `viewport` export, matching `--band` (the
   utility bar at the very top of the page).
@@ -255,6 +260,14 @@ this scale, since the strict 6-token set didn't leave room for everything that w
 - **Nav height:** fixed `h-16` (64px) — referenced by `scroll-mt-16` on every anchor-target section
   so the sticky header doesn't cover the heading when jumped to, and by `MobileNav`'s panel
   (`top-16`) to sit flush beneath the bar.
+- **Art-directed figures:** `CoreSolutions` ships two cuts of the same diagram with the labels baked
+  in — `core-solution-mobile.webp` (1480×1344, vertical stack) below `xl`, `core-solution-desktop.webp`
+  (5124×736, horizontal timeline) at `xl` (1280px) and up, toggled with `xl:hidden` /
+  `hidden xl:block`. `xl` and not `lg`, because `lg` is overridden to 1180px as the nav's own
+  hamburger threshold and isn't a general-purpose breakpoint. Below `xl` the chip is capped at
+  `max-w-md` so the tall cut doesn't stretch to the full container. Both elements render and CSS
+  hides one: that costs a second ~33KB request but keeps `next/image`'s resizing and format
+  negotiation, which a `<picture>`/`<source media>` swap would give up.
 - **z-index scale:** `z-50` (TopNav header), `z-40` (mobile nav panel) — keep any future overlay
   (modal, toast) above `z-50` or explicitly reason about where it sits relative to the nav.
 
