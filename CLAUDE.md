@@ -4,12 +4,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Status
 
-Freshly scaffolded Turborepo monorepo — `apps/web` and `apps/api` are still close to their
-`create-next-app`/`nest new` defaults. `docs/architecture.md` is the target structure this repo
-should grow into. So far only the workspace-level plumbing from that doc exists: `packages/types`
-and `packages/utils` (currently empty stubs, linked into both apps via `workspace:*`) and a shared
-`tsconfig.base.json`. Feature-based `apps/web/src/features/*` and per-domain `apps/api/src/modules/*`
-don't exist yet — consult the doc before introducing them.
+Turborepo monorepo growing into the structure in `docs/architecture.md`.
+
+- `apps/web` has the public marketing site plus an admin panel at `/admin`.
+- `apps/api` now has per-domain modules under `src/modules/` (`admin-auth`, `storage`,
+  `hero-images`) alongside the original `nest new` scaffolding — follow that layout for new
+  domains, per `docs/architecture.md`.
+- `packages/types` holds real shared contracts now (hero image DTOs, admin session).
+  **It has no build step** — `main` points at `src/index.ts` and consumers import raw TS, so it
+  must stay a single file: a relative re-export like `export * from './foo'` compiles and builds
+  fine, then throws `ERR_MODULE_NOT_FOUND` under `node dist/main`. The file's header comment
+  explains what to do instead. `packages/utils` is still an empty stub.
+- Feature-based `apps/web/src/features/*` still doesn't exist — consult the doc before
+  introducing it.
 
 **Note:** on this machine, Windows Code Integrity (WDAC) blocks `turbo.exe` outright because it's
 unsigned (`Get-AuthenticodeSignature` → `NotSigned`; CodeIntegrity event log shows Event ID 3033,
@@ -72,3 +79,8 @@ Target a single app with `--filter`, e.g. `pnpm --filter @compro/web dev` or
   `always-dark`/`always-light` class instead.
 - `docs/shadcn.md` covers shadcn/ui setup conventions and the components registry for `apps/web`
   (not yet initialized) — check it before running `shadcn init`/`add` or building any UI component.
+- `docs/admin-panel.md` documents the `/admin` panel: env vars, the required S3 bucket policy
+  **and CORS rule** (browser-direct uploads fail without it), the presign/upload/commit flow, and
+  how `.webp`-only is enforced. Read it before touching `apps/api/src/modules/{admin-auth,storage,
+  hero-images}` or `apps/web/src/app/admin/*`. Its auth is an interim single password and is meant
+  to be replaced by `docs/auth-passportjs-google.md`.

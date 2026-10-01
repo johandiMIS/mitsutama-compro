@@ -10,17 +10,21 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import { CarouselDots } from "@/components/ui/carousel-dots";
+import type { HeroSlide } from "@/lib/hero-images";
 
-const SLIDE_IMAGES = [
-  "/hero/hero-1.webp",
-  "/hero/hero-2.webp",
-  "/hero/hero-3.webp",
-  "/hero/hero-4.webp",
-  "/hero/hero-5.webp",
-  "/hero/hero-6.webp",
-];
+/**
+ * `sizes` for one slide. The slide box is square and the image covers it, so a landscape
+ * image is drawn wider than the box by its aspect ratio: on a 3440px-wide screen the
+ * desktop box is 57vw = 1961px, but a 3280×2592 image fills it at ~2481px. Declaring
+ * just the box width makes next/image pick a variant too small and upscale it.
+ */
+function slideSizes(slide: HeroSlide): string {
+  const aspect =
+    slide.width && slide.height ? Math.max(1, slide.width / slide.height) : 16 / 9;
+  return `(min-width: 1180px) ${Math.ceil(57 * aspect)}vw, ${Math.ceil(100 * aspect)}vw`;
+}
 
-export function HeroCarousel() {
+export function HeroCarousel({ slides }: { slides: HeroSlide[] }) {
   const [api, setApi] = React.useState<CarouselApi>();
 
   return (
@@ -32,17 +36,17 @@ export function HeroCarousel() {
         className="h-full"
       >
         <CarouselContent className="h-full">
-          {SLIDE_IMAGES.map((image, index) => (
-            <CarouselItem key={`${image}-${index}`} className="relative h-full overflow-hidden">
+          {slides.map((slide, index) => (
+            <CarouselItem key={`${slide.src}-${index}`} className="relative h-full overflow-hidden">
               {/* Square image box, centred and full-bleed across the slide: the
                   carousel/clip container crops it rather than reshaping the photo. */}
               <div className="absolute left-1/2 top-1/2 aspect-square w-full -translate-x-1/2 -translate-y-1/2">
                 <Image
-                  src={image}
-                  alt=""
+                  src={slide.src}
+                  alt={slide.alt}
                   fill
                   className="object-cover"
-                  sizes="(min-width: 1180px) 57vw, 100vw"
+                  sizes={slideSizes(slide)}
                   priority={index === 0}
                 />
               </div>

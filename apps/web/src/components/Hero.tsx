@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { SectionTagline } from "@/components/SectionTagline";
 import { SectionTitle } from "@/components/SectionTitle";
+import { getHeroSlides } from "@/lib/hero-images";
 import { HeroCarousel } from "./HeroCarousel";
 
 // Dummy stats — replace with real figures once available.
@@ -50,13 +51,15 @@ function HeroCtas() {
   );
 }
 
-export function Hero() {
+export async function Hero() {
+  const slides = await getHeroSlides();
+
   return (
     <section id="home" className="relative w-full scroll-mt-16 overflow-hidden pt-0 py-8">
       {/* <1180px: mobile/tablet design — carousel and content stacked in one column */}
       <div className="flex flex-col lg:hidden">
         <div className="relative aspect-[3/2] w-full">
-          <HeroCarousel />
+          <HeroCarousel slides={slides} />
         </div>
         {/* always-dark: the brand-red panel is dark in both themes, so the white text and
             white-outlined buttons below are correct as-is — do not pair them with `dark:`. */}
@@ -90,7 +93,7 @@ export function Hero() {
         <div className="absolute top-[2.4%] w-[57%] h-[98%] overflow-hidden" style={{
           clipPath: "polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)"
         }}>
-          <HeroCarousel />
+          <HeroCarousel slides={slides} />
         </div>
         {/* always-dark, same as the stacked panel above. */}
         <div className="absolute right-0 top-0 flex h-[97.5%] w-[43%] flex-col justify-center gap-6 bg-primary px-10 py-10 text-white">

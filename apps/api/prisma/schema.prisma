@@ -14,3 +14,31 @@ model User {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+/// One slide in the homepage hero carousel, managed from /admin.
+/// The file itself lives in S3; this row is metadata plus the object key.
+model HeroImage {
+  id String @id @default(uuid())
+
+  /// S3 object key, e.g. "hero/6f1c….webp". Unique so a replayed commit can't
+  /// register the same object twice.
+  storageKey String @unique
+
+  /// Alt text. Empty string is valid and means "decorative".
+  alt String @default("")
+
+  /// Ascending display order. Gaps are fine — the list is sorted, not indexed by this.
+  sortOrder Int @default(0)
+
+  /// Intrinsic pixel dimensions, read client-side at upload. Nullable because a
+  /// commit may arrive without them; the carousel falls back to a fixed box.
+  width  Int?
+  height Int?
+
+  sizeBytes Int
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([sortOrder])
+}
