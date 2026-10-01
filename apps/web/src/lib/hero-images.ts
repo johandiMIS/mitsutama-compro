@@ -71,7 +71,18 @@ export async function getHeroSlides(): Promise<HeroSlide[]> {
     }
     return slides.length > 0 ? slides : FALLBACK_SLIDES;
   } catch (error) {
-    console.warn("[hero] Using bundled images; API fetch failed:", error);
+    // One line, not a stack trace: this is routine during `next build`, when the API
+    // usually isn't running. The page is still built with `revalidate`, so it picks up
+    // the API's images on its own within REVALIDATE_SECONDS of the API coming up.
+    const cause = (error as { cause?: { code?: string } }).cause?.code;
+    const reason = cause ?? (error instanceof Error ? error.message : String(error));
+    const duringBuild = process.env.NEXT_PHASE === "phase-production-build";
+    console.warn(
+      `[hero] ${API_BASE}/hero-images unavailable (${reason}); using bundled images.` +
+        (duringBuild
+          ? ` Expected during build — the page refreshes within ${REVALIDATE_SECONDS}s once the API is up.`
+          : ""),
+    );
     return FALLBACK_SLIDES;
   }
 }
