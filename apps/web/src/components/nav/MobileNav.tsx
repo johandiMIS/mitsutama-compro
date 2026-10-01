@@ -80,6 +80,7 @@ export function MobileNav() {
             }
 
             const isExpanded = openSection === link.label;
+            const isActive = pathname === link.href || pathname.startsWith(`${link.href}/`);
             const panelId = `mobile-nav-${link.label.toLowerCase()}`;
 
             return (
@@ -90,7 +91,7 @@ export function MobileNav() {
                   aria-controls={panelId}
                   onClick={() => setOpenSection(isExpanded ? null : link.label)}
                   className={`flex w-full items-center justify-between py-3 text-left font-semibold transition-colors ${
-                    isExpanded ? "text-brand-ink" : "text-foreground hover:text-brand-ink"
+                    isExpanded || isActive ? "text-brand-ink" : "text-foreground hover:text-brand-ink"
                   }`}
                 >
                   {link.label}

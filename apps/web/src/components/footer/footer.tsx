@@ -3,7 +3,15 @@ import Link from "next/link";
 import { PhoneIcon } from "@/components/icons/PhoneIcon";
 import { NAV_LINKS } from "@/components/nav/nav-links";
 import { SectionContainer } from "@/components/SectionContainer";
-import { TECHNOLOGY_PARTNERS } from "@/components/TechnologyPartners";
+
+/** Product brands, in the Products mega-menu's order (per the footer design). */
+const PRODUCT_BRANDS = [
+  "Chroma",
+  "IMC Axiometrix",
+  "GRAS Axiometrix",
+  "Audio Precision",
+  "Lisun Group",
+];
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -40,7 +48,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <p className="text-sm text-muted-ink">Navigate</p>
           <ul className="flex flex-col gap-3">
-            {NAV_LINKS.filter((link) => !link.dropdown).map((link) => (
+            {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="text-sm font-semibold hover:text-brand-ink">
                   {link.label}
@@ -51,11 +59,11 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-muted-ink">Partners</p>
+          <p className="text-sm text-muted-ink">Products</p>
           <ul className="flex flex-col gap-3">
-            {TECHNOLOGY_PARTNERS.map((partner) => (
-              <li key={partner.name} className="text-sm font-semibold">
-                {partner.name}
+            {PRODUCT_BRANDS.map((brand) => (
+              <li key={brand} className="text-sm font-semibold">
+                {brand}
               </li>
             ))}
           </ul>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { SectionContainer } from "@/components/SectionContainer";
 import { NAV_LINKS } from "./nav-links";
 import { NavDropdownTrigger } from "./NavDropdownTrigger";
@@ -10,6 +11,7 @@ import { NavMegaMenu } from "./NavMegaMenu";
 const panelIdFor = (label: string) => `nav-menu-${label.toLowerCase()}`;
 
 export function DesktopNav() {
+  const pathname = usePathname();
   const [openLabel, setOpenLabel] = useState<string | null>(null);
   const openLink = NAV_LINKS.find((link) => link.dropdown && link.label === openLabel);
 
@@ -33,6 +35,7 @@ export function DesktopNav() {
               key={link.label}
               label={link.label}
               open={openLabel === link.label}
+              active={pathname === link.href || pathname.startsWith(`${link.href}/`)}
               panelId={panelIdFor(link.label)}
               onClick={() => setOpenLabel((v) => (v === link.label ? null : link.label))}
               onMouseEnter={() => setOpenLabel(link.label)}

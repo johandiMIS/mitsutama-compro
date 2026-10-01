@@ -3,59 +3,79 @@ export type NavMenuGroup = { title: string; items: NavMenuItem[] };
 
 export type NavLinkItem =
   | { label: string; href: string; dropdown: false }
-  | { label: string; dropdown: true; columns: number; groups: NavMenuGroup[] };
+  | {
+      label: string;
+      /** Section root, e.g. /products — its index page, and the prefix that marks the tab active. */
+      href: string;
+      dropdown: true;
+      columns: number;
+      groups: NavMenuGroup[];
+    };
 
-/** Destination pages for the mega-menu entries don't exist yet — every submenu item points at
- * "#" until routes are built. Swap this helper's href for the real path per item then. */
-const item = (label: string): NavMenuItem => ({ label, href: "#" });
+/** URL-safe slug: "AC/DC Source and Load Calibration" -> "ac-dc-source-and-load-calibration". */
+export function slugify(label: string): string {
+  return label
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/** Builds menu entries for one section, each linking to /<section>/<slug-of-label>. */
+const itemIn =
+  (section: string) =>
+  (label: string): NavMenuItem => ({ label, href: `${section}/${slugify(label)}` });
+
+const productItem = itemIn("/products");
+const serviceItem = itemIn("/services");
+const solutionItem = itemIn("/solutions");
 
 const PRODUCT_GROUPS: NavMenuGroup[] = [
   {
     title: "Chroma",
     items: [
-      item("Power Electronic Test and Equipment"),
-      item("Inverter Test and Equipment"),
-      item("Battery Test and Equipment"),
-      item("EV and EVSE Test and Equipment"),
+      productItem("Power Electronic Test and Equipment"),
+      productItem("Inverter Test and Equipment"),
+      productItem("Battery Test and Equipment"),
+      productItem("EV and EVSE Test and Equipment"),
     ],
   },
   {
     title: "IMC",
     items: [
-      item("Vehicle Dynamic Test and Equipment"),
-      item("EV Power Analyzer"),
-      item("Train NVH Monitoring and Analysis"),
-      item("Aeroplanes NVH and Analysis"),
-      item("Structure Analyzer"),
-      item("Bridge Monitoring and Analysis"),
-      item("Fuel Cell Monitoring and Analysis"),
+      productItem("Vehicle Dynamic Test and Equipment"),
+      productItem("EV Power Analyzer"),
+      productItem("Train NVH Monitoring and Analysis"),
+      productItem("Aeroplanes NVH and Analysis"),
+      productItem("Structure Analyzer"),
+      productItem("Bridge Monitoring and Analysis"),
+      productItem("Fuel Cell Monitoring and Analysis"),
     ],
   },
   {
     title: "GRAS",
     items: [
-      item("Head and Torso"),
-      item("Engine Microphone"),
-      item("Brake Microphone"),
-      item("In Cabin Microphone"),
-      item("Production Microphone"),
+      productItem("Head and Torso"),
+      productItem("Engine Microphone"),
+      productItem("Brake Microphone"),
+      productItem("In Cabin Microphone"),
+      productItem("Production Microphone"),
     ],
   },
   {
     title: "Audio Precision",
     items: [
-      item("DAC, Power Amplifier and DSP Test and Equipment"),
-      item("Audio Device Production Test and Quality Check"),
-      item("Headphone, Earbud and Smart Speaker Test"),
-      item("Automotive Entertainment Test and Equipment"),
+      productItem("DAC, Power Amplifier and DSP Test and Equipment"),
+      productItem("Audio Device Production Test and Quality Check"),
+      productItem("Headphone, Earbud and Smart Speaker Test"),
+      productItem("Automotive Entertainment Test and Equipment"),
     ],
   },
   {
     title: "Lisun Group",
     items: [
-      item("Luminaire Test and Equipment"),
-      item("Home Appliance Test and Equipment"),
-      item("Cable and Wire Test and Equipment"),
+      productItem("Luminaire Test and Equipment"),
+      productItem("Home Appliance Test and Equipment"),
+      productItem("Cable and Wire Test and Equipment"),
     ],
   },
 ];
@@ -64,28 +84,28 @@ const SERVICE_GROUPS: NavMenuGroup[] = [
   {
     title: "Testing and Certification",
     items: [
-      item("Dyno Testing"),
-      item("Brake Testing"),
-      item("PV Testing and Certification"),
-      item("Battery Testing and Certification"),
-      item("Aero Dynamic Testing and Certification"),
-      item("Bridge Testing and Certification"),
+      serviceItem("Dyno Testing"),
+      serviceItem("Brake Testing"),
+      serviceItem("PV Testing and Certification"),
+      serviceItem("Battery Testing and Certification"),
+      serviceItem("Aero Dynamic Testing and Certification"),
+      serviceItem("Bridge Testing and Certification"),
     ],
   },
   {
     title: "Calibration",
     items: [
-      item("EVSE Calibration"),
-      item("Battery Test Calibration"),
-      item("Caliper Calibration"),
-      item("Torque Wrench Calibration"),
-      item("Environmental Chamber Calibration"),
-      item("Shaker Calibration"),
-      item("Sound Level Meter Calibration"),
-      item("Microphone Calibration"),
-      item("Audio Analyzer Calibration"),
-      item("Oscilloscope Calibration"),
-      item("AC/DC Source and Load Calibration"),
+      serviceItem("EVSE Calibration"),
+      serviceItem("Battery Test Calibration"),
+      serviceItem("Caliper Calibration"),
+      serviceItem("Torque Wrench Calibration"),
+      serviceItem("Environmental Chamber Calibration"),
+      serviceItem("Shaker Calibration"),
+      serviceItem("Sound Level Meter Calibration"),
+      serviceItem("Microphone Calibration"),
+      serviceItem("Audio Analyzer Calibration"),
+      serviceItem("Oscilloscope Calibration"),
+      serviceItem("AC/DC Source and Load Calibration"),
     ],
   },
 ];
@@ -94,17 +114,17 @@ const SOLUTION_GROUPS: NavMenuGroup[] = [
   {
     title: "Standard Compliance",
     items: [
-      item("IEC 62133 Battery Standard Solution"),
-      item("IEC 62619 Battery Standard Solution"),
-      item("UN 38.3 Battery Standard Solution"),
-      item("UNR 136 Battery Standard Solution"),
-      item("UNR 100 Battery Standard Solution"),
-      item("IEC 61215 Photovoltaic (PV) Standard Solution"),
-      item("IEC 61730 Photovoltaic (PV) Standard Solution"),
-      item("IEC 60335 Home Appliance and Similar Electrical Appliance Standard Solution"),
+      solutionItem("IEC 62133 Battery Standard Solution"),
+      solutionItem("IEC 62619 Battery Standard Solution"),
+      solutionItem("UN 38.3 Battery Standard Solution"),
+      solutionItem("UNR 136 Battery Standard Solution"),
+      solutionItem("UNR 100 Battery Standard Solution"),
+      solutionItem("IEC 61215 Photovoltaic (PV) Standard Solution"),
+      solutionItem("IEC 61730 Photovoltaic (PV) Standard Solution"),
+      solutionItem("IEC 60335 Home Appliance and Similar Electrical Appliance Standard Solution"),
       // NOTE: IEC 61215 is listed twice in the supplied design — kept verbatim.
-      item("IEC 61215 Photovoltaic (PV) Standard Solution"),
-      item("IEC 60598 Luminaire Standard Solution"),
+      solutionItem("IEC 61215 Photovoltaic (PV) Standard Solution"),
+      solutionItem("IEC 60598 Luminaire Standard Solution"),
     ],
   },
 ];
@@ -114,9 +134,32 @@ export const NAV_LINKS: NavLinkItem[] = [
   { href: "/#home", label: "Home", dropdown: false },
   { href: "/about", label: "About", dropdown: false },
   // `columns` is the desktop mega-menu width, per the supplied designs.
-  { label: "Products", dropdown: true, columns: 3, groups: PRODUCT_GROUPS },
-  { label: "Services", dropdown: true, columns: 2, groups: SERVICE_GROUPS },
-  { label: "Solutions", dropdown: true, columns: 2, groups: SOLUTION_GROUPS },
+  { label: "Products", href: "/products", dropdown: true, columns: 3, groups: PRODUCT_GROUPS },
+  { label: "Services", href: "/services", dropdown: true, columns: 2, groups: SERVICE_GROUPS },
+  { label: "Solutions", href: "/solutions", dropdown: true, columns: 2, groups: SOLUTION_GROUPS },
   { href: "/#partners", label: "Partners", dropdown: false },
   { href: "/#insights", label: "Insight", dropdown: false },
 ];
+
+/** The three catalogue sections with placeholder pages under /<section>/[slug]. */
+export type CatalogSection = "products" | "services" | "solutions";
+
+/**
+ * Looks up a slug in a section's menu, for the page title and breadcrumb. Returns null for
+ * slugs not in the menu — those pages still render, titled from the slug itself.
+ */
+export function findCatalogEntry(
+  section: CatalogSection,
+  slug: string,
+): { section: NavLinkItem & { dropdown: true }; group: NavMenuGroup; item: NavMenuItem } | null {
+  const link = NAV_LINKS.find(
+    (entry): entry is NavLinkItem & { dropdown: true } =>
+      entry.dropdown && entry.href === `/${section}`,
+  );
+  if (!link) return null;
+  for (const group of link.groups) {
+    const match = group.items.find((entry) => entry.href === `/${section}/${slug}`);
+    if (match) return { section: link, group, item: match };
+  }
+  return null;
+}

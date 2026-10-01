@@ -3,6 +3,7 @@ import { ChevronDownIcon } from "@/components/icons/ChevronDownIcon";
 export function NavDropdownTrigger({
   label,
   open = false,
+  active = false,
   panelId,
   onClick,
   onMouseEnter,
@@ -10,6 +11,8 @@ export function NavDropdownTrigger({
   label: string;
   /** Desktop only: whether this trigger's mega-menu is showing. */
   open?: boolean;
+  /** The current page is inside this section (e.g. /products/...). Styled like an open menu. */
+  active?: boolean;
   panelId?: string;
   onClick?: () => void;
   onMouseEnter?: () => void;
@@ -23,7 +26,7 @@ export function NavDropdownTrigger({
       onClick={onClick}
       onMouseEnter={onMouseEnter}
       className={`flex items-center gap-1 px-2 py-[22px] transition-colors ${
-        open
+        open || active
           ? "text-brand-ink shadow-[inset_0_2px_0_0_var(--color-primary)]"
           : "text-foreground hover:text-brand-ink"
       }`}
