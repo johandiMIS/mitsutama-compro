@@ -1,0 +1,367 @@
+{
+  "section": "products",
+  "slug": "dc-electronic-load-63200",
+  "title": "High Power DC Electronic Load 63200A / 63200E Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "High power standalone DC electronic loads up to 2,000A and 24kW per unit, with master/slave paralleling control up to 240kW. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "High Power DC Electronic Load 63200A / 63200E Series",
+          "paragraphs": [
+            "High power standalone DC electronic loads up to 2,000A and 24kW per unit, with master/slave paralleling control up to 240kW. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- High power standalone load\n- Current range up to 2,000A\n- Master/Slave paralleling control up to 240kW"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "63200A Series",
+          "rows": [
+            {
+              "label": "63202A-150-200",
+              "value": "150V / 200A / 2kW · 19\" x 3U · Rise & fall 10µs"
+            },
+            {
+              "label": "63203A-150-300",
+              "value": "150V / 300A / 3kW · 19\" x 3U · Rise & fall 10µs"
+            },
+            {
+              "label": "63204A-150-400",
+              "value": "150V / 400A / 4kW · 19\" x 4U · Rise & fall 10µs"
+            },
+            {
+              "label": "63205A-150-500",
+              "value": "150V / 500A / 5kW · 19\" x 4U · Rise & fall 10µs"
+            },
+            {
+              "label": "63206A-150-600",
+              "value": "150V / 600A / 6kW · 19\" x 4U · Rise & fall 10µs"
+            },
+            {
+              "label": "63208A-150-800",
+              "value": "150V / 800A / 8kW · 19\" x 7U · Rise & fall 10µs"
+            },
+            {
+              "label": "63210A-150-1000",
+              "value": "150V / 1000A / 10kW · 19\" x 7U · Rise & fall 10µs"
+            },
+            {
+              "label": "63212A-150-1200",
+              "value": "150V / 1200A / 12kW · 19\" x 7U · Rise & fall 10µs"
+            },
+            {
+              "label": "63215A-150-1500",
+              "value": "150V / 1500A / 15kW · 19\" x 10U · Rise & fall 10µs"
+            },
+            {
+              "label": "63218A-150-1800",
+              "value": "150V / 1800A / 18kW · 19\" x 10U · Rise & fall 10µs"
+            },
+            {
+              "label": "63220A-150-2000",
+              "value": "150V / 2000A / 20kW · 19\" x 13U · Rise & fall 10µs"
+            },
+            {
+              "label": "63224A-150-2000",
+              "value": "150V / 2000A / 24kW · 19\" x 13U · Rise & fall 10µs"
+            },
+            {
+              "label": "63202A-600-140",
+              "value": "600V / 140A / 2kW · 19\" x 3U · Rise & fall 20µs"
+            },
+            {
+              "label": "63203A-600-280",
+              "value": "600V / 210A / 3kW · 19\" x 3U · Rise & fall 20µs"
+            },
+            {
+              "label": "63204A-600-280",
+              "value": "600V / 280A / 4kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63205A-600-350",
+              "value": "600V / 350A / 5kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63206A-600-420",
+              "value": "600V / 420A / 6kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63208A-600-560",
+              "value": "600V / 560A / 8kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63210A-600-700",
+              "value": "600V / 700A / 10kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63212A-600-840",
+              "value": "600V / 840A / 12kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63215A-600-1050",
+              "value": "600V / 1050A / 15kW · 19\" x 10U · Rise & fall 20µs"
+            },
+            {
+              "label": "63218A-600-1260",
+              "value": "600V / 1260A / 18kW · 19\" x 10U · Rise & fall 20µs"
+            },
+            {
+              "label": "63220A-600-1400",
+              "value": "600V / 1400A / 20kW · 19\" x 13U · Rise & fall 20µs"
+            },
+            {
+              "label": "63224A-600-1680",
+              "value": "600V / 1680A / 24kW · 19\" x 13U · Rise & fall 20µs"
+            },
+            {
+              "label": "63202A-1200-80",
+              "value": "1200V / 80A / 2kW · 19\" x 3U · Rise & fall 20µs"
+            },
+            {
+              "label": "63203A-1200-120",
+              "value": "1200V / 120A / 3kW · 19\" x 3U · Rise & fall 20µs"
+            },
+            {
+              "label": "63204A-1200-160",
+              "value": "1200V / 160A / 4kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63205A-1200-200",
+              "value": "1200V / 200A / 5kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63206A-1200-240",
+              "value": "1200V / 240A / 6kW · 19\" x 4U · Rise & fall 20µs"
+            },
+            {
+              "label": "63208A-1200-320",
+              "value": "1200V / 320A / 8kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63210A-1200-400",
+              "value": "1200V / 400A / 10kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63212A-1200-480",
+              "value": "1200V / 480A / 12kW · 19\" x 7U · Rise & fall 20µs"
+            },
+            {
+              "label": "63215A-1200-600",
+              "value": "1200V / 600A / 15kW · 19\" x 10U · Rise & fall 20µs"
+            },
+            {
+              "label": "63218A-1200-720",
+              "value": "1200V / 720A / 18kW · 19\" x 10U · Rise & fall 20µs"
+            },
+            {
+              "label": "63220A-1200-800",
+              "value": "1200V / 800A / 20kW · 19\" x 13U · Rise & fall 20µs"
+            },
+            {
+              "label": "63224A-1200-960",
+              "value": "1200V / 960A / 24kW · 19\" x 13U · Rise & fall 20µs"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "63200E Series",
+          "rows": [
+            {
+              "label": "63202E-150-200",
+              "value": "150V / 200A / 2kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63203E-150-300",
+              "value": "150V / 300A / 3kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63204E-150-400",
+              "value": "150V / 400A / 4kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63205E-150-500",
+              "value": "150V / 500A / 5kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63206E-150-600",
+              "value": "150V / 600A / 6kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63208E-150-800",
+              "value": "150V / 800A / 8kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63210E-150-1000",
+              "value": "150V / 1000A / 10kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63212E-150-1200",
+              "value": "150V / 1200A / 12kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63215E-150-1500",
+              "value": "150V / 1500A / 15kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63218E-150-1800",
+              "value": "150V / 1800A / 18kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63220E-150-2000",
+              "value": "150V / 2000A / 20kW · 19\" x 13U · Rise & fall 100µs"
+            },
+            {
+              "label": "63224E-150-2000",
+              "value": "150V / 2000A / 24kW · 19\" x 13U · Rise & fall 100µs"
+            },
+            {
+              "label": "63202E-600-140",
+              "value": "600V / 140A / 2kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63203E-600-280",
+              "value": "600V / 210A / 3kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63204E-600-280",
+              "value": "600V / 280A / 4kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63205E-600-350",
+              "value": "600V / 350A / 5kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63206E-600-420",
+              "value": "600V / 420A / 6kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63208E-600-560",
+              "value": "600V / 560A / 8kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63210E-600-700",
+              "value": "600V / 700A / 10kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63212E-600-840",
+              "value": "600V / 840A / 12kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63215E-600-1050",
+              "value": "600V / 1050A / 15kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63218E-600-1260",
+              "value": "600V / 1260A / 18kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63220E-600-1400",
+              "value": "600V / 1400A / 20kW · 19\" x 13U · Rise & fall 100µs"
+            },
+            {
+              "label": "63224E-600-1680",
+              "value": "600V / 1680A / 24kW · 19\" x 13U · Rise & fall 100µs"
+            },
+            {
+              "label": "63202E-1200-80",
+              "value": "1200V / 80A / 2kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63203E-1200-120",
+              "value": "1200V / 120A / 3kW · 19\" x 3U · Rise & fall 100µs"
+            },
+            {
+              "label": "63204E-1200-160",
+              "value": "1200V / 160A / 4kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63205E-1200-200",
+              "value": "1200V / 200A / 5kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63206E-1200-240",
+              "value": "1200V / 240A / 6kW · 19\" x 4U · Rise & fall 100µs"
+            },
+            {
+              "label": "63208E-1200-320",
+              "value": "1200V / 320A / 8kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63210E-1200-400",
+              "value": "1200V / 400A / 10kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63212E-1200-480",
+              "value": "1200V / 480A / 12kW · 19\" x 7U · Rise & fall 100µs"
+            },
+            {
+              "label": "63215E-1200-600",
+              "value": "1200V / 600A / 15kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63218E-1200-720",
+              "value": "1200V / 720A / 18kW · 19\" x 10U · Rise & fall 100µs"
+            },
+            {
+              "label": "63220E-1200-800",
+              "value": "1200V / 800A / 20kW · 19\" x 13U · Rise & fall 100µs"
+            },
+            {
+              "label": "63224E-1200-960",
+              "value": "1200V / 960A / 24kW · 19\" x 13U · Rise & fall 100µs"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Function Comparison: 63200A / 63200E",
+          "rows": [
+            {
+              "label": "Basic functions",
+              "value": "CC, CR, CP, CV, CCD: 63200A and 63200E · CRD: 63200A only"
+            },
+            {
+              "label": "Advanced functions (both)",
+              "value": "Short, Battery Discharge, Auto Sequences, CZ"
+            },
+            {
+              "label": "Advanced functions (63200A only)",
+              "value": "Sine Wave Dynamic, OCP / OPP Test, CC Sweep, CV+CC, CR+CC, CV+CR, Auto Mode, User Defined Waveform, MPPT, External Waveform"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

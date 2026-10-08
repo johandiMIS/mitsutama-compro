@@ -1,0 +1,99 @@
+{
+  "section": "products",
+  "slug": "ac-power-source-61600",
+  "title": "Basic and Cost Effective AC Power Source 61600 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Basic and cost effective programmable AC power source with high output current crest factor and master-slave parallel operation. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Basic and Cost Effective AC Power Source 61600 Series",
+          "paragraphs": [
+            "Basic and cost effective programmable AC power source with high output current crest factor and master-slave parallel operation. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- 500VA~60kVA / 0~350Vac / single or three phase settings\n- Low distortion output voltage waveform\n- Power line disturbance simulation capability\n- Harmonics and inter-harmonics synthesis functions\n- High output current crest factor, ideal for inrush current testing\n- IEC 61000-4-11, IEC 61000-4-14, IEC 61000-4-28 voltage dips and frequency variation simulations\n- Interface: GPIB / RS-232 / USB / Ethernet\n- 61612 can be connected in parallel operation up to 90kVA"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "61601",
+              "value": "500VA / 300V / DC, 15~1kHz / 1Ø · 3U"
+            },
+            {
+              "label": "61602",
+              "value": "1000VA / 300V / DC, 15~1kHz / 1Ø · 3U"
+            },
+            {
+              "label": "61603",
+              "value": "1500VA / 300V / DC, 15~1kHz / 1Ø · 3U"
+            },
+            {
+              "label": "61604",
+              "value": "2000VA / 300V / DC, 15~1kHz / 1Ø · 3U"
+            },
+            {
+              "label": "61605",
+              "value": "4000VA / 300V / DC, 15~1kHz / 1Ø · 6U"
+            },
+            {
+              "label": "61607",
+              "value": "3000VA / 350V / DC, 15~2kHz / 1Ø&3Ø · 5U"
+            },
+            {
+              "label": "61608",
+              "value": "4500VA / 350V / DC, 15~2kHz / 1Ø&3Ø · 5U"
+            },
+            {
+              "label": "61609",
+              "value": "6000VA / 350V / DC, 15~2kHz / 1Ø&3Ø · 5U"
+            },
+            {
+              "label": "61611",
+              "value": "12kVA / 300V / DC, 15~1.5kHz / 1Ø&3Ø · Cabinet / 26U"
+            },
+            {
+              "label": "61612",
+              "value": "18kVA / 300V / DC, 15~1.5kHz / 1Ø&3Ø · Cabinet / 26U"
+            },
+            {
+              "label": "61611 + A615103",
+              "value": "30kVA / 300V / DC, 15~1.5kHz / 1Ø&3Ø · Cabinet / 26U x2"
+            },
+            {
+              "label": "61612 + A615103",
+              "value": "36kVA / 300V / DC, 15~1.5kHz / 1Ø&3Ø · Cabinet / 26U x2"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

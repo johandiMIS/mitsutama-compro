@@ -1,0 +1,141 @@
+{
+  "section": "products",
+  "slug": "electrical-safety-analyzers",
+  "title": "Electrical Safety Analyzers",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma's electrical safety tester range: hipot analyzers, multi-channel hipot testers, surge testers, partial discharge testers and wound component EST scanners.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Electrical Safety Analyzers",
+          "paragraphs": [
+            "Chroma's electrical safety tester range: hipot analyzers, multi-channel hipot testers, surge testers, partial discharge testers and wound component EST scanners."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Selection Guide (AC/DC Hipot · Insulation Resistance)",
+          "rows": [
+            {
+              "label": "19020",
+              "value": "5kVac / 6kVdc · Cutoff current AC:10mA DC:5mA · Insulation 1kV / 50GΩ · 10/4 channels"
+            },
+            {
+              "label": "19032",
+              "value": "5kVac / 6kVdc · Cutoff current AC:40mA DC:12mA · Insulation 1kV / 50GΩ · Ground bond 30A / 60A (option) · Leakage current test"
+            },
+            {
+              "label": "19032-P",
+              "value": "5kVac / 6kVdc · Cutoff current AC:100mA DC:25mA · Insulation 1kV / 50GΩ · Ground bond 40A · 500VA floating output"
+            },
+            {
+              "label": "19035",
+              "value": "5kVac / 6kVdc · Cutoff current AC:30mA DC:10mA · Insulation 5kV / 50GΩ · DCR 8 ports scanner"
+            },
+            {
+              "label": "19036",
+              "value": "5kVac / 6kVdc · Cutoff current AC:100mA DC:25mA · Insulation 5kV / 50GΩ · Impulse winding test 6kV · 10 ports scanner"
+            },
+            {
+              "label": "19052",
+              "value": "5kVac / 6kVdc · Cutoff current AC:30mA DC:10mA · Insulation 1kV / 50GΩ"
+            },
+            {
+              "label": "19053",
+              "value": "5kVac / 6kVdc · Cutoff current AC:30mA DC:10mA · Insulation 1kV / 10GΩ · 8 ports scanner"
+            },
+            {
+              "label": "19054",
+              "value": "5kVac / 6kVdc · Cutoff current AC:30mA DC:10mA · Insulation 1kV / 10GΩ · 4 ports scanner"
+            },
+            {
+              "label": "19055",
+              "value": "5kVac / 6kVdc · Cutoff current AC:100mA DC:25mA · Insulation 5kV / 50GΩ · 500VA floating output, corona detection"
+            },
+            {
+              "label": "19056",
+              "value": "10kVac · AC:20mA"
+            },
+            {
+              "label": "19057",
+              "value": "12kVdc · DC:10mA · Insulation 5kV / 50GΩ"
+            },
+            {
+              "label": "19057-20",
+              "value": "20kVdc · DC:5mA · Insulation 5kV / 50GΩ"
+            },
+            {
+              "label": "19071",
+              "value": "5kVac · AC:20mA · AC only"
+            },
+            {
+              "label": "19073",
+              "value": "5kVac / 6kVdc · Cutoff current AC:20mA DC:5mA · Insulation 1kV / 50GΩ"
+            },
+            {
+              "label": "19301A",
+              "value": "Impulse winding test 1kV · 0.1µH min."
+            },
+            {
+              "label": "19311",
+              "value": "Impulse winding test 6kV · 1 port scanner"
+            },
+            {
+              "label": "19311-10",
+              "value": "Impulse winding test 6kV · 10 ports scanner"
+            },
+            {
+              "label": "19305",
+              "value": "Impulse winding test 6kV · 10µH min."
+            },
+            {
+              "label": "19305-10",
+              "value": "Impulse winding test 6kV · 10 ports scanner"
+            },
+            {
+              "label": "19501-K",
+              "value": "10kVac · AC:300µA · Partial discharge, 1pc ~ 2000pc"
+            },
+            {
+              "label": "19572",
+              "value": "Ground bond 45A"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Notes",
+          "rows": [
+            {
+              "label": "*1",
+              "value": "Leakage current test is required by standards for electrical appliances, medical equipment, IT products and video/audio appliances (IEC 60065, 60335, 60601, 60950 etc.)."
+            },
+            {
+              "label": "*2",
+              "value": "Options."
+            },
+            {
+              "label": "*3",
+              "value": "Depends on current output."
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

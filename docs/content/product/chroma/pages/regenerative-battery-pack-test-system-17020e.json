@@ -1,0 +1,71 @@
+{
+  "section": "products",
+  "slug": "regenerative-battery-pack-test-system-17020e",
+  "title": "Regenerative Battery Pack Test System 17020E",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Regenerative battery pack test system for high current, low voltage packs. More power or channel combinations are available.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Regenerative Battery Pack Test System 17020E",
+          "paragraphs": [
+            "Regenerative battery pack test system for high current, low voltage packs. More power or channel combinations are available."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- AC line regenerative function: discharge power returns to the AC line, lowering AC power consumption\n- Internal loading\n- Driving profile simulation\n- Hardware / software integration and customization\n- Interfaces: Ethernet, Digital I/O, GPIB, CANBus, USB, RS485, RS232, chamber and third party devices"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "17020E · 20kW",
+              "value": "10kW per channel · 100V * · 100A per channel · 2 channels per unit (parallelable)"
+            },
+            {
+              "label": "17020E · 40kW",
+              "value": "10kW per channel · 100V * · 100A per channel · 4 channels per unit"
+            },
+            {
+              "label": "17020E · 20kW",
+              "value": "10kW per channel · 60V * · 180A per channel · 2 channels per unit"
+            },
+            {
+              "label": "17020E · 40kW",
+              "value": "10kW per channel · 60V * · 180A per channel · 4 channels per unit"
+            },
+            {
+              "label": "17020E · 40kW",
+              "value": "20kW per channel · 60V * · 360A per channel · 2 channels per unit"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "wound-component-est-analyzer-19036",
+  "title": "Wound Component EST Analyzer 19036",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "5-in-1 composite analyzer scanner for wound components, suited to EV motor test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Wound Component EST Analyzer 19036",
+          "paragraphs": [
+            "5-in-1 composite analyzer scanner for wound components, suited to EV motor test solutions."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- 5 in 1 composite analyzer scanner (ACW / DCW / IR / IWT / DCR)\n- 5kV AC / 6kV DC Hipot test\n- 5kV insulation resistance test\n- Impulse Winding Tester (IWT)\n- 10 channels 4-wire DCR test\n- L/Q test with 3252 (option)"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

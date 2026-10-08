@@ -1,0 +1,53 @@
+{
+  "section": "products",
+  "slug": "battery-pack-simulator-17020-17040",
+  "title": "Battery Pack Simulator 17020 / 17040",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Battery pack simulator for testing on-board chargers, DC/DC converters and DC charging stations, using the regenerative 17020 / 17040 test systems with Battery Pack Simulator Soft Panel.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Pack Simulator 17020 / 17040",
+          "paragraphs": [
+            "Battery pack simulator for testing on-board chargers, DC/DC converters and DC charging stations, using the regenerative 17020 / 17040 test systems with Battery Pack Simulator Soft Panel."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Applications",
+          "rows": [
+            {
+              "label": "1.4kW OBC",
+              "value": "17020 and Battery Pack Simulator Soft Panel"
+            },
+            {
+              "label": "3.3 ~ 6.6kW OBC",
+              "value": "17020 and Battery Pack Simulator Soft Panel"
+            },
+            {
+              "label": "1.6 ~ 2.5kW D/D Converter",
+              "value": "17020 and Battery Pack Simulator Soft Panel"
+            },
+            {
+              "label": "50kW DC Charging station",
+              "value": "17040 and Battery Pack Simulator Soft Panel"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

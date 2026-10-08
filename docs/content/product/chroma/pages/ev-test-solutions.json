@@ -1,0 +1,71 @@
+{
+  "section": "products",
+  "slug": "ev-test-solutions",
+  "title": "Electric Vehicle Test Solutions",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test systems and software platform for electric vehicle components, from battery cells to EVSE, all driven by the PowerPro III software platform.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Electric Vehicle Test Solutions",
+          "paragraphs": [
+            "Automatic test systems and software platform for electric vehicle components, from battery cells to EVSE, all driven by the PowerPro III software platform."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- PowerPro III software platform: test program editing, running GO/NOGO, statistic report"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "EV Test Systems",
+          "rows": [
+            {
+              "label": "Battery cell",
+              "value": "Battery Cell Charge & Discharge Test System · Regenerative Battery Pack Test Systems"
+            },
+            {
+              "label": "Battery module / pack",
+              "value": "BMS PCBA ATS · Battery Pack ATS · Battery Module Maintenance ATS"
+            },
+            {
+              "label": "Vehicle control",
+              "value": "HCU (VMS/VCU) ATS"
+            },
+            {
+              "label": "Charging",
+              "value": "EV AC/DC Charging Compatibility ATS · Wireless Charger ATS · EVSE ATS · OBC & DC-DC Converter ATS"
+            },
+            {
+              "label": "Safety",
+              "value": "Electrical Safety Test System"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

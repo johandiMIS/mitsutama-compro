@@ -1,0 +1,59 @@
+{
+  "section": "products",
+  "slug": "dc-power-supply-62000l",
+  "title": "Programmable DC Power Supply 62000L Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Low output noise programmable DC power supply with high transient response. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Programmable DC Power Supply 62000L Series",
+          "paragraphs": [
+            "Low output noise programmable DC power supply with high transient response. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- High transient response\n- Low output noise\n- Standard interface: USB / RS232 / RS485 / APG\n- Optional interface: GPIB / Ethernet\n- Auto sequencing programming\n- LabView and LabWindows support"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "62010L-36-7",
+              "value": "36V / 7A / 108W · ½ 19\" x 2U"
+            },
+            {
+              "label": "62015L-60-6",
+              "value": "60V / 6A / 150W · ½ 19\" x 2U"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

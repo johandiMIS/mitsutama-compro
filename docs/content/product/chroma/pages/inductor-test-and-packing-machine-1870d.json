@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "inductor-test-and-packing-machine-1870d",
+  "title": "Inductor Test & Packing Machine 1870D",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Automatic test and packing machine for SMT type chip inductors.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Inductor Test & Packing Machine 1870D",
+          "paragraphs": [
+            "Automatic test and packing machine for SMT type chip inductors."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Polarity automatic rotation\n- High speed sorting / packing (1800ppm max.)\n- For SMT type application\n- Test control and data collecting"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

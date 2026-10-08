@@ -1,0 +1,87 @@
+{
+  "section": "products",
+  "slug": "dc-electronic-load-63600",
+  "title": "High Performance DC Electronic Load 63600 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "High performance modular DC electronic load with user defined waveform simulation. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "High Performance DC Electronic Load 63600 Series",
+          "paragraphs": [
+            "High performance modular DC electronic load with user defined waveform simulation. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- High performance modular load\n- User defined waveform\n- Multi channel synchronous control\n- Auto frequency sweep up to 50kHz"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "63610-80-20",
+              "value": "80V / 20A / 100W x 2CH · Rise & fall 10µs"
+            },
+            {
+              "label": "63630-80-60",
+              "value": "80V / 60A / 300W · Rise & fall 10µs"
+            },
+            {
+              "label": "63640-80-80",
+              "value": "80V / 80A / 400W · Rise & fall 10µs"
+            },
+            {
+              "label": "63640-150-60",
+              "value": "150V / 60A / 400W · Rise & fall 10µs"
+            },
+            {
+              "label": "63630-600-15",
+              "value": "600V / 15A / 300W · Rise & fall 10µs"
+            },
+            {
+              "label": "63600-1 (mainframe)",
+              "value": "1 slot"
+            },
+            {
+              "label": "63600-2 (mainframe)",
+              "value": "2 slots"
+            },
+            {
+              "label": "63600-5 (mainframe)",
+              "value": "5 slots, 10 channels"
+            },
+            {
+              "label": "63601-5 (mainframe)",
+              "value": "5 slots, 6 channels"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

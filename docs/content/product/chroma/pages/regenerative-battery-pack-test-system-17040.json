@@ -1,0 +1,79 @@
+{
+  "section": "products",
+  "slug": "regenerative-battery-pack-test-system-17040",
+  "title": "Regenerative Battery Pack Test System 17040",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "High power regenerative battery pack test system up to 300kW, 1000V. More power or channel combinations are available.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Regenerative Battery Pack Test System 17040",
+          "paragraphs": [
+            "High power regenerative battery pack test system up to 300kW, 1000V. More power or channel combinations are available."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- AC line regenerative function: discharge power returns to the AC line, lowering AC power consumption\n- Internal loading\n- Driving profile simulation\n- Hardware / software integration and customization\n- Interfaces: Ethernet, Digital I/O, GPIB, CANBus, USB, RS485, RS232, chamber and third party devices"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "17040 · 60kW",
+              "value": "60kW per channel · 1000V · 150A · 1 channel per unit (parallelable)"
+            },
+            {
+              "label": "17040 · 120kW",
+              "value": "60kW per channel · 1000V · 150A · 2 channels per unit"
+            },
+            {
+              "label": "17040 · 120kW",
+              "value": "120kW per channel · 1000V · 300A · 1 channel per unit"
+            },
+            {
+              "label": "17040 · 250kW",
+              "value": "125kW per channel · 1000V · 300A · 2 channels per unit"
+            },
+            {
+              "label": "17040 · 180kW",
+              "value": "180kW per channel · 1000V · 450A · 1 channel per unit"
+            },
+            {
+              "label": "17040 · 250kW",
+              "value": "250kW per channel · 1000V · 600A · 1 channel per unit"
+            },
+            {
+              "label": "17040 · 300kW",
+              "value": "300kW per channel · 1000V · 750A · 1 channel per unit"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

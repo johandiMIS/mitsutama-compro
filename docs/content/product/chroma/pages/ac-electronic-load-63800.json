@@ -1,0 +1,75 @@
+{
+  "section": "products",
+  "slug": "ac-electronic-load-63800",
+  "title": "AC Electronic Load 63800 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Programmable AC electronic loads from 1800W to 4500W for AC loading of UPS, AC sources and power distribution equipment.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "AC Electronic Load 63800 Series",
+          "paragraphs": [
+            "Programmable AC electronic loads from 1800W to 4500W for AC loading of UPS, AC sources and power distribution equipment."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Constant & rectified load modes for AC loading\n- Parallel / 3-phase functions (AC mode only)\n- Timing measurement for battery, UPS, fuse and breaker tests\n- Analog voltage & current monitor"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Model",
+              "value": "63802 / 63803 / 63804"
+            },
+            {
+              "label": "Power",
+              "value": "63802: 1800W · 63803: 3600W · 63804: 4500W"
+            },
+            {
+              "label": "Current",
+              "value": "63802: 0 ~ 18Arms (54 Apeak, continue) · 63803: 0 ~ 36Arms (108 Apeak, continue) · 63804: 0 ~ 45Arms (135 Apeak, continue)"
+            },
+            {
+              "label": "Voltage",
+              "value": "50 ~ 350Vrms (500 Vpeak)"
+            },
+            {
+              "label": "Frequency",
+              "value": "45 ~ 440Hz, DC"
+            },
+            {
+              "label": "Dimension",
+              "value": "63802: 4U(H) · 63803 / 63804: 7U(H)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

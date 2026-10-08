@@ -1,0 +1,135 @@
+{
+  "section": "products",
+  "slug": "regenerative-battery-cell-test-system-17011",
+  "title": "Regenerative Battery Cell Charge & Discharge Test System 17011",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Regenerative charge & discharge test system for battery cells and modules, supporting formation, room-temperature aging and high-temperature aging. Energy is recycled back to the AC line through direct regeneration.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Regenerative Battery Cell Charge & Discharge Test System 17011",
+          "paragraphs": [
+            "Regenerative charge & discharge test system for battery cells and modules, supporting formation, room-temperature aging and high-temperature aging. Energy is recycled back to the AC line through direct regeneration."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Regenerative (bi-direction) AC line circuit, direct energy recycling\n- Available for data logger\n- Compatible with battery cell, module and pack test instruments: OCV & ACR test, barcode binding and grouping equipment, 16 CH battery simulator, thermal data logger"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Modules",
+          "rows": [
+            {
+              "label": "17212R-5-60",
+              "value": "5V / 60A · Parallelable 6A ~ 720A · Energy recycling · 12ch./set (fixed)"
+            },
+            {
+              "label": "17212R-5-100",
+              "value": "5V / 100A · Parallelable 100A ~ 1200A · Energy recycling · 12ch./set (fixed)"
+            },
+            {
+              "label": "17212M-6-100",
+              "value": "6V / 100A · Parallelable 100A ~ 1200A · Energy recycling · 12ch./set (fixed)"
+            },
+            {
+              "label": "17216M-10-6",
+              "value": "10V / 6A · Parallelable 6A ~ 96A · 16ch./set (fixed)"
+            },
+            {
+              "label": "17208M-6-30",
+              "value": "6V / 30A · Parallelable 30A ~ 240A · 8ch./set (fixed)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "System channels: 6A / 30A",
+          "rows": [
+            {
+              "label": "25U (1100 x 600 x 1340 mm)",
+              "value": "6A: 32 CH · 30A: 16 CH"
+            },
+            {
+              "label": "36U (1100 x 600 x 1830 mm)",
+              "value": "6A: 64 CH · 30A: 32 CH"
+            },
+            {
+              "label": "41U (1100 x 600 x 2060 mm)",
+              "value": "30A: 40 CH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "System channels: 60A / 100A",
+          "rows": [
+            {
+              "label": "25U (1100 x 600 x 1340 mm)",
+              "value": "60A: 12 CH · 100A: 12 CH"
+            },
+            {
+              "label": "36U (1100 x 600 x 1830 mm)",
+              "value": "60A: 48 CH · 100A: 36 CH"
+            },
+            {
+              "label": "41U (1100 x 600 x 2060 mm)",
+              "value": "60A: 48 CH · 100A: 36 CH"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Power requirement",
+          "rows": [
+            {
+              "label": "6A (1Φ220V / 3Φ380V)",
+              "value": "16 CH: 3 kVA · 24 CH: 5 kVA · 48 CH: 8 kVA · 64 CH: 10 kVA"
+            },
+            {
+              "label": "30A (1Φ220V / 3Φ380V)",
+              "value": "8 CH: 4.5 kVA · 16 CH: 9 kVA · 24 CH: 13 kVA · 32 CH: 17 kVA · 40 CH: 22 kVA"
+            },
+            {
+              "label": "60A (3Φ220V / 3Φ380V)",
+              "value": "12 CH: 9 kVA · 24 CH: 18 kVA · 36 CH: 26 kVA · 48 CH: 35 kVA"
+            },
+            {
+              "label": "100A (3Φ220V / 3Φ380V)",
+              "value": "12 CH: 15 kVA · 24 CH: 29 kVA · 36 CH: 43 kVA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

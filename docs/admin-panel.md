@@ -69,7 +69,10 @@ readable. Grant that with a **bucket policy**, not an ACL:
     "Effect": "Allow",
     "Principal": "*",
     "Action": "s3:GetObject",
-    "Resource": "arn:aws:s3:::YOUR-BUCKET/hero/*"
+    "Resource": [
+      "arn:aws:s3:::YOUR-BUCKET/hero/*",
+      "arn:aws:s3:::YOUR-BUCKET/media/*"
+    ]
   }]
 }
 ```
@@ -101,7 +104,7 @@ error, even though the presign call succeeded.
 ### 5. IAM
 
 The API's credentials need `s3:PutObject`, `s3:GetObject`, `s3:DeleteObject` on
-`arn:aws:s3:::YOUR-BUCKET/hero/*`. `GetObject` is needed for the magic-byte check, not
+`arn:aws:s3:::YOUR-BUCKET/hero/*` **and** `…/media/*` (page images). `GetObject` is needed for the magic-byte check, not
 just for reads. On a deployed host prefer an instance role and leave
 `AWS_ACCESS_KEY_ID`/`AWS_SECRET_ACCESS_KEY` unset — the SDK falls back to its own
 credential chain.
@@ -205,3 +208,26 @@ which fetches `GET /hero-images` and passes the result to `HeroCarousel`.
 
 Also absent by design, since the brief was add/remove only: reordering, alt-text editing,
 and replacing an image in place. The schema carries `sortOrder` and `alt` ready for them.
+
+## Pages, menu groups and the page editor
+
+Added with the content builder (`docs/content-builder-plan.md`). All behind the same admin
+session cookie.
+
+| Screen | Route | What it does |
+|---|---|---|
+| Pages | `/admin/pages` | Tree per section (group → page → child pages). Create, reorder (up/down), show/hide in menu, add child, delete. |
+| Page editor | `/admin/pages/:id` | Puck editor on the **draft**; Save draft, Publish (saves what is on screen first), Unpublish, Page settings (title, slug, placement, menu label, SEO). |
+| Import | `/admin/pages/import` | Paste or load AI-written JSON; saved as a draft with exact error paths. "Copy prompt and schema for AI" builds the prompt from the live schema. |
+| Menu groups | `/admin/navigation` | Create, rename, reorder and delete the menu columns. A group with pages can't be deleted. |
+
+API: `/admin/pages*`, `/admin/nav-groups*`, and `/admin/media` (presign + commit).
+
+Content images are **WebP only**, uploaded browser-direct to S3 under `media/` (same bucket
+policy and CORS rule as hero images — the `media/*` prefix needs the same public-read
+bucket-policy statement and IAM access as `hero/*` — see sections 3 and 5 above). The editor converts JPG/PNG to WebP in the browser first. A page may
+only reference URLs under `<public base>/media/`; the API rejects any other image host.
+
+Notes: a live page's slug is locked (unpublish to change it); the editor is not run in an
+iframe so the site's own styles apply to the preview; Puck's own header is hidden in favour of
+the page's header bar.

@@ -1,0 +1,127 @@
+{
+  "section": "products",
+  "slug": "dc-power-supply-62000h",
+  "title": "High Power Density DC Power Supply 62000H Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "High power density programmable DC power supply: 15kW in 3U. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "High Power Density DC Power Supply 62000H Series",
+          "paragraphs": [
+            "High power density programmable DC power supply: 15kW in 3U. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- High power density 15kW in 3U\n- Master/slave parallel operation: the 62000H can be connected in parallel or serial operation up to 10 units\n- High slew rate control 40V/ms\n- Solar array simulation function\n- Standard interface: USB / RS232 / RS485 / APG\n- Optional interface: GPIB / Ethernet\n- Auto sequencing programming\n- LabView and LabWindows support"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "62075H-30",
+              "value": "30V / 250A / 7500W · 19\" x 3U"
+            },
+            {
+              "label": "62050H-40",
+              "value": "40V / 125A / 5000W · 19\" x 3U"
+            },
+            {
+              "label": "62050H-450",
+              "value": "450V / 11.5A / 5000W · 19\" x 3U"
+            },
+            {
+              "label": "62050H-600",
+              "value": "600V / 8.5A / 5000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-30",
+              "value": "30V / 375A / 11250W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-40",
+              "value": "40V / 250A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-100P",
+              "value": "100V / 250A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-450",
+              "value": "450V / 23A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-600",
+              "value": "600V / 17A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-1000",
+              "value": "1000V / 10A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-40",
+              "value": "40V / 375A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-100P",
+              "value": "100V / 375A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-450",
+              "value": "450V / 34A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-600",
+              "value": "600V / 25A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-1000",
+              "value": "1000V / 15A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62180H-1800P *",
+              "value": "1800V / 30A / 18000W · 19\" x 3U"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Note",
+          "rows": [
+            {
+              "label": "*",
+              "value": "Call for availability."
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "section": "products",
+  "slug": "digital-power-meter-66200",
+  "title": "Digital Power Meter 66200 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Digital power meters with 1 to 4 channels. Meets ENERGY STAR / IEC 62301 / ErP ecodesign / SPEC POWER measurement requirements.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Digital Power Meter 66200 Series",
+          "paragraphs": [
+            "Digital power meters with 1 to 4 channels. Meets ENERGY STAR / IEC 62301 / ErP ecodesign / SPEC POWER measurement requirements."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Supports several wiring configurations: 1P2W / 1P3W / 3P3W / 3P4W / 3V3A (66203 / 66204)\n- Smart Range function provides seamless power measurement with power integration under auto range mode (66205)\n- CT function (DCCT): A662019 DCCT power adapter, A662017 / A662018 ultra high precision DCCT\n- Software for automotive test standards: GS 95024-2-1, LV123, ISO 16750-2, VW 80000 (voltage transient tests)"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Model",
+              "value": "66203 / 66204 / 66205"
+            },
+            {
+              "label": "Channels",
+              "value": "66203: 3 · 66204: 4 · 66205: 1"
+            },
+            {
+              "label": "Max. voltage range",
+              "value": "600 / 1200Vrms (option)"
+            },
+            {
+              "label": "Max. current range",
+              "value": "20Arms / 30Arms"
+            },
+            {
+              "label": "Frequency",
+              "value": "10 ~ 10kHz"
+            },
+            {
+              "label": "AC/DC measurement mode",
+              "value": "DC, AC+DC"
+            },
+            {
+              "label": "Harmonics measurement",
+              "value": "Up to 100 orders"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

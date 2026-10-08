@@ -1,0 +1,53 @@
+{
+  "section": "products",
+  "slug": "pv-inverter-pcs-test-solutions",
+  "title": "PV Inverter / PCS Test Solutions",
+  "parent": "inverter-test-and-equipment",
+  "seoDescription": "Complete test solutions for PV inverters and PCS covering stand alone (off grid) and grid connected type testing, built from Chroma's solar array simulators, regenerative grid simulators, AC electronic loads and digital power meters.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "PV Inverter / PCS Test Solutions",
+          "paragraphs": [
+            "Complete test solutions for PV inverters and PCS covering stand alone (off grid) and grid connected type testing, built from Chroma's solar array simulators, regenerative grid simulators, AC electronic loads and digital power meters."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Solution Components",
+          "rows": [
+            {
+              "label": "DC input",
+              "value": "Solar Array Simulator 62000H Series · Battery Pack Simulator 17020 / 17040"
+            },
+            {
+              "label": "AC output / grid",
+              "value": "Regenerative Grid Simulator 61800 Series · AC Electronic Load 63800 Series"
+            },
+            {
+              "label": "Measurement",
+              "value": "Digital Power Meter 66200 Series"
+            },
+            {
+              "label": "Automatic test systems",
+              "value": "PV Inverter ATS 8000 · Micro Inverter ATS 8000"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

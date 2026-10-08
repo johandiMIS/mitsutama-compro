@@ -4,6 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { AdminAuthModule } from './modules/admin-auth/admin-auth.module';
 import { HeroImagesModule } from './modules/hero-images/hero-images.module';
+import { MediaModule } from './modules/media/media.module';
+import { PagesModule } from './modules/pages/pages.module';
 import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
@@ -14,6 +16,8 @@ import { PrismaModule } from './prisma/prisma.module';
     PrismaModule,
     AdminAuthModule,
     HeroImagesModule,
+    PagesModule,
+    MediaModule,
   ],
   controllers: [AppController],
   providers: [AppService],

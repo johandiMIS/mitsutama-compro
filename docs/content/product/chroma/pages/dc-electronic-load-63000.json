@@ -1,0 +1,59 @@
+{
+  "section": "products",
+  "slug": "dc-electronic-load-63000",
+  "title": "Programmable DC Electronic Load 63000 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Bench top programmable DC electronic load. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Programmable DC Electronic Load 63000 Series",
+          "paragraphs": [
+            "Bench top programmable DC electronic load. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Bench top load\n- OCP testing\n- Battery test"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "63003-150-40",
+              "value": "150V / 40A / 250W · ½ 19\"(W) x 2U(H) · Rise & fall 20µs"
+            },
+            {
+              "label": "63004-150-60",
+              "value": "150V / 60A / 350W · ½ 19\"(W) x 2U(H) · Rise & fall 20µs"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

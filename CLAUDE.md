@@ -15,8 +15,12 @@ Turborepo monorepo growing into the structure in `docs/architecture.md`.
   must stay a single file: a relative re-export like `export * from './foo'` compiles and builds
   fine, then throws `ERR_MODULE_NOT_FOUND` under `node dist/main`. The file's header comment
   explains what to do instead. `packages/utils` is still an empty stub.
-- Feature-based `apps/web/src/features/*` still doesn't exist — consult the doc before
-  introducing it.
+- `apps/web/src/features/pages/` is the first feature folder (content-page blocks, Puck config,
+  catalog route). `/products|services|solutions/[slug]` render published pages from the API
+  (`apps/api/src/modules/pages`), and the header menu comes from `GET /nav`. Authoring is by
+  JSON import only so far (`POST /admin/pages/import`); the editor UI is Phase 2 — see
+  `docs/content-builder-plan.md` (§11a). After pulling, run `prisma migrate dev` then
+  `pnpm --filter @compro/api seed:nav`, and set `REVALIDATE_SECRET` in both apps.
 
 **Note:** on this machine, Windows Code Integrity (WDAC) blocks `turbo.exe` outright because it's
 unsigned (`Get-AuthenticodeSignature` → `NotSigned`; CodeIntegrity event log shows Event ID 3033,

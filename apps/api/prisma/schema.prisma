@@ -42,3 +42,55 @@ model HeroImage {
 
   @@index([sortOrder])
 }
+
+/// A menu column on the site header/footer: "Chroma", "Calibration", "Standard Compliance".
+/// The menu is derived from published pages grouped by this — there is no second list.
+model NavGroup {
+  id        String @id @default(cuid())
+  /// products | services | solutions
+  section   String
+  title     String
+  sortOrder Int    @default(0)
+  pages     Page[]
+
+  @@unique([section, title])
+}
+
+/// One page under /<section>/<slug>, authored in the admin (or imported as JSON).
+/// Top-level pages carry a `groupId` and appear in the menu; child pages (a product under
+/// a category) carry a `parentId` and are reachable by link only.
+model Page {
+  id       String    @id @default(cuid())
+  /// products | services | solutions
+  section  String
+  slug     String
+  title    String
+  /// Menu text when shorter than the title.
+  navLabel String?
+  groupId  String?
+  group    NavGroup? @relation(fields: [groupId], references: [id])
+  parentId String?
+  parent   Page?     @relation("PageTree", fields: [parentId], references: [id])
+  children Page[]    @relation("PageTree")
+
+  sortOrder Int     @default(0)
+  showInNav Boolean @default(true)
+  /// draft | published
+  status    String  @default("draft")
+
+  /// Puck documents: `{ root, content: [{ type, props }] }`. Editing touches only
+  /// `draftData`; Publish copies it to `publishedData`, which is all the site reads.
+  draftData     Json?
+  publishedData Json?
+
+  seoTitle       String?
+  seoDescription String?
+  publishedAt    DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  @@unique([section, slug])
+  @@index([section, status])
+  @@index([parentId])
+  @@index([groupId])
+}

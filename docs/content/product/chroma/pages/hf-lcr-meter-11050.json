@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "hf-lcr-meter-11050",
+  "title": "HF LCR Meter 11050 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "High frequency LCR meter for chip inductor and passive component testing.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "HF LCR Meter 11050 Series",
+          "paragraphs": [
+            "High frequency LCR meter for chip inductor and passive component testing."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Test frequency: 75kHz ~ 30MHz (11050-30M), 1kHz ~ 10MHz (11050), 60Hz ~ 5MHz (11050-5M)\n- Test level: 10mV ~ 5V\n- Basic accuracy: 0.1%\n- Dual frequency mode"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

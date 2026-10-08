@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 
-/** Hero config is the only section so far, so /admin lands straight on it. */
+/** /admin lands on the page tree, the most-used screen. */
 export default function AdminIndexPage() {
-  redirect("/admin/hero");
+  redirect("/admin/pages");
 }

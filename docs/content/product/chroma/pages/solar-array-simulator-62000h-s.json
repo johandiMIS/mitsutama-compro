@@ -1,0 +1,95 @@
+{
+  "section": "products",
+  "slug": "solar-array-simulator-62000h-s",
+  "title": "Solar Array Simulator 62000H-S Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Solar array simulator for PV inverter testing with static & dynamic MPPT efficiency tests and shadowed I-V curve output simulation. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Solar Array Simulator 62000H-S Series",
+          "paragraphs": [
+            "Solar array simulator for PV inverter testing with static & dynamic MPPT efficiency tests and shadowed I-V curve output simulation. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Solar array simulation: EN50530, Sandia & CGC/GF004 standards\n- Static & dynamic MPPT efficiency test\n- Shadowed I-V curve output simulation\n- Power factor correction (0.95)\n- The 62000H-S can be connected in parallel operation up to 1.5MW (call for availability)\n- Standard interface: USB / RS232 / RS485 / APG\n- Optional interface: GPIB / Ethernet\n- Auto sequencing programming\n- LabView and LabWindows support"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "62020H-150S",
+              "value": "150V / 40A / 2000W · 19\" x 2U"
+            },
+            {
+              "label": "62050H-600S",
+              "value": "600V / 8.5A / 5000W · 19\" x 3U"
+            },
+            {
+              "label": "62100H-600S",
+              "value": "600V / 17A / 10000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-600S",
+              "value": "600V / 25A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62150H-1000S",
+              "value": "1000V / 15A / 15000W · 19\" x 3U"
+            },
+            {
+              "label": "62180H-1800S *",
+              "value": "1800V / 30A / 18000W · 19\" x 3U"
+            },
+            {
+              "label": "A620027",
+              "value": "600V / 25A / 15000W (parallelable power stage) · 19\" x 3U"
+            },
+            {
+              "label": "A620028",
+              "value": "1000V / 15A / 15000W (parallelable power stage) · 19\" x 3U"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Note",
+          "rows": [
+            {
+              "label": "*",
+              "value": "Call for availability."
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

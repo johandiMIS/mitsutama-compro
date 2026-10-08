@@ -1,0 +1,107 @@
+{
+  "section": "products",
+  "slug": "dc-electronic-load-6310a",
+  "title": "Cost Effective Modular DC Electronic Load 6310A Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Cost effective modular DC electronic load with a unique LED mode for LED power driver tests. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Cost Effective Modular DC Electronic Load 6310A Series",
+          "paragraphs": [
+            "Cost effective modular DC electronic load with a unique LED mode for LED power driver tests. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Cost effective modular load\n- Unique LED mode for LED power driver tests\n- LED Load Simulator (63110A / 63113A / 63115A): simulates different numbers of LEDs\n- Constant Impedance Mode (CZ Mode)"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "63101A",
+              "value": "80V / 40A / 200W · Rise & fall 10µs"
+            },
+            {
+              "label": "63102A",
+              "value": "80V / 20A / 100W x 2CH · Rise & fall 10µs"
+            },
+            {
+              "label": "63103A",
+              "value": "80V / 60A / 300W · Rise & fall 10µs"
+            },
+            {
+              "label": "63105A",
+              "value": "500V / 10A / 300W · Rise & fall 24µs"
+            },
+            {
+              "label": "63107A",
+              "value": "80V / 5A & 40A / 30W & 250W · Rise & fall 10µs"
+            },
+            {
+              "label": "63123A",
+              "value": "120V / 70A / 350W · Rise & fall 25µs"
+            },
+            {
+              "label": "63106A",
+              "value": "80V / 120A / 600W · Rise & fall 10µs"
+            },
+            {
+              "label": "63108A",
+              "value": "500V / 20A / 600W · Rise & fall 24µs"
+            },
+            {
+              "label": "63112A",
+              "value": "80V / 240A / 1200W · Rise & fall 10µs"
+            },
+            {
+              "label": "63110A",
+              "value": "500V / 2A / 100W x 2CH"
+            },
+            {
+              "label": "63113A",
+              "value": "300V / 20A / 300W · Rise & fall 25µs"
+            },
+            {
+              "label": "63115A",
+              "value": "600V / 20A / 300W · Rise & fall 25µs"
+            },
+            {
+              "label": "6312A (mainframe)",
+              "value": "2 slots · ½ 19\"(W) / 4U(H)"
+            },
+            {
+              "label": "6314A (mainframe)",
+              "value": "4 slots · 19\"(W) x 4U(H)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

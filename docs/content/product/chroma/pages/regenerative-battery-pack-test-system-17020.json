@@ -1,0 +1,83 @@
+{
+  "section": "products",
+  "slug": "regenerative-battery-pack-test-system-17020",
+  "title": "Regenerative Battery Pack Test System 17020",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Regenerative battery pack test system. More power or channel combinations are available.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Regenerative Battery Pack Test System 17020",
+          "paragraphs": [
+            "Regenerative battery pack test system. More power or channel combinations are available."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- AC line regenerative function: discharge power returns to the AC line, lowering AC power consumption\n- Internal loading\n- Driving profile simulation\n- Hardware / software integration and customization\n- Interfaces: Ethernet, Digital I/O, GPIB, CANBus, USB, RS485, RS232, chamber and third party devices"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "17020 · 600W",
+              "value": "Max. 60V / 13A per channel · 8~56 channels per unit (parallelable)"
+            },
+            {
+              "label": "17020 · 1.25kW",
+              "value": "20V / 60V · 65A / 62.5A per channel · 4~40 channels per unit"
+            },
+            {
+              "label": "17020 · 2.5kW",
+              "value": "20V / 60V / 100V / 200V / 500V * · 130A / 125A / 62.5A / 50A / 30A / 13A · 4~20 channels per unit"
+            },
+            {
+              "label": "17020 · 5kW",
+              "value": "2.5kW per channel · 20V ~ 500V * · 260A / 250A / 125A / 100A / 60A / 26A · 2~10 channels per unit"
+            },
+            {
+              "label": "17020 · 10kW",
+              "value": "2.5kW per channel · 20V ~ 500V * · 520A / 500A / 250A / 200A / 120A / 52A · 1~5 channels per unit"
+            },
+            {
+              "label": "17020 · 20kW",
+              "value": "2.5kW per channel · 20V ~ 500V * · 1040A / 1000A / 500A / 400A / 240A / 104A · 1~3 channels per unit"
+            },
+            {
+              "label": "17020 · 50kW",
+              "value": "2.5kW per channel · 20V ~ 500V * · 2600A / 2500A / 1250A / 1000A / 600A / 260A · 1 channel per unit"
+            },
+            {
+              "label": "17020 · 60kW",
+              "value": "2.5kW per channel · 60V / 100V / 200V / 500V · 1500A / 1200A / 720A / 312A · 1 channel per unit"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

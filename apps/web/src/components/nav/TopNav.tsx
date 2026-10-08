@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { SectionContainer } from "@/components/SectionContainer";
+import type { NavLinkItem } from "./nav-links";
 import { DesktopNav } from "./DesktopNav";
 import { MobileNav } from "./MobileNav";
 import { NavActions } from "./NavActions";
 
-export function TopNav() {
+export function TopNav({ links }: { links: NavLinkItem[] }) {
   return (
     <header className="sticky top-0 z-50 w-full bg-background/80 shadow-[0_14px_28px_0_#00000014,0_-6px_12px_0_#00000008,0_2px_8px_0_#0000000F] backdrop-blur-[40px] dark:border-b dark:border-white/[.145] dark:shadow-none">
       <SectionContainer className="flex h-[64px] items-center justify-between">
@@ -34,13 +35,13 @@ export function TopNav() {
               priority
             />
           </Link>
-          <DesktopNav />
+          <DesktopNav links={links} />
         </div>
         <div className="flex items-center gap-2">
           <div className="hidden lg:flex">
             <NavActions />
           </div>
-          <MobileNav />
+          <MobileNav links={links} />
         </div>
       </SectionContainer>
     </header>

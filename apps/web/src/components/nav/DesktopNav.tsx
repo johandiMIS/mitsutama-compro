@@ -3,17 +3,17 @@
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { SectionContainer } from "@/components/SectionContainer";
-import { NAV_LINKS } from "./nav-links";
+import type { NavLinkItem } from "./nav-links";
 import { NavDropdownTrigger } from "./NavDropdownTrigger";
 import { NavLink } from "./NavLink";
 import { NavMegaMenu } from "./NavMegaMenu";
 
 const panelIdFor = (label: string) => `nav-menu-${label.toLowerCase()}`;
 
-export function DesktopNav() {
+export function DesktopNav({ links }: { links: NavLinkItem[] }) {
   const pathname = usePathname();
   const [openLabel, setOpenLabel] = useState<string | null>(null);
-  const openLink = NAV_LINKS.find((link) => link.dropdown && link.label === openLabel);
+  const openLink = links.find((link) => link.dropdown && link.label === openLabel);
 
   useEffect(() => {
     if (!openLabel) return;
@@ -29,7 +29,7 @@ export function DesktopNav() {
     // not fire mouseleave — only leaving the nav and the menu together closes it.
     <div className="hidden lg:block" onMouseLeave={() => setOpenLabel(null)}>
       <nav aria-label="Main" className="flex items-center gap-8 text-sm">
-        {NAV_LINKS.map((link) =>
+        {links.map((link) =>
           link.dropdown ? (
             <NavDropdownTrigger
               key={link.label}

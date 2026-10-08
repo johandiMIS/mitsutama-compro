@@ -1,0 +1,63 @@
+{
+  "section": "products",
+  "slug": "ac-power-source-61800",
+  "title": "Regenerative Grid Simulator 61800 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Fully regenerative grid simulator, applicable for 4 quadrants with voltage and current. Suited to biofuel, solar and wind power, generators, energy storage systems, EVSE and grid line testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Regenerative Grid Simulator 61800 Series",
+          "paragraphs": [
+            "Fully regenerative grid simulator, applicable for 4 quadrants with voltage and current. Suited to biofuel, solar and wind power, generators, energy storage systems, EVSE and grid line testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- 500VA~60kVA / 0~350Vac / single or three phase settings\n- Low distortion output voltage waveform\n- Power line disturbance simulation capability\n- Harmonics and inter-harmonics synthesis functions\n- High output current crest factor, ideal for inrush current testing\n- IEC 61000-4-11, IEC 61000-4-14, IEC 61000-4-28 voltage dips and frequency variation simulations\n- Interface: GPIB / RS-232 / USB / Ethernet\n- Regenerative AC load (option)\n- Supports parallel functions up to 300kVA (61860)"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "61830",
+              "value": "30kVA / 300V / DC, 30~100Hz / 1Ø & 3Ø · Cabinet / 39U"
+            },
+            {
+              "label": "61845",
+              "value": "45kVA / 300V / DC, 30~100Hz / 1Ø & 3Ø · Cabinet / 39U"
+            },
+            {
+              "label": "61860",
+              "value": "60kVA / 300V / DC, 30~100Hz / 1Ø & 3Ø · Cabinet / 39U"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "section": "products",
+  "slug": "bms-test-system-8710",
+  "title": "BMS Test System 8710 & Battery Cell Simulator 87001",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "BMS automatic test systems for E-scooter (32 cells) and EV (96 cells) battery management systems, with the 87001 16CH battery cell simulator.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "BMS Test System 8710 & Battery Cell Simulator 87001",
+          "paragraphs": [
+            "BMS automatic test systems for E-scooter (32 cells) and EV (96 cells) battery management systems, with the 87001 16CH battery cell simulator."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "BMS Functions Covered",
+          "rows": [
+            {
+              "label": "Cell voltage monitor and balance circuit",
+              "value": "87001 and 8710"
+            },
+            {
+              "label": "High voltage measurement",
+              "value": "8710"
+            },
+            {
+              "label": "Current measurement",
+              "value": "8710"
+            },
+            {
+              "label": "Temperature measurement",
+              "value": "8710"
+            },
+            {
+              "label": "Insulation resistor detection",
+              "value": "8710"
+            },
+            {
+              "label": "CANbus communication (UDS)",
+              "value": "8710"
+            },
+            {
+              "label": "AC/DC charger signal",
+              "value": "8710"
+            },
+            {
+              "label": "Starter battery",
+              "value": "8710"
+            },
+            {
+              "label": "HSD / LSD circuit",
+              "value": "8710"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

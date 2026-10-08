@@ -5,12 +5,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { CloseIcon } from "../icons/CloseIcon";
 import { MenuIcon } from "../icons/MenuIcon";
-import { NAV_LINKS } from "./nav-links";
+import type { NavLinkItem } from "./nav-links";
 import { NAV_ICON_BUTTON, NavContactButton, NavIconActions } from "./NavActions";
 import { NavLink } from "./NavLink";
 import { ChevronDownIcon } from "@/components/icons/ChevronDownIcon";
 
-export function MobileNav() {
+export function MobileNav({ links }: { links: NavLinkItem[] }) {
   const [open, setOpen] = useState(false);
   /** Accordion, not multi-open: only one of Products/Services/Solutions is expanded at a time. */
   const [openSection, setOpenSection] = useState<string | null>(null);
@@ -68,7 +68,7 @@ export function MobileNav() {
           aria-label="Main"
           className="fixed inset-x-0 top-16 z-40 flex max-h-[calc(100vh-4rem)] flex-col overflow-y-auto border-t-2 border-primary bg-background px-6 pb-8 pt-4 text-sm"
         >
-          {NAV_LINKS.map((link) => {
+          {links.map((link) => {
             if (!link.dropdown) {
               return (
                 <div key={link.href} className="py-3">

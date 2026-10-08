@@ -1,0 +1,169 @@
+{
+  "section": "products",
+  "slug": "lcr-meters-and-passive-component-testers",
+  "title": "LCR Meters & Passive Component Testers",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "LCR meters, automatic transformer test systems, electrolytic capacitor testers, programmable HF AC testers and insulation testers for passive component testing.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "LCR Meters & Passive Component Testers",
+          "paragraphs": [
+            "LCR meters, automatic transformer test systems, electrolytic capacitor testers, programmable HF AC testers and insulation testers for passive component testing."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "LCR Meter Selection Guide",
+          "rows": [
+            {
+              "label": "11020",
+              "value": "100Hz, 120Hz, 1kHz · 0.1pF ~ 4.00 F"
+            },
+            {
+              "label": "11021",
+              "value": "100Hz, 120Hz, 1kHz, 10kHz · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11021-L",
+              "value": "1kHz, 10kHz, 40kHz, 50kHz · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11022",
+              "value": "50/60/100/120/1k/10k/20k/40k/50k/100k Hz · 0.01mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11025",
+              "value": "50/60/100/120/1k/10k/20k/40k/50k/100k Hz/DC · 0.01mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11050-30M",
+              "value": "75kHz ~ 30MHz/DC · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11050",
+              "value": "1kHz ~ 10MHz/DC · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11050-5M",
+              "value": "60Hz ~ 5MHz/DC · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3252",
+              "value": "20Hz ~ 200kHz/DC · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3302",
+              "value": "20Hz ~ 1MHz/DC · 0.1mΩ ~ 100MΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Auto Transformer Test System Selection Guide",
+          "rows": [
+            {
+              "label": "13350 + A133502",
+              "value": "20Hz ~ 200kHz · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "13350-1M + A133502",
+              "value": "20Hz ~ 1MHz · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3250 + A132501",
+              "value": "20Hz ~ 200kHz · 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3302 + A132501",
+              "value": "20Hz ~ 1MHz · 0.1mΩ ~ 100MΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Electrolytic Capacitor Tester Selection Guide",
+          "rows": [
+            {
+              "label": "11800",
+              "value": "Ripple current tester · 100Hz/120Hz/400Hz/1kHz, 0~30A, DC bias 0.5V~500V"
+            },
+            {
+              "label": "11801",
+              "value": "Ripple current tester · 20k~100kHz, 0~10A, DC bias 0.5~500V"
+            },
+            {
+              "label": "11810",
+              "value": "Ripple current tester · 20k~1000kHz, 0~10A, DC bias 0.5~500V"
+            },
+            {
+              "label": "13100",
+              "value": "Electrolytic capacitor analyzer · AC 100Hz/120Hz/1kHz/10kHz/20kHz/50kHz/100kHz, 1V/0.25V"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Programmable HF AC Tester Selection Guide",
+          "rows": [
+            {
+              "label": "11802",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            },
+            {
+              "label": "11805",
+              "value": "10kHz ~ 200kHz, step 1kHz · 1kVA"
+            },
+            {
+              "label": "11803",
+              "value": "20kHz ~ 1MHz, step 1kHz · 750VA"
+            },
+            {
+              "label": "11890",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            },
+            {
+              "label": "11891",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Insulation Tester Selection Guide",
+          "rows": [
+            {
+              "label": "11200",
+              "value": "LC, IR · 1.0~650V/800V, CC 0.5~500mA"
+            },
+            {
+              "label": "11210",
+              "value": "LC, IR, partial discharge (option), flashover detection (option) · 1.0~1000V, CC 0.5~50mA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

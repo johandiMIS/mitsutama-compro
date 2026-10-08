@@ -17,7 +17,7 @@ export default function AdminLoginPage() {
     setError(null);
     try {
       await adminApi.session.login(password);
-      router.replace("/admin/hero");
+      router.replace("/admin/pages");
       router.refresh();
     } catch (err) {
       setError(

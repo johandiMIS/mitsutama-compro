@@ -3,6 +3,7 @@ import { Geist_Mono, Lato } from "next/font/google";
 import { Footer } from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
 import { MinScreenNotice } from "@/components/MinScreenNotice";
+import { getNavLinks } from "@/lib/nav";
 import { TopNav } from "@/components/nav/TopNav";
 import "./globals.css";
 
@@ -32,20 +33,24 @@ export const viewport: Viewport = {
   ],
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const navLinks = await getNavLinks();
   return (
     <html
       lang="en"
       className={`${lato.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      {/* Browser extensions (ColorZilla's `cz-shortcut-listen`, Grammarly, etc.) inject attributes
+          onto <body> before React hydrates. suppressHydrationWarning silences that mismatch on
+          this element only; it does not hide mismatches in children. */}
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <MinScreenNotice />
         <Header />
-        <TopNav />
+        <TopNav links={navLinks} />
         {children}
         <Footer />
       </body>

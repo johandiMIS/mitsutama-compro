@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "corona-hipot-tester-19055-c",
+  "title": "Corona Hi-Pot Tester 19055-C",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Hi-pot tester with corona discharge detection (CDD), suited to EV motor test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Corona Hi-Pot Tester 19055-C",
+          "paragraphs": [
+            "Hi-pot tester with corona discharge detection (CDD), suited to EV motor test solutions."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Hi-Pot: AC 5kV/100mA (4kV/120mA), DC 6kV/25mA\n- Insulation: 5kVmax; 1MΩ ~ 50GΩ\n- 500VA output rating\n- Floating output complies with EN50191\n- Corona Discharge Detection (CDD)"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

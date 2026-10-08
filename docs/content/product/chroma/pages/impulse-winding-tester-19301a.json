@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "impulse-winding-tester-19301a",
+  "title": "Impulse Winding Tester 19301A",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Impulse winding tester for EV motor and chip inductor test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Impulse Winding Tester 19301A",
+          "paragraphs": [
+            "Impulse winding tester for EV motor and chip inductor test solutions."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- 10V ~ 1000V impulse voltage test\n- 0.25V test resolution\n- High impulse test sampling rate (200MHz), 10bits\n- 20mS high speed test (P1.0)\n- Inductance contact check function\n- Inductance differential voltage compensation function"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

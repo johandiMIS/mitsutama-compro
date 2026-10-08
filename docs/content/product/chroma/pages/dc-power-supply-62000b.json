@@ -1,0 +1,79 @@
+{
+  "section": "products",
+  "slug": "dc-power-supply-62000b",
+  "title": "Modular DC Power Supply 62000B Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Modular programmable DC power supply with hot-swappable modules and N+1 redundancy. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Modular DC Power Supply 62000B Series",
+          "paragraphs": [
+            "Modular programmable DC power supply with hot-swappable modules and N+1 redundancy. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Hot-swappable & N+1 redundancy\n- Master/slave parallel operation: the mainframe can be connected in parallel operation up to 8 units\n- Standard interface: USB / RS232 / RS485 / APG\n- Optional interface: GPIB / Ethernet\n- Auto sequencing programming\n- LabView and LabWindows support"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "62015B-15-90",
+              "value": "15V / 90A / 1350W"
+            },
+            {
+              "label": "62015B-30-50",
+              "value": "30V / 50A / 1500W"
+            },
+            {
+              "label": "62015B-60-25",
+              "value": "60V / 25A / 1500W"
+            },
+            {
+              "label": "62015B-80-18",
+              "value": "80V / 18A / 1440W"
+            },
+            {
+              "label": "62015B-150-10",
+              "value": "150V / 10A / 1500W"
+            },
+            {
+              "label": "62000B-6-1 (mainframe)",
+              "value": "6 slots / 19\"(W) x 4U(H)"
+            },
+            {
+              "label": "62000B-3-1 (mainframe)",
+              "value": "3 slots / ½ 19\"(W) x 4U(H)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

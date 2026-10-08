@@ -1,0 +1,137 @@
+{
+  "section": "products",
+  "slug": "automatic-test-systems",
+  "title": "Automatic Test Systems",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test systems (ATS) for power supplies, LED drivers, inverters, passive components and medical electrical safety.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Automatic Test Systems",
+          "paragraphs": [
+            "Chroma automatic test systems (ATS) for power supplies, LED drivers, inverters, passive components and medical electrical safety."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "ATS Models",
+          "rows": [
+            {
+              "label": "8000",
+              "value": "SMPS ATS · PV Inverter ATS · DC-DC Converter ATS · Adapter/Charger · Battery Charger · Switching Mode Rectifier · EV power electronics"
+            },
+            {
+              "label": "8010",
+              "value": "PC Power Supply ATS · Switching Power Supply (multi-output) · DC Power"
+            },
+            {
+              "label": "8020",
+              "value": "Adapter / Charger ATS · Switching Power Supply (multi-output) · Battery Charger"
+            },
+            {
+              "label": "8200",
+              "value": "Switching Power Supply (multi-output) · Adapter · LED Power Driver"
+            },
+            {
+              "label": "8491",
+              "value": "LED Driver ATS · LED Power Driver"
+            },
+            {
+              "label": "11300",
+              "value": "Bias Current Test System · Inductor (saturation current test)"
+            },
+            {
+              "label": "1810",
+              "value": "Magnetic Component Test System · Inductor (AC+DC, temperature-rising test)"
+            },
+            {
+              "label": "1820",
+              "value": "Capacitor Test System · Capacitor (AC+DC, load life test)"
+            },
+            {
+              "label": "1911",
+              "value": "High Capacitance Electrolytic Capacitor ATS"
+            },
+            {
+              "label": "8800",
+              "value": "Component ATS · Passive component"
+            },
+            {
+              "label": "8801",
+              "value": "Electrical Double Layer Capacitor ATS · EDLC (capacitance, DCIR, ESR test)"
+            },
+            {
+              "label": "8802",
+              "value": "EDLC LC Monitoring System · EDLC (leakage current test)"
+            },
+            {
+              "label": "8910",
+              "value": "Medical Electrical Safety ATS · Medical equipment (safety test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software Functions (8000 Series Platform)",
+          "rows": [
+            {
+              "label": "Open system architecture",
+              "value": "8000 and 8491"
+            },
+            {
+              "label": "Optional instrument extendible",
+              "value": "8000 and 8491"
+            },
+            {
+              "label": "User permission setting",
+              "value": "All models"
+            },
+            {
+              "label": "Network management",
+              "value": "8000, 8010, 8020, 8491"
+            },
+            {
+              "label": "Shop floor control software",
+              "value": "All models"
+            },
+            {
+              "label": "Test report editing / printing",
+              "value": "All models"
+            },
+            {
+              "label": "Test program editing / saving",
+              "value": "All models"
+            },
+            {
+              "label": "GO/NO GO test",
+              "value": "All models"
+            },
+            {
+              "label": "Statistical analysis control",
+              "value": "All models"
+            },
+            {
+              "label": "Test item editing, debug run, on-line control, report wizard",
+              "value": "8000 and 8491"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

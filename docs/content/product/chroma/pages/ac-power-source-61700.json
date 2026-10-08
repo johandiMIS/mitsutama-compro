@@ -1,0 +1,71 @@
+{
+  "section": "products",
+  "slug": "ac-power-source-61700",
+  "title": "Advanced AC Power Source 61700 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Advanced programmable AC power source with power line disturbance simulation and MIL-STD-704F aerospace testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Advanced AC Power Source 61700 Series",
+          "paragraphs": [
+            "Advanced programmable AC power source with power line disturbance simulation and MIL-STD-704F aerospace testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- 500VA~60kVA / 0~350Vac / single or three phase settings\n- Low distortion output voltage waveform\n- Power line disturbance simulation capability\n- Harmonics and inter-harmonics synthesis functions\n- High output current crest factor, ideal for inrush current testing\n- IEC 61000-4-11, IEC 61000-4-14, IEC 61000-4-28 voltage dips and frequency variation simulations\n- Interface: GPIB / RS-232 / USB / Ethernet\n- Harmonics, interharmonics waveform synthesizer for IEC 61000-4-13 testing"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Models",
+          "rows": [
+            {
+              "label": "61701",
+              "value": "1500VA / 300V / DC, 15~1.2kHz / 3Ø · Cabinet / 9U"
+            },
+            {
+              "label": "61702",
+              "value": "3000VA / 300V / DC, 15~1.2kHz / 3Ø · Cabinet / 9U"
+            },
+            {
+              "label": "61703",
+              "value": "4500VA / 300V / DC, 15~1.2kHz / 3Ø · Cabinet / 9U"
+            },
+            {
+              "label": "61704",
+              "value": "6000VA / 300V / DC, 15~1.2kHz / 3Ø · Cabinet / 9U"
+            },
+            {
+              "label": "61705",
+              "value": "12000VA / 300V / DC, 15~1.2kHz / 3Ø · Cabinet / 20U"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

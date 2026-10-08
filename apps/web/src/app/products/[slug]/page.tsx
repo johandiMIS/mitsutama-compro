@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import {
-  CatalogDetailPage,
-  catalogDetailMetadata,
-  catalogStaticParams,
-} from "@/components/CatalogPage";
+  CatalogRoute,
+  catalogRouteMetadata,
+  catalogRouteStaticParams,
+} from "@/features/pages/catalog-route";
 
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return catalogStaticParams("products");
+  return catalogRouteStaticParams("products");
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  return catalogDetailMetadata("products", slug);
+  return catalogRouteMetadata("products", slug);
 }
 
 export default async function Page({ params }: Props) {
   const { slug } = await params;
-  return <CatalogDetailPage section="products" slug={slug} />;
+  return <CatalogRoute section="products" slug={slug} />;
 }

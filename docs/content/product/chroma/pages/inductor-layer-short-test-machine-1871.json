@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "inductor-layer-short-test-machine-1871",
+  "title": "Inductor Layer Short Automatic Test Machine 1871",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Automatic layer short test machine for SMT type chip inductors.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Inductor Layer Short Automatic Test Machine 1871",
+          "paragraphs": [
+            "Automatic layer short test machine for SMT type chip inductors."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Special probe design for layer short test\n- High speed sorting (1200 ppm max.)\n- For SMT type application\n- Test control and data collecting"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

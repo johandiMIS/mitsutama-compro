@@ -1,11 +1,7 @@
 import type { Metadata } from "next";
 import { ContactCta } from "@/components/ContactCta";
 import { PageHero, type Breadcrumb } from "@/components/PageHero";
-import {
-  findCatalogEntry,
-  NAV_LINKS,
-  type CatalogSection,
-} from "@/components/nav/nav-links";
+import { findCatalogEntry, type CatalogSection } from "@/components/nav/nav-links";
 
 const SECTION_LABELS: Record<CatalogSection, string> = {
   products: "Products",
@@ -54,7 +50,7 @@ export function CatalogIndexPage({ section }: { section: CatalogSection }) {
   );
 }
 
-/** /<section>/<slug> — placeholder detail page, for menu entries and any other slug or id. */
+/** /<section>/<slug> — placeholder body, used by the page route only while the API is unreachable. */
 export function CatalogDetailPage({ section, slug }: { section: CatalogSection; slug: string }) {
   return <CatalogShell {...resolveDetail(section, slug)} />;
 }
@@ -66,15 +62,4 @@ export function catalogIndexMetadata(section: CatalogSection): Metadata {
 export function catalogDetailMetadata(section: CatalogSection, slug: string): Metadata {
   const { title } = resolveDetail(section, slug);
   return { title: `${title} | ${SECTION_LABELS[section]} | Mitsutama Indo Teknik` };
-}
-
-/** Pre-renders every menu entry at build time; other slugs render on first request. */
-export function catalogStaticParams(section: CatalogSection): { slug: string }[] {
-  const link = NAV_LINKS.find((entry) => entry.dropdown && entry.href === `/${section}`);
-  if (!link?.dropdown) return [];
-  const slugs = link.groups.flatMap((group) =>
-    group.items.map((item) => item.href.slice(`/${section}/`.length)),
-  );
-  // The supplied Solutions menu lists one standard twice.
-  return [...new Set(slugs)].map((slug) => ({ slug }));
 }

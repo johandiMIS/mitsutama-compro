@@ -1,0 +1,43 @@
+{
+  "section": "products",
+  "slug": "milliohm-meter-16502",
+  "title": "Milliohm Meter 16502",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Milliohm meter with a wide measurement range and a pulsed test mode.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Milliohm Meter 16502",
+          "paragraphs": [
+            "Milliohm meter with a wide measurement range and a pulsed test mode."
+          ],
+          "imageSide": "right"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Basic accuracy: 0.05%\n- Wide measurement range: 0.001mΩ ~ 1.9999MΩ\n- Pulsed test mode (thermal EMF reduction)"
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

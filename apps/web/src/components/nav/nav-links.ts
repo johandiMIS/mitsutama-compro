@@ -1,3 +1,5 @@
+import type { NavTreeDto } from "@compro/types";
+
 export type NavMenuItem = { label: string; href: string };
 export type NavMenuGroup = { title: string; items: NavMenuItem[] };
 
@@ -129,6 +131,7 @@ const SOLUTION_GROUPS: NavMenuGroup[] = [
   },
 ];
 
+/** Offline fallback and source of the static entries; the live menu comes from the API. */
 export const NAV_LINKS: NavLinkItem[] = [
   // Root-relative so the anchors still resolve from sub-pages such as /about.
   { href: "/#home", label: "Home", dropdown: false },
@@ -162,4 +165,19 @@ export function findCatalogEntry(
     if (match) return { section: link, group, item: match };
   }
   return null;
+}
+
+/**
+ * The header menu: the static links, with each dropdown's groups replaced by the pages the
+ * API says are published. A section the API has nothing for keeps its bundled groups, so an
+ * unreachable or unseeded API never leaves an empty mega-menu.
+ */
+export function buildNavLinks(tree: NavTreeDto | null): NavLinkItem[] {
+  if (!tree) return NAV_LINKS;
+  return NAV_LINKS.map((link) => {
+    if (!link.dropdown) return link;
+    const section = link.href.slice(1) as CatalogSection;
+    const groups = tree[section];
+    return groups && groups.length > 0 ? { ...link, groups } : link;
+  });
 }
