@@ -32,3 +32,6 @@ apps/api/generated/
 
 # claude
 .claude/settings.local.json
+
+# database backups (pnpm db:backup)
+/backup-*.sql

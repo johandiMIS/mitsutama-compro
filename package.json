@@ -6,6 +6,7 @@
     "dev": "pnpm --filter \"./apps/*\" --parallel run dev",
     "lint": "turbo run lint",
     "test": "turbo run test",
+    "db:backup": "node scripts/backup-db.mjs",
     "build:wsl": "wsl bash scripts/wsl-turbo.sh build",
     "lint:wsl": "wsl bash scripts/wsl-turbo.sh lint",
     "test:wsl": "wsl bash scripts/wsl-turbo.sh test"
