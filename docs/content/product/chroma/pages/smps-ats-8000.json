@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "smps-ats-8000",
+  "title": "SMPS ATS 8000",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8000) for switching power supply (multi-output).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "SMPS ATS 8000",
+          "paragraphs": [
+            "Chroma automatic test system (8000) for switching power supply (multi-output)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/eade9d78-4352-46f3-bd74-a4541e494bf0.webp",
+            "alt": "SMPS ATS 8000"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Switching power supply (multi-output)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

@@ -1,0 +1,62 @@
+{
+  "section": "products",
+  "slug": "multi-channel-hipot-tester-19020",
+  "title": "Multi-Channel Hipot Tester 19020 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Multi-channel hipot tester for AC / DC withstand voltage and insulation resistance tests, available with 10 or 4 channels.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Multi-Channel Hipot Tester 19020 Series",
+          "paragraphs": [
+            "Multi-channel hipot tester for AC / DC withstand voltage and insulation resistance tests, available with 10 or 4 channels."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f6744513-236b-4a89-8a5a-7e9cc31cfdb0.webp",
+            "alt": "Multi-Channel Hipot Tester 19020 Series"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "AC / DC output",
+              "value": "5kVac · 6kVdc"
+            },
+            {
+              "label": "Cutoff current",
+              "value": "AC: 10mA · DC: 5mA"
+            },
+            {
+              "label": "Flashover detection",
+              "value": "AC: 20mA · DC: 10mA"
+            },
+            {
+              "label": "Insulation resistance",
+              "value": "1kV output · range up to 50GΩ"
+            },
+            {
+              "label": "Channels",
+              "value": "10 / 4 channels"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

@@ -17,7 +17,11 @@
           "paragraphs": [
             "High frequency LCR meter for chip inductor and passive component testing."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0177113b-ff18-41c1-b2e9-bb8f670d74b8.webp",
+            "alt": "HF LCR Meter 11050 Series"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "LCR Meter and Component Test"
 }

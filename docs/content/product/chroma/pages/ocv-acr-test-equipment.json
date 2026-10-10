@@ -1,0 +1,34 @@
+{
+  "section": "products",
+  "slug": "ocv-acr-test-equipment",
+  "title": "OCV & ACR Test Equipment",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Open circuit voltage (OCV) and AC resistance (ACR) test equipment for battery cells. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "OCV & ACR Test Equipment",
+          "paragraphs": [
+            "Open circuit voltage (OCV) and AC resistance (ACR) test equipment for battery cells. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9aa4c204-38b8-4458-994a-f951f175163a.webp",
+            "alt": "OCV & ACR Test Equipment"
+          }
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery Cell Line Equipment"
+}

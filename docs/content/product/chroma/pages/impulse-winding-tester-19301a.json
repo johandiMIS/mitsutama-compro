@@ -17,7 +17,11 @@
           "paragraphs": [
             "Impulse winding tester for EV motor and chip inductor test solutions."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b43560d5-0b95-41c4-a21a-666f90692361.webp",
+            "alt": "Impulse Winding Tester 19301A"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Electrical Safety Test"
 }

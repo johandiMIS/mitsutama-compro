@@ -17,7 +17,11 @@
           "paragraphs": [
             "Automatic layer short test machine for SMT type chip inductors."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/70379454-5cc7-4c77-908f-cb35feaa15d7.webp",
+            "alt": "Inductor Layer Short Automatic Test Machine 1871"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Inductor Test Machine"
 }

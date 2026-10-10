@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "lcr-meter-11025",
+  "title": "LCR Meter 11025",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "LCR meter with a wide set of test frequencies and DC measurement, covering 0.01mΩ to 100MΩ.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "LCR Meter 11025",
+          "paragraphs": [
+            "LCR meter with a wide set of test frequencies and DC measurement, covering 0.01mΩ to 100MΩ."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f922d3c0-6038-4fc2-a1ae-48d44d38a7ce.webp",
+            "alt": "LCR Meter 11025"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Frequency",
+              "value": "50 / 60 / 100 / 120 / 1k / 10k / 20k / 40k / 50k / 100k Hz / DC"
+            },
+            {
+              "label": "Impedance range",
+              "value": "0.01mΩ ~ 100MΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "LCR Meter and Component Test"
+}

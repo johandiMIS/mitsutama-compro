@@ -1,0 +1,48 @@
+{
+  "section": "products",
+  "slug": "inverter-test-and-equipment",
+  "title": "Inverter Test and Equipment",
+  "seoDescription": "Complete test solutions for PV inverters and PCS from Chroma: solar array simulators, regenerative grid simulators, AC electronic loads and automatic test systems.",
+  "landing": true,
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Inverter Test and Equipment",
+          "paragraphs": [
+            "Chroma provides complete test solutions for PV inverters and PCS (power conversion systems), covering both stand alone (off grid) and grid connected type testing.",
+            "The solutions combine Chroma's solar array simulators, regenerative grid simulators, AC electronic loads, battery pack simulators and digital power meters, with automatic test systems for PV inverters and micro inverters."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/35da1f51-4132-468e-99bd-9746c1f54e3b.webp",
+            "alt": "Inverter Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Inverter Test and Equipment",
+          "intro": "",
+          "categories": [
+            {
+              "name": "PV Inverter / PCS Test",
+              "products": []
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

@@ -17,7 +17,11 @@
           "paragraphs": [
             "Basic and cost effective programmable AC power source with high output current crest factor and master-slave parallel operation. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5dacaa6f-1fb6-45ac-8a33-c840f4589da8.webp",
+            "alt": "Basic and Cost Effective AC Power Source 61600 Series"
+          }
         }
       },
       {
@@ -95,5 +99,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "AC Power Source"
 }

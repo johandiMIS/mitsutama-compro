@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "evse-ats",
+  "title": "EVSE ATS",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test system for electric vehicle supply equipment (EVSE), part of Chroma's electric vehicle test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "EVSE ATS",
+          "paragraphs": [
+            "Automatic test system for electric vehicle supply equipment (EVSE), part of Chroma's electric vehicle test solutions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/84354f23-b87a-43de-981f-007563d0d9e5.webp",
+            "alt": "EVSE ATS"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Charging Test"
+}

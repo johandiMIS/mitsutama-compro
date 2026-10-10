@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "capacitor-leakage-current-ir-tester-11200",
+  "title": "Capacitor Leakage Current / IR Tester 11200",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Insulation tester for capacitor leakage current and insulation resistance.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Capacitor Leakage Current / IR Tester 11200",
+          "paragraphs": [
+            "Insulation tester for capacitor leakage current and insulation resistance."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7cc9834b-3dab-4d06-b0b3-83edea2611d0.webp",
+            "alt": "Capacitor Leakage Current / IR Tester 11200"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Primary function",
+              "value": "LC, IR"
+            },
+            {
+              "label": "Test signal",
+              "value": "1.0 ~ 650V / 800V · CC 0.5 ~ 500mA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Insulation Tester"
+}

@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "component-ats-8800",
+  "title": "Component ATS 8800",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8800) for passive component.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Component ATS 8800",
+          "paragraphs": [
+            "Chroma automatic test system (8800) for passive component."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6d213dbd-e33e-404d-aca7-56064fbd672e.webp",
+            "alt": "Component ATS 8800"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Passive component"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

@@ -17,7 +17,11 @@
           "paragraphs": [
             "Complete test solutions for PV inverters and PCS covering stand alone (off grid) and grid connected type testing, built from Chroma's solar array simulators, regenerative grid simulators, AC electronic loads and digital power meters."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9c45fbe6-eb09-47c8-898f-81b2c3b4f9a5.webp",
+            "alt": "PV Inverter / PCS Test Solutions"
+          }
         }
       },
       {
@@ -49,5 +53,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "PV Inverter / PCS Test"
 }

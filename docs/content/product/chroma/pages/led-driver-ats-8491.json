@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "led-driver-ats-8491",
+  "title": "LED Driver ATS 8491",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8491) for led power driver.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "LED Driver ATS 8491",
+          "paragraphs": [
+            "Chroma automatic test system (8491) for led power driver."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3daca869-71d0-44f8-9fae-e51627d94eb6.webp",
+            "alt": "LED Driver ATS 8491"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "LED power driver"
+            },
+            {
+              "label": "Functions",
+              "value": "Open system architecture · optional instrument extendible · test item editing · debug run · on-line control · report wizard · user permission setting · network management · Shop Floor Control software · statistical analysis control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

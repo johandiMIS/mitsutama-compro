@@ -48,6 +48,7 @@ export function SettingsForm({
   const [placement, setPlacement] = React.useState(
     page.groupId ? `group:${page.groupId}` : page.parentId ? `parent:${page.parentId}` : "",
   );
+  const [productGroup, setProductGroup] = React.useState(page.productGroup ?? "");
   const [busy, setBusy] = React.useState(false);
 
   const live = page.status === "published";
@@ -57,6 +58,31 @@ export function SettingsForm({
     (other) => other.section === page.section && other.id !== page.id && !blocked.has(other.id),
   );
   const inMenu = placement.startsWith("group:");
+  const parentId = placement.startsWith("parent:") ? placement.slice("parent:".length) : null;
+
+  // Groups already in use: the parent's category tabs plus what its other children use.
+  const [parentGroups, setParentGroups] = React.useState<string[]>([]);
+  React.useEffect(() => {
+    if (!parentId) return;
+    let cancelled = false;
+    adminApi.pages
+      .get(parentId)
+      .then((parent) => {
+        if (cancelled) return;
+        const names = new Set<string>();
+        for (const block of parent.draftData?.content ?? []) {
+          if (block.type === "CategorizedProducts") {
+            for (const category of block.props.categories) if (category.name.trim()) names.add(category.name);
+          }
+        }
+        for (const other of pages) if (other.parentId === parentId && other.productGroup) names.add(other.productGroup);
+        setParentGroups([...names]);
+      })
+      .catch(() => !cancelled && setParentGroups([]));
+    return () => {
+      cancelled = true;
+    };
+  }, [parentId, pages]);
 
   async function submit(event: React.FormEvent) {
     event.preventDefault();
@@ -74,6 +100,8 @@ export function SettingsForm({
         // Empty string clears; the API enforces "group or parent, not both".
         groupId: kind === "group" ? targetId : "",
         parentId: kind === "parent" ? targetId : "",
+        // Only meaningful under a parent page; empty string clears it.
+        productGroup: kind === "parent" ? productGroup.trim() : "",
       });
       onSaved(saved);
     } catch (err) {
@@ -128,6 +156,29 @@ export function SettingsForm({
             </optgroup>
           </select>
         </label>
+
+        {parentId && (
+          <label className="flex flex-col gap-1.5 text-sm">
+            <span className="font-semibold">Product group (tab on the parent page)</span>
+            <input
+              value={productGroup}
+              onChange={(e) => setProductGroup(e.target.value)}
+              list="product-groups"
+              maxLength={120}
+              placeholder="e.g. AC Power Source"
+              className={FIELD}
+            />
+            <datalist id="product-groups">
+              {parentGroups.map((name) => (
+                <option key={name} value={name} />
+              ))}
+            </datalist>
+            <span className="text-xs text-muted-ink">
+              Once published, this page is listed as a card under this group on its parent page. A new
+              name creates a new group. Leave empty for “Other products”.
+            </span>
+          </label>
+        )}
 
         <div className="flex flex-col gap-2 text-sm">
           <label className="flex items-center gap-2">

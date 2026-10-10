@@ -17,7 +17,11 @@
           "paragraphs": [
             "Milliohm meter with a wide measurement range and a pulsed test mode."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c1f7568f-28f3-47b4-abb3-73781d824923.webp",
+            "alt": "Milliohm Meter 16502"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "LCR Meter and Component Test"
 }

@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "obc-dc-dc-converter-ats",
+  "title": "OBC & DC-DC Converter ATS",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test system for on-board chargers (OBC) and DC-DC converters, part of Chroma's electric vehicle test solutions. Battery pack simulators 17020 / 17040 cover 1.4kW and 3.3 ~ 6.6kW OBC and 1.6 ~ 2.5kW DC-DC converter applications.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "OBC & DC-DC Converter ATS",
+          "paragraphs": [
+            "Automatic test system for on-board chargers (OBC) and DC-DC converters, part of Chroma's electric vehicle test solutions. Battery pack simulators 17020 / 17040 cover 1.4kW and 3.3 ~ 6.6kW OBC and 1.6 ~ 2.5kW DC-DC converter applications."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/85582383-b305-4f86-9547-0ec55064ab75.webp",
+            "alt": "OBC & DC-DC Converter ATS"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Vehicle Electronics Test"
+}

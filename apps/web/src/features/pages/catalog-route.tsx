@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { Render, type Config } from "@puckeditor/core";
-import type { NavTreeDto } from "@compro/types";
+import type { NavTreeDto, PublicPageDto } from "@compro/types";
 import { CatalogDetailPage, catalogDetailMetadata } from "@/components/CatalogPage";
 import { ContactCta } from "@/components/ContactCta";
 import { buildNavLinks, findCatalogEntry, type CatalogSection } from "@/components/nav/nav-links";
@@ -17,24 +17,50 @@ const SECTION_LABELS: Record<CatalogSection, string> = {
 };
 
 /**
+ * This route already ends every page with the contact call to action, so a "Contact call to
+ * action" block inside the content would show it twice. The block stays available in the editor
+ * for pages rendered elsewhere; here it is dropped.
+ */
+function withoutContactCta(data: PublicPageDto["data"]): PublicPageDto["data"] {
+  return { ...data, content: data.content.filter((block) => block.type !== "ContactCta") };
+}
+
+/**
  * /<section>/<slug>. Renders the published page from the API.
  *
  * - API says 404  -> a real 404 (the page does not exist or is unpublished).
  * - API is down   -> the bundled placeholder for slugs in the static menu, so the site keeps
  *                    working (and `next build` succeeds) without the API; other slugs 404.
  */
-export async function CatalogRoute({ section, slug }: { section: CatalogSection; slug: string }) {
+export async function CatalogRoute({
+  section,
+  slug,
+  parent,
+}: {
+  section: CatalogSection;
+  slug: string;
+  /** Slug of the parent page when reached as /<section>/<parent>/<slug>. */
+  parent?: string;
+}) {
   const result = await getPublishedPage(section, slug);
 
   if (result.status === "ok") {
     const page = result.data;
+    // The page's own parent, read from its breadcrumb trail: the crumb before the last one,
+    // unless that is Home / the section index / a menu group (which has no link).
+    const before = page.breadcrumbs.at(-2)?.href;
+    const actualParent =
+      before && before !== "/" && before !== `/${section}` ? before.split("/").pop() : undefined;
+    // A child lives only under its parent: /<section>/<parent>/<slug>.
+    if (actualParent && !parent) redirect(`/${section}/${actualParent}/${slug}`);
+    if (parent && parent !== actualParent) notFound();
     return (
       <div className="flex flex-1 flex-col items-center bg-background">
         <PageHero title={page.title} breadcrumbs={page.breadcrumbs} />
         <div className="w-full">
           {/* The config is typed per block; Render takes the untyped shape, and the data was
               validated against the same schemas by the API. */}
-          <Render config={pageConfig as unknown as Config} data={page.data} />
+          <Render config={pageConfig as unknown as Config} data={withoutContactCta(page.data)} />
         </div>
         <ContactCta />
       </div>

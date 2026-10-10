@@ -17,7 +17,11 @@
           "paragraphs": [
             "5-in-1 composite analyzer scanner for wound components, suited to EV motor test solutions."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ed04373e-82ca-46fc-9cee-40f87b8da07c.webp",
+            "alt": "Wound Component EST Analyzer 19036"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Electrical Safety Test"
 }

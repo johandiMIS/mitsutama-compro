@@ -17,7 +17,11 @@
           "paragraphs": [
             "Regenerative charge & discharge test system for battery cells and modules, supporting formation, room-temperature aging and high-temperature aging. Energy is recycled back to the AC line through direct regeneration."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4406c33e-928a-4b01-a612-684314b06401.webp",
+            "alt": "Regenerative Battery Cell Charge & Discharge Test System 17011"
+          }
         }
       },
       {
@@ -109,7 +113,7 @@
           "rows": [
             {
               "label": "6A (1Φ220V / 3Φ380V)",
-              "value": "16 CH: 3 kVA · 24 CH: 5 kVA · 48 CH: 8 kVA · 64 CH: 10 kVA"
+              "value": "16 CH: 3 kVA · 32 CH: 5 kVA · 48 CH: 8 kVA · 64 CH: 10 kVA"
             },
             {
               "label": "30A (1Φ220V / 3Φ380V)",
@@ -127,9 +131,26 @@
         }
       },
       {
+        "type": "SpecTable",
+        "props": {
+          "title": "Regeneration",
+          "rows": [
+            {
+              "label": "AC line regeneration",
+              "value": "Bi-direction circuit through the Chroma A691104 AC/DC module"
+            },
+            {
+              "label": "Direct regeneration",
+              "value": "Supported, as shown in the 17011 system diagram"
+            }
+          ]
+        }
+      },
+      {
         "type": "ContactCta",
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Battery Cell Test"
 }

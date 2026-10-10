@@ -17,7 +17,11 @@
           "paragraphs": [
             "Regenerative battery pack test system. More power or channel combinations are available."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2ccd4e8f-526d-4513-8bd1-505ecaff4986.webp",
+            "alt": "Regenerative Battery Pack Test System 17020"
+          }
         }
       },
       {
@@ -79,5 +83,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Battery Pack Test"
 }

@@ -17,7 +17,11 @@
           "paragraphs": [
             "High performance programmable AC power source with power line disturbance simulation and RTCA DO-160G aerospace testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/cda18e0e-6332-4f1b-94c6-20db0bba4b10.webp",
+            "alt": "High Performance AC Power Source 61500 Series"
+          }
         }
       },
       {
@@ -95,5 +99,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "AC Power Source"
 }

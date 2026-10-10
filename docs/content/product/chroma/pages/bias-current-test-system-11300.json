@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "bias-current-test-system-11300",
+  "title": "Bias Current Test System 11300",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (11300) for inductor (saturation current test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Bias Current Test System 11300",
+          "paragraphs": [
+            "Chroma automatic test system (11300) for inductor (saturation current test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/af1553eb-4b3f-466c-b6d4-b356948909a6.webp",
+            "alt": "Bias Current Test System 11300"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Inductor (saturation current test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

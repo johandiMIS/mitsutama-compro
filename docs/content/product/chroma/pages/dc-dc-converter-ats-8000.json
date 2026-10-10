@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "dc-dc-converter-ats-8000",
+  "title": "DC-DC Converter ATS 8000",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8000) for dc to dc converter.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "DC-DC Converter ATS 8000",
+          "paragraphs": [
+            "Chroma automatic test system (8000) for dc to dc converter."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1799c353-aef0-4820-beb9-e5a23e6c7ea8.webp",
+            "alt": "DC-DC Converter ATS 8000"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "DC to DC converter"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

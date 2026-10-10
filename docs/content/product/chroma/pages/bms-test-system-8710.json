@@ -17,7 +17,11 @@
           "paragraphs": [
             "BMS automatic test systems for E-scooter (32 cells) and EV (96 cells) battery management systems, with the 87001 16CH battery cell simulator."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4afb0fa2-5e51-42ab-9ea9-dbaa096cafcb.webp",
+            "alt": "BMS Test System 8710 & Battery Cell Simulator 87001"
+          }
         }
       },
       {
@@ -69,5 +73,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "BMS Test"
 }

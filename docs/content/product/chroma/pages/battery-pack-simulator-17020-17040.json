@@ -17,7 +17,11 @@
           "paragraphs": [
             "Battery pack simulator for testing on-board chargers, DC/DC converters and DC charging stations, using the regenerative 17020 / 17040 test systems with Battery Pack Simulator Soft Panel."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/bbb8974f-2089-4b12-851a-093f620a7bc8.webp",
+            "alt": "Battery Pack Simulator 17020 / 17040"
+          }
         }
       },
       {
@@ -49,5 +53,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Battery Pack Simulator"
 }

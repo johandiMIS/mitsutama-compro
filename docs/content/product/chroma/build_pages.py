@@ -3,12 +3,23 @@
 Source: "Chroma Power Electronic Test.pdf" (text in extracted/content.md).
 Run:  python -I docs/content/product/chroma/build_pages.py
 Each output file is one POST /admin/pages/import envelope (section "products", draft only).
-No images yet: the schema only accepts https URLs on the media host, so add them after upload.
+Images: prepare_media.py cuts them from the PDF, upload_media.mjs uploads them and writes
+media-urls.json (name = page slug); pages without an entry are built without an image.
 """
 import json
 import os
 
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "pages")
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "pages")
+try:
+    with open(os.path.join(HERE, "media-urls.json"), encoding="utf-8") as fh:
+        MEDIA = json.load(fh)
+except FileNotFoundError:
+    MEDIA = {}
+
+
+def image_for(slug, alt):
+    return {"url": MEDIA[slug], "alt": alt} if slug in MEDIA else None
 
 POWER = "power-electronic-test-and-equipment"
 INVERTER = "inverter-test-and-equipment"
@@ -27,12 +38,10 @@ def table(title, rows):
 
 
 def page(parent, slug, title, intro, features=None, tables=(), extra=(), seo=None):
-    blocks = [
-        {
-            "type": "ProductIntro",
-            "props": {"tagline": "Chroma", "title": title, "paragraphs": intro, "imageSide": "right"},
-        }
-    ]
+    intro_props = {"tagline": "Chroma", "title": title, "paragraphs": intro, "imageSide": "right"}
+    if image_for(slug, title):
+        intro_props["image"] = image_for(slug, title)
+    blocks = [{"type": "ProductIntro", "props": intro_props}]
     if features:
         blocks.append({"type": "SectionHeading", "props": {"tagline": "", "title": "Key Features", "intro": ""}})
         blocks.append({"type": "RichText", "props": {"body": bullets(features)}})
@@ -409,10 +418,14 @@ page(BATTERY, "regenerative-battery-cell-test-system-17011", "Regenerative Batte
           ("41U (1100 x 600 x 2060 mm)", "60A: 48 CH · 100A: 36 CH"),
       ]),
       ("Power requirement", [
-          ("6A (1Φ220V / 3Φ380V)", "16 CH: 3 kVA · 24 CH: 5 kVA · 48 CH: 8 kVA · 64 CH: 10 kVA"),
+          ("6A (1Φ220V / 3Φ380V)", "16 CH: 3 kVA · 32 CH: 5 kVA · 48 CH: 8 kVA · 64 CH: 10 kVA"),
           ("30A (1Φ220V / 3Φ380V)", "8 CH: 4.5 kVA · 16 CH: 9 kVA · 24 CH: 13 kVA · 32 CH: 17 kVA · 40 CH: 22 kVA"),
           ("60A (3Φ220V / 3Φ380V)", "12 CH: 9 kVA · 24 CH: 18 kVA · 36 CH: 26 kVA · 48 CH: 35 kVA"),
           ("100A (3Φ220V / 3Φ380V)", "12 CH: 15 kVA · 24 CH: 29 kVA · 36 CH: 43 kVA"),
+      ]),
+      ("Regeneration", [
+          ("AC line regeneration", "Bi-direction circuit through the Chroma A691104 AC/DC module"),
+          ("Direct regeneration", "Supported, as shown in the 17011 system diagram"),
       ])])
 
 BP_FEATURES = ["AC line regenerative function: discharge power returns to the AC line, lowering AC power consumption",
@@ -526,6 +539,357 @@ page(POWER, "automatic-test-systems", "Automatic Test Systems",
           ("Statistical analysis control", "All models"),
           ("Test item editing, debug run, on-line control, report wizard", "8000 and 8491"),
       ])])
+
+# ---------------------------------------------------------------- Electrical safety, LCR, insulation (PDF pages 9-10)
+page(
+    POWER, "multi-channel-hipot-tester-19020", "Multi-Channel Hipot Tester 19020 Series",
+    ["Multi-channel hipot tester for AC / DC withstand voltage and insulation resistance tests, available with 10 or 4 channels."],
+    None,
+    [("Specifications", [
+        ("AC / DC output", "5kVac · 6kVdc"),
+        ("Cutoff current", "AC: 10mA · DC: 5mA"),
+        ("Flashover detection", "AC: 20mA · DC: 10mA"),
+        ("Insulation resistance", "1kV output · range up to 50GΩ"),
+        ("Channels", "10 / 4 channels"),
+    ])],
+)
+page(
+    POWER, "electrical-safety-analyzer-19032-p", "Electrical Safety Analyzer 19032-P",
+    ["Electrical safety analyzer combining hipot, insulation resistance, ground bond and leakage current tests, with a 500VA floating output."],
+    None,
+    [("Specifications", [
+        ("AC / DC output", "5kVac · 6kVdc"),
+        ("Cutoff current", "AC: 100mA · DC: 25mA"),
+        ("Flashover detection", "AC: 20mA · DC: 10mA"),
+        ("Insulation resistance", "1kV output · range up to 50GΩ"),
+        ("Ground bond", "Current 40A · range 510mΩ (depends on current output)"),
+        ("Leakage current test (option)", "300V / 20A max."),
+        ("Others", "500VA floating output"),
+    ]), ("Note", [("Leakage current test", "Required by standards for electrical appliances, medical equipment, IT products and video / audio appliances (IEC 60065, 60335, 60601, 60950 etc.).")])],
+)
+page(
+    POWER, "wound-component-est-scanner-19035", "Wound Component EST Scanner 19035",
+    ["Wound component electrical safety test scanner with hipot and insulation resistance tests and an 8 port DCR scanner."],
+    None,
+    [("Specifications", [
+        ("AC / DC output", "5kVac · 6kVdc"),
+        ("Cutoff current", "AC: 30mA · DC: 10mA"),
+        ("Flashover detection", "AC: 15mA · DC: 10mA"),
+        ("Insulation resistance", "5kV output · range up to 50GΩ"),
+        ("Others", "DCR 8 ports scanner"),
+    ])],
+)
+page(
+    POWER, "battery-cell-surge-tester-19311", "Battery Cell Surge Tester 19311 / 19311-10",
+    ["Surge (impulse) tester for battery cells, with a 1 port scanner (19311) or a 10 ports scanner (19311-10)."],
+    None,
+    [("Specifications", [
+        ("Impulse / surge test", "6kV"),
+        ("19311", "1 port scanner"),
+        ("19311-10", "10 ports scanner"),
+    ])],
+)
+page(
+    POWER, "partial-discharge-tester-19501-k", "Partial Discharge Tester 19501-K",
+    ["Partial discharge tester for detecting insulation defects."],
+    None,
+    [("Specifications", [
+        ("Output", "10kVac"),
+        ("Cutoff current", "AC: 300µA"),
+        ("Discharge detection", "1pc ~ 2000pc"),
+    ])],
+)
+page(
+    POWER, "hipot-analyzer-19056-19057", "Hipot Analyzer 19056 / 19057 Series",
+    ["High voltage hipot analyzers: 19056 for AC withstand voltage up to 10kVac, and 19057 / 19057-20 for DC withstand voltage and insulation resistance up to 12kVdc / 20kVdc."],
+    None,
+    [("Specifications", [
+        ("19056", "Output 10kVac · cutoff current AC: 20mA · flashover detection 20mA"),
+        ("19057", "Output 12kVdc · cutoff current DC: 10mA · flashover detection 10mA · insulation resistance 5kV output, range up to 50GΩ"),
+        ("19057-20", "Output 20kVdc · cutoff current DC: 5mA · flashover detection 10mA · insulation resistance 5kV output, range up to 50GΩ"),
+    ])],
+)
+page(
+    POWER, "lcr-meter-11021", "LCR Meter 11021 / 11021-L",
+    ["LCR meters for passive component measurement from 0.1mΩ to 100MΩ."],
+    None,
+    [("Specifications", [
+        ("11021", "Frequency 100Hz, 120Hz, 1kHz, 10kHz · impedance 0.1mΩ ~ 100MΩ"),
+        ("11021-L", "Frequency 1kHz, 10kHz, 40kHz, 50kHz · impedance 0.1mΩ ~ 100MΩ"),
+    ])],
+)
+page(
+    POWER, "lcr-meter-11025", "LCR Meter 11025",
+    ["LCR meter with a wide set of test frequencies and DC measurement, covering 0.01mΩ to 100MΩ."],
+    None,
+    [("Specifications", [
+        ("Frequency", "50 / 60 / 100 / 120 / 1k / 10k / 20k / 40k / 50k / 100k Hz / DC"),
+        ("Impedance range", "0.01mΩ ~ 100MΩ"),
+    ])],
+)
+page(
+    POWER, "auto-transformer-test-system-13350", "Auto Transformer Test System 13350",
+    ["Automatic transformer test systems built from an LCR meter and a transformer test scanner."],
+    None,
+    [("Auto Transformer Test System Selection Guide", [
+        ("13350 + A133502", "Frequency 20Hz ~ 200kHz · impedance 0.1mΩ ~ 100MΩ"),
+        ("13350-1M + A133502", "Frequency 20Hz ~ 1MHz · impedance 0.1mΩ ~ 100MΩ"),
+        ("3250 + A132501", "Frequency 20Hz ~ 200kHz · impedance 0.1mΩ ~ 100MΩ"),
+        ("3302 + A132501", "Frequency 20Hz ~ 1MHz · impedance 0.1mΩ ~ 100MΩ"),
+    ])],
+)
+page(
+    POWER, "electrolytic-capacitor-testers-11800", "Electrolytic Capacitor Testers 11800 Series",
+    ["Ripple current testers and an electrolytic capacitor analyzer, plus programmable HF AC testers."],
+    None,
+    [("Electrolytic Capacitor Tester Selection Guide", [
+        ("11800", "Ripple current tester · 100Hz / 120Hz / 400Hz / 1kHz, 0 ~ 30A, DC bias 0.5V ~ 500V"),
+        ("11801", "Ripple current tester · 20k ~ 100kHz, 0 ~ 10A, DC bias 0.5 ~ 500V"),
+        ("11810", "Ripple current tester · 20k ~ 1000kHz, 0 ~ 10A, DC bias 0.5 ~ 500V"),
+        ("13100", "Electrolytic capacitor analyzer · AC 100Hz / 120Hz / 1kHz / 10kHz / 20kHz / 50kHz / 100kHz, 1V / 0.25V"),
+    ]), ("Programmable HF AC Tester Selection Guide", [
+        ("11802", "20kHz ~ 200kHz, step 1kHz · 500VA"),
+        ("11805", "10kHz ~ 200kHz, step 1kHz · 1kVA"),
+        ("11803", "20kHz ~ 1MHz, step 1kHz · 750VA"),
+        ("11890", "20kHz ~ 200kHz, step 1kHz · 500VA"),
+        ("11891", "20kHz ~ 200kHz, step 1kHz · 500VA"),
+    ])],
+)
+page(
+    POWER, "battery-insulation-tester-11210", "Battery Insulation Tester 11210",
+    ["Insulation tester for leakage current and insulation resistance, with optional partial discharge and flashover detection."],
+    None,
+    [("Specifications", [
+        ("Primary function", "LC, IR · Partial discharge (option) · Flashover detection (option)"),
+        ("Test signal", "1.0 ~ 1000V · CC 0.5 ~ 50mA"),
+    ])],
+)
+page(
+    POWER, "capacitor-leakage-current-ir-tester-11200", "Capacitor Leakage Current / IR Tester 11200",
+    ["Insulation tester for capacitor leakage current and insulation resistance."],
+    None,
+    [("Specifications", [
+        ("Primary function", "LC, IR"),
+        ("Test signal", "1.0 ~ 650V / 800V · CC 0.5 ~ 500mA"),
+    ])],
+)
+
+PLATFORM = ('Software functions', [('Platform', 'Chroma 8000 series automatic test system software'), ('Test programs', 'Test program editing and saving, GO / NO GO test, statistical analysis control'), ('Reports', 'Test report editing and printing'), ('Factory integration', 'Works with Shop Floor Control software for factory-wide and remote control')])
+
+# ---------------------------------------------------------------- Inverter and EV systems (PDF pages 13-14)
+page(
+    INVERTER, "pv-inverter-ats-8000", "PV Inverter ATS 8000",
+    ["Automatic test system on the Chroma 8000 series platform for PV inverters, used in the grid connected and stand alone (off grid) type tests of the PV Inverter / PCS test solutions."],
+    None, [PLATFORM],
+)
+page(
+    INVERTER, "micro-inverter-ats-8000", "Micro Inverter ATS 8000",
+    ["Automatic test system on the Chroma 8000 series platform for micro inverters, part of the PV Inverter / PCS test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "bms-pcba-ats", "BMS PCBA ATS",
+    ["Automatic test system for the printed circuit board assembly of a battery management system (BMS), part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "battery-pack-ats", "Battery Pack ATS",
+    ["Automatic test system for battery packs, part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "battery-module-maintenance-ats", "Battery Module Maintenance ATS",
+    ["Automatic test system for battery module maintenance, part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "hcu-vms-vcu-ats", "HCU (VMS / VCU) ATS",
+    ["Automatic test system for hybrid control units, vehicle management systems (VMS) and vehicle control units (VCU), part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "obc-dc-dc-converter-ats", "OBC & DC-DC Converter ATS",
+    ["Automatic test system for on-board chargers (OBC) and DC-DC converters, part of Chroma's electric vehicle test solutions. Battery pack simulators 17020 / 17040 cover 1.4kW and 3.3 ~ 6.6kW OBC and 1.6 ~ 2.5kW DC-DC converter applications."],
+    None, [PLATFORM],
+)
+page(
+    EV, "electrical-safety-test-system", "Electrical Safety Test System",
+    ["Electrical safety test system for electric vehicle components, part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "ev-ac-dc-charging-compatibility-ats", "EV AC / DC Charging Compatibility ATS",
+    ["Automatic test system for the compatibility of AC and DC charging between electric vehicles and chargers, part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "wireless-charger-ats", "Wireless Charger ATS",
+    ["Automatic test system for wireless chargers, part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+page(
+    EV, "evse-ats", "EVSE ATS",
+    ["Automatic test system for electric vehicle supply equipment (EVSE), part of Chroma's electric vehicle test solutions."],
+    None, [PLATFORM],
+)
+
+# ---------------------------------------------------------------- Audit additions (PDF pages 3, 11, 15)
+page(
+    POWER, "led-load-simulator-63110a", "LED Load Simulator 63110A / 63113A / 63115A",
+    ["Unique LED mode of the 6310A series electronic loads, for LED power driver tests. It simulates different numbers of LEDs."],
+    ["LED mode for LED power driver tests", "Simulates different numbers of LEDs"],
+    [("Specifications", [
+        ("63110A", "500V / 2A / 100W x 2CH"),
+        ("63113A", "300V / 20A / 300W · rise & fall time 25µs"),
+        ("63115A", "600V / 20A / 300W · rise & fall time 25µs"),
+    ])],
+)
+
+
+def ats(slug, title, model_note, uut, extra=()):
+    page(
+        POWER, slug, title,
+        [f"Chroma automatic test system ({model_note}) for {uut[0].lower() if len(uut) == 1 else 'power electronics and components'}."],
+        None,
+        [("Unit under test", [("UUT type", " · ".join(uut))] + list(extra))],
+    )
+
+
+COMMON_8010_8020 = [
+    ("Functions", "User permission setting · system administrator access log · network management · "
+                  "Shop Floor Control software · test report editing and printing · test program editing and saving · "
+                  "GO / NO GO test · statistical analysis control"),
+]
+ats("adapter-charger-ats-8020", "Adapter / Charger ATS 8020", "8020", ["Battery charger", "Switching power supply (multi-output)", "Adapter"], COMMON_8010_8020)
+ats("pc-power-supply-ats-8010", "PC Power Supply ATS 8010", "8010", ["Switching power supply (multi-output)", "DC power"], COMMON_8010_8020)
+ats("dc-dc-converter-ats-8000", "DC-DC Converter ATS 8000", "8000", ["DC to DC converter"])
+ats("smps-ats-8000", "SMPS ATS 8000", "8000", ["Switching power supply (multi-output)"])
+ats("led-driver-ats-8491", "LED Driver ATS 8491", "8491", ["LED power driver"],
+    [("Functions", "Open system architecture · optional instrument extendible · test item editing · debug run · on-line control · report wizard · "
+                   "user permission setting · network management · Shop Floor Control software · statistical analysis control")])
+ats("high-capacitance-electrolytic-capacitor-ats-1911", "High Capacitance Electrolytic Capacitor ATS 1911", "1911", ["High capacitance electrolytic capacitor"])
+ats("medical-electrical-safety-ats-8910", "Medical Electrical Safety ATS 8910", "8910", ["Medical equipment (safety test)"])
+ats("magnetic-component-test-system-1810", "Magnetic Component Test System 1810", "1810", ["Inductor (AC+DC, temperature-rising test)"])
+ats("capacitor-test-system-1820", "Capacitor Test System 1820", "1820", ["Capacitor (AC+DC, load life test)"])
+ats("bias-current-test-system-11300", "Bias Current Test System 11300", "11300", ["Inductor (saturation current test)"])
+ats("component-ats-8800", "Component ATS 8800", "8800", ["Passive component"])
+ats("edlc-ats-8801", "Electrical Double Layer Capacitor ATS 8801", "8801", ["EDLC (capacitance, DCIR, ESR test)"])
+ats("edlc-lc-monitoring-system-8802", "EDLC LC Monitoring System 8802", "8802", ["EDLC (leakage current test)"])
+
+
+def line(slug, title, text):
+    page(BATTERY, slug, title, [text], None, ())
+
+
+LINE_NOTE = "Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview."
+line("barcode-binding-equipment", "Barcode Binding Equipment", "Barcode binding equipment for battery cells. " + LINE_NOTE)
+line("formation-system", "Formation System", "Formation system for battery cells, working with the regenerative battery cell charge & discharge test systems. " + LINE_NOTE)
+line("ocv-acr-test-equipment", "OCV & ACR Test Equipment", "Open circuit voltage (OCV) and AC resistance (ACR) test equipment for battery cells. " + LINE_NOTE)
+line("battery-cell-grouping-equipment", "Battery Cell Grouping Equipment", "Grouping equipment for battery cells, used after the OCV & ACR test. " + LINE_NOTE)
+line("functional-ats", "Functional ATS", "Functional automatic test system for battery modules and packs, part of the regenerative battery module / pack test systems.")
+line("thermal-data-logger", "Thermal Data Logger", "Thermal data logger, listed with the battery cell, module and pack test instruments.")
+
+# ---------------------------------------------------------------- Landing pages
+# The three menu pages under Chroma that only list their children, as linked product cards.
+# (Power Electronic Test and Equipment is hand-built in the admin and is deliberately not touched.)
+GROUPS = {}  # child slug -> product group (tab) on its parent page
+
+
+def landing(slug, title, intro, seo, tabs):
+    """tabs: {tab name: [child slugs]}. A landing page has only the tab names: its cards are the
+    published child pages, listed automatically under the group set on each child
+    (see mergeChildProducts in apps/api)."""
+    for name, slugs in tabs.items():
+        for s_ in slugs:
+            GROUPS[s_] = name
+    intro_props = {"tagline": "Chroma", "title": title, "paragraphs": intro, "imageSide": "right"}
+    if image_for(slug, title):
+        intro_props["image"] = image_for(slug, title)
+    pages.append(
+        {
+            "section": "products",
+            "slug": slug,
+            "title": title,
+            "seoDescription": seo,
+            "landing": True,
+            "data": {
+                "root": {"props": {}},
+                "content": [
+                    {"type": "ProductIntro", "props": intro_props},
+                    {"type": "CategorizedProducts",
+                     "props": {"tagline": "Chroma", "title": title, "intro": "",
+                               "categories": [{"name": n, "products": []} for n in tabs]}},
+                    {"type": "ContactCta", "props": {}},
+                ],
+            },
+        }
+    )
+
+
+landing(
+    INVERTER, "Inverter Test and Equipment",
+    ["Chroma provides complete test solutions for PV inverters and PCS (power conversion systems), covering both stand alone (off grid) and grid connected type testing.",
+     "The solutions combine Chroma's solar array simulators, regenerative grid simulators, AC electronic loads, battery pack simulators and digital power meters, with automatic test systems for PV inverters and micro inverters."],
+    "Complete test solutions for PV inverters and PCS from Chroma: solar array simulators, regenerative grid simulators, AC electronic loads and automatic test systems.",
+    {"PV Inverter / PCS Test": ["pv-inverter-pcs-test-solutions", "pv-inverter-ats-8000", "micro-inverter-ats-8000"]},
+)
+landing(
+    BATTERY, "Battery Test and Equipment",
+    ["Chroma's battery test portfolio covers the full path from cell to pack: regenerative charge and discharge systems for cells, modules and packs, battery pack simulators, and BMS test systems.",
+     "Regenerative designs return discharge energy to the grid, with driving profile simulation and hardware / software integration that can be customised to the test setup."],
+    "Battery cell, module and pack test solutions from Chroma: regenerative charge and discharge systems, battery pack simulators and BMS test systems.",
+    {
+        "Battery Cell Test": ["regenerative-battery-cell-test-system-17011"],
+        "Battery Pack Test": ["regenerative-battery-pack-test-system-17020", "regenerative-battery-pack-test-system-17020e", "regenerative-battery-pack-test-system-17040"],
+        "Battery Pack Simulator": ["battery-pack-simulator-17020-17040"],
+        "BMS Test": ["bms-test-system-8710"],
+        "Battery Cell Line Equipment": ["barcode-binding-equipment", "formation-system", "ocv-acr-test-equipment", "battery-cell-grouping-equipment", "functional-ats", "thermal-data-logger"],
+    },
+)
+landing(
+    EV, "EV and EVSE Test and Equipment",
+    ["Chroma's electric vehicle test solutions span the vehicle's power electronics and its charging infrastructure: battery cell and pack test, BMS and HCU ATS, OBC and DC-DC converter ATS, wireless charger and EVSE ATS, and electrical safety test.",
+     "All systems run on the PowerPro III software platform for test program editing, GO/NOGO runs and statistical reports."],
+    "Electric vehicle and EVSE test solutions from Chroma: battery, BMS, OBC and DC-DC converter, wireless charger and EVSE automatic test systems.",
+    {
+        "EV Test Solutions": ["ev-test-solutions"],
+        "Battery and BMS ATS": ["bms-pcba-ats", "battery-pack-ats", "battery-module-maintenance-ats"],
+        "Vehicle Electronics Test": ["hcu-vms-vcu-ats", "obc-dc-dc-converter-ats", "electrical-safety-test-system"],
+        "Charging Test": ["ev-ac-dc-charging-compatibility-ats", "wireless-charger-ats", "evse-ats"],
+    },
+)
+
+POWER_TABS = {
+    "AC Power Source": ["ac-power-source-61500", "ac-power-source-61600", "ac-power-source-61700", "ac-power-source-61800"],
+    "DC Power Supply": ["dc-power-supply-62000b", "dc-power-supply-62000h", "dc-power-supply-62000l", "dc-power-supply-62000p", "solar-array-simulator-62000h-s"],
+    "DC Electronic Load": ["dc-electronic-load-63000", "dc-electronic-load-6310a", "led-load-simulator-63110a", "dc-electronic-load-63200", "dc-electronic-load-63600"],
+    "AC Electronic Load": ["ac-electronic-load-63800"],
+    "Digital Power Meter": ["digital-power-meter-66200"],
+    "Automatic Test System (ATS)": [
+        "automatic-test-systems", "adapter-charger-ats-8020", "pc-power-supply-ats-8010", "dc-dc-converter-ats-8000",
+        "smps-ats-8000", "led-driver-ats-8491", "high-capacitance-electrolytic-capacitor-ats-1911",
+        "medical-electrical-safety-ats-8910", "magnetic-component-test-system-1810", "capacitor-test-system-1820",
+        "bias-current-test-system-11300", "component-ats-8800", "edlc-ats-8801", "edlc-lc-monitoring-system-8802",
+    ],
+    "Electrical Safety Test": [
+        "electrical-safety-analyzers", "multi-channel-hipot-tester-19020", "electrical-safety-analyzer-19032-p",
+        "corona-hipot-tester-19055-c", "hipot-analyzer-19056-19057", "battery-cell-surge-tester-19311",
+        "partial-discharge-tester-19501-k", "impulse-winding-tester-19301a", "wound-component-est-scanner-19035",
+        "wound-component-est-analyzer-19036",
+    ],
+    "LCR Meter and Component Test": [
+        "lcr-meters-and-passive-component-testers", "lcr-meter-11021", "lcr-meter-11025", "hf-lcr-meter-11050",
+        "milliohm-meter-16502", "auto-transformer-test-system-13350", "electrolytic-capacitor-testers-11800",
+    ],
+    "Insulation Tester": ["battery-insulation-tester-11210", "capacitor-leakage-current-ir-tester-11200"],
+    "Inductor Test Machine": ["inductor-test-and-packing-machine-1870d", "inductor-layer-short-test-machine-1871"],
+}
+for _name, _slugs in POWER_TABS.items():
+    for _s in _slugs:
+        GROUPS[_s] = _name
+for _p in pages:
+    if _p.get("parent") and _p["slug"] in GROUPS:
+        _p["productGroup"] = GROUPS[_p["slug"]]
 
 os.makedirs(OUT, exist_ok=True)
 for f in os.listdir(OUT):

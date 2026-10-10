@@ -1,0 +1,34 @@
+{
+  "section": "products",
+  "slug": "thermal-data-logger",
+  "title": "Thermal Data Logger",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Thermal data logger, listed with the battery cell, module and pack test instruments.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Thermal Data Logger",
+          "paragraphs": [
+            "Thermal data logger, listed with the battery cell, module and pack test instruments."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/64b341db-09f3-408d-b670-18859b313604.webp",
+            "alt": "Thermal Data Logger"
+          }
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery Cell Line Equipment"
+}

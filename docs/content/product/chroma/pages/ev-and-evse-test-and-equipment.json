@@ -1,0 +1,60 @@
+{
+  "section": "products",
+  "slug": "ev-and-evse-test-and-equipment",
+  "title": "EV and EVSE Test and Equipment",
+  "seoDescription": "Electric vehicle and EVSE test solutions from Chroma: battery, BMS, OBC and DC-DC converter, wireless charger and EVSE automatic test systems.",
+  "landing": true,
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "EV and EVSE Test and Equipment",
+          "paragraphs": [
+            "Chroma's electric vehicle test solutions span the vehicle's power electronics and its charging infrastructure: battery cell and pack test, BMS and HCU ATS, OBC and DC-DC converter ATS, wireless charger and EVSE ATS, and electrical safety test.",
+            "All systems run on the PowerPro III software platform for test program editing, GO/NOGO runs and statistical reports."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/79f5e922-e457-4111-ac40-cc8ce56f0b94.webp",
+            "alt": "EV and EVSE Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "Chroma",
+          "title": "EV and EVSE Test and Equipment",
+          "intro": "",
+          "categories": [
+            {
+              "name": "EV Test Solutions",
+              "products": []
+            },
+            {
+              "name": "Battery and BMS ATS",
+              "products": []
+            },
+            {
+              "name": "Vehicle Electronics Test",
+              "products": []
+            },
+            {
+              "name": "Charging Test",
+              "products": []
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

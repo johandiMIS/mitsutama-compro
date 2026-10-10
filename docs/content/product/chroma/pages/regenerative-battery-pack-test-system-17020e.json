@@ -17,7 +17,11 @@
           "paragraphs": [
             "Regenerative battery pack test system for high current, low voltage packs. More power or channel combinations are available."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6255779b-89c1-4f1a-86c5-e619fe4f4da2.webp",
+            "alt": "Regenerative Battery Pack Test System 17020E"
+          }
         }
       },
       {
@@ -67,5 +71,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Battery Pack Test"
 }

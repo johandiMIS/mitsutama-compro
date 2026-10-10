@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "battery-module-maintenance-ats",
+  "title": "Battery Module Maintenance ATS",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test system for battery module maintenance, part of Chroma's electric vehicle test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Module Maintenance ATS",
+          "paragraphs": [
+            "Automatic test system for battery module maintenance, part of Chroma's electric vehicle test solutions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4d5e8940-2b31-48f8-957e-348c4f06474c.webp",
+            "alt": "Battery Module Maintenance ATS"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery and BMS ATS"
+}

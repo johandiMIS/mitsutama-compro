@@ -17,7 +17,11 @@
           "paragraphs": [
             "Advanced programmable AC power source with power line disturbance simulation and MIL-STD-704F aerospace testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d6d877e0-1126-414e-baeb-65e7f1a689a1.webp",
+            "alt": "Advanced AC Power Source 61700 Series"
+          }
         }
       },
       {
@@ -67,5 +71,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "AC Power Source"
 }

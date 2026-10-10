@@ -17,7 +17,11 @@
           "paragraphs": [
             "Fully regenerative grid simulator, applicable for 4 quadrants with voltage and current. Suited to biofuel, solar and wind power, generators, energy storage systems, EVSE and grid line testing. Part of Chroma's Programmable AC Sources family, 500VA ~ 300kVA."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2bd2e965-fe9d-4904-8bf2-9c425c319a47.webp",
+            "alt": "Regenerative Grid Simulator 61800 Series"
+          }
         }
       },
       {
@@ -59,5 +63,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "AC Power Source"
 }

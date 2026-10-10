@@ -1,0 +1,68 @@
+{
+  "section": "products",
+  "slug": "led-load-simulator-63110a",
+  "title": "LED Load Simulator 63110A / 63113A / 63115A",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Unique LED mode of the 6310A series electronic loads, for LED power driver tests. It simulates different numbers of LEDs.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "LED Load Simulator 63110A / 63113A / 63115A",
+          "paragraphs": [
+            "Unique LED mode of the 6310A series electronic loads, for LED power driver tests. It simulates different numbers of LEDs."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7823054f-76b9-4752-8cb5-a9d3a8dd5653.webp",
+            "alt": "LED Load Simulator 63110A / 63113A / 63115A"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Key Features",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- LED mode for LED power driver tests\n- Simulates different numbers of LEDs"
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "63110A",
+              "value": "500V / 2A / 100W x 2CH"
+            },
+            {
+              "label": "63113A",
+              "value": "300V / 20A / 300W · rise & fall time 25µs"
+            },
+            {
+              "label": "63115A",
+              "value": "600V / 20A / 300W · rise & fall time 25µs"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "DC Electronic Load"
+}

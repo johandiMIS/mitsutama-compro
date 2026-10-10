@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "capacitor-test-system-1820",
+  "title": "Capacitor Test System 1820",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (1820) for capacitor (ac+dc, load life test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Capacitor Test System 1820",
+          "paragraphs": [
+            "Chroma automatic test system (1820) for capacitor (ac+dc, load life test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/bca4c8eb-bd71-48d2-900c-bbf41ac5a836.webp",
+            "alt": "Capacitor Test System 1820"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Capacitor (AC+DC, load life test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

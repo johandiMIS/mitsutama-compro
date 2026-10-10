@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "auto-transformer-test-system-13350",
+  "title": "Auto Transformer Test System 13350",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Automatic transformer test systems built from an LCR meter and a transformer test scanner.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Auto Transformer Test System 13350",
+          "paragraphs": [
+            "Automatic transformer test systems built from an LCR meter and a transformer test scanner."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a2241b65-aca0-485b-be3f-13e18f561dbe.webp",
+            "alt": "Auto Transformer Test System 13350"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Auto Transformer Test System Selection Guide",
+          "rows": [
+            {
+              "label": "13350 + A133502",
+              "value": "Frequency 20Hz ~ 200kHz · impedance 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "13350-1M + A133502",
+              "value": "Frequency 20Hz ~ 1MHz · impedance 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3250 + A132501",
+              "value": "Frequency 20Hz ~ 200kHz · impedance 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "3302 + A132501",
+              "value": "Frequency 20Hz ~ 1MHz · impedance 0.1mΩ ~ 100MΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "LCR Meter and Component Test"
+}

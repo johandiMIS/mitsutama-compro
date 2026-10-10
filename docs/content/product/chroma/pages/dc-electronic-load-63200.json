@@ -17,7 +17,11 @@
           "paragraphs": [
             "High power standalone DC electronic loads up to 2,000A and 24kW per unit, with master/slave paralleling control up to 240kW. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d5233b46-1e10-4d64-99ac-3854511c5cbc.webp",
+            "alt": "High Power DC Electronic Load 63200A / 63200E Series"
+          }
         }
       },
       {
@@ -363,5 +367,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Electronic Load"
 }

@@ -17,7 +17,11 @@
           "paragraphs": [
             "Cost effective modular DC electronic load with a unique LED mode for LED power driver tests. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d779fc17-b59b-4f2c-966c-ec6ab1f98720.webp",
+            "alt": "Cost Effective Modular DC Electronic Load 6310A Series"
+          }
         }
       },
       {
@@ -103,5 +107,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Electronic Load"
 }

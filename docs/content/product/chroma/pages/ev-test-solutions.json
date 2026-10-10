@@ -17,7 +17,11 @@
           "paragraphs": [
             "Automatic test systems and software platform for electric vehicle components, from battery cells to EVSE, all driven by the PowerPro III software platform."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f71d0148-782d-4bc3-9a0d-a7fa4ea24682.webp",
+            "alt": "Electric Vehicle Test Solutions"
+          }
         }
       },
       {
@@ -67,5 +71,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "EV Test Solutions"
 }

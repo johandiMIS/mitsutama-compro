@@ -17,7 +17,11 @@
           "paragraphs": [
             "Chroma automatic test systems (ATS) for power supplies, LED drivers, inverters, passive components and medical electrical safety."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3ad0900c-5624-4c6b-b89d-679de310712f.webp",
+            "alt": "Automatic Test Systems"
+          }
         }
       },
       {
@@ -133,5 +137,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Automatic Test System (ATS)"
 }

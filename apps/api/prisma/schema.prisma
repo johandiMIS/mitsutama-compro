@@ -72,6 +72,8 @@ model Page {
   parentId String?
   parent   Page?     @relation("PageTree", fields: [parentId], references: [id])
   children Page[]    @relation("PageTree")
+  /// For a child page: the product group (category tab) it appears under on its parent page.
+  productGroup String?
 
   sortOrder Int     @default(0)
   showInNav Boolean @default(true)

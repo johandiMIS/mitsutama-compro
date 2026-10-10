@@ -1,0 +1,86 @@
+{
+  "section": "products",
+  "slug": "electrolytic-capacitor-testers-11800",
+  "title": "Electrolytic Capacitor Testers 11800 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Ripple current testers and an electrolytic capacitor analyzer, plus programmable HF AC testers.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Electrolytic Capacitor Testers 11800 Series",
+          "paragraphs": [
+            "Ripple current testers and an electrolytic capacitor analyzer, plus programmable HF AC testers."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/bb245376-e85a-41b5-ab3b-d97c27c967c5.webp",
+            "alt": "Electrolytic Capacitor Testers 11800 Series"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Electrolytic Capacitor Tester Selection Guide",
+          "rows": [
+            {
+              "label": "11800",
+              "value": "Ripple current tester · 100Hz / 120Hz / 400Hz / 1kHz, 0 ~ 30A, DC bias 0.5V ~ 500V"
+            },
+            {
+              "label": "11801",
+              "value": "Ripple current tester · 20k ~ 100kHz, 0 ~ 10A, DC bias 0.5 ~ 500V"
+            },
+            {
+              "label": "11810",
+              "value": "Ripple current tester · 20k ~ 1000kHz, 0 ~ 10A, DC bias 0.5 ~ 500V"
+            },
+            {
+              "label": "13100",
+              "value": "Electrolytic capacitor analyzer · AC 100Hz / 120Hz / 1kHz / 10kHz / 20kHz / 50kHz / 100kHz, 1V / 0.25V"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Programmable HF AC Tester Selection Guide",
+          "rows": [
+            {
+              "label": "11802",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            },
+            {
+              "label": "11805",
+              "value": "10kHz ~ 200kHz, step 1kHz · 1kVA"
+            },
+            {
+              "label": "11803",
+              "value": "20kHz ~ 1MHz, step 1kHz · 750VA"
+            },
+            {
+              "label": "11890",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            },
+            {
+              "label": "11891",
+              "value": "20kHz ~ 200kHz, step 1kHz · 500VA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "LCR Meter and Component Test"
+}

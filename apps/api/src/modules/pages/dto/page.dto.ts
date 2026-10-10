@@ -50,6 +50,12 @@ export class CreatePageDto {
   @IsBoolean()
   showInNav?: boolean;
 
+  /** Empty string clears it. */
+  @IsOptional()
+  @IsString()
+  @MaxLength(120)
+  productGroup?: string;
+
   @IsOptional()
   @IsString()
   @MaxLength(200)
@@ -104,6 +110,12 @@ export class UpdatePageDto {
   @IsBoolean()
   showInNav?: boolean;
 
+  /** Empty string clears it. */
+  @IsOptional()
+  @IsString()
+  @MaxLength(120)
+  productGroup?: string;
+
   @IsOptional()
   @IsString()
   @MaxLength(200)
@@ -148,6 +160,12 @@ export class ImportPageDto {
   @IsString()
   @MaxLength(120)
   navLabel?: string;
+
+  /** Empty string clears it. */
+  @IsOptional()
+  @IsString()
+  @MaxLength(120)
+  productGroup?: string;
 
   @IsOptional()
   @IsString()

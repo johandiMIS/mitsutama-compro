@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "pc-power-supply-ats-8010",
+  "title": "PC Power Supply ATS 8010",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8010) for power electronics and components.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "PC Power Supply ATS 8010",
+          "paragraphs": [
+            "Chroma automatic test system (8010) for power electronics and components."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/bfd2af78-629e-4067-8e7f-15ddd4bd1b28.webp",
+            "alt": "PC Power Supply ATS 8010"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Switching power supply (multi-output) · DC power"
+            },
+            {
+              "label": "Functions",
+              "value": "User permission setting · system administrator access log · network management · Shop Floor Control software · test report editing and printing · test program editing and saving · GO / NO GO test · statistical analysis control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

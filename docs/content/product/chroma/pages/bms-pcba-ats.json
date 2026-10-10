@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "bms-pcba-ats",
+  "title": "BMS PCBA ATS",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test system for the printed circuit board assembly of a battery management system (BMS), part of Chroma's electric vehicle test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "BMS PCBA ATS",
+          "paragraphs": [
+            "Automatic test system for the printed circuit board assembly of a battery management system (BMS), part of Chroma's electric vehicle test solutions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5209aeee-a707-481b-a67a-59af3633b555.webp",
+            "alt": "BMS PCBA ATS"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery and BMS ATS"
+}

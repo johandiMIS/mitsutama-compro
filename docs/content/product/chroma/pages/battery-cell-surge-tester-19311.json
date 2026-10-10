@@ -1,0 +1,54 @@
+{
+  "section": "products",
+  "slug": "battery-cell-surge-tester-19311",
+  "title": "Battery Cell Surge Tester 19311 / 19311-10",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Surge (impulse) tester for battery cells, with a 1 port scanner (19311) or a 10 ports scanner (19311-10).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Cell Surge Tester 19311 / 19311-10",
+          "paragraphs": [
+            "Surge (impulse) tester for battery cells, with a 1 port scanner (19311) or a 10 ports scanner (19311-10)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/01e65ab3-ecb1-42b8-a5cf-0bf06572ae5c.webp",
+            "alt": "Battery Cell Surge Tester 19311 / 19311-10"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Impulse / surge test",
+              "value": "6kV"
+            },
+            {
+              "label": "19311",
+              "value": "1 port scanner"
+            },
+            {
+              "label": "19311-10",
+              "value": "10 ports scanner"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

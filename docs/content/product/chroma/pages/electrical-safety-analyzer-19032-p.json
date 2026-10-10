@@ -1,0 +1,82 @@
+{
+  "section": "products",
+  "slug": "electrical-safety-analyzer-19032-p",
+  "title": "Electrical Safety Analyzer 19032-P",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Electrical safety analyzer combining hipot, insulation resistance, ground bond and leakage current tests, with a 500VA floating output.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Electrical Safety Analyzer 19032-P",
+          "paragraphs": [
+            "Electrical safety analyzer combining hipot, insulation resistance, ground bond and leakage current tests, with a 500VA floating output."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ad1791a0-5206-45d1-b9fc-e702cd5bd50e.webp",
+            "alt": "Electrical Safety Analyzer 19032-P"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "AC / DC output",
+              "value": "5kVac · 6kVdc"
+            },
+            {
+              "label": "Cutoff current",
+              "value": "AC: 100mA · DC: 25mA"
+            },
+            {
+              "label": "Flashover detection",
+              "value": "AC: 20mA · DC: 10mA"
+            },
+            {
+              "label": "Insulation resistance",
+              "value": "1kV output · range up to 50GΩ"
+            },
+            {
+              "label": "Ground bond",
+              "value": "Current 40A · range 510mΩ (depends on current output)"
+            },
+            {
+              "label": "Leakage current test (option)",
+              "value": "300V / 20A max."
+            },
+            {
+              "label": "Others",
+              "value": "500VA floating output"
+            }
+          ]
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Note",
+          "rows": [
+            {
+              "label": "Leakage current test",
+              "value": "Required by standards for electrical appliances, medical equipment, IT products and video / audio appliances (IEC 60065, 60335, 60601, 60950 etc.)."
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

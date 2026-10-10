@@ -17,7 +17,11 @@
           "paragraphs": [
             "Auto range, constant power wide range DC power supply supporting ISO 16750-2 electrical loads and corresponding tests. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/582a6ee4-7356-4ca8-84c0-c9666560649d.webp",
+            "alt": "Auto Range DC Power Supply 62000P Series"
+          }
         }
       },
       {
@@ -95,5 +99,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Power Supply"
 }

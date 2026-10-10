@@ -1,0 +1,34 @@
+{
+  "section": "products",
+  "slug": "formation-system",
+  "title": "Formation System",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Formation system for battery cells, working with the regenerative battery cell charge & discharge test systems. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Formation System",
+          "paragraphs": [
+            "Formation system for battery cells, working with the regenerative battery cell charge & discharge test systems. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8328d9f7-8f3f-4be8-8539-df8c625836f5.webp",
+            "alt": "Formation System"
+          }
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery Cell Line Equipment"
+}

@@ -1,0 +1,54 @@
+{
+  "section": "products",
+  "slug": "partial-discharge-tester-19501-k",
+  "title": "Partial Discharge Tester 19501-K",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Partial discharge tester for detecting insulation defects.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Partial Discharge Tester 19501-K",
+          "paragraphs": [
+            "Partial discharge tester for detecting insulation defects."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/702bd9fb-ea2c-409d-852c-0a9265a77b50.webp",
+            "alt": "Partial Discharge Tester 19501-K"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Output",
+              "value": "10kVac"
+            },
+            {
+              "label": "Cutoff current",
+              "value": "AC: 300µA"
+            },
+            {
+              "label": "Discharge detection",
+              "value": "1pc ~ 2000pc"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

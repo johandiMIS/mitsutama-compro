@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "edlc-lc-monitoring-system-8802",
+  "title": "EDLC LC Monitoring System 8802",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8802) for edlc (leakage current test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "EDLC LC Monitoring System 8802",
+          "paragraphs": [
+            "Chroma automatic test system (8802) for edlc (leakage current test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b2ebc088-64b0-4218-82b9-752adfe5e004.webp",
+            "alt": "EDLC LC Monitoring System 8802"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "EDLC (leakage current test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

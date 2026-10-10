@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "adapter-charger-ats-8020",
+  "title": "Adapter / Charger ATS 8020",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8020) for power electronics and components.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Adapter / Charger ATS 8020",
+          "paragraphs": [
+            "Chroma automatic test system (8020) for power electronics and components."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8bfee923-01fc-45f8-ba7b-1d64b728b827.webp",
+            "alt": "Adapter / Charger ATS 8020"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Battery charger · Switching power supply (multi-output) · Adapter"
+            },
+            {
+              "label": "Functions",
+              "value": "User permission setting · system administrator access log · network management · Shop Floor Control software · test report editing and printing · test program editing and saving · GO / NO GO test · statistical analysis control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

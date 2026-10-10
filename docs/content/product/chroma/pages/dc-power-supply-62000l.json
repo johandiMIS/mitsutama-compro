@@ -17,7 +17,11 @@
           "paragraphs": [
             "Low output noise programmable DC power supply with high transient response. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ebd899e0-7a03-4626-8770-95e55705d469.webp",
+            "alt": "Programmable DC Power Supply 62000L Series"
+          }
         }
       },
       {
@@ -55,5 +59,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Power Supply"
 }

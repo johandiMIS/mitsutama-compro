@@ -17,7 +17,11 @@
           "paragraphs": [
             "High performance modular DC electronic load with user defined waveform simulation. Part of Chroma's Programmable DC Electronic Loads family, 100W ~ 240kW."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c5c65f68-fdea-4a69-a378-3c9e529e5c65.webp",
+            "alt": "High Performance DC Electronic Load 63600 Series"
+          }
         }
       },
       {
@@ -83,5 +87,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Electronic Load"
 }

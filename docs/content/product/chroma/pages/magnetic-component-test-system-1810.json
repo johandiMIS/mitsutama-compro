@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "magnetic-component-test-system-1810",
+  "title": "Magnetic Component Test System 1810",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (1810) for inductor (ac+dc, temperature-rising test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Magnetic Component Test System 1810",
+          "paragraphs": [
+            "Chroma automatic test system (1810) for inductor (ac+dc, temperature-rising test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fdedce56-385e-40e1-9749-723b11ad262d.webp",
+            "alt": "Magnetic Component Test System 1810"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Inductor (AC+DC, temperature-rising test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

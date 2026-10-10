@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "medical-electrical-safety-ats-8910",
+  "title": "Medical Electrical Safety ATS 8910",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8910) for medical equipment (safety test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Medical Electrical Safety ATS 8910",
+          "paragraphs": [
+            "Chroma automatic test system (8910) for medical equipment (safety test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c25c0abd-ad37-44a7-bdef-eac14b71cd70.webp",
+            "alt": "Medical Electrical Safety ATS 8910"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "Medical equipment (safety test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

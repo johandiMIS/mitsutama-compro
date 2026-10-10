@@ -1,0 +1,34 @@
+{
+  "section": "products",
+  "slug": "battery-cell-grouping-equipment",
+  "title": "Battery Cell Grouping Equipment",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Grouping equipment for battery cells, used after the OCV & ACR test. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Cell Grouping Equipment",
+          "paragraphs": [
+            "Grouping equipment for battery cells, used after the OCV & ACR test. Part of Chroma's battery cell test line, shown in the Battery Cell & Battery Pack Test Solutions overview."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a3a457c7-0007-45da-aacc-d550e08e5e11.webp",
+            "alt": "Battery Cell Grouping Equipment"
+          }
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery Cell Line Equipment"
+}

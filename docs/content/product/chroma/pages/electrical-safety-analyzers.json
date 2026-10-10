@@ -17,7 +17,11 @@
           "paragraphs": [
             "Chroma's electrical safety tester range: hipot analyzers, multi-channel hipot testers, surge testers, partial discharge testers and wound component EST scanners."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7c062653-8907-4511-ab75-ec73f01e00c9.webp",
+            "alt": "Electrical Safety Analyzers"
+          }
         }
       },
       {
@@ -137,5 +141,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Electrical Safety Test"
 }

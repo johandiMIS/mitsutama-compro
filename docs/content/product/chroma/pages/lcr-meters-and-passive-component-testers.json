@@ -17,7 +17,11 @@
           "paragraphs": [
             "LCR meters, automatic transformer test systems, electrolytic capacitor testers, programmable HF AC testers and insulation testers for passive component testing."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3bd61771-95f5-4ee2-a765-e8d02679bd5e.webp",
+            "alt": "LCR Meters & Passive Component Testers"
+          }
         }
       },
       {
@@ -165,5 +169,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "LCR Meter and Component Test"
 }

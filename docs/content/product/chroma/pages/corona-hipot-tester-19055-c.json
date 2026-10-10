@@ -17,7 +17,11 @@
           "paragraphs": [
             "Hi-pot tester with corona discharge detection (CDD), suited to EV motor test solutions."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1f295457-1b33-41dd-a615-43156b4c596c.webp",
+            "alt": "Corona Hi-Pot Tester 19055-C"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Electrical Safety Test"
 }

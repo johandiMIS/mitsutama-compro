@@ -1,0 +1,54 @@
+{
+  "section": "products",
+  "slug": "hipot-analyzer-19056-19057",
+  "title": "Hipot Analyzer 19056 / 19057 Series",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "High voltage hipot analyzers: 19056 for AC withstand voltage up to 10kVac, and 19057 / 19057-20 for DC withstand voltage and insulation resistance up to 12kVdc / 20kVdc.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Hipot Analyzer 19056 / 19057 Series",
+          "paragraphs": [
+            "High voltage hipot analyzers: 19056 for AC withstand voltage up to 10kVac, and 19057 / 19057-20 for DC withstand voltage and insulation resistance up to 12kVdc / 20kVdc."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d0dc385e-7f61-4e1d-855b-a59ef3c0ab97.webp",
+            "alt": "Hipot Analyzer 19056 / 19057 Series"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "19056",
+              "value": "Output 10kVac · cutoff current AC: 20mA · flashover detection 20mA"
+            },
+            {
+              "label": "19057",
+              "value": "Output 12kVdc · cutoff current DC: 10mA · flashover detection 10mA · insulation resistance 5kV output, range up to 50GΩ"
+            },
+            {
+              "label": "19057-20",
+              "value": "Output 20kVdc · cutoff current DC: 5mA · flashover detection 10mA · insulation resistance 5kV output, range up to 50GΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

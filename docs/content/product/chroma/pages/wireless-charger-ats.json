@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "wireless-charger-ats",
+  "title": "Wireless Charger ATS",
+  "parent": "ev-and-evse-test-and-equipment",
+  "seoDescription": "Automatic test system for wireless chargers, part of Chroma's electric vehicle test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Wireless Charger ATS",
+          "paragraphs": [
+            "Automatic test system for wireless chargers, part of Chroma's electric vehicle test solutions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ae6af928-5ef1-4803-816b-fbe7a062720c.webp",
+            "alt": "Wireless Charger ATS"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Charging Test"
+}

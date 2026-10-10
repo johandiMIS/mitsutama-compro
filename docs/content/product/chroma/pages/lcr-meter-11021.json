@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "lcr-meter-11021",
+  "title": "LCR Meter 11021 / 11021-L",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "LCR meters for passive component measurement from 0.1mΩ to 100MΩ.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "LCR Meter 11021 / 11021-L",
+          "paragraphs": [
+            "LCR meters for passive component measurement from 0.1mΩ to 100MΩ."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b8a36508-b043-4465-aefb-c2f6e27fa3d2.webp",
+            "alt": "LCR Meter 11021 / 11021-L"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "11021",
+              "value": "Frequency 100Hz, 120Hz, 1kHz, 10kHz · impedance 0.1mΩ ~ 100MΩ"
+            },
+            {
+              "label": "11021-L",
+              "value": "Frequency 1kHz, 10kHz, 40kHz, 50kHz · impedance 0.1mΩ ~ 100MΩ"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "LCR Meter and Component Test"
+}

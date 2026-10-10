@@ -17,7 +17,11 @@
           "paragraphs": [
             "High power regenerative battery pack test system up to 300kW, 1000V. More power or channel combinations are available."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1ca5412b-e6c5-44f8-b767-0b35c6e330a5.webp",
+            "alt": "Regenerative Battery Pack Test System 17040"
+          }
         }
       },
       {
@@ -75,5 +79,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Battery Pack Test"
 }

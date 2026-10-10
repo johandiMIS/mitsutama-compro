@@ -1,0 +1,62 @@
+{
+  "section": "products",
+  "slug": "wound-component-est-scanner-19035",
+  "title": "Wound Component EST Scanner 19035",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Wound component electrical safety test scanner with hipot and insulation resistance tests and an 8 port DCR scanner.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Wound Component EST Scanner 19035",
+          "paragraphs": [
+            "Wound component electrical safety test scanner with hipot and insulation resistance tests and an 8 port DCR scanner."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/dae71c61-0b7e-4e65-9662-1060c1d6fab1.webp",
+            "alt": "Wound Component EST Scanner 19035"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "AC / DC output",
+              "value": "5kVac · 6kVdc"
+            },
+            {
+              "label": "Cutoff current",
+              "value": "AC: 30mA · DC: 10mA"
+            },
+            {
+              "label": "Flashover detection",
+              "value": "AC: 15mA · DC: 10mA"
+            },
+            {
+              "label": "Insulation resistance",
+              "value": "5kV output · range up to 50GΩ"
+            },
+            {
+              "label": "Others",
+              "value": "DCR 8 ports scanner"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Electrical Safety Test"
+}

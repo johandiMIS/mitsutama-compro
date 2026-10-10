@@ -287,6 +287,8 @@ export interface AdminPageDto {
   groupId: string | null;
   groupTitle: string | null;
   parentId: string | null;
+  /** For a child page: the group (tab) it is listed under on its parent. */
+  productGroup: string | null;
   sortOrder: number;
   showInNav: boolean;
   status: PageStatus;
@@ -312,6 +314,8 @@ export interface ImportPageRequest {
   parent?: string;
   /** Menu group title, for a top-level page. Must already exist. */
   group?: string;
+  /** Product group (tab) on the parent page this child is listed under. */
+  productGroup?: string;
   navLabel?: string;
   seoTitle?: string;
   seoDescription?: string;

@@ -17,7 +17,11 @@
           "paragraphs": [
             "Programmable AC electronic loads from 1800W to 4500W for AC loading of UPS, AC sources and power distribution equipment."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/57f70542-69fd-480a-972a-ec51952b7fcc.webp",
+            "alt": "AC Electronic Load 63800 Series"
+          }
         }
       },
       {
@@ -71,5 +75,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "AC Electronic Load"
 }

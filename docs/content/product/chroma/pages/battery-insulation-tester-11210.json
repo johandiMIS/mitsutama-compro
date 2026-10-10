@@ -1,0 +1,50 @@
+{
+  "section": "products",
+  "slug": "battery-insulation-tester-11210",
+  "title": "Battery Insulation Tester 11210",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Insulation tester for leakage current and insulation resistance, with optional partial discharge and flashover detection.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Insulation Tester 11210",
+          "paragraphs": [
+            "Insulation tester for leakage current and insulation resistance, with optional partial discharge and flashover detection."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a5efae33-4d9d-4622-8785-d7b19bb0ed72.webp",
+            "alt": "Battery Insulation Tester 11210"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Specifications",
+          "rows": [
+            {
+              "label": "Primary function",
+              "value": "LC, IR · Partial discharge (option) · Flashover detection (option)"
+            },
+            {
+              "label": "Test signal",
+              "value": "1.0 ~ 1000V · CC 0.5 ~ 50mA"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Insulation Tester"
+}

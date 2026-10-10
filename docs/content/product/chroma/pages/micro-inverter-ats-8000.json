@@ -1,0 +1,58 @@
+{
+  "section": "products",
+  "slug": "micro-inverter-ats-8000",
+  "title": "Micro Inverter ATS 8000",
+  "parent": "inverter-test-and-equipment",
+  "seoDescription": "Automatic test system on the Chroma 8000 series platform for micro inverters, part of the PV Inverter / PCS test solutions.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Micro Inverter ATS 8000",
+          "paragraphs": [
+            "Automatic test system on the Chroma 8000 series platform for micro inverters, part of the PV Inverter / PCS test solutions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/cf5dafb2-fecb-45b4-96e3-847a11308c77.webp",
+            "alt": "Micro Inverter ATS 8000"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Software functions",
+          "rows": [
+            {
+              "label": "Platform",
+              "value": "Chroma 8000 series automatic test system software"
+            },
+            {
+              "label": "Test programs",
+              "value": "Test program editing and saving, GO / NO GO test, statistical analysis control"
+            },
+            {
+              "label": "Reports",
+              "value": "Test report editing and printing"
+            },
+            {
+              "label": "Factory integration",
+              "value": "Works with Shop Floor Control software for factory-wide and remote control"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "PV Inverter / PCS Test"
+}

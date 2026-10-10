@@ -251,13 +251,41 @@ function PageList({
             <PageRow page={page} siblings={pages} index={index} {...row} />
             {children.length > 0 && (
               <div className="pb-2 pr-2">
-                <PageList pages={children} depth={depth + 1} empty="" {...row} />
+                <ChildGroups pages={children} depth={depth + 1} {...row} />
               </div>
             )}
           </li>
         );
       })}
     </ul>
+  );
+}
+
+/**
+ * A parent's child pages, under a heading per product group (the tab they are listed under on
+ * the parent). Without any group set it is a plain list; ungrouped children go under
+ * "Other products" only when other groups exist.
+ */
+function ChildGroups({ pages, depth, ...row }: { pages: AdminPageDto[]; depth: number } & RowProps) {
+  if (!pages.some((page) => page.productGroup)) {
+    return <PageList pages={pages} depth={depth} empty="" {...row} />;
+  }
+  const groups = new Map<string, AdminPageDto[]>();
+  for (const page of pages) {
+    const name = page.productGroup?.trim() || "Other products";
+    groups.set(name, [...(groups.get(name) ?? []), page]);
+  }
+  return (
+    <div className="ml-6 mt-1 flex flex-col gap-3">
+      {[...groups].map(([name, members]) => (
+        <div key={name} className="flex flex-col gap-1">
+          <h4 className="text-xs font-semibold tracking-wide text-muted-ink uppercase">
+            {name} · {members.length}
+          </h4>
+          <PageList pages={members} depth={0} empty="" {...row} />
+        </div>
+      ))}
+    </div>
   );
 }
 

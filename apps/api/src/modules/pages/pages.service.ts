@@ -22,7 +22,7 @@ import { PrismaService } from '../../prisma/prisma.service';
 import { StorageService } from '../storage/storage.service';
 import { CreatePageDto, ImportPageDto, UpdatePageDto } from './dto/page.dto';
 import { validatePageDocument, withBlockIds } from './page-validator';
-import { buildBreadcrumbs, buildNavTree, type BreadcrumbPage } from './page-tree';
+import { buildBreadcrumbs, buildNavTree, mergeChildProducts, type BreadcrumbPage } from './page-tree';
 import { RevalidateService } from './revalidate.service';
 
 /** Uploaded content images live under this key prefix (see docs/content-builder-plan.md). */
@@ -67,8 +67,30 @@ export class PagesService {
       seoTitle: page.seoTitle,
       seoDescription: page.seoDescription,
       breadcrumbs: await this.breadcrumbsFor(page),
-      data: this.readStored(page.publishedData),
+      data: await this.withChildProducts(page),
     };
+  }
+
+  /** The published document, with published child pages listed in its product groups. */
+  private async withChildProducts(page: PageWithGroup): Promise<PageDocument> {
+    const document = this.readStored(page.publishedData!);
+    if (!document.content.some((block) => block.type === 'CategorizedProducts')) return document;
+    const children = await this.prisma.page.findMany({
+      where: { parentId: page.id, status: 'published', publishedData: { not: Prisma.DbNull } },
+      select: { slug: true, title: true, productGroup: true, sortOrder: true, publishedData: true },
+    });
+    return mergeChildProducts(
+      document,
+      page.section,
+      page.slug,
+      children.map((child) => ({
+        slug: child.slug,
+        title: child.title,
+        productGroup: child.productGroup,
+        sortOrder: child.sortOrder,
+        data: this.readStored(child.publishedData!),
+      })),
+    );
   }
 
   // ---- admin -------------------------------------------------------------
@@ -101,6 +123,7 @@ export class PagesService {
           navLabel: dto.navLabel || null,
           groupId: dto.groupId || null,
           parentId: dto.parentId || null,
+          productGroup: dto.productGroup?.trim() || null,
           sortOrder: dto.sortOrder ?? 0,
           showInNav: dto.showInNav ?? true,
           seoTitle: dto.seoTitle || null,
@@ -143,6 +166,7 @@ export class PagesService {
           navLabel: dto.navLabel === undefined ? undefined : dto.navLabel || null,
           groupId: dto.groupId === undefined ? undefined : groupId,
           parentId: dto.parentId === undefined ? undefined : parentId,
+          productGroup: dto.productGroup === undefined ? undefined : dto.productGroup.trim() || null,
           sortOrder: dto.sortOrder,
           showInNav: dto.showInNav,
           seoTitle: dto.seoTitle === undefined ? undefined : dto.seoTitle || null,
@@ -156,7 +180,7 @@ export class PagesService {
       // Title, menu placement and order are served from published data, so a live page
       // needs its caches dropped for metadata edits too — not only on Publish.
       if (page.status === 'published' && this.touchesLiveFields(dto)) {
-        await this.revalidator.revalidate(this.tagsFor(page));
+        await this.revalidator.revalidate(await this.tagsFor(page));
       }
       return this.toAdminDto(page, await this.childCount(id), true);
     } catch (error) {
@@ -179,7 +203,7 @@ export class PagesService {
       },
       include: { group: true },
     });
-    await this.revalidator.revalidate(this.tagsFor(page));
+    await this.revalidator.revalidate(await this.tagsFor(page));
     return this.toAdminDto(page, await this.childCount(id), true);
   }
 
@@ -190,7 +214,7 @@ export class PagesService {
       data: { status: 'draft', publishedData: Prisma.DbNull, publishedAt: null },
       include: { group: true },
     });
-    await this.revalidator.revalidate(this.tagsFor(page));
+    await this.revalidator.revalidate(await this.tagsFor(page));
     return this.toAdminDto(page, await this.childCount(id), true);
   }
 
@@ -204,7 +228,7 @@ export class PagesService {
     }
     await this.prisma.page.delete({ where: { id } });
     if (page.status === 'published') {
-      await this.revalidator.revalidate(this.tagsFor(page));
+      await this.revalidator.revalidate(await this.tagsFor(page));
     }
   }
 
@@ -258,6 +282,8 @@ export class PagesService {
       navLabel: dto.navLabel,
       seoTitle: dto.seoTitle,
       seoDescription: dto.seoDescription,
+      // Only an import that names a group changes it; omitting it keeps what is set.
+      productGroup: dto.productGroup === undefined ? undefined : dto.productGroup.trim() || null,
     };
 
     if (existing) {
@@ -383,8 +409,17 @@ export class PagesService {
     return buildBreadcrumbs(page, ancestors);
   }
 
-  private tagsFor(page: Pick<Page, 'section' | 'slug'>): string[] {
-    return ['nav', `page:${page.section}/${page.slug}`];
+  /** The page's own cache tag plus its parent's, because a parent lists its published children. */
+  private async tagsFor(page: Pick<Page, 'section' | 'slug' | 'parentId'>): Promise<string[]> {
+    const tags = ['nav', `page:${page.section}/${page.slug}`];
+    if (page.parentId) {
+      const parent = await this.prisma.page.findUnique({
+        where: { id: page.parentId },
+        select: { section: true, slug: true },
+      });
+      if (parent) tags.push(`page:${parent.section}/${parent.slug}`);
+    }
+    return tags;
   }
 
   private touchesLiveFields(dto: UpdatePageDto): boolean {
@@ -393,6 +428,7 @@ export class PagesService {
       dto.navLabel !== undefined ||
       dto.groupId !== undefined ||
       dto.parentId !== undefined ||
+      dto.productGroup !== undefined ||
       dto.sortOrder !== undefined ||
       dto.showInNav !== undefined ||
       dto.seoTitle !== undefined ||
@@ -422,6 +458,7 @@ export class PagesService {
       groupId: page.groupId,
       groupTitle: page.group?.title ?? null,
       parentId: page.parentId,
+      productGroup: page.productGroup,
       sortOrder: page.sortOrder,
       showInNav: page.showInNav,
       status: page.status as PageStatus,

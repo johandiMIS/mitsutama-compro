@@ -153,6 +153,8 @@ export interface UpdatePageBody {
   navLabel?: string;
   groupId?: string;
   parentId?: string;
+  /** Empty string clears it. */
+  productGroup?: string;
   sortOrder?: number;
   showInNav?: boolean;
   seoTitle?: string;

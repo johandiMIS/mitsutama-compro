@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "edlc-ats-8801",
+  "title": "Electrical Double Layer Capacitor ATS 8801",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (8801) for edlc (capacitance, dcir, esr test).",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Electrical Double Layer Capacitor ATS 8801",
+          "paragraphs": [
+            "Chroma automatic test system (8801) for edlc (capacitance, dcir, esr test)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b7cb31c9-1eee-4fa7-8506-fe7c60a00cd5.webp",
+            "alt": "Electrical Double Layer Capacitor ATS 8801"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "EDLC (capacitance, DCIR, ESR test)"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

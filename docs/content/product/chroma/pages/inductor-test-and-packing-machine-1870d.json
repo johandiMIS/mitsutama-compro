@@ -17,7 +17,11 @@
           "paragraphs": [
             "Automatic test and packing machine for SMT type chip inductors."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/131b7eba-8cc4-444f-b58e-70110514df10.webp",
+            "alt": "Inductor Test & Packing Machine 1870D"
+          }
         }
       },
       {
@@ -39,5 +43,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Inductor Test Machine"
 }

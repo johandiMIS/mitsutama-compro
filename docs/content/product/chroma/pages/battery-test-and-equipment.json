@@ -1,0 +1,64 @@
+{
+  "section": "products",
+  "slug": "battery-test-and-equipment",
+  "title": "Battery Test and Equipment",
+  "seoDescription": "Battery cell, module and pack test solutions from Chroma: regenerative charge and discharge systems, battery pack simulators and BMS test systems.",
+  "landing": true,
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Test and Equipment",
+          "paragraphs": [
+            "Chroma's battery test portfolio covers the full path from cell to pack: regenerative charge and discharge systems for cells, modules and packs, battery pack simulators, and BMS test systems.",
+            "Regenerative designs return discharge energy to the grid, with driving profile simulation and hardware / software integration that can be customised to the test setup."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ed096bfa-c860-48fb-a9f6-9228fb2fc243.webp",
+            "alt": "Battery Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Battery Test and Equipment",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Battery Cell Test",
+              "products": []
+            },
+            {
+              "name": "Battery Pack Test",
+              "products": []
+            },
+            {
+              "name": "Battery Pack Simulator",
+              "products": []
+            },
+            {
+              "name": "BMS Test",
+              "products": []
+            },
+            {
+              "name": "Battery Cell Line Equipment",
+              "products": []
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  }
+}

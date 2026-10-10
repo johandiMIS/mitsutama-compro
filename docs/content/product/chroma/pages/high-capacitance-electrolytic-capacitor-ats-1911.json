@@ -1,0 +1,46 @@
+{
+  "section": "products",
+  "slug": "high-capacitance-electrolytic-capacitor-ats-1911",
+  "title": "High Capacitance Electrolytic Capacitor ATS 1911",
+  "parent": "power-electronic-test-and-equipment",
+  "seoDescription": "Chroma automatic test system (1911) for high capacitance electrolytic capacitor.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "High Capacitance Electrolytic Capacitor ATS 1911",
+          "paragraphs": [
+            "Chroma automatic test system (1911) for high capacitance electrolytic capacitor."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b0ad55bc-2a71-4273-9d33-42049843b8b0.webp",
+            "alt": "High Capacitance Electrolytic Capacitor ATS 1911"
+          }
+        }
+      },
+      {
+        "type": "SpecTable",
+        "props": {
+          "title": "Unit under test",
+          "rows": [
+            {
+              "label": "UUT type",
+              "value": "High capacitance electrolytic capacitor"
+            }
+          ]
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Automatic Test System (ATS)"
+}

@@ -17,7 +17,11 @@
           "paragraphs": [
             "Digital power meters with 1 to 4 channels. Meets ENERGY STAR / IEC 62301 / ErP ecodesign / SPEC POWER measurement requirements."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/21932303-45d9-4bf4-a1ed-67e18286e981.webp",
+            "alt": "Digital Power Meter 66200 Series"
+          }
         }
       },
       {
@@ -75,5 +79,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "Digital Power Meter"
 }

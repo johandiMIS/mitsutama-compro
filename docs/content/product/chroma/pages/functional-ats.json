@@ -1,0 +1,34 @@
+{
+  "section": "products",
+  "slug": "functional-ats",
+  "title": "Functional ATS",
+  "parent": "battery-test-and-equipment",
+  "seoDescription": "Functional automatic test system for battery modules and packs, part of the regenerative battery module / pack test systems.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Chroma",
+          "title": "Functional ATS",
+          "paragraphs": [
+            "Functional automatic test system for battery modules and packs, part of the regenerative battery module / pack test systems."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c65ed30a-12d3-4ca8-bb86-26a74aefde5a.webp",
+            "alt": "Functional ATS"
+          }
+        }
+      },
+      {
+        "type": "ContactCta",
+        "props": {}
+      }
+    ]
+  },
+  "productGroup": "Battery Cell Line Equipment"
+}

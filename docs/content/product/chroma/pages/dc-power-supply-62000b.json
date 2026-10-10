@@ -17,7 +17,11 @@
           "paragraphs": [
             "Modular programmable DC power supply with hot-swappable modules and N+1 redundancy. Part of Chroma's Programmable DC Power Supplies family, 100W ~ 1.5MW (0 ~ 1800V / 2000V, up to 3750A as a system)."
           ],
-          "imageSide": "right"
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fb2307b0-051e-4c2a-b20f-443e720ed479.webp",
+            "alt": "Modular DC Power Supply 62000B Series"
+          }
         }
       },
       {
@@ -75,5 +79,6 @@
         "props": {}
       }
     ]
-  }
+  },
+  "productGroup": "DC Power Supply"
 }
