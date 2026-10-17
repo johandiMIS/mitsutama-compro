@@ -35,3 +35,6 @@ apps/api/generated/
 
 # database backups (pnpm db:backup)
 /backup-*.sql
+
+# content push config (pnpm db:push-content)
+/scripts/push-content.env
