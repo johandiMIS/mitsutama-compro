@@ -107,7 +107,12 @@ function dumpLocal(conn, stamp) {
   // transaction): any error rolls everything back. Page.parentId/groupId FKs aren't
   // deferrable and INSERT order may put a child before its parent, so make them
   // deferred for the load and put them back afterwards.
-  const body = readFileSync(dumpFile, 'utf8');
+  // The local pg_dump may be newer than the server's Postgres: drop what older servers/psql
+  // reject (`SET transaction_timeout` is PG17+; `\restrict` guards are a newer-psql feature).
+  const body = readFileSync(dumpFile, 'utf8')
+    .split('\n')
+    .filter((l) => !/^SET transaction_timeout\b/.test(l) && !/^\\(un)?restrict\b/.test(l))
+    .join('\n');
   const script = `-- content push ${stamp}: replaces "NavGroup" and "Page" only
 ALTER TABLE public."Page" ALTER CONSTRAINT "Page_parentId_fkey" DEFERRABLE INITIALLY DEFERRED;
 ALTER TABLE public."Page" ALTER CONSTRAINT "Page_groupId_fkey" DEFERRABLE INITIALLY DEFERRED;
