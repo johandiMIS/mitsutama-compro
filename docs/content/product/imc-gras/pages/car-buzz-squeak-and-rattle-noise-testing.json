@@ -1,0 +1,97 @@
+{
+  "section": "products",
+  "slug": "car-buzz-squeak-and-rattle-noise-testing",
+  "title": "Car Buzz, Squeak and Rattle Noise Testing",
+  "group": "GRAS",
+  "seoDescription": "GRAS microphones for buzz, squeak and rattle noise testing of vehicles, including electric vehicles where low masking makes BSR more noticeable.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Car Buzz, Squeak and Rattle Noise Testing",
+          "paragraphs": [
+            "Buzz, squeak and rattle (BSR) are noises made by installed parts that move against each other, sometimes only in certain environmental conditions. Buzz comes from the structure or part itself, squeak from friction between parts and rattle from impact.",
+            "Even at low levels BSR is easy to hear because it is intermittent and poorly masked, and it is a common source of customer complaints. In electric vehicles masking is lower still while weight targets make BSR harder to prevent."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/91f9823f-e970-4ad6-bff6-d51451b7cec2.webp",
+            "alt": "Car Buzz, Squeak and Rattle Noise Testing"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Preventing BSR",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Chassis and structural design, material selection and controlled tolerance chains are specified in the design targets, from prototype to production\n- Measure continuously with reliable measurement microphones\n- BSR testing uses microphones and vibration sensors to locate the noise source and improve perceived quality"
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Recommended products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Recommended microphones",
+              "products": [
+                {
+                  "name": "GRAS 146AE",
+                  "badges": [],
+                  "bullets": [
+                    "Versatile free-field microphone set, the first choice for buzz, squeak and rattle testing anywhere in and around the car"
+                  ],
+                  "model": "146AE",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/10bdd0aa-cde9-4c7d-9f89-19e636cb0463.webp",
+                    "alt": "GRAS 146AE"
+                  }
+                },
+                {
+                  "name": "GRAS 46BC",
+                  "badges": [],
+                  "bullets": [
+                    "Multifield, high-sensitivity microphone"
+                  ],
+                  "model": "46BC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2911fd94-52f9-4f1c-9476-3eac33140609.webp",
+                    "alt": "GRAS 46BC"
+                  }
+                },
+                {
+                  "name": "GRAS 42AG",
+                  "badges": [],
+                  "bullets": [
+                    "Recommended for calibration"
+                  ],
+                  "model": "42AG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd8906e2-8eb5-4244-b88d-a22bcd479b85.webp",
+                    "alt": "GRAS 42AG"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 4
+}

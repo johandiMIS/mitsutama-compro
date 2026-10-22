@@ -1,0 +1,317 @@
+{
+  "section": "products",
+  "slug": "headphone-earbud-and-smart-speaker-test",
+  "title": "Headphone, Earbud and Smart Speaker Test",
+  "group": "Audio Precision",
+  "seoDescription": "Audio Precision headphone, earbud and headset test: APx analyzers, GRAS 45CC fixture and KEMAR, Bluetooth and USB headset testing, EN 50332.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Audio Precision",
+          "title": "Headphone, Earbud and Smart Speaker Test",
+          "paragraphs": [
+            "Many people spend hours a day wearing speakers on or in their ears, and expect hi-fi sound from a very small package. Measuring the audio quality of headphones, earbuds and headsets reliably is demanding work for the engineers who design them.",
+            "Audio Precision analyzers with GRAS test fixtures and the APx500 software cover these measurements, including Bluetooth and USB devices."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6cef086c-d72a-4a46-bd4b-053f21b1c11d.webp",
+            "alt": "Headphone, Earbud and Smart Speaker Test"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test solutions",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Analyzers, fixtures and software",
+              "products": [
+                {
+                  "name": "APx555B",
+                  "badges": [],
+                  "bullets": [
+                    "Modular two-channel audio analyzer",
+                    "Audio Precision's reference for performance and versatility"
+                  ],
+                  "model": "APx555B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/beb0ef8d-73ca-4f13-bb2d-bc8fe4642dd0.webp",
+                    "alt": "APx555B"
+                  }
+                },
+                {
+                  "name": "APx58xB",
+                  "badges": [],
+                  "bullets": [
+                    "8 or 16-channel modular audio analyzers",
+                    "Broad digital I/O for simultaneous multichannel audio test"
+                  ],
+                  "model": "APx58xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3aa102c6-43ca-465c-b509-d7e409e71c19.webp",
+                    "alt": "APx58xB"
+                  }
+                },
+                {
+                  "name": "APx52xB",
+                  "badges": [],
+                  "bullets": [
+                    "Modular 2- and 4-channel audio analyzers",
+                    "Balances analog performance with a wide range of digital I/O"
+                  ],
+                  "model": "APx52xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e7185aba-4885-43e0-8d56-0669d5e2745f.webp",
+                    "alt": "APx52xB"
+                  }
+                },
+                {
+                  "name": "APx517B",
+                  "badges": [],
+                  "bullets": [
+                    "Acoustic analyzer for production lines",
+                    "For applications where cost and setup time are critical"
+                  ],
+                  "model": "APx517B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4fa3c167-d021-499f-b3d0-09be47c335a3.webp",
+                    "alt": "APx517B"
+                  }
+                },
+                {
+                  "name": "APx516B",
+                  "badges": [],
+                  "bullets": [
+                    "Value-oriented analyzer with flexible digital connectivity",
+                    "Built for production test, also suited to acoustic R&D"
+                  ],
+                  "model": "APx516B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f99a381d-4e17-4884-bc4a-ebccee92563e.webp",
+                    "alt": "APx516B"
+                  }
+                },
+                {
+                  "name": "APx515B",
+                  "badges": [],
+                  "bullets": [
+                    "Two-channel analyzer for production test and entry-level R&D",
+                    "Combines speed, performance, reliability and ease of use"
+                  ],
+                  "model": "APx515B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd235d34-3a01-4b4c-9437-6454c3cc1975.webp",
+                    "alt": "APx515B"
+                  }
+                },
+                {
+                  "name": "APx511B",
+                  "badges": [],
+                  "bullets": [
+                    "Analyzer for hearing aid manufacturers",
+                    "Research and development, performance verification and testing of returned hearing aids"
+                  ],
+                  "model": "APx511B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ba70b5fa-cceb-4374-a1c5-4db540b1d812.webp",
+                    "alt": "APx511B"
+                  }
+                },
+                {
+                  "name": "APx1701 Transducer Test Interface",
+                  "badges": [],
+                  "bullets": [
+                    "Low noise, low distortion and flat response for loudspeaker, headphone and microphone measurement"
+                  ],
+                  "model": "APx1701",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8e9feab6-60d2-4a94-9f3e-8de0153ae7f1.webp",
+                    "alt": "APx1701 Transducer Test Interface"
+                  }
+                },
+                {
+                  "name": "GRAS 45CC Headphone Test Fixture",
+                  "badges": [],
+                  "bullets": [
+                    "Configurable fixture for dual-channel testing of headphones and headsets",
+                    "Options include microphones and IEC 60318-1 / IEC 60318-4 ear simulators"
+                  ],
+                  "model": "45CC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f34ac59a-5aae-42e3-905a-d4d57efa1147.webp",
+                    "alt": "GRAS 45CC Headphone Test Fixture"
+                  }
+                },
+                {
+                  "name": "GRAS KEMAR",
+                  "badges": [],
+                  "bullets": [
+                    "Industry-standard manikin for anthropomorphic testing in telecommunications, hearing conservation, noise abatement and sound recording"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/91631267-1fe5-4e28-a227-b037d02cdd17.webp",
+                    "alt": "GRAS KEMAR"
+                  }
+                },
+                {
+                  "name": "APx500 Flex",
+                  "badges": [],
+                  "bullets": [
+                    "Software-only option: use any ASIO-capable audio interface with the APx500 software",
+                    "For very cost-sensitive production test"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b86602b7-ce06-4f2e-ab0f-a290788de2a6.webp",
+                    "alt": "APx500 Flex"
+                  }
+                },
+                {
+                  "name": "APx500 Software",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement software platform shared by all APx audio analyzers"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a51cb7c5-4efe-4188-a5c3-45a477a5dcbd.webp",
+                    "alt": "APx500 Software"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Bluetooth, USB and standards",
+              "products": [
+                {
+                  "name": "Technote 142: Audio Test of USB Headsets with APx",
+                  "badges": [],
+                  "bullets": [
+                    "Testing USB headsets with APx500 analyzers using open-loop test techniques"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/88751eb6-3b95-4f1b-bf8c-e18317f1367c.webp",
+                    "alt": "Technote 142: Audio Test of USB Headsets with APx"
+                  }
+                },
+                {
+                  "name": "Testing Headphones to EN 50332 Standards with APx",
+                  "badges": [],
+                  "bullets": [
+                    "Webinar: testing headphones to EN 50332 accurately and efficiently"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0805243e-55a5-4a45-8b74-70712368a201.webp",
+                    "alt": "Testing Headphones to EN 50332 Standards with APx"
+                  }
+                },
+                {
+                  "name": "A Step by Step Guide to setting up the APx Bluetooth Duo Module",
+                  "badges": [],
+                  "bullets": [
+                    "Configuring the APx500 software (v4.5 or later) and pairing it with a device"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e2a82c56-0204-4213-b232-33f42e0d8f5e.webp",
+                    "alt": "A Step by Step Guide to setting up the APx Bluetooth Duo Module"
+                  }
+                },
+                {
+                  "name": "APx Bluetooth 5 Option Datasheet",
+                  "badges": [],
+                  "bullets": [
+                    "Third-generation Bluetooth module with Bluetooth LE Audio, supporting Bluetooth specification v5.4"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fc5eaf3a-b6b4-436d-bde6-56e79804228e.webp",
+                    "alt": "APx Bluetooth 5 Option Datasheet"
+                  }
+                },
+                {
+                  "name": "APx Bluetooth Duo Option Datasheet",
+                  "badges": [],
+                  "bullets": [
+                    "Wider choice of A2DP codecs, faster pairing and connection, and improved RF shielding"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6e08cf7a-4d14-40e8-bf2f-e1f31576844c.webp",
+                    "alt": "APx Bluetooth Duo Option Datasheet"
+                  }
+                },
+                {
+                  "name": "Quick Tip 141 – Bluetooth Duo Module",
+                  "badges": [],
+                  "bullets": [
+                    "Video overview of the Bluetooth Duo I/O module and its APx500 integration"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e44a24f2-3d3a-496e-b045-dc3cd6867dc6.webp",
+                    "alt": "Quick Tip 141 – Bluetooth Duo Module"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Common headphone measurements",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Frequency response\n- Electrical impedance\n- Input voltages\n- Sound pressure level\n- Harmonic and intermodulation distortion\n- Noise attenuation\n- Crosstalk attenuation\n- Rub and buzz\n- Left / right tracking"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Earphone types",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Circumaural (around-ear)",
+              "text": "Completely surround the pinna and rest on the head around it."
+            },
+            {
+              "title": "Supra-aural (on-ear)",
+              "text": "Rest on the pinna."
+            },
+            {
+              "title": "Intra-concha (in-ear)",
+              "text": "Small earphones that rest within the concha cavity, just outside the ear canal."
+            },
+            {
+              "title": "Insert",
+              "text": "Small earphones that partly or completely enter the ear canal."
+            },
+            {
+              "title": "Supra-concha",
+              "text": "Rest upon the ridges of the concha cavity."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 2
+}

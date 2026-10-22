@@ -1,0 +1,293 @@
+{
+  "section": "products",
+  "slug": "automotive-entertainment-test-and-equipment",
+  "title": "Automotive Entertainment Test and Equipment",
+  "group": "Audio Precision",
+  "seoDescription": "Audio Precision automotive audio amplifier testing: gain, noise, CMRR, PSRR, frequency response, THD+N, intermodulation, crosstalk, DC offset, click and pop, and class D filtering.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Audio Precision",
+          "title": "Automotive Entertainment Test and Equipment",
+          "paragraphs": [
+            "Audio Precision's application note on automotive amplifiers describes the measurements normally made on car audio amplifiers and what to watch for in automotive systems. Most car audio amplifiers are class A/B or D, chosen to keep power consumption low while keeping output high and distortion low.",
+            "The tests are the same from one amplifier class to the next, apart from the special output filtering that class D amplifiers need. They run on an Audio Precision audio analyzer from the APx500 series, with a DC supply of 9 to 16 VDC, a power meter, a multimeter, non-inductive load resistors of the rated impedance and power, and ground cables to a common ground."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/494cbfa1-eb35-4955-aad9-da6753ec3b63.webp",
+            "alt": "Automotive Entertainment Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test equipment",
+          "intro": "The Audio Precision equipment named in the application note.",
+          "categories": [
+            {
+              "name": "Audio analyzers",
+              "products": [
+                {
+                  "name": "APx555B",
+                  "badges": [],
+                  "bullets": [
+                    "Modular two-channel audio analyzer",
+                    "Two-channel generator for the basic and IEC 60268-3 CMRR tests"
+                  ],
+                  "model": "APx555B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/beb0ef8d-73ca-4f13-bb2d-bc8fe4642dd0.webp",
+                    "alt": "APx555B"
+                  }
+                },
+                {
+                  "name": "APx52xB",
+                  "badges": [],
+                  "bullets": [
+                    "Modular 2- and 4-channel audio analyzers",
+                    "Two-channel generator for the basic and IEC 60268-3 CMRR tests"
+                  ],
+                  "model": "APx525 / APx526",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e7185aba-4885-43e0-8d56-0669d5e2745f.webp",
+                    "alt": "APx52xB"
+                  }
+                },
+                {
+                  "name": "APx58xB",
+                  "badges": [],
+                  "bullets": [
+                    "8 or 16-channel modular audio analyzers for multichannel amplifier test"
+                  ],
+                  "model": "APx582",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3aa102c6-43ca-465c-b509-d7e409e71c19.webp",
+                    "alt": "APx58xB"
+                  }
+                },
+                {
+                  "name": "APx515B",
+                  "badges": [],
+                  "bullets": [
+                    "Two-channel analyzer for production test and entry-level R&D"
+                  ],
+                  "model": "APx515B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd235d34-3a01-4b4c-9437-6454c3cc1975.webp",
+                    "alt": "APx515B"
+                  }
+                },
+                {
+                  "name": "APx500 Software",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement software for all APx analyzers, including the AES17 filter used for class D measurements"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a51cb7c5-4efe-4188-a5c3-45a477a5dcbd.webp",
+                    "alt": "APx500 Software"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Class D measurement filters",
+              "products": [
+                {
+                  "name": "AUX-0025",
+                  "badges": [],
+                  "bullets": [
+                    "Two-channel switching amplifier measurement filter (low-pass)",
+                    "Passive filter between the amplifier outputs and the analyzer inputs"
+                  ],
+                  "model": "AUX-0025",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9f23a2f3-4475-46a2-9144-2f838f61b437.webp",
+                    "alt": "AUX-0025"
+                  }
+                },
+                {
+                  "name": "AUX-0100",
+                  "badges": [],
+                  "bullets": [
+                    "Eight-channel switching amplifier measurement filter (low-pass)",
+                    "For multichannel class D amplifiers"
+                  ],
+                  "model": "AUX-0100",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6a19ffc5-ae9d-4617-b35f-4d95c8618f96.webp",
+                    "alt": "AUX-0100"
+                  }
+                },
+                {
+                  "name": "AUX-0040",
+                  "badges": [],
+                  "bullets": [
+                    "Two-channel 40 kHz low-pass switching amplifier measurement filter"
+                  ],
+                  "model": "AUX-0040",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b5586187-50cd-420f-8288-606238c8859a.webp",
+                    "alt": "AUX-0040"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Automotive interfaces",
+              "products": [
+                {
+                  "name": "A2B audio testing",
+                  "badges": [],
+                  "bullets": [
+                    "Multichannel audio test over the Automotive Audio Bus (A2B) with an APx analyzer"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1bbf97ab-6328-406a-a898-56f695bf7853.webp",
+                    "alt": "A2B audio testing"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Amplifier measurements",
+          "intro": "The typical measurements made on automotive audio amplifiers."
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Gain and level",
+              "text": "A stepped input level sweep, measuring output level and gain on two channels at once. It shows gain, channel matching, the point where the output clips and the linear dynamic range."
+            },
+            {
+              "title": "Noise floor and SNR",
+              "text": "How quiet a channel is. Noise can be random or deterministic, from crosstalk, power supply isolation, grounding or EMI from electric motors and ignition. Occupants notice it most in a quiet vehicle."
+            },
+            {
+              "title": "Common mode rejection (CMRR)",
+              "text": "Compares output noise of a balanced output with the same amplifier unbalanced. The basic test and the IEC 60268-3 method are both available. A well-designed amplifier is typically 60 dB or better."
+            },
+            {
+              "title": "Power supply rejection (PSRR)",
+              "text": "How well the amplifier keeps power system noise out of the audio, which is critical for systems powered straight from the vehicle battery. An example setup is 13.8 V DC with about 2 Vrms AC."
+            },
+            {
+              "title": "Frequency response",
+              "text": "Output level across 20 Hz to 20 kHz, or to 45 or 90 kHz for high definition audio. A logarithmic chirp can replace a stepped sweep in production test: for example 4 seconds instead of 23."
+            },
+            {
+              "title": "Output power and THD+N",
+              "text": "THD+N at 1 W with all channels driven, and at full power with one channel driven. THD+N can rise by 10 times or more between the two."
+            },
+            {
+              "title": "Intermodulation distortion",
+              "text": "Two-tone tests of the upper audio range: difference frequency distortion (DFD) and SMPTE IMD, typically with f1 at 60 Hz and f2 at 7 kHz at a 4:1 amplitude ratio."
+            },
+            {
+              "title": "Crosstalk",
+              "text": "Unintended coupling from one channel to another, measured as a function of frequency and often at 1 W output."
+            },
+            {
+              "title": "DC offset, click and pop",
+              "text": "The DC level at the outputs, and the turn-on and turn-off transients, judged with Q-peak measurement and an estimate of the resulting sound pressure level."
+            },
+            {
+              "title": "Class D amplifiers",
+              "text": "Out-of-band switching noise needs a passive filter in front of the analyzer, plus the analyzer's AES17 filter. Audio Precision offers external low-pass filters for this purpose."
+            }
+          ]
+        }
+      },
+      {
+        "type": "TextImage",
+        "props": {
+          "title": "Automotive audio test subsystems",
+          "body": "Seen through an audio lens, a car is a complex system, so Audio Precision breaks testing into subsystems: the amplifier, the head unit, the cabin (acoustic, perceptual and Bluetooth) and A2B. Interfaces range from analog and I2S to Bluetooth, PDM and TDM, and the tests include multichannel, perceptual (PESQ, POLQA, ABC-MRT), acoustic and open-loop file analysis. The amplifier is the subject of this first paper in a series.",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b2fac775-dcba-42e8-a6f2-a7ea6456508d.webp",
+            "alt": "Diagram of the automotive audio test subsystems around a car"
+          },
+          "imageSide": "left"
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Typical targets",
+          "intro": "Performance levels from the application note, for a well-designed automotive amplifier."
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Test supply",
+              "text": "9 to 16 VDC for the amplifier under test"
+            },
+            {
+              "title": "CMRR",
+              "text": "60 dB or better"
+            },
+            {
+              "title": "PSRR",
+              "text": "60 dB or better, 20 Hz to 5 kHz"
+            },
+            {
+              "title": "SMPTE IMD",
+              "text": "0.5% or less (standard), 0.1% or less (premium)"
+            },
+            {
+              "title": "Crosstalk",
+              "text": "-40 dB or better (standard), -50 dB or better (premium), often at 1 W"
+            }
+          ]
+        }
+      },
+      {
+        "type": "TextImage",
+        "props": {
+          "title": "Grounding",
+          "body": "Connect each device's chassis ground straight to the analyzer's ground (star grounding). Chaining grounds from device to device (bus grounding) adds noise and often gives the worst results.",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/76df2712-a1d1-43cb-b9cd-fffcd7213ed8.webp",
+            "alt": "Bus grounding (not recommended) compared with star grounding (recommended)"
+          },
+          "imageSide": "left"
+        }
+      },
+      {
+        "type": "TextImage",
+        "props": {
+          "title": "Class D output filtering",
+          "body": "A class D output carries high-frequency switching noise. Put a passive filter such as the AUX-0025, AUX-0100 or AUX-0040 between the amplifier and the analyzer, then use the analyzer's AES17 filter. The external filter also protects the analyzer inputs.",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/70f80b5c-cb1c-4a5c-8621-cc87722da3f4.webp",
+            "alt": "Class D amplifier output before and after the measurement filter"
+          },
+          "imageSide": "left"
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 3
+}

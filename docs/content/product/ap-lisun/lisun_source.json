@@ -1,0 +1,2135 @@
+{
+ "pages": {
+  "luminaire-test-and-equipment": {
+   "intro": [
+    "E-Catalog News About Us Home Applications LEDs and Luminaire Test Solutions LEDs and Luminaire Test Solutions LISUN’s indoor and outdoor LED luminaires and LED fixtures test solutions fully cover key international standards, providing professional support for testing the safety, photometric, chromatic, and environmental adaptability performance of various LED products. Among these standards, IEC 60598-1:2020 specifies general safety requirements for luminaires, including tests for mechanical strength, electrical insulation, protection against electric shock, and fire resistance; IEC 62722-2-1:2023 focuses on the performance of LED luminaires, covering tests for luminous flux, efficacy, color temperature, color rendering index, and lumen maintenance (L70/L80/L90); CIE 121:1996 offers guidelines for photometric measurement of luminaires, emphasizing luminous intensity distribution and glare control; while IS 16101:2012 and IS 16104:2012 define energy efficiency and safety requirements for the Indian market."
+   ],
+   "standards": [
+    {
+     "title": "IEC 60598-1 Edition 9 Luminaires – Part 1: General requirements and tests",
+     "products": {
+      "https://www.lisungroup.com/products/cfl-testing-instruments/gng-go-and-not-gogauge.html": {
+       "text": "GNG-G5H/GNG-G13H",
+       "clauses": [
+        "Clause 4.4.4 Lampholders"
+       ]
+      },
+      "https://www.lisungroup.com/products/cfl-testing-instruments/digital-torsion-meter.html": {
+       "text": "CH338",
+       "clauses": [
+        "Clause 4.12.4 Screwed and other fixed connections"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/test-device-for-threaded-sealing-cover.html": {
+       "text": "LWMF-1",
+       "clauses": [
+        "Clause 4.12.5 Screwed glands shall comply with the following test."
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/spring-impact-hammer-ik-level-tester.html": {
+       "text": "IK01-06",
+       "clauses": [
+        "Clause 4.13.1 Mechanical strength"
+       ]
+      },
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/iec-60529-test-probes-for-protection-of-persons-against-access-to-hazardous-parts.html": {
+       "text": "SMT-529T",
+       "clauses": [
+        "Clause 4.13.3/4 Test finger",
+        "Clause 8.2 Protection against electric shock"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/iec-60068-2-31-rotating-barrel-drop-test-machine.html": {
+       "text": "LS-DDT1-B",
+       "clauses": [
+        "Clause 4.13.6 (Figure 25)Rotating Barrel Drop Test Machine"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/iec62560-iec60598-bending-moment-test-device-for-lamp-holder.html": {
+       "text": "LS-WJ62",
+       "clauses": [
+        "Clause 4.14.2 Mechanical fixings"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/lamp-adjustment-test-device.html": {
+       "text": "DJTJ-1",
+       "clauses": [
+        "Clause 4.14.3 Adjusting devices testing"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/salt-spray-test-machine.html": {
+       "text": "YWX/Q-010",
+       "clauses": [
+        "Clause 4.18 Resistance to corrosion"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/electrodynamic-vibration-generator-system.html": {
+       "text": "LVD-100KG-6D",
+       "clauses": [
+        "Clause 4.20 Rough service luminaires – Vibration requirements"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/optical-radiation-safety-test.html": {
+       "text": "EN62471-C",
+       "clauses": [
+        "Clause 4.24 Photobiological hazards"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/dustproof-testing-machine.html": {
+       "text": "SC-015",
+       "clauses": [
+        "Clause 9.2.1 (Figure 6) Dust proof luminaire tests"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/waterproof-test.html": {
+       "text": "JL-X",
+       "clauses": [
+        "Clause 9.2.3-9.2.9 Drip-proof luminaires"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "Clause 10.2.1 Test – Insulation resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/ac-dc-withstand-voltage-test.html": {
+       "text": "WB2673C",
+       "clauses": [
+        "Clause 10.2.2 Test – Electric strength"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/iec60598-touch-current-measuring-network-g-2-and-g-3.html": {
+       "text": "MNTC-G2/G3",
+       "clauses": [
+        "Clause 10.3 Touch current, protective conductor current and electric burn(Figure G2/G3/G4)"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/iec60598-figure-g-4-simulated-human-impedance-touch-current-measuring-network.html": {
+       "text": "MNTC-G4",
+       "clauses": [
+        "Clause 10.3 Touch current, protective conductor current and electric burn(Figure G2/G3/G4)"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/creepage-clearances-distance-gauge-creepage-distance-test-cards.html": {
+       "text": "CK-1",
+       "clauses": [
+        "Clause 11 Creepage Distances and Clearance"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-010A",
+       "clauses": [
+        "Clause 12.3 Endurance test",
+        "Clause 13.2 Resistance to heat(Figure 10)"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/lamp-cap-temperature-rise-test-system.html": {
+       "text": "TMP-LM",
+       "clauses": [
+        "Clause 12.4 Thermal test (normal operation)"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/ball-pressure-test-device.html": {
+       "text": "ZBP-T",
+       "clauses": [
+        "Clause 13.2 Resistance to heat(Figure 10)"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/needle-flame-test.html": {
+       "text": "ZY-3",
+       "clauses": [
+        "Clause 13.3.1 Resistance to flame test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/glow-wire-test-apparatus.html": {
+       "text": "ZRS-3H",
+       "clauses": [
+        "Clause 13.3.2 Resistance to ignition testing"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/tracking-test-chamber.html": {
+       "text": "TTC-1",
+       "clauses": [
+        "Clause 13.4 Resistance to tracking(Figure 11)"
+       ]
+      }
+     },
+     "unlinked": [
+      [
+       "Clause 4.26.3 Lamp test chain",
+       "DJSYL-1"
+      ]
+     ]
+    },
+    {
+     "title": "IEC 62722-2-1:2023 Luminaire performance – Part 2-1: Particular requirements-LED luminaires",
+     "products": {
+      "https://www.lisungroup.com/products/led-test-instruments/high-precision-spectroradiometer-integrating-sphere-system.html": {
+       "text": "LPCE-2(LMS-9000)",
+       "clauses": [
+        "Clause 8.1 Luminous flux"
+       ]
+      },
+      "https://www.lisungroup.com/products/goniophotometer/lm-79-moving-detector-goniophotometer.html": {
+       "text": "LSG-6000",
+       "clauses": [
+        "Clause 8.2 Luminous intensity distribution, peak intensity and beam angle"
+       ]
+      },
+      "https://www.lisungroup.com/products/spectroradiometer/portable-ccd-spectroradiometer.html": {
+       "text": "LMS-6000",
+       "clauses": [
+        "Clause 9 Chromaticity coordinates, correlated colour temperature (CCT) and colour rendering"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/led-optical-aging-test-instrument.html": {
+       "text": "LEDLM-84PL",
+       "clauses": [
+        "Clause 10 LED luminaire life"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "CIE 121:1996 The Photometry And Goniophotometry Of Luminaires",
+     "products": {
+      "https://www.lisungroup.com/products/led-test-instruments/high-precision-spectroradiometer-integrating-sphere-system.html": {
+       "text": "LPCE-2(LMS-9000)",
+       "clauses": [
+        "Clause 2.2.1 Luminaire data per 1 000 lm (of lamp flux)"
+       ]
+      },
+      "https://www.lisungroup.com/products/goniophotometer/lm-79-moving-detector-goniophotometer.html": {
+       "text": "LSG-6000",
+       "clauses": [
+        "Clause 2.2.2 Luminous intensity distribution (of a luminaire)"
+       ]
+      },
+      "https://www.lisungroup.com/products/cfl-testing-instruments/adjustable-high-frequency-reference-ballast.html": {
+       "text": "HCS-109A",
+       "clauses": [
+        "Clause 2.2.3 Ballast lumen factor"
+       ]
+      },
+      "https://www.lisungroup.com/products/spectroradiometer/portable-ccd-spectroradiometer.html": {
+       "text": "LMS-6000",
+       "clauses": [
+        "Clause 2.4.4 Illuminance meter",
+        "Clause 6.3 Luminous flux measurements on luminaires"
+       ]
+      },
+      "https://www.lisungroup.com/products/photometer-and-colorimeter/lux-meter.html": {
+       "text": "PHOTO-200",
+       "clauses": [
+        "Clause 2.4.4 Illuminance meter",
+        "Clause 6.3 Luminous flux measurements on luminaires"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IS 16101: 2012 General Lighting-LEDs and LED Modules-Terms and Definitior",
+     "products": {
+      "https://www.lisungroup.com/products/led-test-instruments/optical-radiation-safety-test.html": {
+       "text": "EN62471-C",
+       "clauses": [
+        "Clause 3.2 Optical Radiation Safety"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/portable-retinal-blue-light-hazard-tester.html": {
+       "text": "EN62471-P",
+       "clauses": [
+        "Clause 3.3 Retinal Hazard"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/high-precision-spectroradiometer-integrating-sphere-system.html": {
+       "text": "LPCE-2(LMS-9000)",
+       "clauses": [
+        "Clause 3.8-3.10 Chromaticity Coordinates and Colour Rendering Index"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/led-thermal-and-electrical-performance-analyzer.html": {
+       "text": "T5",
+       "clauses": [
+        "Clause 3.19/3.45 Junction Temperature and Thermal Resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/goniophotometer/high-precision-rotation-luminaire-goniophotometer.html": {
+       "text": "LSG-1890B",
+       "clauses": [
+        "Clause 3.23-3.26 Luminous Flux and Luminous Intensity"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IS 16104: 2012 d.c.OR a.c. Supplied Electronic Control Gear for LED Modules-Performance Requirements",
+     "products": {
+      "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-cc-and-cv-dc-power-supply.html": {
+       "text": "DC3005",
+       "clauses": [
+        "3.1 Total Circuit Power"
+       ]
+      },
+      "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-power-meter-high-accuracy-model.html": {
+       "text": "LS2050B",
+       "clauses": [
+        "3.2 Circuit Power Factor"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/dc-electronic-load.html": {
+       "text": "M9822B",
+       "clauses": [
+        "5.1 Classification according to the load"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "12. Test for Reduced LED Modules Resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "13.1 The control gear shall be subjected to a temperature cycling shock test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electronic-components-test/lcr-digital-bridge.html": {
+       "text": "FD2810B",
+       "clauses": [
+        "Annex A.3 Firgure 2 Measurement of impedance at audio-Frequencies"
+       ]
+      },
+      "https://www.lisungroup.com/products/led-test-instruments/led-optical-aging-test-instrument.html": {
+       "text": "LEDLM-80PL",
+       "clauses": [
+        "Annex B a guide to quoting product life and failure rate"
+       ]
+      }
+     },
+     "unlinked": []
+    }
+   ],
+   "featured": [
+    {
+     "link": "https://www.lisungroup.com/products/ac-and-dc-power-supply/ac-power-source.html",
+     "name": "LSP-500VARC Pure Sine Wave AC Power Source (High Precision)",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSP-500VARC_AL-1.jpg",
+     "key": "lisun-lsp-500varc"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-cc-and-cv-dc-power-supply.html",
+     "name": "DC3005 Digital CC and CV DC Power Supply (High Precision)",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DC3005_AL-2.jpg",
+     "key": "lisun-dc3005"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-test-instruments/thermal-resistance-spectroradiometeric-system-for-led.html",
+     "name": "TRS-1000 Thermal Resistance Spectroradiometeric System for LED",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TRS-1000_AL.jpg",
+     "key": "lisun-trs-1000"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/integrating-sphere/high-precision-spectroradiometer-integrating-sphere-system.html",
+     "name": "LPCE-2(LMS-9000) High Precision Spectroradiometer Integrating Sphere System",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/LPCE-2LMS-9000_AL1.jpg",
+     "key": "lisun-lpce-2-lms-9000"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/goniophotometer/lm-79-moving-detector-goniophotometer.html",
+     "name": "LSG-6000 LM-79 Moving Detector Goniophotometer (Mirror Type C)",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/LSG-6000_AL1.jpg",
+     "key": "lisun-lsg-6000"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/goniophotometer/high-precision-rotation-luminaire-goniophotometer.html",
+     "name": "LSG-1890B High Precision Rotation Luminaire Goniophotometer",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1890B_AL.jpg",
+     "key": "lisun-lsg-1890b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/goniophotometer/goniophotometer-for-automotive-and-signal-lamps.html",
+     "name": "LSG-1950 Goniophotometer for Automotive and Signal Lamps",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1950_AL1.jpg",
+     "key": "lisun-lsg-1950"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/goniophotometer/high-precision-rotation-luminaire-goniospectroradiometer.html",
+     "name": "LSG-1890BCCD High Precision Rotation Luminaire Goniospectroradiometer",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1890B_AL1.jpg",
+     "key": "lisun-lsg-1890bccd"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/object-color-and-glossiness-test/colorimeter.html",
+     "name": "CD-320PRO Portable Colorimeter/Chroma Meter",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CD-320PRO_AL.jpg",
+     "key": "lisun-cd-320pro"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-aging-thermal-resistance/aging-and-life-test-rack.html",
+     "name": "SY2036 LED Lamp and Luminaires Aging and Life Test Rack",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SY2036_AL.jpg",
+     "key": "lisun-sy2036"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-test-instruments/imaging-luminance-colorimeter.html",
+     "name": "KS-10 Imaging Luminance Colorimeter",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2020/12/KS-10_AL.jpg",
+     "key": "lisun-ks-10"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-power-meter-high-accuracy-model.html",
+     "name": "LS2050 Digital Power Meter (High Accuracy AC & DC Model)",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LS2050_AL3.jpg",
+     "key": "lisun-ls2050"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-aging-thermal-resistance/led-optical-aging-test-instrument.html",
+     "name": "LEDLM-84PL LED Optical Aging Test Instrument",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LEDLM-80PL_AL6.jpg",
+     "key": "lisun-ledlm-84pl"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-test-instruments/adjustable-high-frequency-reference-ballast.html",
+     "name": "HCS-109A Adjustable High Frequency Reference Ballast",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HCS-109A_AL.jpg",
+     "key": "lisun-hcs-109a"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-test-instruments/lux-meter.html",
+     "name": "PHOTO-200 Lux Meter | Brightness Meter | PPFD Meter | UV Irradiance Meter",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2022/10/PHOTO-200_AL-1.jpg",
+     "key": "lisun-photo-200"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html",
+     "name": "GDJS-015B Temperature Humidity Chamber | Thermal Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/GDJS_AL10.jpg",
+     "key": "lisun-gdjs-015b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ip-waterproof-dustproof/dustproof-testing-machine.html",
+     "name": "SC-015 Dustproof Test Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SC-015_AL-3.jpg",
+     "key": "lisun-sc-015"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ip-waterproof-dustproof/waterproof-test.html",
+     "name": "JL-X IP Waterproof Test Equipments（Open Type）",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/JL-X_AL.jpg",
+     "key": "lisun-jl-x"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/glow-wire-test-apparatus.html",
+     "name": "ZRS-3H Glow-wire Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/glow_wire_tester_ZRS-3H_AL.jpg",
+     "key": "lisun-zrs-3h"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/needle-flame-test.html",
+     "name": "ZY-3 Needle Flame Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/needle_flame_tester_ZY-3_AL.jpg",
+     "key": "lisun-zy-3"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/tracking-test-chamber.html",
+     "name": "TTC-1 Tracking Test Chamber | Leakage Tracking Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TTC-1_AL-1.jpg",
+     "key": "lisun-ttc-1"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/ac-dc-withstand-voltage-test.html",
+     "name": "WB2671B AC/DC Withstand Voltage Test",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2671B_AL.jpg",
+     "key": "lisun-wb2671b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html",
+     "name": "WB2681A Insulation Resistance Tester | Shell Insulation Resistance Test",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2681A_AL.jpg",
+     "key": "lisun-wb2681a"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/weathering-corrosion-test/salt-spray-test-machine.html",
+     "name": "YWX/Q-010 Salt Spray Test Chamber | Salt Fog Corrosion Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/YWXQ-010_AL1-2.jpg",
+     "key": "lisun-ywx-q-010"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/photobiological-safety-blue-light/optical-radiation-safety-test.html",
+     "name": "EN62471-C Optical Radiation Safety Test",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/EN62471-C_AL.jpg",
+     "key": "lisun-en62471-c"
+    }
+   ]
+  },
+  "home-appliance-test-and-equipment": {
+   "intro": [
+    "E-Catalog News About Us Home Applications Household Applicances Test Solutions Household Applicances Test Solutions LISUN’s household appliance testing solutions are fully compliant with IEC 60335, the fundamental international safety standard governing household and similar electrical appliances. This standard is applicable to equipment with a rated voltage not exceeding 250V for single-phase and 480V for three-phase systems. It formulates stringent safety requirements and corresponding testing methodologies spanning multiple domains, including electrical, mechanical, thermal, abnormal operation, and electromagnetic compatibility aspects. These provisions ensure that products can maintain safety under normal usage and foreseeable misuse scenarios, and must be implemented in conjunction with specific standards within the IEC 60335 series tailored to different types of electrical appliances.​",
+    "Our solutions encompass all key testing items specified in IEC 60335. These include basic safety tests such as accessibility testing, heating testing, leakage current and dielectric strength testing, and waterproof testing; electromagnetic compatibility tests covering electrostatic discharge, fast transients, surges, and other related assessments; as well as tests for mechanical strength, corrosion resistance, and flame resistance, along with specialized tests like flexing tests, salt spray tests, and drop tests. LISUN provides one-stop testing support for manufacturers and laboratories, facilitating household appliances’ compliance with global safety regulations and enabling their smooth entry into the market."
+   ],
+   "standards": [
+    {
+     "title": "IEC 60335-1 Household and similar electrical appliances – Safety – Part 1: General requirements",
+     "products": {
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/iec-61032-standard-articulated-test-probe-with-10n-thrust.html": {
+       "text": "SMT-02T10",
+       "clauses": [
+        "Clause 8.1.1IEC 61032 Standard Articulated Test Probe with 10N Thrust"
+       ]
+      },
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-13-with-cable-with-standard-en-61032.html": {
+       "text": "SMT-1213C",
+       "clauses": [
+        "Clause 8.1.2 Test Probe 13 with Cable with standard EN 61032"
+       ]
+      },
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-41-of-iec-61032-test-cone-for-access-probes-to-hazardous-hot-or-glowing-parts.html": {
+       "text": "SMT-1241",
+       "clauses": [
+        "Clause 8.1.3 Test Probe 41 of IEC 61032 – Test Cone for Access Probes to Hazardous Hot or Glowing Parts"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/iec60335-1-clause-11-black-test-corner.html": {
+       "text": "TMPWS-010",
+       "clauses": [
+        "Clause 11 Heating"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/iec60598-touch-current-measuring-network-g-2-and-g-3.html": {
+       "text": "MNTC-G2G3",
+       "clauses": [
+        "Clause 12 Figure1/2/3/4 Leakage current and electric strength at operating temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/transient-over-voltages-tester.html": {
+       "text": "SUG335",
+       "clauses": [
+        "Clause 14 Transient overvoltages Table6"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/waterproof-test.html": {
+       "text": "JL-12/ JL-34/ JL-56 /JL-7",
+       "clauses": [
+        "Clause 15.1.1 IP Waterproof test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/leakage-current-tester.html": {
+       "text": "WB2675D",
+       "clauses": [
+        "Clause 16.2 Leakage current"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/ac-dc-withstand-voltage-test.html": {
+       "text": "WB2671B",
+       "clauses": [
+        "Clause 16.3 electric strength"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/electrostatic-discharge-simulator.html": {
+       "text": "ESD61000-2",
+       "clauses": [
+        "Clause 19.11.4.1 ESD Simulator Guns"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/eft-immunity-measurement.html": {
+       "text": "EFT61000-4",
+       "clauses": [
+        "Clause 19.11.4.3 EFT Immunity Measurement"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/surge-generator.html": {
+       "text": "SG61000-5",
+       "clauses": [
+        "Clause 19.11.4.4 Surge test"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/rf-conducted-immunity-test-system.html": {
+       "text": "RFCI61000-6-85W & AB-100W",
+       "clauses": [
+        "Clause 19.11.4.5 RF Conducted Immunity Test System"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/voltage-dips-and-interruptions-generator.html": {
+       "text": "CSS61000-11",
+       "clauses": [
+        "Clause 19.11.4.6 Voltage Dips and Interruptions Generator"
+       ]
+      },
+      "https://www.lisungroup.com/products/ac-and-dc-power-supply/iec-61000-4-11-iec-61000-4-13-iec-61000-4-14-and-iec-61000-4-28-power-supply.html": {
+       "text": "LSP-EMC500VA",
+       "clauses": [
+        "Clause 19.11.4.7 Programmable AC/DC Testing Power Supply System"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/stability-test-bench.html": {
+       "text": "WDT-2",
+       "clauses": [
+        "Clause 20.1 Stability"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/spring-impact-hammer-ik-level-tester.html": {
+       "text": "IK04",
+       "clauses": [
+        "Clause 21.1 Mechanical strength"
+       ]
+      },
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-finger-nail-for-iec-60335-1-figure-7.html": {
+       "text": "SMT-335F7",
+       "clauses": [
+        "Clause 21.2 Figure7 Test Finger Nail for IEC 60335-1 Figure 7"
+       ]
+      },
+      "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-11-with-cable-with-figure-7-of-the-iec-61032.html": {
+       "text": "SMT-1211C",
+       "clauses": [
+        "Clause 21.11 IEC 61032 Unjointed Test Finger Test Probe 11"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/salt-spray-test-machine.html": {
+       "text": "YWX/Q-010",
+       "clauses": [
+        "Clause 21.18 Resistant to corrosion",
+        "Clause 31 Salt Spray test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/residual-voltage-tester-peak-power-cutoff-device.html": {
+       "text": "LS-RVT-2000W",
+       "clauses": [
+        "Clause 22.5 Peak Power Cutoff Device"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html": {
+       "text": "SW-6",
+       "clauses": [
+        "Clause 23.3 and 25.14 Figure 8 Flexing test apparatus,"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/tracking-test-chamber.html": {
+       "text": "TTC-1",
+       "clauses": [
+        "Clause 29.2 Annex N Proof tracking test apparatus"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GW-225",
+       "clauses": [
+        "Clause 29.3.3 High temperature test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/ball-pressure-test-device.html": {
+       "text": "ZBP-T",
+       "clauses": [
+        "Clause 30.1 Annex O Figure O.1 Ball pressure test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/glow-wire-test-apparatus.html": {
+       "text": "ZRS-3H",
+       "clauses": [
+        "Clause 30.2.1/2/3 Annex O Figure O.2 Glow wire test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/needle-flame-test.html": {
+       "text": "ZY-3",
+       "clauses": [
+        "Clause 30.2.4 Annex E Needle flame test"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/automatic-double-drop-test-machine.html": {
+       "text": "DT-60KG",
+       "clauses": [
+        "Annex B Automatic Double-Arms Drop Test Machine"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/3-position-plug-socket-switch-life-tester.html": {
+       "text": "CZKS-3",
+       "clauses": [
+        "Annex H 3 Position Plug Socket Switch Life Tester"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/load-cabinet.html": {
+       "text": "DFX-40",
+       "clauses": [
+        "Annex H 3 Position Plug Socket Switch Life Tester"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/creepage-clearances-distance-gauge-creepage-distance-test-cards.html": {
+       "text": "CK-1",
+       "clauses": [
+        "Annex L Creepage Distance Ruler"
+       ]
+      }
+     },
+     "unlinked": []
+    }
+   ],
+   "featured": [
+    {
+     "link": "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/iec-61032-standard-articulated-test-probe-with-10n-thrust.html",
+     "name": "SMT-02T10 IEC 61032 Standard Articulated Test Probe with 10N Thrust",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-02T10_AL-2.jpg",
+     "key": "lisun-smt-02t10"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-13-with-cable-with-standard-en-61032.html",
+     "name": "SMT-1213C EN/IEC 61032 Test Probe 13 with Cable",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1213C_AL-1.jpg",
+     "key": "lisun-smt-1213c"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-41-of-iec-61032-test-cone-for-access-probes-to-hazardous-hot-or-glowing-parts.html",
+     "name": "SMT-1241 Test Probe 41 of IEC 61032 – Test Cone for Access Probes to Hazardous Hot or Glowing Parts",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1241_AL-2.jpg",
+     "key": "lisun-smt-1241"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/iec60335-1-clause-11-black-test-corner.html",
+     "name": "TMPWS-010 IEC60335-1 Clause 11 Black Test Corner | Temperature Rise Test Corner",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/TMPWS-012_AL.jpg",
+     "key": "lisun-tmpws-010"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/led-test-instruments/iec60598-touch-current-measuring-network-g-2-and-g-3.html",
+     "name": "MNTC-G2G3 IEC 60598:2024 Touch Current Measuring Network G.2 and G.3",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2020/02/MNTC-G2G3_AL1.jpg",
+     "key": "lisun-mntc-g2g3"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/transient-over-voltages-tester.html",
+     "name": "SUG335 Transient High Voltage Impulse Generator | IEC60335",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SUG335_AL-1.jpg",
+     "key": "lisun-sug335"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ip-waterproof-dustproof/waterproof-test.html",
+     "name": "JL-X IP Waterproof Test Equipments（Open Type）",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/JL-X_AL.jpg",
+     "key": "lisun-jl-x"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/leakage-current-tester.html",
+     "name": "WB2675D Leakage Current Tester | Contact Current Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2675B_AL.jpg",
+     "key": "lisun-wb2675d"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/ac-dc-withstand-voltage-test.html",
+     "name": "WB2671B AC/DC Withstand Voltage Test",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2671B_AL.jpg",
+     "key": "lisun-wb2671b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/electrostatic-discharge-simulator.html",
+     "name": "ESD61000-2 ESD Simulator Guns",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/ESD61000-2_AL-2.jpg",
+     "key": "lisun-esd61000-2"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/eft-immunity-measurement.html",
+     "name": "EFT61000-4 EFT Immunity Measurement",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/EFT61000-4_AL-1.jpg",
+     "key": "lisun-eft61000-4"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/surge-generator.html",
+     "name": "SG61000-5 Surge Generator",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/SG61000-5_AL-2.jpg",
+     "key": "lisun-sg61000-5"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/rf-conducted-immunity-test-system.html",
+     "name": "RFCI61000-6 RF Conducted Immunity Test System",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/RFCI61000-6_AL-3.jpg",
+     "key": "lisun-rfci61000-6"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/voltage-dips-and-interruptions-generator.html",
+     "name": "CSS61000-11 Voltage Dips and Interruptions Generator",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CSS61000-11_AL.jpg",
+     "key": "lisun-css61000-11"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ac-and-dc-power-supply/iec-61000-4-11-iec-61000-4-13-iec-61000-4-14-and-iec-61000-4-28-power-supply.html",
+     "name": "LSP-EMC500VA Programmable AC/DC Testing Power Supply System",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/01/LSP-EMC500VA_AL-2.jpg",
+     "key": "lisun-lsp-emc500va"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/stability-test-bench.html",
+     "name": "WDT-2 IEC 60335-1 Clause 20 | IEC 60601-1 Clause 9.4.2.1 Stability Test Bench",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/01/WDT-2_AL.jpg",
+     "key": "lisun-wdt-2"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/mechanical-test-machine/spring-impact-hammer-ik-level-tester.html",
+     "name": "IK01-07 Spring Impact Hammer IK Level Tester IEC 60068-2-75",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/IK01-06_AL-1.jpg",
+     "key": "lisun-ik01-07"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-finger-nail-for-iec-60335-1-figure-7.html",
+     "name": "SMT-335F7 Test Finger Nail for IEC 60335-1 Figure 7",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-335F_AL.jpg",
+     "key": "lisun-smt-335f7"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-11-with-cable-with-figure-7-of-the-iec-61032.html",
+     "name": "SMT-1211C IEC 61032 Figure 7 Test Probe 11 with Cable",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1211C_AL.jpg",
+     "key": "lisun-smt-1211c"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/weathering-corrosion-test/salt-spray-test-machine.html",
+     "name": "YWX/Q-010 Salt Spray Test Chamber | Salt Fog Corrosion Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/YWXQ-010_AL1-2.jpg",
+     "key": "lisun-ywx-q-010"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/residual-voltage-tester-peak-power-cutoff-device.html",
+     "name": "LS-RVT-2000W Residual Voltage Tester | Peak Power Cutoff Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/LS-RVT-2000W_AL-1.jpg",
+     "key": "lisun-ls-rvt-2000w"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html",
+     "name": "SW-6 IEC 60884-1 Clause 23.4 | IEC 60745-1 Clause 24.12 | IEC 60335-1 Clause 25.14 Power Cord Flexibility Bending Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/@UNQHDGZK71@HDT2GFRP.jpg",
+     "key": "lisun-sw-6"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/tracking-test-chamber.html",
+     "name": "TTC-1 Tracking Test Chamber | Leakage Tracking Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TTC-1_AL-1.jpg",
+     "key": "lisun-ttc-1"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html",
+     "name": "GDJS-015B Temperature Humidity Chamber | Thermal Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/GDJS_AL10.jpg",
+     "key": "lisun-gdjs-015b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/ball-pressure-test-device.html",
+     "name": "ZBP-T Ball Pressure Test Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/ZBP-T_AL.jpg",
+     "key": "lisun-zbp-t"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/glow-wire-test-apparatus.html",
+     "name": "ZRS-3H Glow-wire Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/glow_wire_tester_ZRS-3H_AL.jpg",
+     "key": "lisun-zrs-3h"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/needle-flame-test.html",
+     "name": "ZY-3 Needle Flame Test Apparatus",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/needle_flame_tester_ZY-3_AL.jpg",
+     "key": "lisun-zy-3"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/mechanical-test-machine/automatic-double-drop-test-machine.html",
+     "name": "DT-60KG Automatic Double-Arms Drop Test Machine",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DT-60KG_AL-1.jpg",
+     "key": "lisun-dt-60kg"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/3-position-plug-socket-switch-life-tester.html",
+     "name": "CZKS-3 IEC 60884-1:2022 Clause 20 and 21 Three-Position Plug Socket Switch Life Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CZKSDFX_AL.jpg",
+     "key": "lisun-czks-3"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/load-cabinet.html",
+     "name": "DFX-20 IEC 60669-1 Clause 19.1 and 19.2 Externally Ballasted Fluorescent Lamp Test Load Cabinet",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DFX-40_AL.jpg",
+     "key": "lisun-dfx-20"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/creepage-clearances-distance-gauge-creepage-distance-test-cards.html",
+     "name": "CK-1 Creepage Clearances Distance Gauge | Creepage Distance Test Cards",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/CK-4_AL.jpg",
+     "key": "lisun-ck-1"
+    }
+   ]
+  },
+  "cable-and-wire-test-and-equipment": {
+   "intro": [
+    "E-Catalog News About Us Home Applications Cable and Wire Test Solutions Cable and Wire Test Solutions LISUN’s cable and wire test solutions are essential for verifying compliance with international safety and performance standards, providing comprehensive support for testing the performance and safety of rubber-insulated cables, PVC-insulated cables, medium and high-voltage cables, and communication cables. Among these standards, IEC 60245-1:2008 specifies requirements for rubber-insulated cables with rated voltages up to 450/750 V, covering durability, insulation, mechanical properties, and flexing tests; IEC 60227-1:2007 outlines general requirements for PVC-insulated cables within the same voltage range, including flame retardance, tensile strength, and heat shock tests. For medium and high-voltage cables, IEC 60502-1:2021 defines tests for insulation resistance, high-temperature pressure, and ozone resistance, while IEC 60840:2011 focuses on water penetration, lightning impulse voltage, and bending tests. Additionally, IEC 60189-1:2018 addresses low-frequency cables and wires, emphasizing tensile strength, insulation resistance, and mutual capacitance tests.",
+    "LISUN’s cable and wire test solutions cover all key test items specified in the above standards, equipped with a full range of professional testing equipment to meet diverse testing needs. This includes electrical performance tests (such as insulation resistance, dielectric strength, partial discharge, and capacitance measurement), mechanical performance tests (such as flexing, static flexibility, wear resistance, and tensile strength), environmental adaptability tests (such as temperature and humidity cycling, thermal shock, ozone resistance, and salt spray corrosion), and safety performance tests (such as flame retardance, resistance to heat, and pressure tests at high temperatures). By leveraging advanced automated test systems, we streamline testing processes, ensure precise data collection and analysis, and help manufacturers and laboratories verify that cable and wire products comply with IEC standards, guaranteeing their safety, reliability, and performance in various application scenarios."
+   ],
+   "standards": [
+    {
+     "title": "IEC 60245-1:2008 Rubber insulated cables – Rated voltages up to and including 450/750 V – Part 1: General requirements",
+     "products": {
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "3.2 Durability"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "5.2 Insulation"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-2PA",
+       "clauses": [
+        "5.2.4 Mechanical properties before and after aging (Table 1)"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/flexure-testing-machine.html": {
+       "text": "WDT-B42",
+       "clauses": [
+        "5.6.3.1 Flexing test for flexible cable"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec60227-2-iec60245-2-cable-wire-static-flexibility-test-machine.html": {
+       "text": "WDT-3",
+       "clauses": [
+        "5.6.3.2 Static Flexibility test"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/wire-damaged-tester.html": {
+       "text": "WDT-1",
+       "clauses": [
+        "5.6.3.3 Wear Resistance Test"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-retention-tensile-force-test-device.html": {
+       "text": "LS-B07",
+       "clauses": [
+        "5.6.3.4 Tensile strength of central heart of lift cables"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/heat-resistance-test-device-for-cables.html": {
+       "text": "LS-GWC-1",
+       "clauses": [
+        "5.6.3.6 Test for resistance to heat of texitile braids"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IEC 60227-1:2007 Polyvinyl chloride insulated cables of rated voltages up to and including 450/750 V – Part 1: General requirements",
+     "products": {
+      "https://www.lisungroup.com/products/plug-and-switch-testing/wire-abrasion-testing-machine.html": {
+       "text": "LS-B36",
+       "clauses": [
+        "Clause 4.2.3 Durability"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/flexure-testing-machine.html": {
+       "text": "WDT-B42",
+       "clauses": [
+        "Clause 5.6.3.1 Flexing test for flexible cables"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html": {
+       "text": "SW-6",
+       "clauses": [
+        "Clause 5.6.3.2 Bending test for tinsel cord"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+       "text": "RSB-WC",
+       "clauses": [
+        "Clause 5.6.4 Flame retardance"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-thermal-shock-chamber.html": {
+       "text": "HLST-500D",
+       "clauses": [
+        "Reference No.4 Heat shock test"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-2PA",
+       "clauses": [
+        "Reference No.5 Pressure test at high temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-tensile-testing-machine.html": {
+       "text": "LS-B40",
+       "clauses": [
+        "Reference No.7 Elongation test at low temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html": {
+       "text": "DWC-1",
+       "clauses": [
+        "Reference No.8 Impact test at low temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+       "text": "PULL-2000KG",
+       "clauses": [
+        "Reference No.1 Tensile strength and elongation at break"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GW-225-400",
+       "clauses": [
+        "Reference No.1.2 Properties after ageing in the air oven"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IEC 60502-1:2021 POWER CABLES WITH EXTRUDED INSULATION AND THEIR ACCESSORIES FOR RATED VOLTAGES FROM 1 kV (Um = 1,2 kV) UP TO 30 kV (Um = 36 kV)- Part 1: Cables for rated voltages of 1 kV (Um = 1,2 kV) and 3 kV (Um = 3,6 kV)",
+     "products": {
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "Clause 17.3 Insulation resistance measurement at maximum conductor temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-2PA",
+       "clauses": [
+        "Clause 18.8 Pressure test at high temperature on insulation and non-metallic sheaths"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html": {
+       "text": "DWC-1",
+       "clauses": [
+        "Clause 18.9 Test on PVC insulation and sheaths and halogen free sheaths at low temperatures"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60754-1-wire-and-cable-thermal-shock-test-device.html": {
+       "text": "LS-B38",
+       "clauses": [
+        "Clause 18.10 Test for resistance of PVC insulation and sheaths to cracking (heat shock test)"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/ozone-test-chamber.html": {
+       "text": "OTC-150A",
+       "clauses": [
+        "Clause 18.11 Ozone resistance test for EPR and HEPR insulation"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+       "text": "RSB-WC",
+       "clauses": [
+        "Clause 18.15 Fire tests"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-non-solid-pins-testing-device.html": {
+       "text": "LS-B04",
+       "clauses": [
+        "Clause 18.19 Determination of hardness of HEPR insulation"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+       "text": "PULL-2000KG",
+       "clauses": [
+        "Table 15 Tensile Strength"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "Power cables with extruded insulation and their accessories for rated voltages above 30 kV (Um = 36 kV) up to 150 kV (Um = 170 kV) – Test methods and requirements",
+     "products": {
+      "https://www.lisungroup.com/products/environmental-test-chamber/waterproof-test.html": {
+       "text": "JL-X",
+       "clauses": [
+        "Clause 5 Precautions against water penetration in cables"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/magnetic-field-generator.html": {
+       "text": "PFM61000-8A",
+       "clauses": [
+        "Clause 8.2 Frequency and waveform of power frequency test voltages"
+       ]
+      },
+      "https://www.lisungroup.com/products/emi-and-emc-test-system/surge-generator.html": {
+       "text": "SG61000-5",
+       "clauses": [
+        "Clause 8.3 Waveform of lightning impulse test voltages"
+       ]
+      },
+      "https://www.lisungroup.com/products/electronic-components-test/capacitor-meter.html": {
+       "text": "LS6515EN",
+       "clauses": [
+        "Clause 10.10 Measurement of capacitance"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html": {
+       "text": "SW-6",
+       "clauses": [
+        "Clause 12.4.3 Bending test"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "Clause 12.4.6 Heating cycle voltage test",
+        "Loss of mass in air oven"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+       "text": "PULL-2000KG",
+       "clauses": [
+        "Tensile strength and elongation at break"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-2PA",
+       "clauses": [
+        "Pressure test at high temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-tensile-testing-machine.html": {
+       "text": "LS-B40",
+       "clauses": [
+        "Cold elongation test at low temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html": {
+       "text": "DWC-1",
+       "clauses": [
+        "Cold impact test at low temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60754-1-wire-and-cable-thermal-shock-test-device.html": {
+       "text": "LS-B38",
+       "clauses": [
+        "Heat shock test"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/ozone-test-chamber.html": {
+       "text": "OTC-150A",
+       "clauses": [
+        "Ozone resistance test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+       "text": "RSB-WC",
+       "clauses": [
+        "Hot set test"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IEC 60189-1:2018 Low-frequency cables and wires with PVC insulation and PVC sheath – Part 1: General test and measuring methods",
+     "products": {
+      "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+       "text": "PULL-2000KG",
+       "clauses": [
+        "Clause 6.1 Selection, marking and preparation of samples for tensile tests"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "Clause 7.1 Accelerated ageing"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-2PA",
+       "clauses": [
+        "Clause 7.2 Pressure test at high temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60754-1-wire-and-cable-thermal-shock-test-device.html": {
+       "text": "LS-B38",
+       "clauses": [
+        "Clause 7.5 Heat shock test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "Clause 8.3 Insulation resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/electronic-components-test/capacitor-meter.html": {
+       "text": "LS6515EN",
+       "clauses": [
+        "Clause 8.4 Mutual capacitance"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "IEC 61196-1:2005 Mineral insulated cables and their terminations with a rated voltage not exceeding 750 V – Part 1: Cables",
+     "products": {
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "8.2.1 Low temperature impact"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "11.3 Insulation resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/ac-and-dc-power-supply/ac-power-source.html": {
+       "text": "LSP-500VARC",
+       "clauses": [
+        "12.2 Voltage test"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+       "text": "RSB-WC",
+       "clauses": [
+        "12.4 Flame retardance"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "EN 50305:2002 Railway applications – Railway rolling stock cables having special fire performance-Test methods",
+     "products": {
+      "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html": {
+       "text": "DWC-1",
+       "clauses": [
+        "5.1 Impact test at low temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/ac-and-dc-power-supply/iec-61000-4-11-iec-61000-4-13-iec-61000-4-14-and-iec-61000-4-28-power-supply.html": {
+       "text": "LSP-EMC500VA",
+       "clauses": [
+        "6.3 Voltage test on sheath"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "6.4 Insulation resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GW-225-AH",
+       "clauses": [
+        "7.2.3 Apparatus",
+        "7.2.4.2 Temperature selection and exposure"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/ozone-test-chamber.html": {
+       "text": "OTC-150A",
+       "clauses": [
+        "7.4 Ozone resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+       "text": "GNGPL-3610-3PA",
+       "clauses": [
+        "7.5 Pressure test at high temperature"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/waterproof-test.html": {
+       "text": "JL-X",
+       "clauses": [
+        "8 Tests in fluids,including water"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+       "text": "RSB-WC",
+       "clauses": [
+        "9 Reaction to fire tests"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/rohs-testing-equipment-edxrf.html": {
+       "text": "EDX-2A",
+       "clauses": [
+        "9.2 Toxicity"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+       "text": "PULL-2000KG",
+       "clauses": [
+        "Annex A List of other test methods applicable to rolling stock cables"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "UL 83:2017 STANDARD FOR SAFETY – Thermoplastic-Insulated Wires and Cables",
+     "products": {
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "5.9/7.4.4 Heat shock"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-thermal-shock-chamber.html": {
+       "text": "HLST-500D",
+       "clauses": [
+        "5.10 Cold bend and cold impact"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/horizontal-vertical-flame-tester.html": {
+       "text": "HVR-LS",
+       "clauses": [
+        "5.12 Flame and smoke"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/uv-aging-test-chamber.html": {
+       "text": "UV-263LS",
+       "clauses": [
+        "5.13 Weather (sunlight) resistance (optional)"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/spring-impact-hammer-ik-level-tester.html": {
+       "text": "IK01-06",
+       "clauses": [
+        "5.18 Impact resistance"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "5.24/7.4.3 Insulation resistance"
+       ]
+      }
+     },
+     "unlinked": []
+    },
+    {
+     "title": "UL 44:2021 STANDARD FOR SAFETY – Thermoset-Insulated Wires and Cables",
+     "products": {
+      "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+       "text": "WB2681A",
+       "clauses": [
+        "5.4&5.5 Long-term insulation resistance in water"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-thermal-shock-chamber.html": {
+       "text": "HLST-500D",
+       "clauses": [
+        "5.9 Heat shock of thermoplastic jacket"
+       ]
+      },
+      "https://www.lisungroup.com/products/electrical-safety-tester/horizontal-vertical-flame-tester.html": {
+       "text": "HVR-LS",
+       "clauses": [
+        "5.14 Flame and smoke"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/uv-aging-test-chamber.html": {
+       "text": "UV-263LS",
+       "clauses": [
+        "5.15 Weather (sunlight) resistance (optional)"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+       "text": "GDJS-015B",
+       "clauses": [
+        "5.20 Durability of ink printing"
+       ]
+      },
+      "https://www.lisungroup.com/products/environmental-test-chamber/rohs-testing-equipment-edxrf.html": {
+       "text": "EDX-2A",
+       "clauses": [
+        "Annex C (normative)- Chemical composition of aluminum conductors"
+       ]
+      }
+     },
+     "unlinked": []
+    }
+   ],
+   "featured": [
+    {
+     "link": "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html",
+     "name": "GDJS-015B Temperature Humidity Chamber | Thermal Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/GDJS_AL10.jpg",
+     "key": "lisun-gdjs-015b"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html",
+     "name": "WB2681A Insulation Resistance Tester | Shell Insulation Resistance Test",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2681A_AL.jpg",
+     "key": "lisun-wb2681a"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html",
+     "name": "GNGPL-3610-2PA IEC 60884-1:2022 Clause 30.2 Figure 44 | IEC 60811-3-1 Clause 8 | High Temperature Pressure Test Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2026/04/GNGPL-3610-2PA_AL.jpg",
+     "key": "lisun-gngpl-3610-2pa"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/flexure-testing-machine.html",
+     "name": "WDT-B42 IEC 60245-1 Clause 5.6.3.1 | IEC 60245-2 Clause 3.5 Figure 3 Flexing Test Apparatus for Flexible Cables",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/WDT-B42_AL.jpg",
+     "key": "lisun-wdt-b42"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/iec60227-2-iec60245-2-cable-wire-static-flexibility-test-machine.html",
+     "name": "WDT-3 IEC 63294 IEC 60245-1 IEC 60227-1 Static Flexibility Test Machine for Flexible Cables",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/02/WDT-3_AL.jpg",
+     "key": "lisun-wdt-3"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/wire-damaged-tester.html",
+     "name": "WDT-1 Wire Damaged Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WDT-1_AL.jpg",
+     "key": "lisun-wdt-1"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-retention-tensile-force-test-device.html",
+     "name": "LS-B07 IEC 60884-1 Clause 23.2 Figure 27 Retention Tensile Force Test Device for Flexible Cables",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/05/LS-B07_AL-1.jpg",
+     "key": "lisun-ls-b07"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/heat-resistance-test-device-for-cables.html",
+     "name": "LS-GWC-1 IEC 61386-1 Clause 12 Figure 8 Heat Resistance Test Device for Cable Conduit",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/Image_1710496363003.jpg",
+     "key": "lisun-ls-gwc-1"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/wire-abrasion-testing-machine.html",
+     "name": "LS-B36 IEC 63294:2021 Clause 6.9 Figure 5 Wire Abrasion Testing Machine",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B36_AL.jpg",
+     "key": "lisun-ls-b36"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html",
+     "name": "SW-6 IEC 60884-1 Clause 23.4 | IEC 60745-1 Clause 24.12 | IEC 60335-1 Clause 25.14 Power Cord Flexibility Bending Tester",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/@UNQHDGZK71@HDT2GFRP.jpg",
+     "key": "lisun-sw-6"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/wire-cable-flame-tester.html",
+     "name": "RSB-WC Wire and Cable Flame Test Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/12/RSB-WC_AL1.jpg",
+     "key": "lisun-rsb-wc"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-thermal-shock-chamber.html",
+     "name": "HLST-500D High and Low Temperature Thermal Shock Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HLST-500D-C_AL.jpg",
+     "key": "lisun-hlst-500d"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-tensile-testing-machine.html",
+     "name": "LS-B40 IEC 60811-505:2012 Low Temperature Tensile Testing Machine",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B40_AL1.jpg",
+     "key": "lisun-ls-b40"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html",
+     "name": "DWC-1 IEC 60884-1 Clause 24.5 Figure 30, IEC 61386-1, IEC 60811-506 Low-Temperature Impact Test Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DWC-1_AL.jpg",
+     "key": "lisun-dwc-1"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/mechanical-test-machine/double-columns-tensile-testing-machine.html",
+     "name": "PULL-2000KG Tensile Testing Machine",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/08/PULL-2000KG_AL1-1.jpg",
+     "key": "lisun-pull-2000kg"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60754-1-wire-and-cable-thermal-shock-test-device.html",
+     "name": "LS-B38 IEC 60754-1 Wire and Cable Thermal Shock Test Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B38_AL-1.jpg",
+     "key": "lisun-ls-b38"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/weathering-corrosion-test/ozone-test-chamber.html",
+     "name": "OTC-150A Ozone Aging Test Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/12/OTC-015A_AL.jpg",
+     "key": "lisun-otc-150a"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-non-solid-pins-testing-device.html",
+     "name": "LS-B04 IEC 60884-1 Clause 14.2 Figure 17 Non-solid Pins Testing Device",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2024/05/LS-B04_AL-3.jpg",
+     "key": "lisun-ls-b04"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/ip-waterproof-dustproof/waterproof-test.html",
+     "name": "JL-X IP Waterproof Test Equipments（Open Type）",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/JL-X_AL.jpg",
+     "key": "lisun-jl-x"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/magnetic-field-generator.html",
+     "name": "PFM61000-8A Magnetic Field Generator",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/PFM61000-8A_AL-1.jpg",
+     "key": "lisun-pfm61000-8a"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/emi-and-emc-test-system/surge-generator.html",
+     "name": "SG61000-5 Surge Generator",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/SG61000-5_AL-2.jpg",
+     "key": "lisun-sg61000-5"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/electronic-components-test/capacitor-meter.html",
+     "name": "LS6515EN Capacitor Meter",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2023/07/LS6515EN_AL.jpg",
+     "key": "lisun-ls6515en"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/weathering-corrosion-test/uv-aging-test-chamber.html",
+     "name": "UV-263LS UV Aging Test Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/UV-263LS_AL-2.jpg",
+     "key": "lisun-uv-263ls"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/flame-fire-resistance-test/horizontal-vertical-flame-tester.html",
+     "name": "HVR-LS Horizontal Vertical Flame Test Chamber",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HVR-LS_AL-1.jpg",
+     "key": "lisun-hvr-ls"
+    },
+    {
+     "link": "https://www.lisungroup.com/products/rohs-element-analysis/rohs-testing-equipment-edxrf.html",
+     "name": "EDX-2A RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)",
+     "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/rohs_testing_machine_EDX-2_AL.jpg",
+     "key": "lisun-edx-2a"
+    }
+   ]
+  }
+ },
+ "products": {
+  "https://www.lisungroup.com/products/electrical-safety-tester/stability-test-bench.html": {
+   "model": "",
+   "desc": "IEC 60335-1 Clause 20 | IEC 60601-1 Clause 9.4.2.1 Stability Test Bench",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/01/WDT-2_AL.jpg",
+   "key": "lisun-stability-test-bench"
+  },
+  "https://www.lisungroup.com/products/spectroradiometer/portable-ccd-spectroradiometer.html": {
+   "model": "",
+   "desc": "Portable CCD Spectroradiometer",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/spectroradiometer_system_LMS-6000_AL.jpg",
+   "key": "lisun-portable-ccd-spectroradiometer"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/voltage-dips-and-interruptions-generator.html": {
+   "model": "CSS61000-11",
+   "desc": "Voltage Dips and Interruptions Generator",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CSS61000-11_AL.jpg",
+   "key": "lisun-css61000-11"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/pressure-testing-device-at-high-temperature.html": {
+   "model": "",
+   "desc": "IEC 60884-1:2022 Clause 30.2 Figure 44 | IEC 60811-3-1 Clause 8 | High Temperature Pressure Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2026/04/GNGPL-3610-2PA_AL1.jpg",
+   "key": "lisun-pressure-testing-device-at-high-temperature"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-finger-nail-for-iec-60335-1-figure-7.html": {
+   "model": "",
+   "desc": "Test Finger Nail for IEC 60335-1 Figure 7",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-335F7_AL1.jpg",
+   "key": "lisun-test-finger-nail-for-iec-60335-1-figure-7"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/ozone-test-chamber.html": {
+   "model": "",
+   "desc": "Ozone Aging Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/12/OTC-015A_AL.jpg",
+   "key": "lisun-ozone-test-chamber"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/iec62560-iec60598-bending-moment-test-device-for-lamp-holder.html": {
+   "model": "",
+   "desc": "Bending Moment and Mass Imparted Test Device for Semi-Lamp",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2025/12/6.jpg",
+   "key": "lisun-iec62560-iec60598-bending-moment-test-device-for-l"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/uv-aging-test-chamber.html": {
+   "model": "",
+   "desc": "UV Aging Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/UV-263LS_AL-1.jpg",
+   "key": "lisun-uv-aging-test-chamber"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/spring-impact-hammer-ik-level-tester.html": {
+   "model": "",
+   "desc": "Spring Impact Hammer IK Level Tester IEC 60068-2-75",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/IK01-06_AL.jpg",
+   "key": "lisun-spring-impact-hammer-ik-level-tester"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/portable-retinal-blue-light-hazard-tester.html": {
+   "model": "",
+   "desc": "Portable Retinal Blue Light Hazard Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2020/12/KS-10_AL.jpg",
+   "key": "lisun-portable-retinal-blue-light-hazard-tester"
+  },
+  "https://www.lisungroup.com/products/cfl-testing-instruments/adjustable-high-frequency-reference-ballast.html": {
+   "model": "",
+   "desc": "Adjustable High Frequency Reference Ballast",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HCS-109A_AL.jpg",
+   "key": "lisun-adjustable-high-frequency-reference-ballast"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/lamp-adjustment-test-device.html": {
+   "model": "",
+   "desc": "IEC 60598-1:2024 Clause 7.14.3 Lamp Adjustment Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/01/DJTJ-1_AL.jpg",
+   "key": "lisun-lamp-adjustment-test-device"
+  },
+  "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-cc-and-cv-dc-power-supply.html": {
+   "model": "DC3005",
+   "desc": "Digital CC and CV DC Power Supply (High Precision)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DC3005_AL-2.jpg",
+   "key": "lisun-dc3005"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/insulation-resistance-tester.html": {
+   "model": "WB2681A",
+   "desc": "Insulation Resistance Tester | Shell Insulation Resistance Test",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2681A_AL.jpg",
+   "key": "lisun-wb2681a"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/iec60227-2-iec60245-2-cable-wire-static-flexibility-test-machine.html": {
+   "model": "",
+   "desc": "IEC 63294 IEC 60245-1 IEC 60227-1 Static Flexibility Test Machine for Flexible Cables",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/02/WDT-3_AL.jpg",
+   "key": "lisun-iec60227-2-iec60245-2-cable-wire-static-flexibilit"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/salt-spray-test-machine.html": {
+   "model": "",
+   "desc": "Salt Spray Test Chamber | Salt Fog Corrosion Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/salt_spray_test_chamber_YWX-Q-010_AL.jpg",
+   "key": "lisun-salt-spray-test-machine"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/iec-60068-2-31-rotating-barrel-drop-test-machine.html": {
+   "model": "",
+   "desc": "Rotating Barrel Drop Test Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/LS-DDT1_AL2.jpg",
+   "key": "lisun-iec-60068-2-31-rotating-barrel-drop-test-machine"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-13-with-cable-with-standard-en-61032.html": {
+   "model": "",
+   "desc": "EN/IEC 61032 Test Probe 13 with Cable",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1213C_AL-1.jpg",
+   "key": "lisun-test-probe-13-with-cable-with-standard-en-61032"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/load-cabinet.html": {
+   "model": "DFX-20",
+   "desc": "IEC 60669-1 Clause 19.1 and 19.2 Externally Ballasted Fluorescent Lamp Test Load Cabinet",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DFX-40_AL.jpg",
+   "key": "lisun-dfx-20"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/tracking-test-chamber.html": {
+   "model": "",
+   "desc": "Tracking Test Chamber | Leakage Tracking Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TTC-1_AL.jpg",
+   "key": "lisun-tracking-test-chamber"
+  },
+  "https://www.lisungroup.com/products/photometer-and-colorimeter/lux-meter.html": {
+   "model": "",
+   "desc": "Lux Meter | Brightness Meter | PPFD Meter | UV Irradiance Meter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2022/10/PHOTO-200_AL-1.jpg",
+   "key": "lisun-lux-meter"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/3-position-plug-socket-switch-life-tester.html": {
+   "model": "CZKS-3",
+   "desc": "IEC 60884-1:2022 Clause 20 and 21 Three-Position Plug Socket Switch Life Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CZKSDFX_AL.jpg",
+   "key": "lisun-czks-3"
+  },
+  "https://www.lisungroup.com/products/electronic-components-test/capacitor-meter.html": {
+   "model": "LS6515EN",
+   "desc": "Capacitor Meter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/07/LS6515EN_AL.jpg",
+   "key": "lisun-ls6515en"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/double-columns-tensile-testing-machine.html": {
+   "model": "",
+   "desc": "Tensile Testing Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/08/PULL-2000KG_AL1-1.jpg",
+   "key": "lisun-double-columns-tensile-testing-machine"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/automatic-double-drop-test-machine.html": {
+   "model": "",
+   "desc": "Automatic Double-Arms Drop Test Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DT-60KG-D_AL1.jpg",
+   "key": "lisun-automatic-double-drop-test-machine"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/electrostatic-discharge-simulator.html": {
+   "model": "ESD61000-2",
+   "desc": "ESD Simulator Guns",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/ESD61000-2_AL-2.jpg",
+   "key": "lisun-esd61000-2"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/wire-abrasion-testing-machine.html": {
+   "model": "",
+   "desc": "IEC 63294:2021 Clause 6.9 Figure 5 Wire Abrasion Testing Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B36_AL.jpg",
+   "key": "lisun-wire-abrasion-testing-machine"
+  },
+  "https://www.lisungroup.com/products/ac-and-dc-power-supply/ac-power-source.html": {
+   "model": "LSP-500VARC",
+   "desc": "Pure Sine Wave AC Power Source (High Precision)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSP-500VARC_AL-1.jpg",
+   "key": "lisun-lsp-500varc"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/surge-generator.html": {
+   "model": "SG61000-5",
+   "desc": "Surge Generator",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/SG61000-5_AL-2.jpg",
+   "key": "lisun-sg61000-5"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/iec60598-figure-g-4-simulated-human-impedance-touch-current-measuring-network.html": {
+   "model": "",
+   "desc": "IEC60598 Figure G.4 Simulated Human Impedance Touch Current Measuring Network",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2020/02/MNTC-G4_AB.jpg",
+   "key": "lisun-iec60598-figure-g-4-simulated-human-impedance-touc"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/dustproof-testing-machine.html": {
+   "model": "",
+   "desc": "Dustproof Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/Dust_test_chamber_SC-015_AL.jpg",
+   "key": "lisun-dustproof-testing-machine"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/led-optical-aging-test-instrument.html": {
+   "model": "",
+   "desc": "LED Optical Aging Test Instrument",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LEDLM-80PL_AL6.jpg",
+   "key": "lisun-led-optical-aging-test-instrument"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/needle-flame-test.html": {
+   "model": "",
+   "desc": "Needle Flame Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/needle_flame_tester_ZY-3_AL.jpg",
+   "key": "lisun-needle-flame-test"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-impact-device.html": {
+   "model": "",
+   "desc": "IEC 60884-1 Clause 24.5 Figure 30, IEC 61386-1, IEC 60811-506 Low-Temperature Impact Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DWC-3_AL-1.jpg",
+   "key": "lisun-low-temperature-impact-device"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/lamp-cap-temperature-rise-test-system.html": {
+   "model": "",
+   "desc": "Lamp Cap Temperature Rise Test System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TMP-L_AL.jpg",
+   "key": "lisun-lamp-cap-temperature-rise-test-system"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-41-of-iec-61032-test-cone-for-access-probes-to-hazardous-hot-or-glowing-parts.html": {
+   "model": "",
+   "desc": "Test Probe 41 of IEC 61032 – Test Cone for Access Probes to Hazardous Hot or Glowing Parts",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1241_AL1.jpg",
+   "key": "lisun-test-probe-41-of-iec-61032-test-cone-for-access-pr"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/dc-electronic-load.html": {
+   "model": "M9822A",
+   "desc": "Programmable DC Electronic Load",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/M9822_AL.jpg",
+   "key": "lisun-m9822a"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/test-device-for-threaded-sealing-cover.html": {
+   "model": "",
+   "desc": "IEC 60598-1 Clause 4.12.5 | IEC 60884-1 Clause 24.7 Screwed Glands Torque Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/01/LWMF-1_AL1.jpg",
+   "key": "lisun-test-device-for-threaded-sealing-cover"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/residual-voltage-tester-peak-power-cutoff-device.html": {
+   "model": "LS-RVT-2000W",
+   "desc": "Residual Voltage Tester | Peak Power Cutoff Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/LS-RVT-2000W_AL-1.jpg",
+   "key": "lisun-ls-rvt-2000w"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/electrodynamic-vibration-generator-system.html": {
+   "model": "",
+   "desc": "Electrodynamic Vibration Generator System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LVD-100KG_AL-1.jpg",
+   "key": "lisun-electrodynamic-vibration-generator-system"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/rf-conducted-immunity-test-system.html": {
+   "model": "RFCI61000-6",
+   "desc": "RF Conducted Immunity Test System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/RFCI61000-6_AL-3.jpg",
+   "key": "lisun-rfci61000-6"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/iec60335-1-clause-11-black-test-corner.html": {
+   "model": "",
+   "desc": "IEC60335-1 Clause 11 Black Test Corner | Temperature Rise Test Corner",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/TMPWS-012_AL.jpg",
+   "key": "lisun-iec60335-1-clause-11-black-test-corner"
+  },
+  "https://www.lisungroup.com/products/goniophotometer/lm-79-moving-detector-goniophotometer.html": {
+   "model": "LSG-6000",
+   "desc": "LM-79 Moving Detector Goniophotometer (Mirror Type C)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/LSG-6000_AL1.jpg",
+   "key": "lisun-lsg-6000"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/horizontal-vertical-flame-tester.html": {
+   "model": "",
+   "desc": "Horizontal Vertical Flame Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HVR-LS_AL-1.jpg",
+   "key": "lisun-horizontal-vertical-flame-tester"
+  },
+  "https://www.lisungroup.com/products/cfl-testing-instruments/digital-torsion-meter.html": {
+   "model": "",
+   "desc": "Digital Torsion Meter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CH338_AL.jpg",
+   "key": "lisun-digital-torsion-meter"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-humidity-chamber.html": {
+   "model": "GDJS-015B",
+   "desc": "Temperature Humidity Chamber | Thermal Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/GDJS_AL10.jpg",
+   "key": "lisun-gdjs-015b"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/creepage-clearances-distance-gauge-creepage-distance-test-cards.html": {
+   "model": "",
+   "desc": "Creepage Clearances Distance Gauge | Creepage Distance Test Cards",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/CK-6_AL.jpg",
+   "key": "lisun-creepage-clearances-distance-gauge-creepage-distan"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/iec-61032-standard-articulated-test-probe-with-10n-thrust.html": {
+   "model": "",
+   "desc": "IEC 61032 Standard Articulated Test Probe with 10N Thrust",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-02T10_AL1.jpg",
+   "key": "lisun-iec-61032-standard-articulated-test-probe-with-10n"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/led-thermal-and-electrical-performance-analyzer.html": {
+   "model": "",
+   "desc": "LED Thermal and Electrical Performance Analyzer",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/T3_AM-1.jpg",
+   "key": "lisun-led-thermal-and-electrical-performance-analyzer"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-non-solid-pins-testing-device.html": {
+   "model": "",
+   "desc": "IEC 60884-1 Clause 14.2 Figure 17 Non-solid Pins Testing Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/05/LS-B04_AL-2.jpg",
+   "key": "lisun-iec-60884-1-non-solid-pins-testing-device"
+  },
+  "https://www.lisungroup.com/products/ac-and-dc-power-supply/digital-power-meter-high-accuracy-model.html": {
+   "model": "LS2050",
+   "desc": "Digital Power Meter (High Accuracy AC & DC Model)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LS2050_AL3.jpg",
+   "key": "lisun-ls2050"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/power-cord-bending-tester.html": {
+   "model": "SW-6",
+   "desc": "IEC 60884-1 Clause 23.4 | IEC 60745-1 Clause 24.12 | IEC 60335-1 Clause 25.14 Power Cord Flexibility Bending Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/@UNQHDGZK71@HDT2GFRP.jpg",
+   "key": "lisun-sw-6"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/rohs-testing-equipment-edxrf.html": {
+   "model": "",
+   "desc": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/rohs_testing_machine_EDX-2_AL.jpg",
+   "key": "lisun-rohs-testing-equipment-edxrf"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60884-1-retention-tensile-force-test-device.html": {
+   "model": "",
+   "desc": "IEC 60884-1 Clause 23.2 Figure 27 Retention Tensile Force Test Device for Flexible Cables",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/05/LS-B07_AL1.jpg",
+   "key": "lisun-iec-60884-1-retention-tensile-force-test-device"
+  },
+  "https://www.lisungroup.com/products/electronic-components-test/lcr-digital-bridge.html": {
+   "model": "",
+   "desc": "LCR Digital Bridge",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/fileHandle_prviewImg-1.jpeg",
+   "key": "lisun-lcr-digital-bridge"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/glow-wire-test-apparatus.html": {
+   "model": "",
+   "desc": "Glow-wire Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/glow_wire_tester_ZRS-3H_AL.jpg",
+   "key": "lisun-glow-wire-test-apparatus"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/waterproof-test.html": {
+   "model": "",
+   "desc": "IP Waterproof Test Equipments（Open Type）",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/JL-X_AL.jpg",
+   "key": "lisun-waterproof-test"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/low-temperature-tensile-testing-machine.html": {
+   "model": "",
+   "desc": "IEC 60811-505:2012 Low Temperature Tensile Testing Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B40_AL.jpg",
+   "key": "lisun-low-temperature-tensile-testing-machine"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/iec-60754-1-wire-and-cable-thermal-shock-test-device.html": {
+   "model": "",
+   "desc": "IEC 60754-1 Wire and Cable Thermal Shock Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/LS-B38_AL1.jpg",
+   "key": "lisun-iec-60754-1-wire-and-cable-thermal-shock-test-devi"
+  },
+  "https://www.lisungroup.com/products/ac-and-dc-power-supply/iec-61000-4-11-iec-61000-4-13-iec-61000-4-14-and-iec-61000-4-28-power-supply.html": {
+   "model": "",
+   "desc": "Programmable AC/DC Testing Power Supply System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/01/LSP-EMC500VA_AL3.jpg",
+   "key": "lisun-iec-61000-4-11-iec-61000-4-13-iec-61000-4-14-and-i"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/iec60598-touch-current-measuring-network-g-2-and-g-3.html": {
+   "model": "",
+   "desc": "IEC 60598:2024 Touch Current Measuring Network G.2 and G.3",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2020/02/MNTC-G2G3_AL3.jpg",
+   "key": "lisun-iec60598-touch-current-measuring-network-g-2-and-g"
+  },
+  "https://www.lisungroup.com/products/environmental-test-chamber/high-and-low-temperature-thermal-shock-chamber.html": {
+   "model": "HLST-500D",
+   "desc": "High and Low Temperature Thermal Shock Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HLST-500D-C_AL.jpg",
+   "key": "lisun-hlst-500d"
+  },
+  "https://www.lisungroup.com/products/cfl-testing-instruments/gng-go-and-not-gogauge.html": {
+   "model": "",
+   "desc": "Lamp Cap and Lampholder Gauges",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/GNG_AL-3.jpg",
+   "key": "lisun-gng-go-and-not-gogauge"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/iec-60529-test-probes-for-protection-of-persons-against-access-to-hazardous-parts.html": {
+   "model": "SMT-529T",
+   "desc": "Test Probe Kits of IEC 60529",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-529T_AL-2.jpg",
+   "key": "lisun-smt-529t"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/eft-immunity-measurement.html": {
+   "model": "EFT61000-4",
+   "desc": "EFT Immunity Measurement",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/EFT61000-4_AL-1.jpg",
+   "key": "lisun-eft61000-4"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/leakage-current-tester.html": {
+   "model": "WB2675D",
+   "desc": "Leakage Current Tester | Contact Current Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2675B_AL.jpg",
+   "key": "lisun-wb2675d"
+  },
+  "https://www.lisungroup.com/products/goniophotometer/high-precision-rotation-luminaire-goniophotometer.html": {
+   "model": "LSG-1890B",
+   "desc": "High Precision Rotation Luminaire Goniophotometer",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1890B_AL.jpg",
+   "key": "lisun-lsg-1890b"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/wire-cable-flame-tester.html": {
+   "model": "",
+   "desc": "Wire and Cable Flame Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/12/RSB-WC_AL.jpg",
+   "key": "lisun-wire-cable-flame-tester"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/flexure-testing-machine.html": {
+   "model": "",
+   "desc": "IEC 60245-1 Clause 5.6.3.1 | IEC 60245-2 Clause 3.5 Figure 3 Flexing Test Apparatus for Flexible Cables",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/10/WDT-B42_AL.jpg",
+   "key": "lisun-flexure-testing-machine"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/wire-damaged-tester.html": {
+   "model": "",
+   "desc": "Wire Damaged Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WDT-1B_A2.jpg",
+   "key": "lisun-wire-damaged-tester"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/ball-pressure-test-device.html": {
+   "model": "ZBP-T",
+   "desc": "Ball Pressure Test Device",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/ZBP-T_AL.jpg",
+   "key": "lisun-zbp-t"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/magnetic-field-generator.html": {
+   "model": "PFM61000-8A",
+   "desc": "Magnetic Field Generator",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/PFM61000-8A_AL-1.jpg",
+   "key": "lisun-pfm61000-8a"
+  },
+  "https://www.lisungroup.com/products/electrical-safety-tester/ac-dc-withstand-voltage-test.html": {
+   "model": "WB2671B",
+   "desc": "AC/DC Withstand Voltage Test",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/WB2671B_AL.jpg",
+   "key": "lisun-wb2671b"
+  },
+  "https://www.lisungroup.com/products/test-finger-test-probe-test-pin/test-probe-11-with-cable-with-figure-7-of-the-iec-61032.html": {
+   "model": "",
+   "desc": "IEC 61032 Figure 7 Test Probe 11 with Cable",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/09/SMT-1211C_AL1.jpg",
+   "key": "lisun-test-probe-11-with-cable-with-figure-7-of-the-iec-"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/optical-radiation-safety-test.html": {
+   "model": "",
+   "desc": "Optical Radiation Safety Test",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/EN62471-C_AL.jpg",
+   "key": "lisun-optical-radiation-safety-test"
+  },
+  "https://www.lisungroup.com/products/emi-and-emc-test-system/transient-over-voltages-tester.html": {
+   "model": "",
+   "desc": "Transient High Voltage Impulse Generator | IEC60335",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SUG255_AL-1.jpg",
+   "key": "lisun-transient-over-voltages-tester"
+  },
+  "https://www.lisungroup.com/products/plug-and-switch-testing/heat-resistance-test-device-for-cables.html": {
+   "model": "",
+   "desc": "IEC 61386-1 Clause 12 Figure 8 Heat Resistance Test Device for Cable Conduit",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/Image_1710496363003.jpg",
+   "key": "lisun-heat-resistance-test-device-for-cables"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/high-precision-spectroradiometer-integrating-sphere-system.html": {
+   "model": "",
+   "desc": "High Precision Spectroradiometer Integrating Sphere System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/LPCE-2LMS-9000_AL1.jpg",
+   "key": "lisun-high-precision-spectroradiometer-integrating-spher"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/thermal-resistance-spectroradiometeric-system-for-led.html": {
+   "model": "TRS-1000",
+   "desc": "Thermal Resistance Spectroradiometeric System for LED",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TRS-1000_AL.jpg",
+   "key": "lisun-trs-1000"
+  },
+  "https://www.lisungroup.com/products/integrating-sphere/high-precision-spectroradiometer-integrating-sphere-system.html": {
+   "model": "LPCE-2(LMS-9000)",
+   "desc": "High Precision Spectroradiometer Integrating Sphere System",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/LPCE-2LMS-9000_AL1.jpg",
+   "key": "lisun-lpce-2-lms-9000"
+  },
+  "https://www.lisungroup.com/products/goniophotometer/goniophotometer-for-automotive-and-signal-lamps.html": {
+   "model": "LSG-1950",
+   "desc": "Goniophotometer for Automotive and Signal Lamps",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1950_AL1.jpg",
+   "key": "lisun-lsg-1950"
+  },
+  "https://www.lisungroup.com/products/goniophotometer/high-precision-rotation-luminaire-goniospectroradiometer.html": {
+   "model": "LSG-1890BCCD",
+   "desc": "High Precision Rotation Luminaire Goniospectroradiometer",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LSG-1890B_AL1.jpg",
+   "key": "lisun-lsg-1890bccd"
+  },
+  "https://www.lisungroup.com/products/object-color-and-glossiness-test/colorimeter.html": {
+   "model": "CD-320PRO",
+   "desc": "Portable Colorimeter/Chroma Meter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/CD-320PRO_AL.jpg",
+   "key": "lisun-cd-320pro"
+  },
+  "https://www.lisungroup.com/products/led-aging-thermal-resistance/aging-and-life-test-rack.html": {
+   "model": "SY2036",
+   "desc": "LED Lamp and Luminaires Aging and Life Test Rack",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SY2036_AL.jpg",
+   "key": "lisun-sy2036"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/imaging-luminance-colorimeter.html": {
+   "model": "KS-10",
+   "desc": "Imaging Luminance Colorimeter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2020/12/KS-10_AL.jpg",
+   "key": "lisun-ks-10"
+  },
+  "https://www.lisungroup.com/products/led-aging-thermal-resistance/led-optical-aging-test-instrument.html": {
+   "model": "LEDLM-84PL",
+   "desc": "LED Optical Aging Test Instrument",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/LEDLM-80PL_AL6.jpg",
+   "key": "lisun-ledlm-84pl"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/adjustable-high-frequency-reference-ballast.html": {
+   "model": "HCS-109A",
+   "desc": "Adjustable High Frequency Reference Ballast",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HCS-109A_AL.jpg",
+   "key": "lisun-hcs-109a"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/lux-meter.html": {
+   "model": "PHOTO-200",
+   "desc": "Lux Meter | Brightness Meter | PPFD Meter | UV Irradiance Meter",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2022/10/PHOTO-200_AL-1.jpg",
+   "key": "lisun-photo-200"
+  },
+  "https://www.lisungroup.com/products/ip-waterproof-dustproof/dustproof-testing-machine.html": {
+   "model": "SC-015",
+   "desc": "Dustproof Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/SC-015_AL-3.jpg",
+   "key": "lisun-sc-015"
+  },
+  "https://www.lisungroup.com/products/ip-waterproof-dustproof/waterproof-test.html": {
+   "model": "JL-X",
+   "desc": "IP Waterproof Test Equipments（Open Type）",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/06/JL-X_AL.jpg",
+   "key": "lisun-jl-x"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/glow-wire-test-apparatus.html": {
+   "model": "ZRS-3H",
+   "desc": "Glow-wire Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/glow_wire_tester_ZRS-3H_AL.jpg",
+   "key": "lisun-zrs-3h"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/needle-flame-test.html": {
+   "model": "ZY-3",
+   "desc": "Needle Flame Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/needle_flame_tester_ZY-3_AL.jpg",
+   "key": "lisun-zy-3"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/tracking-test-chamber.html": {
+   "model": "TTC-1",
+   "desc": "Tracking Test Chamber | Leakage Tracking Test Apparatus",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/TTC-1_AL-1.jpg",
+   "key": "lisun-ttc-1"
+  },
+  "https://www.lisungroup.com/products/weathering-corrosion-test/salt-spray-test-machine.html": {
+   "model": "YWX/Q-010",
+   "desc": "Salt Spray Test Chamber | Salt Fog Corrosion Tester",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/YWXQ-010_AL1-2.jpg",
+   "key": "lisun-ywx-q-010"
+  },
+  "https://www.lisungroup.com/products/photobiological-safety-blue-light/optical-radiation-safety-test.html": {
+   "model": "EN62471-C",
+   "desc": "Optical Radiation Safety Test",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/EN62471-C_AL.jpg",
+   "key": "lisun-en62471-c"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/iec60335-1-clause-11-black-test-corner.html": {
+   "model": "TMPWS-010",
+   "desc": "IEC60335-1 Clause 11 Black Test Corner | Temperature Rise Test Corner",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2024/03/TMPWS-012_AL.jpg",
+   "key": "lisun-tmpws-010"
+  },
+  "https://www.lisungroup.com/products/led-test-instruments/iec60598-touch-current-measuring-network-g-2-and-g-3.html": {
+   "model": "MNTC-G2G3",
+   "desc": "IEC 60598:2024 Touch Current Measuring Network G.2 and G.3",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2020/02/MNTC-G2G3_AL1.jpg",
+   "key": "lisun-mntc-g2g3"
+  },
+  "https://www.lisungroup.com/products/mechanical-test-machine/spring-impact-hammer-ik-level-tester.html": {
+   "model": "IK01-07",
+   "desc": "Spring Impact Hammer IK Level Tester IEC 60068-2-75",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/IK01-06_AL-1.jpg",
+   "key": "lisun-ik01-07"
+  },
+  "https://www.lisungroup.com/products/mechanical-test-machine/automatic-double-drop-test-machine.html": {
+   "model": "DT-60KG",
+   "desc": "Automatic Double-Arms Drop Test Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/DT-60KG_AL-1.jpg",
+   "key": "lisun-dt-60kg"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/wire-cable-flame-tester.html": {
+   "model": "RSB-WC",
+   "desc": "Wire and Cable Flame Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/12/RSB-WC_AL1.jpg",
+   "key": "lisun-rsb-wc"
+  },
+  "https://www.lisungroup.com/products/mechanical-test-machine/double-columns-tensile-testing-machine.html": {
+   "model": "PULL-2000KG",
+   "desc": "Tensile Testing Machine",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2023/08/PULL-2000KG_AL1-1.jpg",
+   "key": "lisun-pull-2000kg"
+  },
+  "https://www.lisungroup.com/products/weathering-corrosion-test/ozone-test-chamber.html": {
+   "model": "OTC-150A",
+   "desc": "Ozone Aging Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/12/OTC-015A_AL.jpg",
+   "key": "lisun-otc-150a"
+  },
+  "https://www.lisungroup.com/products/weathering-corrosion-test/uv-aging-test-chamber.html": {
+   "model": "UV-263LS",
+   "desc": "UV Aging Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/UV-263LS_AL-2.jpg",
+   "key": "lisun-uv-263ls"
+  },
+  "https://www.lisungroup.com/products/flame-fire-resistance-test/horizontal-vertical-flame-tester.html": {
+   "model": "HVR-LS",
+   "desc": "Horizontal Vertical Flame Test Chamber",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2019/07/HVR-LS_AL-1.jpg",
+   "key": "lisun-hvr-ls"
+  },
+  "https://www.lisungroup.com/products/rohs-element-analysis/rohs-testing-equipment-edxrf.html": {
+   "model": "EDX-2A",
+   "desc": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)",
+   "image": "https://www.lisungroup.com/wp-content/uploads/2021/07/rohs_testing_machine_EDX-2_AL.jpg",
+   "key": "lisun-edx-2a"
+  }
+ }
+}

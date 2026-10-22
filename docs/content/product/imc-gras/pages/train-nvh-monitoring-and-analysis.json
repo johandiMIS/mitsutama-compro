@@ -1,0 +1,261 @@
+{
+  "section": "products",
+  "slug": "train-nvh-monitoring-and-analysis",
+  "title": "Train NVH Monitoring and Analysis",
+  "group": "IMC",
+  "seoDescription": "imc measurement and data acquisition systems for rail vehicles and rail infrastructure: wheel-rail forces, wheelset vibration, brake and pantograph tests.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Train NVH Monitoring and Analysis",
+          "paragraphs": [
+            "Since 1996 imc has developed measurement technology for the rail sector, from high-speed trains to streetcars. Rugged, distributed systems record thousands of channels under splash water, stone chipping, heat, cold and electromagnetic interference.",
+            "The systems read rail vehicle bus systems directly, calculate in real time and can be networked and synchronised, all configured from one software, imc STUDIO."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1cbc46bf-45e9-4bc7-86fd-c8ef7e918a33.webp",
+            "alt": "Train NVH Monitoring and Analysis"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Why imc for rail",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Direct reading of vehicle buses",
+              "text": "Rail vehicle bus systems are read directly into the measurement system."
+            },
+            {
+              "title": "Rugged for railway loads",
+              "text": "Hardware built for the shocks, temperatures and electromagnetic voltages of rail vehicles and infrastructure."
+            },
+            {
+              "title": "Distributed measurement",
+              "text": "Signals are captured at the source, close to sensors installed at many points along the vehicle, and evaluated synchronously."
+            },
+            {
+              "title": "Real-time calculation",
+              "text": "Results are calculated during the run, which saves evaluation time."
+            },
+            {
+              "title": "TEDS capable",
+              "text": "Calibration values are read automatically from the sensors."
+            },
+            {
+              "title": "Networked and synchronised",
+              "text": "Several systems can be combined and run in sync, with application-specific extensions."
+            }
+          ]
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Rail applications",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Vehicle and wheelset tests",
+              "products": [
+                {
+                  "name": "Increase locomotive safety",
+                  "badges": [],
+                  "bullets": [
+                    "Torsional vibration of wheelsets (rolling), which reduces traction and increases wear"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c0aac105-3195-46bc-a465-cd15ef6d9895.webp",
+                    "alt": "Increase locomotive safety"
+                  }
+                },
+                {
+                  "name": "Load test on streetcar wheels",
+                  "badges": [],
+                  "bullets": [
+                    "Dynamic loads on a rail vehicle wheel under real driving conditions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/820195fa-0885-4737-b4ba-411544f5cce9.webp",
+                    "alt": "Load test on streetcar wheels"
+                  }
+                },
+                {
+                  "name": "Commissioning measurements",
+                  "badges": [],
+                  "bullets": [
+                    "Commissioning measurements on the Wuppertal suspension railway"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1f5ee28d-9b57-45b8-a374-ef5931857f18.webp",
+                    "alt": "Commissioning measurements"
+                  }
+                },
+                {
+                  "name": "Monitoring wheel-load checkpoints",
+                  "badges": [],
+                  "bullets": [
+                    "Stationary checkpoints that record the key figures of a passing train in real time"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6c95f708-3adf-4388-b541-a8fd3596fa08.webp",
+                    "alt": "Monitoring wheel-load checkpoints"
+                  }
+                },
+                {
+                  "name": "Distributed measurement for rail vehicles",
+                  "badges": [],
+                  "bullets": [
+                    "Signals captured at the source along the whole vehicle and evaluated synchronously"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a948e9b9-ba7a-420d-9f3b-c0726dfba828.webp",
+                    "alt": "Distributed measurement for rail vehicles"
+                  }
+                },
+                {
+                  "name": "Wheel-rail force measurement",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement on instrumented wheelsets with the imc MTP-NT-XS telemetry system, used by TÜV SÜD Rail"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2224c684-66e4-46eb-9ec1-4393150c4338.webp",
+                    "alt": "Wheel-rail force measurement"
+                  }
+                },
+                {
+                  "name": "Measuring wheel loads on subways and trams",
+                  "badges": [],
+                  "bullets": [
+                    "Wheelsets in urban rail service under extreme dynamic forces"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ba8cb9fe-309f-45c1-a94c-6113759730ef.webp",
+                    "alt": "Measuring wheel loads on subways and trams"
+                  }
+                },
+                {
+                  "name": "Telemetry for wheelsets",
+                  "badges": [],
+                  "bullets": [
+                    "Wheelset testing for the safety and reliability of rail vehicles"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/07aac636-4688-43dd-a7f7-26a48f496403.webp",
+                    "alt": "Telemetry for wheelsets"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Brakes, pantographs and structure",
+              "products": [
+                {
+                  "name": "Train brake tests",
+                  "badges": [],
+                  "bullets": [
+                    "Checks that braking systems work reliably under all operating conditions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c69b4c6c-1d9d-4cca-9553-400ca9f01f64.webp",
+                    "alt": "Train brake tests"
+                  }
+                },
+                {
+                  "name": "Pantograph tests",
+                  "badges": [],
+                  "bullets": [
+                    "Measuring pantographs, which take the current from overhead lines on electric trains"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e38611b5-7753-4dbe-bdda-d7e65f4ace23.webp",
+                    "alt": "Pantograph tests"
+                  }
+                },
+                {
+                  "name": "Maintenance of bogies with electric drive",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement for servicing bogies with traction drive"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b677d5b9-390c-4cd0-b2e4-c8cc8aba31f3.webp",
+                    "alt": "Maintenance of bogies with electric drive"
+                  }
+                },
+                {
+                  "name": "Structural analysis of wagon bodies and derailment test",
+                  "badges": [],
+                  "bullets": [
+                    "Torsion test rig for the structural integrity and rigidity of vehicle components"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/af9e27d7-4c50-4f53-bec4-e3466b220403.webp",
+                    "alt": "Structural analysis of wagon bodies and derailment test"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Noise and comfort",
+              "products": [
+                {
+                  "name": "Sound emission of rail vehicles to ISO 3095",
+                  "badges": [],
+                  "bullets": [
+                    "Noise emitted by track-bound vehicles"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7c327fca-a134-4928-8429-25cb0b60a1e9.webp",
+                    "alt": "Sound emission of rail vehicles to ISO 3095"
+                  }
+                },
+                {
+                  "name": "Noise inside rail vehicles to ISO 3381",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement and evaluation of noise inside rail vehicles"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0c3999b4-bf4d-4e42-bb93-bd49a5bb7fa0.webp",
+                    "alt": "Noise inside rail vehicles to ISO 3381"
+                  }
+                },
+                {
+                  "name": "NVH tracking for passenger comfort",
+                  "badges": [],
+                  "bullets": [
+                    "Structural integrity and passenger comfort under real operating conditions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5c29c8fc-13b6-4659-93cb-c46f0a267cc5.webp",
+                    "alt": "NVH tracking for passenger comfort"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 2
+}

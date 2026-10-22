@@ -1,0 +1,269 @@
+{
+  "section": "products",
+  "slug": "audio-device-production-test-and-quality-check",
+  "title": "Audio Device Production Test and Quality Check",
+  "group": "Audio Precision",
+  "seoDescription": "Audio Precision production test: APx audio analyzers, APx1701, GRAS 45CC fixture and APx500 automation for electronic and electro-acoustic audio devices.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Audio Precision",
+          "title": "Audio Device Production Test and Quality Check",
+          "paragraphs": [
+            "Production test has to keep cost down without giving up quality. Audio Precision provides complete production test and measurement solutions, from analyzer performance to automation in the APx500 software.",
+            "The same tools cover electronic audio devices such as power amplifiers, headphone amplifiers, DACs and ADCs, and electro-acoustic devices such as loudspeakers, microphones and headphones."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fedf6d98-54b5-4d46-a62b-f92fe4820650.webp",
+            "alt": "Audio Device Production Test and Quality Check"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Production test solutions",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Audio analyzers, interfaces and fixtures",
+              "products": [
+                {
+                  "name": "APx555B",
+                  "badges": [],
+                  "bullets": [
+                    "Modular two-channel audio analyzer",
+                    "Audio Precision's reference for performance and versatility"
+                  ],
+                  "model": "APx555B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/beb0ef8d-73ca-4f13-bb2d-bc8fe4642dd0.webp",
+                    "alt": "APx555B"
+                  }
+                },
+                {
+                  "name": "APx58xB",
+                  "badges": [],
+                  "bullets": [
+                    "8 or 16-channel modular audio analyzers",
+                    "Broad digital I/O for simultaneous multichannel audio test"
+                  ],
+                  "model": "APx58xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3aa102c6-43ca-465c-b509-d7e409e71c19.webp",
+                    "alt": "APx58xB"
+                  }
+                },
+                {
+                  "name": "APx52xB",
+                  "badges": [],
+                  "bullets": [
+                    "Modular 2- and 4-channel audio analyzers",
+                    "Balances analog performance with a wide range of digital I/O"
+                  ],
+                  "model": "APx52xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e7185aba-4885-43e0-8d56-0669d5e2745f.webp",
+                    "alt": "APx52xB"
+                  }
+                },
+                {
+                  "name": "APx517B",
+                  "badges": [],
+                  "bullets": [
+                    "Acoustic analyzer for production lines",
+                    "For applications where cost and setup time are critical"
+                  ],
+                  "model": "APx517B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4fa3c167-d021-499f-b3d0-09be47c335a3.webp",
+                    "alt": "APx517B"
+                  }
+                },
+                {
+                  "name": "APx516B",
+                  "badges": [],
+                  "bullets": [
+                    "Value-oriented analyzer with flexible digital connectivity",
+                    "Built for production test, also suited to acoustic R&D"
+                  ],
+                  "model": "APx516B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f99a381d-4e17-4884-bc4a-ebccee92563e.webp",
+                    "alt": "APx516B"
+                  }
+                },
+                {
+                  "name": "APx511B",
+                  "badges": [],
+                  "bullets": [
+                    "Analyzer for hearing aid manufacturers",
+                    "Research and development, performance verification and testing of returned hearing aids"
+                  ],
+                  "model": "APx511B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ba70b5fa-cceb-4374-a1c5-4db540b1d812.webp",
+                    "alt": "APx511B"
+                  }
+                },
+                {
+                  "name": "APx1701 Transducer Test Interface",
+                  "badges": [],
+                  "bullets": [
+                    "Low noise, low distortion and flat response for loudspeaker, headphone and microphone measurement"
+                  ],
+                  "model": "APx1701",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8e9feab6-60d2-4a94-9f3e-8de0153ae7f1.webp",
+                    "alt": "APx1701 Transducer Test Interface"
+                  }
+                },
+                {
+                  "name": "GRAS 45CC Headphone Test Fixture",
+                  "badges": [],
+                  "bullets": [
+                    "Configurable fixture for dual-channel testing of headphones and headsets",
+                    "Options include microphones and IEC 60318-1 / IEC 60318-4 ear simulators"
+                  ],
+                  "model": "45CC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f34ac59a-5aae-42e3-905a-d4d57efa1147.webp",
+                    "alt": "GRAS 45CC Headphone Test Fixture"
+                  }
+                },
+                {
+                  "name": "APx500 Flex",
+                  "badges": [],
+                  "bullets": [
+                    "Software-only option: use any ASIO-capable audio interface with the APx500 software",
+                    "For very cost-sensitive production test"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b86602b7-ce06-4f2e-ab0f-a290788de2a6.webp",
+                    "alt": "APx500 Flex"
+                  }
+                },
+                {
+                  "name": "APx500 Software",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement software platform shared by all APx audio analyzers"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a51cb7c5-4efe-4188-a5c3-45a477a5dcbd.webp",
+                    "alt": "APx500 Software"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Application notes and guides",
+              "products": [
+                {
+                  "name": "Production Test with APx Audio Analyzers",
+                  "badges": [],
+                  "bullets": [
+                    "Technote 129: APx500 features for automated production test sequences, with a focus on electro-acoustic devices"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d08fc81f-bd95-409f-9e21-a6df134f28c5.webp",
+                    "alt": "Production Test with APx Audio Analyzers"
+                  }
+                },
+                {
+                  "name": "The Cost of Production-Line Audio Testing",
+                  "badges": [],
+                  "bullets": [
+                    "How accurate, repeatable audio testing improves quality, cuts manufacturing cost and speeds time to market"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/43329999-4635-4e96-a339-591aaab043b0.webp",
+                    "alt": "The Cost of Production-Line Audio Testing"
+                  }
+                },
+                {
+                  "name": "From Frustration to Automation",
+                  "badges": [],
+                  "bullets": [
+                    "From built-in sequencing to API-driven customisation, replacing subjective listening tests with objective automated tests"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/66bbfd87-ff84-475f-b303-2c1dc4c46d6c.webp",
+                    "alt": "From Frustration to Automation"
+                  }
+                },
+                {
+                  "name": "APx517B & Speaker Test Setup",
+                  "badges": [],
+                  "bullets": [
+                    "Video: from unboxing an APx517B acoustic analyzer to measuring a loudspeaker"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4489eb57-e074-4994-96ee-8a5e63640fe5.webp",
+                    "alt": "APx517B & Speaker Test Setup"
+                  }
+                },
+                {
+                  "name": "APx Production Test Demonstration Project",
+                  "badges": [],
+                  "bullets": [
+                    "An APx project file that illustrates the production test and automation features"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2c446f99-0f54-4363-8e6c-9b2a3934abb8.webp",
+                    "alt": "APx Production Test Demonstration Project"
+                  }
+                },
+                {
+                  "name": "AP Applied: Acoustic Response",
+                  "badges": [],
+                  "bullets": [
+                    "Key features of an acoustic analyzer, non-ideal test environments and production needs"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5d35e88c-6eca-48f5-a3f7-b79762491941.webp",
+                    "alt": "AP Applied: Acoustic Response"
+                  }
+                },
+                {
+                  "name": "High Speed Test in Production & Broadcast",
+                  "badges": [],
+                  "bullets": [
+                    "High Speed Tester (HST): a fast audio test application for production lines and transmission quality"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/73ff81d3-b796-450b-9311-e441ca29d395.webp",
+                    "alt": "High Speed Test in Production & Broadcast"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "APx500 features for production test",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Sequence mode, with the Navigator and Sequencer, signal paths, measurements and sequence steps\n- Variables, auxiliary control, data export and report generation\n- Microphone calibration, output level regulation and input equalization\n- Limits defined from a Golden Unit (reference device) and an analog generator voltage limit to protect connected devices\n- Password-restricted Production Test mode with a simple operator screen, plus sequence logging and statistics"
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 1
+}

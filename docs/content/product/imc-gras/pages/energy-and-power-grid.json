@@ -1,0 +1,75 @@
+{
+  "section": "products",
+  "slug": "energy-and-power-grid",
+  "title": "Energy and Power Grid",
+  "group": "IMC",
+  "seoDescription": "imc measurement and monitoring for wind turbines, power plants and energy networks: power quality to EN 50160 and IEC 61400, load and grid integration measurements.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Energy and Power Grid",
+          "paragraphs": [
+            "imc works with leading energy companies on turnkey measurement and monitoring solutions for wind turbines, power plants and energy networks. The robust systems work independently of a PC, with signal conditioning, AD conversion, real-time computation and data storage integrated.",
+            "They are modular and decentralised, can be synchronised over a network, by GPS or by direct cable, and are operated with imc STUDIO and imc WAVE."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/05561762-b508-4f8b-ae94-984ee5a84ca1.webp",
+            "alt": "Energy and Power Grid"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Applications",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Prototype and component tests",
+              "text": "Measurements on prototypes and components, including development and certification of wind turbines."
+            },
+            {
+              "title": "Power curve measurement",
+              "text": "Power curve measurements to optimise efficiency."
+            },
+            {
+              "title": "Load measurement",
+              "text": "Load measurements that verify safety, stability and durability, plus load and electromechanical efficiency measurements."
+            },
+            {
+              "title": "Grid and supply quality",
+              "text": "Power monitoring and quality analysis to EN 50160 and IEC 61400-7, -15, -21 and -30: frequency, voltage spikes, fluctuations, harmonics, flicker and signal frequencies."
+            },
+            {
+              "title": "Grid integration",
+              "text": "Measurement of electrical quantities such as voltage, current and power, and of all output power and performance parameters."
+            },
+            {
+              "title": "Condition monitoring",
+              "text": "Automatic condition monitoring, sound and noise measurement and measurement data transfer with imc LINK."
+            },
+            {
+              "title": "Smart-grid simulation",
+              "text": "Platform for smart-grid simulation."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "fuel-cell-monitoring-and-analysis",
+  "_order": 6
+}

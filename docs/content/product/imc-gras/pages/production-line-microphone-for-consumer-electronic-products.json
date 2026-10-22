@@ -1,0 +1,145 @@
+{
+  "section": "products",
+  "slug": "production-line-microphone-for-consumer-electronic-products",
+  "title": "Production Line Microphone for Consumer Electronic Products",
+  "group": "GRAS",
+  "seoDescription": "GRAS production line and QC microphones for consumer electronics: EQset 40PO and 40PM series, 40PI and 40PP-10 free-field QC microphones with their key specifications.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Production Line Microphone for Consumer Electronic Products",
+          "paragraphs": [
+            "Production line testing confirms that finished products match the quality target set by R&D and that no sub-standard unit reaches the market. Production line microphones therefore have to give repeatable, precise measurements every day.",
+            "They are also needed in larger numbers than in R&D, so GRAS offers a range of production line and QC microphones, several with EQset technology for ease of use and environmental stability."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c8b70178-f79e-4237-8f2b-71842af1055f.webp",
+            "alt": "Production Line Microphone for Consumer Electronic Products"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Recommended products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Production line and QC microphones",
+              "products": [
+                {
+                  "name": "GRAS 40PO-H EQset High Freq. Production Line Microphone, High SPL",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 10 Hz to 40 kHz",
+                    "Dynamic range: 36 dBA to 138 dB",
+                    "Sensitivity: 8 mV/Pa"
+                  ],
+                  "model": "40PO-H",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ece19c20-b923-41b3-a558-db35f332bbef.webp",
+                    "alt": "GRAS 40PO-H EQset High Freq. Production Line Microphone, High SPL"
+                  }
+                },
+                {
+                  "name": "GRAS 40PO-L EQset High Freq. Production Line Microphone, Low SPL",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 10 Hz to 40 kHz",
+                    "Dynamic range: 30 dBA to 128 dB",
+                    "Sensitivity: 25 mV/Pa"
+                  ],
+                  "model": "40PO-L",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/01f361e6-1dfd-4945-aba3-90e1c2f9c142.webp",
+                    "alt": "GRAS 40PO-L EQset High Freq. Production Line Microphone, Low SPL"
+                  }
+                },
+                {
+                  "name": "GRAS 40PM EQset Miniature Production Line Microphone",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 20 Hz to 20 kHz",
+                    "Dynamic range: 30 dB(A) to 120 dB",
+                    "Sensitivity: 25 mV/Pa"
+                  ],
+                  "model": "40PM",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/541ba8f1-5494-49b8-85ba-86edf6ceba34.webp",
+                    "alt": "GRAS 40PM EQset Miniature Production Line Microphone"
+                  }
+                },
+                {
+                  "name": "GRAS 40PM-1 EQset Miniature Production Line Microphone, High Precision",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 20 Hz to 20 kHz",
+                    "Dynamic range: 30 dB(A) to 125 dB",
+                    "Sensitivity: 20 mV/Pa"
+                  ],
+                  "model": "40PM-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f561d295-8a5c-4161-bb82-f25612087e27.webp",
+                    "alt": "GRAS 40PM-1 EQset Miniature Production Line Microphone, High Precision"
+                  }
+                },
+                {
+                  "name": "GRAS 40PI Production Line Microphone",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 20 Hz to 20 kHz",
+                    "Dynamic range: 30 dB(A) to 146 dB",
+                    "Sensitivity: 12 mV/Pa"
+                  ],
+                  "model": "40PI",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/18dfa6f7-0707-43f3-8640-ce45fabd6460.webp",
+                    "alt": "GRAS 40PI Production Line Microphone"
+                  }
+                },
+                {
+                  "name": "GRAS 40PP-10 CCP Free-field QC Microphone",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 10 Hz to 20 kHz",
+                    "Dynamic range: 33 dB(A) to 128 dB",
+                    "Sensitivity: 50 mV/Pa"
+                  ],
+                  "model": "40PP-10",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/20ab1a80-a399-4e97-908e-e3a830f58e87.webp",
+                    "alt": "GRAS 40PP-10 CCP Free-field QC Microphone"
+                  }
+                },
+                {
+                  "name": "GRAS 40PP-10-S1 CCP Free-field QC Microphone, High Pressure",
+                  "badges": [],
+                  "bullets": [
+                    "Frequency range: 10 Hz to 20 kHz",
+                    "Dynamic range: 33 dB(A) to 142 dB",
+                    "Sensitivity: 9 mV/Pa (±3 dB)"
+                  ],
+                  "model": "40PP-10-S1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6d20e8ea-154c-4217-890e-91ac04f0d57f.webp",
+                    "alt": "GRAS 40PP-10-S1 CCP Free-field QC Microphone, High Pressure"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "production-microphone",
+  "_order": 6
+}

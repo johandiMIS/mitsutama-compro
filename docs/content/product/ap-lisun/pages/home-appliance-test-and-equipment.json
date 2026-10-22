@@ -1,0 +1,461 @@
+{
+  "section": "products",
+  "slug": "home-appliance-test-and-equipment",
+  "title": "Home Appliance Test and Equipment",
+  "group": "Lisun Group",
+  "seoDescription": "Lisun household appliance test equipment for IEC 60335-1: test probes, leakage current and withstand voltage testers, EMC generators, glow-wire, needle flame and mechanical testers.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Lisun",
+          "title": "Home Appliance Test and Equipment",
+          "paragraphs": [
+            "Lisun's household appliance test solutions follow IEC 60335, the basic international safety standard for household and similar electrical appliances rated up to 250 V single-phase and 480 V three-phase. It sets safety requirements and test methods across electrical, mechanical, thermal, abnormal operation and electromagnetic compatibility aspects.",
+            "The solutions cover the key IEC 60335 tests: accessibility, heating, leakage current and dielectric strength, water resistance, EMC (ESD, fast transients, surges), mechanical strength, corrosion and flame resistance, plus flexing, salt spray and drop tests."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a0be75ac-8d21-436a-a353-7b98c15ab343.webp",
+            "alt": "Home Appliance Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test equipment by standard",
+          "intro": "Each group is a standard; each card is the Lisun product used for the clauses listed on it.",
+          "categories": [
+            {
+              "name": "Household appliance safety · IEC 60335-1",
+              "products": [
+                {
+                  "name": "Standard Articulated Test Probe with 10N Thrust",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.1.1IEC 61032 Standard Articulated Test Probe with 10N Thrust"
+                  ],
+                  "model": "SMT-02T10",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7cec4360-79a6-4c7c-9757-25383e15264e.webp",
+                    "alt": "Standard Articulated Test Probe with 10N Thrust"
+                  }
+                },
+                {
+                  "name": "Test Probe 13 with Cable",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.1.2 Test Probe 13 with Cable with standard EN 61032"
+                  ],
+                  "model": "SMT-1213C",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8015143e-0ee8-4f5e-b21a-1efb68fcf307.webp",
+                    "alt": "Test Probe 13 with Cable"
+                  }
+                },
+                {
+                  "name": "Test Probe 41 of – Test Cone for Access Probes to Hazardous Hot or Glowing Parts",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.1.3 Test Probe 41 of IEC 61032 – Test Cone for Access Probes to Hazardous Hot or Glowing Parts"
+                  ],
+                  "model": "SMT-1241",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6e9d2abc-d32e-44ae-acf8-3740915f7ef3.webp",
+                    "alt": "Test Probe 41 of – Test Cone for Access Probes to Hazardous Hot or Glowing Parts"
+                  }
+                },
+                {
+                  "name": "Temperature Rise Test Corner",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 11 Heating"
+                  ],
+                  "model": "TMPWS-010",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/db1b3edd-cbaa-428a-8f24-cecfcfe1d539.webp",
+                    "alt": "Temperature Rise Test Corner"
+                  }
+                },
+                {
+                  "name": "Touch Current Measuring Network G.2 and G.3",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 12 Figure1/2/3/4 Leakage current and electric strength at operating temperature"
+                  ],
+                  "model": "MNTC-G2G3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0f79c83c-17e2-42ea-9dd7-cd5c3b99f139.webp",
+                    "alt": "Touch Current Measuring Network G.2 and G.3"
+                  }
+                },
+                {
+                  "name": "Transient High Voltage Impulse Generator",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 14 Transient overvoltages Table6"
+                  ],
+                  "model": "SUG335",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f577af10-a127-4829-9130-8e7afe72b00f.webp",
+                    "alt": "Transient High Voltage Impulse Generator"
+                  }
+                },
+                {
+                  "name": "IP Waterproof Test Equipments（Open Type）",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 15.1.1 IP Waterproof test"
+                  ],
+                  "model": "JL-12/ JL-34/ JL-56 /JL-7",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6887a1a1-ec2b-419b-90ea-667341e473b6.webp",
+                    "alt": "IP Waterproof Test Equipments（Open Type）"
+                  }
+                },
+                {
+                  "name": "Contact Current Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 16.2 Leakage current"
+                  ],
+                  "model": "WB2675D",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e903a12-a6d3-4b80-a3d9-6fc4e884d2cb.webp",
+                    "alt": "Contact Current Tester"
+                  }
+                },
+                {
+                  "name": "AC/DC Withstand Voltage Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 16.3 electric strength"
+                  ],
+                  "model": "WB2671B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/07cb3614-4900-46cd-a6d7-ab3643c365ff.webp",
+                    "alt": "AC/DC Withstand Voltage Test"
+                  }
+                },
+                {
+                  "name": "ESD Simulator Guns",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.1 ESD Simulator Guns"
+                  ],
+                  "model": "ESD61000-2",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/448500af-b8ad-47cf-8730-a67fdbf7f6cb.webp",
+                    "alt": "ESD Simulator Guns"
+                  }
+                },
+                {
+                  "name": "EFT Immunity Measurement",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.3 EFT Immunity Measurement"
+                  ],
+                  "model": "EFT61000-4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/06d0e1c6-b709-4f2d-bb44-013dc655b7bc.webp",
+                    "alt": "EFT Immunity Measurement"
+                  }
+                },
+                {
+                  "name": "Surge Generator",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.4 Surge test"
+                  ],
+                  "model": "SG61000-5",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/64b448a4-350d-4114-ba74-fb781a41048a.webp",
+                    "alt": "Surge Generator"
+                  }
+                },
+                {
+                  "name": "RF Conducted Immunity Test System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.5 RF Conducted Immunity Test System"
+                  ],
+                  "model": "RFCI61000-6-85W & AB-100W",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ace60fdb-8521-4f72-857e-d99dcc54ef78.webp",
+                    "alt": "RF Conducted Immunity Test System"
+                  }
+                },
+                {
+                  "name": "Voltage Dips and Interruptions Generator",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.6 Voltage Dips and Interruptions Generator"
+                  ],
+                  "model": "CSS61000-11",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/730e2f95-f633-4eb4-beb9-d2b263c530b4.webp",
+                    "alt": "Voltage Dips and Interruptions Generator"
+                  }
+                },
+                {
+                  "name": "Programmable AC/DC Testing Power Supply System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 19.11.4.7 Programmable AC/DC Testing Power Supply System"
+                  ],
+                  "model": "LSP-EMC500VA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/291b2f25-cc6a-4276-a52f-006094407434.webp",
+                    "alt": "Programmable AC/DC Testing Power Supply System"
+                  }
+                },
+                {
+                  "name": "Stability Test Bench",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 20.1 Stability"
+                  ],
+                  "model": "WDT-2",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0010481e-d8df-4af6-9d5e-14ba64229715.webp",
+                    "alt": "Stability Test Bench"
+                  }
+                },
+                {
+                  "name": "Spring Impact Hammer IK Level Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 21.1 Mechanical strength"
+                  ],
+                  "model": "IK04",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7e8b062a-8a6f-4930-9b0f-8ea47cbb3c20.webp",
+                    "alt": "Spring Impact Hammer IK Level Tester"
+                  }
+                },
+                {
+                  "name": "Test Finger Nail for",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 21.2 Figure7 Test Finger Nail for IEC 60335-1 Figure 7"
+                  ],
+                  "model": "SMT-335F7",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/af51dd12-e123-4b21-9fd0-46134e75f3ce.webp",
+                    "alt": "Test Finger Nail for"
+                  }
+                },
+                {
+                  "name": "Test Probe 11 with Cable",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 21.11 IEC 61032 Unjointed Test Finger Test Probe 11"
+                  ],
+                  "model": "SMT-1211C",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5329f83e-db22-4c72-b4f9-77ca45021842.webp",
+                    "alt": "Test Probe 11 with Cable"
+                  }
+                },
+                {
+                  "name": "Salt Fog Corrosion Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 21.18 Resistant to corrosion",
+                    "Clause 31 Salt Spray test"
+                  ],
+                  "model": "YWX/Q-010",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/de30ebfe-caf2-48a9-959e-660672f4667d.webp",
+                    "alt": "Salt Fog Corrosion Tester"
+                  }
+                },
+                {
+                  "name": "Peak Power Cutoff Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 22.5 Peak Power Cutoff Device"
+                  ],
+                  "model": "LS-RVT-2000W",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/19e3b6c4-0f57-4ecf-835e-b9919e6c4e9f.webp",
+                    "alt": "Peak Power Cutoff Device"
+                  }
+                },
+                {
+                  "name": "Power Cord Flexibility Bending Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 23.3 and 25.14 Figure 8 Flexing test apparatus,"
+                  ],
+                  "model": "SW-6",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c285d8e6-9a4e-4655-a95e-e9f6bcfb4cfe.webp",
+                    "alt": "Power Cord Flexibility Bending Tester"
+                  }
+                },
+                {
+                  "name": "Leakage Tracking Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 29.2 Annex N Proof tracking test apparatus"
+                  ],
+                  "model": "TTC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/653e6ba1-947e-4474-8f72-db0c8e20dbae.webp",
+                    "alt": "Leakage Tracking Test Apparatus"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 29.3.3 High temperature test"
+                  ],
+                  "model": "GW-225",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Ball Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 30.1 Annex O Figure O.1 Ball pressure test"
+                  ],
+                  "model": "ZBP-T",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2bad8e42-fa42-4595-a50d-8d61f6fca277.webp",
+                    "alt": "Ball Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Glow-wire Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 30.2.1/2/3 Annex O Figure O.2 Glow wire test"
+                  ],
+                  "model": "ZRS-3H",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a0ae1a1d-7e1c-4c89-b329-e2eef2a18e8e.webp",
+                    "alt": "Glow-wire Test Apparatus"
+                  }
+                },
+                {
+                  "name": "Needle Flame Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 30.2.4 Annex E Needle flame test"
+                  ],
+                  "model": "ZY-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b01a463b-f2d0-47e4-9c04-d9de8a2561fb.webp",
+                    "alt": "Needle Flame Test Apparatus"
+                  }
+                },
+                {
+                  "name": "Automatic Double-Arms Drop Test Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Annex B Automatic Double-Arms Drop Test Machine"
+                  ],
+                  "model": "DT-60KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9765157a-7f98-43ae-8f4d-81b711c9bc0d.webp",
+                    "alt": "Automatic Double-Arms Drop Test Machine"
+                  }
+                },
+                {
+                  "name": "Three-Position Plug Socket Switch Life Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Annex H 3 Position Plug Socket Switch Life Tester"
+                  ],
+                  "model": "CZKS-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5c649ef7-0b02-475b-b19f-ca054927a75c.webp",
+                    "alt": "Three-Position Plug Socket Switch Life Tester"
+                  }
+                },
+                {
+                  "name": "Externally Ballasted Fluorescent Lamp Test Load Cabinet",
+                  "badges": [],
+                  "bullets": [
+                    "Annex H 3 Position Plug Socket Switch Life Tester"
+                  ],
+                  "model": "DFX-40",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f021e930-9d24-49a9-8c12-bce17656bfbc.webp",
+                    "alt": "Externally Ballasted Fluorescent Lamp Test Load Cabinet"
+                  }
+                },
+                {
+                  "name": "Creepage Distance Test Cards",
+                  "badges": [],
+                  "bullets": [
+                    "Annex L Creepage Distance Ruler"
+                  ],
+                  "model": "CK-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a6087d13-336f-4d97-aad2-910bc1937399.webp",
+                    "alt": "Creepage Distance Test Cards"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Other test equipment",
+              "products": [
+                {
+                  "name": "IP Waterproof Test Equipments（Open Type）",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's household appliance test solutions"
+                  ],
+                  "model": "JL-X",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d653d07c-d49d-44e2-b7b3-99b9629c7e93.webp",
+                    "alt": "IP Waterproof Test Equipments（Open Type）"
+                  }
+                },
+                {
+                  "name": "Spring Impact Hammer IK Level Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's household appliance test solutions"
+                  ],
+                  "model": "IK01-07",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ced72e86-4839-46c0-b473-ffcee05176f9.webp",
+                    "alt": "Spring Impact Hammer IK Level Tester"
+                  }
+                },
+                {
+                  "name": "Salt Fog Corrosion Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's household appliance test solutions"
+                  ],
+                  "model": "YWX/Q-010",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/61b664c8-f54d-4414-b5ce-e34076034fcd.webp",
+                    "alt": "Salt Fog Corrosion Tester"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 1
+}

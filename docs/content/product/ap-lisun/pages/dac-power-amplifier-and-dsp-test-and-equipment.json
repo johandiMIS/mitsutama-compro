@@ -1,0 +1,237 @@
+{
+  "section": "products",
+  "slug": "dac-power-amplifier-and-dsp-test-and-equipment",
+  "title": "DAC, Power Amplifier and DSP Test and Equipment",
+  "group": "Audio Precision",
+  "seoDescription": "Audio Precision audio analyzers and APx500 software for testing power amplifiers, preamplifiers, DACs, ADCs and DSP audio devices.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Audio Precision",
+          "title": "DAC, Power Amplifier and DSP Test and Equipment",
+          "paragraphs": [
+            "Audio amplifiers boost weak audio signals so they can drive loudspeakers. Amplifier designs differ, but the performance questions stay the same: how well noise is rejected, what the frequency response is, whether the gain is linear and how much distortion is added.",
+            "Audio Precision analyzers with the APx500 measurement software answer these questions for power amplifiers, preamplifiers, DACs, ADCs and DSP-based audio devices. Amplifier tests are usually made at 1 W output as the standard reference level."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/debd6d1d-e31a-4d9a-b2c7-78a499a92c33.webp",
+            "alt": "DAC, Power Amplifier and DSP Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test solutions",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Audio analyzers and software",
+              "products": [
+                {
+                  "name": "APx555B",
+                  "badges": [],
+                  "bullets": [
+                    "Modular two-channel audio analyzer",
+                    "Audio Precision's reference for performance and versatility"
+                  ],
+                  "model": "APx555B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/beb0ef8d-73ca-4f13-bb2d-bc8fe4642dd0.webp",
+                    "alt": "APx555B"
+                  }
+                },
+                {
+                  "name": "APx58xB",
+                  "badges": [],
+                  "bullets": [
+                    "8 or 16-channel modular audio analyzers",
+                    "Broad digital I/O for simultaneous multichannel audio test"
+                  ],
+                  "model": "APx58xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3aa102c6-43ca-465c-b509-d7e409e71c19.webp",
+                    "alt": "APx58xB"
+                  }
+                },
+                {
+                  "name": "APx52xB",
+                  "badges": [],
+                  "bullets": [
+                    "Modular 2- and 4-channel audio analyzers",
+                    "Balances analog performance with a wide range of digital I/O"
+                  ],
+                  "model": "APx52xB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e7185aba-4885-43e0-8d56-0669d5e2745f.webp",
+                    "alt": "APx52xB"
+                  }
+                },
+                {
+                  "name": "APx516B",
+                  "badges": [],
+                  "bullets": [
+                    "Value-oriented analyzer with flexible digital connectivity",
+                    "Built for production test, also suited to acoustic R&D"
+                  ],
+                  "model": "APx516B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f99a381d-4e17-4884-bc4a-ebccee92563e.webp",
+                    "alt": "APx516B"
+                  }
+                },
+                {
+                  "name": "APx515B",
+                  "badges": [],
+                  "bullets": [
+                    "Two-channel analyzer for production test and entry-level R&D",
+                    "Combines speed, performance, reliability and ease of use"
+                  ],
+                  "model": "APx515B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd235d34-3a01-4b4c-9437-6454c3cc1975.webp",
+                    "alt": "APx515B"
+                  }
+                },
+                {
+                  "name": "APx500 Flex",
+                  "badges": [],
+                  "bullets": [
+                    "Software-only option: use any ASIO-capable audio interface with the APx500 software",
+                    "For very cost-sensitive production test"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b86602b7-ce06-4f2e-ab0f-a290788de2a6.webp",
+                    "alt": "APx500 Flex"
+                  }
+                },
+                {
+                  "name": "APx500 Software",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement software platform shared by all APx audio analyzers"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a51cb7c5-4efe-4188-a5c3-45a477a5dcbd.webp",
+                    "alt": "APx500 Software"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Application notes and guides",
+              "products": [
+                {
+                  "name": "Application Note: Testing Power Amplifiers",
+                  "badges": [],
+                  "bullets": [
+                    "Power amplifiers bring test challenges not found with digital or low-level analog circuits"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/33521e30-1b9f-4a98-a800-4cb92913a0be.webp",
+                    "alt": "Application Note: Testing Power Amplifiers"
+                  }
+                },
+                {
+                  "name": "Measuring Switch-Mode Power Amplifiers",
+                  "badges": [],
+                  "bullets": [
+                    "Smaller, lighter and more efficient switch-mode amplifiers need specific measurement care"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e0381caa-9869-4c0d-a6fd-d731e7236de9.webp",
+                    "alt": "Measuring Switch-Mode Power Amplifiers"
+                  }
+                },
+                {
+                  "name": "Measuring Microphone Preamplifier Noise",
+                  "badges": [],
+                  "bullets": [
+                    "Special techniques for noise measurement of high-gain circuits"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/06d923e9-1585-4bd8-9ba0-b41d16411f9b.webp",
+                    "alt": "Measuring Microphone Preamplifier Noise"
+                  }
+                },
+                {
+                  "name": "Measuring Low-Power ADCs with the APx555 ADC Test Option",
+                  "badges": [],
+                  "bullets": [
+                    "Technote 136: testing low-power audio ICs with the ADC Test option"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b751e4e0-bdfb-4854-9d5a-aa42bfee92ba.webp",
+                    "alt": "Measuring Low-Power ADCs with the APx555 ADC Test Option"
+                  }
+                },
+                {
+                  "name": "Transfer Function Measurements with APx Audio Analyzers",
+                  "badges": [],
+                  "bullets": [
+                    "Technote 138: background and use of the Transfer Function measurement in APx500"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3bacdf4e-0517-4476-a9b9-e6f1aef1cae2.webp",
+                    "alt": "Transfer Function Measurements with APx Audio Analyzers"
+                  }
+                },
+                {
+                  "name": "Stereo Power Amplifier Test",
+                  "badges": [],
+                  "bullets": [
+                    "Video: measuring stereo power amplifier performance with an APx515B and APx500"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/02e800bf-be55-40a3-8079-40157ac8a12e.webp",
+                    "alt": "Stereo Power Amplifier Test"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Amplifier classes",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Class A",
+              "text": "Current flows through the output transistors all the time, giving smooth, linear amplification at low efficiency."
+            },
+            {
+              "title": "Class B",
+              "text": "Two transistors each handle one half of the waveform. Much more efficient, but prone to crossover distortion."
+            },
+            {
+              "title": "Class AB",
+              "text": "Combines classes A and B to reduce crossover distortion while improving efficiency."
+            },
+            {
+              "title": "Class D",
+              "text": "Uses pulse-width modulation to switch the transistors on and off rapidly, for very high efficiency. Needs output filtering for measurement."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 0
+}

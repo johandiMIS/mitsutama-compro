@@ -1,0 +1,479 @@
+{
+  "section": "products",
+  "slug": "head-and-torso",
+  "title": "Head and Torso",
+  "group": "GRAS",
+  "seoDescription": "GRAS KEMAR head and torso simulators for hearing aid, headset, headphone, telephone, sound quality and automotive acoustic testing, including AutoKEMAR 45BD.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Head and Torso",
+          "paragraphs": [
+            "Audio design is a vital part of developing cars, computers, hearing aids, mobile phones and many other products. The GRAS KEMAR head and torso simulator was first developed with the audiological industry for hearing aid work and remains its de facto standard.",
+            "KEMAR is built on statistical research of the average human body, so it has the acoustic properties of a real person, and it meets ISO, IEC and ANSI standards. Its use has spread to telecommunications, hearing protection, noise abatement, sound recording and automotive development."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/96b3c1cf-74b4-44ea-811f-8f769bd8409e.webp",
+            "alt": "Head and Torso"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "KEMAR variants",
+          "intro": "Preconfigured versions for specific purposes, with optional accessories to change the configuration. 45BB variants have no mouth simulator, 45BC variants have one.",
+          "categories": [
+            {
+              "name": "Automotive",
+              "products": [
+                {
+                  "name": "GRAS 45BD AutoKEMAR Automotive Head and Torso Simulator",
+                  "badges": [],
+                  "bullets": [
+                    "Automotive head and torso simulator with a seat-mount system compatible with ISOFIX"
+                  ],
+                  "model": "45BD",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/61c9d351-4387-4dfc-a789-66d440159c4b.webp",
+                    "alt": "GRAS 45BD AutoKEMAR Automotive Head and Torso Simulator"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Headset test (with mouth simulator)",
+              "products": [
+                {
+                  "name": "GRAS 45BC-1 KEMAR Head & Torso with Mouth Simulator for Headset Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7348a2a3-8faf-430c-a39d-ca1492296496.webp",
+                    "alt": "GRAS 45BC-1 KEMAR Head & Torso with Mouth Simulator for Headset Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-2 KEMAR Head & Torso with Mouth Simulator for Headset Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BC-2",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2fa6feea-c401-4895-b4b4-fc174ffc4af3.webp",
+                    "alt": "GRAS 45BC-2 KEMAR Head & Torso with Mouth Simulator for Headset Test, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-9 KEMAR with Mouth Simulator and Anthropometric Pinnae for Headset Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator and anthropometric pinnae",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BC-9",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6a7f7f96-6eb7-45da-b45a-ef5bd70e9500.webp",
+                    "alt": "GRAS 45BC-9 KEMAR with Mouth Simulator and Anthropometric Pinnae for Headset Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-10 KEMAR with Mouth Simulator and Anthropometric Pinnae for Headset Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator and anthropometric pinnae",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BC-10",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3ab70900-8933-4650-a46c-da38967241e4.webp",
+                    "alt": "GRAS 45BC-10 KEMAR with Mouth Simulator and Anthropometric Pinnae for Headset Test, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-11 KEMAR with Mouth Simulator and Anthropometric Pinnae for Low-noise Headset Test, 1-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Low-noise headset test with mouth simulator and anthropometric pinnae",
+                    "1 channel, LEMO"
+                  ],
+                  "model": "45BC-11",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5c7ad27d-3b57-4f50-8a21-4c675eb2607d.webp",
+                    "alt": "GRAS 45BC-11 KEMAR with Mouth Simulator and Anthropometric Pinnae for Low-noise Headset Test, 1-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-12 KEMAR with Mouth Simulator and Anthropometric Pinnae for Low-noise Headset Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Low-noise headset test with mouth simulator and anthropometric pinnae",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BC-12",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e08be58c-6a8d-4e45-9215-67bcb1b0c2c5.webp",
+                    "alt": "GRAS 45BC-12 KEMAR with Mouth Simulator and Anthropometric Pinnae for Low-noise Headset Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-13 KEMAR with Mouth Simulator for High-Frequency Headset Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "High-frequency headset test with mouth simulator",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BC-13",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3676614b-b480-4e21-82f3-911dc9bd932e.webp",
+                    "alt": "GRAS 45BC-13 KEMAR with Mouth Simulator for High-Frequency Headset Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-14 KEMAR with Mouth Simulator for High-Frequency Headset Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "High-frequency headset test with mouth simulator",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BC-14",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/47b27c09-42cf-484c-99aa-a8048b7c02e7.webp",
+                    "alt": "GRAS 45BC-14 KEMAR with Mouth Simulator for High-Frequency Headset Test, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-15 KEMAR with Mouth Simulator and Hi-Res Simulators for Headset Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator and Hi-Res simulators",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BC-15",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/feb7490d-d37d-4bd5-8e5f-16d262c2d0b1.webp",
+                    "alt": "GRAS 45BC-15 KEMAR with Mouth Simulator and Hi-Res Simulators for Headset Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-16 KEMAR with Mouth Simulator and Hi-Res Ear Simulators for Headset Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Headset test with mouth simulator and Hi-Res ear simulators",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BC-16",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd5aeccd-5fe1-4c07-9f33-c20d616c5aee.webp",
+                    "alt": "GRAS 45BC-16 KEMAR with Mouth Simulator and Hi-Res Ear Simulators for Headset Test, 2-Ch CCP"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Telephone test",
+              "products": [
+                {
+                  "name": "GRAS 45BC-3 KEMAR Head & Torso with Mouth Simulator for Telephone Test, 1-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Telephone test with mouth simulator",
+                    "1 channel, LEMO"
+                  ],
+                  "model": "45BC-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/88d5f873-7921-4254-b35d-69a65d950234.webp",
+                    "alt": "GRAS 45BC-3 KEMAR Head & Torso with Mouth Simulator for Telephone Test, 1-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC-4 KEMAR Head & Torso with Mouth Simulator for Telephone Test, 1-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Telephone test with mouth simulator",
+                    "1 channel, CCP"
+                  ],
+                  "model": "45BC-4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4d5ede14-28c0-459a-8e93-fad788327aab.webp",
+                    "alt": "GRAS 45BC-4 KEMAR Head & Torso with Mouth Simulator for Telephone Test, 1-Ch CCP"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Ear and headphone test",
+              "products": [
+                {
+                  "name": "GRAS 45BB-5 Head & Torso for Ear- and Headphone Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Ear and headphone test",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-5",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6aa70f8c-9d71-45de-a8de-3bac05ae2d7c.webp",
+                    "alt": "GRAS 45BB-5 Head & Torso for Ear- and Headphone Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-6 Head & Torso for Ear- and Headphone Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Ear and headphone test",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-6",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/aae25c96-d9d7-4323-a7ab-00a23f2846bf.webp",
+                    "alt": "GRAS 45BB-6 Head & Torso for Ear- and Headphone Test, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-9 KEMAR with Anthropometric Pinnae for Ear- and Headphone Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Ear and headphone test with anthropometric pinnae",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-9",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f1e03394-0852-4caa-951c-7ca5b6fbd35f.webp",
+                    "alt": "GRAS 45BB-9 KEMAR with Anthropometric Pinnae for Ear- and Headphone Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-10 KEMAR with Anthropometric Pinna for Ear- and Headphone Test, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Ear and headphone test with anthropometric pinna",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-10",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8a9cbe71-afbe-4c46-8569-2e27d6f95edd.webp",
+                    "alt": "GRAS 45BB-10 KEMAR with Anthropometric Pinna for Ear- and Headphone Test, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-11 KEMAR with Anthropometric Pinna for Low-noise Ear- and Headphone Test, 1-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Low-noise ear and headphone test with anthropometric pinna",
+                    "1 channel, LEMO"
+                  ],
+                  "model": "45BB-11",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/cf7804dd-c315-4150-9510-1976e417dd93.webp",
+                    "alt": "GRAS 45BB-11 KEMAR with Anthropometric Pinna for Low-noise Ear- and Headphone Test, 1-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-12 KEMAR with Anthropometric Pinna for Low-noise Ear- and Headphone Test, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Low-noise ear and headphone test with anthropometric pinna",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-12",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/485071a8-ac9d-402a-93d8-084ed40e3969.webp",
+                    "alt": "GRAS 45BB-12 KEMAR with Anthropometric Pinna for Low-noise Ear- and Headphone Test, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-13 KEMAR for High-Frequency Test of Ear- and Headphones, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "High-frequency test of ear and headphones",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-13",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/39dd4310-136a-4067-b903-6d1dd361a4f1.webp",
+                    "alt": "GRAS 45BB-13 KEMAR for High-Frequency Test of Ear- and Headphones, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-14 KEMAR for High-Frequency Test of Ear- and Headphones, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "High-frequency test of ear and headphones",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-14",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/cd5cb985-e00e-44e1-9620-85d94264b048.webp",
+                    "alt": "GRAS 45BB-14 KEMAR for High-Frequency Test of Ear- and Headphones, 2-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-15 KEMAR with Hi-Res Ear Simulators for Test of Ear- and Headphones, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Hi-Res ear simulators for ear and headphone test",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-15",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b989f402-859f-43ad-8a3b-329b123c0fa9.webp",
+                    "alt": "GRAS 45BB-15 KEMAR with Hi-Res Ear Simulators for Test of Ear- and Headphones, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-16 KEMAR with Hi-Res Simulators for Test of Ear- and Headphones, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Hi-Res ear simulators for ear and headphone test",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-16",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d1d2fba3-aa6d-48e1-b4ea-8d02b54a31ce.webp",
+                    "alt": "GRAS 45BB-16 KEMAR with Hi-Res Simulators for Test of Ear- and Headphones, 2-Ch CCP"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Hearing aid test",
+              "products": [
+                {
+                  "name": "GRAS 45BB-1 KEMAR Head & Torso for Hearing Aid Test, 1-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Hearing aid test",
+                    "1 channel, LEMO"
+                  ],
+                  "model": "45BB-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/66065f98-42e1-4f93-af1b-19949d872b9f.webp",
+                    "alt": "GRAS 45BB-1 KEMAR Head & Torso for Hearing Aid Test, 1-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-2 KEMAR Head & Torso for Hearing Aid Test, 1-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Hearing aid test",
+                    "1 channel, CCP"
+                  ],
+                  "model": "45BB-2",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4d12b45b-a1c4-4fc0-813f-f121b9b425d5.webp",
+                    "alt": "GRAS 45BB-2 KEMAR Head & Torso for Hearing Aid Test, 1-Ch CCP"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-7 Head & Torso for Test of Binaural Hearing Aid, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Binaural hearing aid test",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-7",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0275d6bd-c1c2-4726-bacf-f02f205983f3.webp",
+                    "alt": "GRAS 45BB-7 Head & Torso for Test of Binaural Hearing Aid, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-8 Head & Torso for Test of Binaural Hearing Aid, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Binaural hearing aid test",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-8",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/255dd068-1990-4087-a7f4-e1a9531da66c.webp",
+                    "alt": "GRAS 45BB-8 Head & Torso for Test of Binaural Hearing Aid, 2-Ch CCP"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Sound quality recording",
+              "products": [
+                {
+                  "name": "GRAS 45BB-3 KEMAR Head & Torso for Sound Quality Recording, 2-Ch LEMO",
+                  "badges": [],
+                  "bullets": [
+                    "Sound quality recording",
+                    "2 channels, LEMO"
+                  ],
+                  "model": "45BB-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/990e360e-2f9f-4d8f-abdc-e6f1a8eead1f.webp",
+                    "alt": "GRAS 45BB-3 KEMAR Head & Torso for Sound Quality Recording, 2-Ch LEMO"
+                  }
+                },
+                {
+                  "name": "GRAS 45BB-4 KEMAR Head & Torso for Sound Quality Recording, 2-Ch CCP",
+                  "badges": [],
+                  "bullets": [
+                    "Sound quality recording",
+                    "2 channels, CCP"
+                  ],
+                  "model": "45BB-4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5e632852-85f3-48c7-b538-50915e30d862.webp",
+                    "alt": "GRAS 45BB-4 KEMAR Head & Torso for Sound Quality Recording, 2-Ch CCP"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Non-configured",
+              "products": [
+                {
+                  "name": "GRAS 45BB KEMAR Head & Torso, Non-configured",
+                  "badges": [],
+                  "bullets": [
+                    "Non-configured KEMAR head and torso",
+                    "2 channels, 0 V/CCP or 200 V/LEMO"
+                  ],
+                  "model": "45BB",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f3e72fb9-089f-48d3-821e-67c7f107d4f8.webp",
+                    "alt": "GRAS 45BB KEMAR Head & Torso, Non-configured"
+                  }
+                },
+                {
+                  "name": "GRAS 45BC KEMAR Head & Torso with Mouth Simulator, Non-configured",
+                  "badges": [],
+                  "bullets": [
+                    "Non-configured KEMAR with built-in mouth simulator and power amplifier",
+                    "2 channels"
+                  ],
+                  "model": "45BC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/48b64802-5a88-463b-9262-c5c78c2563a9.webp",
+                    "alt": "GRAS 45BC KEMAR Head & Torso with Mouth Simulator, Non-configured"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 0
+}

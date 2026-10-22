@@ -1,0 +1,712 @@
+{
+  "section": "products",
+  "slug": "luminaire-test-and-equipment",
+  "title": "Luminaire Test and Equipment",
+  "group": "Lisun Group",
+  "seoDescription": "Lisun LED luminaire test equipment: goniophotometers, integrating spheres, spectroradiometers, power and safety testers for IEC 60598-1, IEC 62722-2-1, CIE 121 and IS 16101 / 16104.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Lisun",
+          "title": "Luminaire Test and Equipment",
+          "paragraphs": [
+            "Lisun's test solutions for indoor and outdoor LED luminaires and fixtures cover the key international standards for safety, photometric and colour performance, and environmental robustness of LED products.",
+            "IEC 60598-1 sets the general safety requirements for luminaires, such as mechanical strength, insulation, protection against electric shock and fire resistance, while IEC 62722-2-1 covers LED luminaire performance such as luminous flux and efficacy. Photometry follows CIE 121, and the Indian standards IS 16101 and IS 16104 cover LED terms and control gear."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/45cb6de5-e0bd-48bd-9893-38dab7f39d6d.webp",
+            "alt": "Luminaire Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test equipment by standard",
+          "intro": "Each group is a standard; each card is the Lisun product used for the clauses listed on it.",
+          "categories": [
+            {
+              "name": "Luminaire safety · IEC 60598-1",
+              "products": [
+                {
+                  "name": "Lamp Cap and Lampholder Gauges",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.4.4 Lampholders"
+                  ],
+                  "model": "GNG-G5H/GNG-G13H",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f70fa57b-0fb5-4f18-87e9-7534d3949c1e.webp",
+                    "alt": "Lamp Cap and Lampholder Gauges"
+                  }
+                },
+                {
+                  "name": "Digital Torsion Meter",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.12.4 Screwed and other fixed connections"
+                  ],
+                  "model": "CH338",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d1fd9ee5-a80c-4298-ba4e-fd00b7d23f8d.webp",
+                    "alt": "Digital Torsion Meter"
+                  }
+                },
+                {
+                  "name": "Screwed Glands Torque Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.12.5 Screwed glands shall comply with the following test."
+                  ],
+                  "model": "LWMF-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6485f881-1c51-4f3b-9507-94d06e4a2396.webp",
+                    "alt": "Screwed Glands Torque Test Device"
+                  }
+                },
+                {
+                  "name": "Spring Impact Hammer IK Level Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.13.1 Mechanical strength"
+                  ],
+                  "model": "IK01-06",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7e8b062a-8a6f-4930-9b0f-8ea47cbb3c20.webp",
+                    "alt": "Spring Impact Hammer IK Level Tester"
+                  }
+                },
+                {
+                  "name": "Test Probe Kits of",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.13.3/4 Test finger",
+                    "Clause 8.2 Protection against electric shock"
+                  ],
+                  "model": "SMT-529T",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/eef50d1b-29dc-45d7-b097-a4b8918ac9a6.webp",
+                    "alt": "Test Probe Kits of"
+                  }
+                },
+                {
+                  "name": "Rotating Barrel Drop Test Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.13.6 (Figure 25)Rotating Barrel Drop Test Machine"
+                  ],
+                  "model": "LS-DDT1-B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e14c5449-022a-4552-b507-df93af8e280d.webp",
+                    "alt": "Rotating Barrel Drop Test Machine"
+                  }
+                },
+                {
+                  "name": "Bending Moment and Mass Imparted Test Device for Semi-Lamp",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.14.2 Mechanical fixings"
+                  ],
+                  "model": "LS-WJ62",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/34d9c54e-35af-4ac4-a12b-d4c008724e86.webp",
+                    "alt": "Bending Moment and Mass Imparted Test Device for Semi-Lamp"
+                  }
+                },
+                {
+                  "name": "Lamp Adjustment Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.14.3 Adjusting devices testing"
+                  ],
+                  "model": "DJTJ-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ee852f4f-c5eb-4317-bf83-9c97c1c0128f.webp",
+                    "alt": "Lamp Adjustment Test Device"
+                  }
+                },
+                {
+                  "name": "Salt Fog Corrosion Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.18 Resistance to corrosion"
+                  ],
+                  "model": "YWX/Q-010",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/de30ebfe-caf2-48a9-959e-660672f4667d.webp",
+                    "alt": "Salt Fog Corrosion Tester"
+                  }
+                },
+                {
+                  "name": "Electrodynamic Vibration Generator System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.20 Rough service luminaires – Vibration requirements"
+                  ],
+                  "model": "LVD-100KG-6D",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c498690b-e2fc-4bd7-b47e-20d724362859.webp",
+                    "alt": "Electrodynamic Vibration Generator System"
+                  }
+                },
+                {
+                  "name": "Optical Radiation Safety Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.24 Photobiological hazards"
+                  ],
+                  "model": "EN62471-C",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/414a5800-f4e5-4e09-8db4-57e4f924d652.webp",
+                    "alt": "Optical Radiation Safety Test"
+                  }
+                },
+                {
+                  "name": "Dustproof Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 9.2.1 (Figure 6) Dust proof luminaire tests"
+                  ],
+                  "model": "SC-015",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/82a0db91-8e5f-4f1c-8e6e-069a65511cfc.webp",
+                    "alt": "Dustproof Test Chamber"
+                  }
+                },
+                {
+                  "name": "IP Waterproof Test Equipments（Open Type）",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 9.2.3-9.2.9 Drip-proof luminaires"
+                  ],
+                  "model": "JL-X",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6887a1a1-ec2b-419b-90ea-667341e473b6.webp",
+                    "alt": "IP Waterproof Test Equipments（Open Type）"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10.2.1 Test – Insulation resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "AC/DC Withstand Voltage Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10.2.2 Test – Electric strength"
+                  ],
+                  "model": "WB2673C",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/07cb3614-4900-46cd-a6d7-ab3643c365ff.webp",
+                    "alt": "AC/DC Withstand Voltage Test"
+                  }
+                },
+                {
+                  "name": "Touch Current Measuring Network G.2 and G.3",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10.3 Touch current, protective conductor current and electric burn(Figure G2/G3/G4)"
+                  ],
+                  "model": "MNTC-G2/G3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0f79c83c-17e2-42ea-9dd7-cd5c3b99f139.webp",
+                    "alt": "Touch Current Measuring Network G.2 and G.3"
+                  }
+                },
+                {
+                  "name": "Simulated Human Impedance Touch Current Measuring Network",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10.3 Touch current, protective conductor current and electric burn(Figure G2/G3/G4)"
+                  ],
+                  "model": "MNTC-G4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/46e563a7-3745-429f-8273-b712ec79e601.webp",
+                    "alt": "Simulated Human Impedance Touch Current Measuring Network"
+                  }
+                },
+                {
+                  "name": "Creepage Distance Test Cards",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 11 Creepage Distances and Clearance"
+                  ],
+                  "model": "CK-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a6087d13-336f-4d97-aad2-910bc1937399.webp",
+                    "alt": "Creepage Distance Test Cards"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 12.3 Endurance test",
+                    "Clause 13.2 Resistance to heat(Figure 10)"
+                  ],
+                  "model": "GDJS-010A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Lamp Cap Temperature Rise Test System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 12.4 Thermal test (normal operation)"
+                  ],
+                  "model": "TMP-LM",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1c1808be-490d-4776-9b4e-7e541d4f7966.webp",
+                    "alt": "Lamp Cap Temperature Rise Test System"
+                  }
+                },
+                {
+                  "name": "Ball Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 13.2 Resistance to heat(Figure 10)"
+                  ],
+                  "model": "ZBP-T",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2bad8e42-fa42-4595-a50d-8d61f6fca277.webp",
+                    "alt": "Ball Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Needle Flame Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 13.3.1 Resistance to flame test"
+                  ],
+                  "model": "ZY-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b01a463b-f2d0-47e4-9c04-d9de8a2561fb.webp",
+                    "alt": "Needle Flame Test Apparatus"
+                  }
+                },
+                {
+                  "name": "Glow-wire Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 13.3.2 Resistance to ignition testing"
+                  ],
+                  "model": "ZRS-3H",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a0ae1a1d-7e1c-4c89-b329-e2eef2a18e8e.webp",
+                    "alt": "Glow-wire Test Apparatus"
+                  }
+                },
+                {
+                  "name": "Leakage Tracking Test Apparatus",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 13.4 Resistance to tracking(Figure 11)"
+                  ],
+                  "model": "TTC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/653e6ba1-947e-4474-8f72-db0c8e20dbae.webp",
+                    "alt": "Leakage Tracking Test Apparatus"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "LED luminaire performance · IEC 62722-2-1",
+              "products": [
+                {
+                  "name": "High Precision Spectroradiometer Integrating Sphere System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.1 Luminous flux"
+                  ],
+                  "model": "LPCE-2(LMS-9000)",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/967d56fb-b8ca-4bb8-a251-a20dd22154b7.webp",
+                    "alt": "High Precision Spectroradiometer Integrating Sphere System"
+                  }
+                },
+                {
+                  "name": "LM-79 Moving Detector Goniophotometer (Mirror Type C)",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.2 Luminous intensity distribution, peak intensity and beam angle"
+                  ],
+                  "model": "LSG-6000",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ea52b124-0798-4c94-929c-3caf47bff733.webp",
+                    "alt": "LM-79 Moving Detector Goniophotometer (Mirror Type C)"
+                  }
+                },
+                {
+                  "name": "Portable CCD Spectroradiometer",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 9 Chromaticity coordinates, correlated colour temperature (CCT) and colour rendering"
+                  ],
+                  "model": "LMS-6000",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e20d4034-34dd-476c-bdca-5f10784f6ab0.webp",
+                    "alt": "Portable CCD Spectroradiometer"
+                  }
+                },
+                {
+                  "name": "LED Optical Aging Test Instrument",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10 LED luminaire life"
+                  ],
+                  "model": "LEDLM-84PL",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b97473e7-ec05-4d8e-bfe0-a9161d1c7a1e.webp",
+                    "alt": "LED Optical Aging Test Instrument"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Photometry of luminaires · CIE 121",
+              "products": [
+                {
+                  "name": "High Precision Spectroradiometer Integrating Sphere System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 2.2.1 Luminaire data per 1 000 lm (of lamp flux)"
+                  ],
+                  "model": "LPCE-2(LMS-9000)",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/967d56fb-b8ca-4bb8-a251-a20dd22154b7.webp",
+                    "alt": "High Precision Spectroradiometer Integrating Sphere System"
+                  }
+                },
+                {
+                  "name": "LM-79 Moving Detector Goniophotometer (Mirror Type C)",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 2.2.2 Luminous intensity distribution (of a luminaire)"
+                  ],
+                  "model": "LSG-6000",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ea52b124-0798-4c94-929c-3caf47bff733.webp",
+                    "alt": "LM-79 Moving Detector Goniophotometer (Mirror Type C)"
+                  }
+                },
+                {
+                  "name": "Adjustable High Frequency Reference Ballast",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 2.2.3 Ballast lumen factor"
+                  ],
+                  "model": "HCS-109A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0589c904-3548-4a64-b37e-03f09ea5bd63.webp",
+                    "alt": "Adjustable High Frequency Reference Ballast"
+                  }
+                },
+                {
+                  "name": "Portable CCD Spectroradiometer",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 2.4.4 Illuminance meter",
+                    "Clause 6.3 Luminous flux measurements on luminaires"
+                  ],
+                  "model": "LMS-6000",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e20d4034-34dd-476c-bdca-5f10784f6ab0.webp",
+                    "alt": "Portable CCD Spectroradiometer"
+                  }
+                },
+                {
+                  "name": "UV Irradiance Meter",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 2.4.4 Illuminance meter",
+                    "Clause 6.3 Luminous flux measurements on luminaires"
+                  ],
+                  "model": "PHOTO-200",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/daeb96b6-3c63-49ae-98fa-2255342c6677.webp",
+                    "alt": "UV Irradiance Meter"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "LED terms and optical safety · IS 16101",
+              "products": [
+                {
+                  "name": "Optical Radiation Safety Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 3.2 Optical Radiation Safety"
+                  ],
+                  "model": "EN62471-C",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/414a5800-f4e5-4e09-8db4-57e4f924d652.webp",
+                    "alt": "Optical Radiation Safety Test"
+                  }
+                },
+                {
+                  "name": "Portable Retinal Blue Light Hazard Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 3.3 Retinal Hazard"
+                  ],
+                  "model": "EN62471-P",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7dda4241-72ae-4ccc-af3b-e749b55000de.webp",
+                    "alt": "Portable Retinal Blue Light Hazard Tester"
+                  }
+                },
+                {
+                  "name": "High Precision Spectroradiometer Integrating Sphere System",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 3.8-3.10 Chromaticity Coordinates and Colour Rendering Index"
+                  ],
+                  "model": "LPCE-2(LMS-9000)",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/967d56fb-b8ca-4bb8-a251-a20dd22154b7.webp",
+                    "alt": "High Precision Spectroradiometer Integrating Sphere System"
+                  }
+                },
+                {
+                  "name": "LED Thermal and Electrical Performance Analyzer",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 3.19/3.45 Junction Temperature and Thermal Resistance"
+                  ],
+                  "model": "T5",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/dd41928a-ffa6-4049-84a5-3c0a0ee4c5f9.webp",
+                    "alt": "LED Thermal and Electrical Performance Analyzer"
+                  }
+                },
+                {
+                  "name": "High Precision Rotation Luminaire Goniophotometer",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 3.23-3.26 Luminous Flux and Luminous Intensity"
+                  ],
+                  "model": "LSG-1890B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6a94bc45-e904-4fbd-a868-183ecf9d0367.webp",
+                    "alt": "High Precision Rotation Luminaire Goniophotometer"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "LED control gear · IS 16104",
+              "products": [
+                {
+                  "name": "Digital CC and CV DC Power Supply (High Precision)",
+                  "badges": [],
+                  "bullets": [
+                    "3.1 Total Circuit Power"
+                  ],
+                  "model": "DC3005",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f322c03b-edf1-4cc1-b140-3721ea7b7a36.webp",
+                    "alt": "Digital CC and CV DC Power Supply (High Precision)"
+                  }
+                },
+                {
+                  "name": "Digital Power Meter (High Accuracy AC & DC Model)",
+                  "badges": [],
+                  "bullets": [
+                    "3.2 Circuit Power Factor"
+                  ],
+                  "model": "LS2050B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/174a6394-ac4c-4303-a672-4327d1b7e16a.webp",
+                    "alt": "Digital Power Meter (High Accuracy AC & DC Model)"
+                  }
+                },
+                {
+                  "name": "Programmable DC Electronic Load",
+                  "badges": [],
+                  "bullets": [
+                    "5.1 Classification according to the load"
+                  ],
+                  "model": "M9822B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/df838f6d-5ebb-46bb-8f55-d2e65f8ddb18.webp",
+                    "alt": "Programmable DC Electronic Load"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "12. Test for Reduced LED Modules Resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "13.1 The control gear shall be subjected to a temperature cycling shock test"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "LCR Digital Bridge",
+                  "badges": [],
+                  "bullets": [
+                    "Annex A.3 Firgure 2 Measurement of impedance at audio-Frequencies"
+                  ],
+                  "model": "FD2810B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4c0683bb-956d-46b1-b4b3-d1a4b7716d7e.webp",
+                    "alt": "LCR Digital Bridge"
+                  }
+                },
+                {
+                  "name": "LED Optical Aging Test Instrument",
+                  "badges": [],
+                  "bullets": [
+                    "Annex B a guide to quoting product life and failure rate"
+                  ],
+                  "model": "LEDLM-80PL",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/b97473e7-ec05-4d8e-bfe0-a9161d1c7a1e.webp",
+                    "alt": "LED Optical Aging Test Instrument"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Other test equipment",
+              "products": [
+                {
+                  "name": "Pure Sine Wave AC Power Source (High Precision)",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "LSP-500VARC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fdbfde8e-2a14-4488-9600-76fdb4632af5.webp",
+                    "alt": "Pure Sine Wave AC Power Source (High Precision)"
+                  }
+                },
+                {
+                  "name": "Thermal Resistance Spectroradiometeric System for LED",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "TRS-1000",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3a2e694e-1ae0-46fc-a55c-a4f9c9e03b6b.webp",
+                    "alt": "Thermal Resistance Spectroradiometeric System for LED"
+                  }
+                },
+                {
+                  "name": "Goniophotometer for Automotive and Signal Lamps",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "LSG-1950",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5a91f20b-4d01-4575-98f0-d0a41e877f42.webp",
+                    "alt": "Goniophotometer for Automotive and Signal Lamps"
+                  }
+                },
+                {
+                  "name": "High Precision Rotation Luminaire Goniospectroradiometer",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "LSG-1890BCCD",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6e76b793-3b40-4bf3-97c4-e3ac5b92f91c.webp",
+                    "alt": "High Precision Rotation Luminaire Goniospectroradiometer"
+                  }
+                },
+                {
+                  "name": "Portable Colorimeter/Chroma Meter",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "CD-320PRO",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3d243d68-04cd-41ff-b41f-cb20e8795188.webp",
+                    "alt": "Portable Colorimeter/Chroma Meter"
+                  }
+                },
+                {
+                  "name": "LED Lamp and Luminaires Aging and Life Test Rack",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "SY2036",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e09b07e-c79a-4955-964f-8e817060dfb2.webp",
+                    "alt": "LED Lamp and Luminaires Aging and Life Test Rack"
+                  }
+                },
+                {
+                  "name": "Imaging Luminance Colorimeter",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "KS-10",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9b1d89e0-d20f-4f1b-8563-15d7cf826040.webp",
+                    "alt": "Imaging Luminance Colorimeter"
+                  }
+                },
+                {
+                  "name": "Salt Fog Corrosion Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Part of Lisun's LED and luminaire test solutions"
+                  ],
+                  "model": "YWX/Q-010",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/61b664c8-f54d-4414-b5ce-e34076034fcd.webp",
+                    "alt": "Salt Fog Corrosion Tester"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 0
+}

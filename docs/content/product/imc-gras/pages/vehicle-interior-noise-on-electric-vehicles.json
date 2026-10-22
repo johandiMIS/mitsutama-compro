@@ -1,0 +1,109 @@
+{
+  "section": "products",
+  "slug": "vehicle-interior-noise-on-electric-vehicles",
+  "title": "Vehicle Interior Noise on Electric Vehicles",
+  "group": "GRAS",
+  "seoDescription": "GRAS microphones for vehicle interior NVH on electric vehicles: road and component noise, cabin measurement challenges and recommended microphone systems.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Vehicle Interior Noise on Electric Vehicles",
+          "paragraphs": [
+            "Interior noise, vibration and harshness (NVH) covers all noise inside the vehicle that comes from the road, body, chassis and components. Road noise is structure-borne and airborne, and component noise comes from systems such as HVAC and power windows.",
+            "Measuring inside the cabin is harder on an electric vehicle than on a combustion vehicle: more high-frequency content makes TPA and ENR measurements difficult, and a distributed powertrain with wind, road and tyre noise makes pressure microphones more relevant than directional free-field microphones."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f3a93594-046e-44d1-b3c5-ce5727f88a71.webp",
+            "alt": "Vehicle Interior Noise on Electric Vehicles"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "EV cabin considerations",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Active noise cancellation is hard to control in the cabin, and uncontrolled phase can amplify the noise\n- Passive measures such as acoustic packages and anti-vibration mounts remain in use and must be adapted to the new environment"
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Recommended products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Recommended microphones",
+              "products": [
+                {
+                  "name": "GRAS 47HC",
+                  "badges": [],
+                  "bullets": [
+                    "1/2 inch CCP low-noise microphone system"
+                  ],
+                  "model": "47HC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/78ef376a-5eff-48f9-ae0b-0d5f8fd21533.webp",
+                    "alt": "GRAS 47HC"
+                  }
+                },
+                {
+                  "name": "GRAS 147AX",
+                  "badges": [],
+                  "bullets": [
+                    "Rugged pressure microphone with the MagMount mounting system for precise, repeatable in-cabin tests"
+                  ],
+                  "model": "147AX",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0a7a5de9-5d19-4306-bf53-de4c5efa4b62.webp",
+                    "alt": "GRAS 147AX"
+                  }
+                },
+                {
+                  "name": "GRAS 146AE",
+                  "badges": [],
+                  "bullets": [
+                    "Free-field microphone set for driver seat measurements and almost all acoustic NVH testing"
+                  ],
+                  "model": "146AE",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/10bdd0aa-cde9-4c7d-9f89-19e636cb0463.webp",
+                    "alt": "GRAS 146AE"
+                  }
+                },
+                {
+                  "name": "GRAS 46BC",
+                  "badges": [],
+                  "bullets": [
+                    "Multifield, high-sensitivity microphone"
+                  ],
+                  "model": "46BC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2911fd94-52f9-4f1c-9476-3eac33140609.webp",
+                    "alt": "GRAS 46BC"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "in-cabin-microphone",
+  "_order": 3
+}

@@ -1,0 +1,176 @@
+{
+  "section": "products",
+  "slug": "vehicle-dynamic-test-and-equipment",
+  "title": "Vehicle Dynamic Test and Equipment",
+  "group": "IMC",
+  "seoDescription": "imc measurement systems for vehicle dynamics: wheel force transducers, component test stands, road load data acquisition, NVH, misuse and complete car testing.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Vehicle Dynamic Test and Equipment",
+          "paragraphs": [
+            "Handling, ride comfort, braking and stability decide how a vehicle performs and how a brand is judged. As vehicles become more electrified, software-driven and automated, judging their dynamic behaviour takes accurate, synchronised, highly sampled measurement data, for example for safety tests such as the elk test and for the fast control loops of driver assistance and automated driving systems.",
+            "imc offers measurement and evaluation solutions for every vehicle component, from prototype testing to quality assurance, and for complete vehicles on the road and on the test bench."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2db6389d-61a3-4b3b-b412-00f7a1f230f1.webp",
+            "alt": "Vehicle Dynamic Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Applications and products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Test applications",
+              "products": [
+                {
+                  "name": "Component Testing",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement and evaluation for every vehicle component, in prototype testing, quality assurance and cost reduction"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7c65547b-3c7e-4524-9218-01753feb3b7e.webp",
+                    "alt": "Component Testing"
+                  }
+                },
+                {
+                  "name": "Test Rigs",
+                  "badges": [],
+                  "bullets": [
+                    "Turnkey test stands for R&D and production, with traceable calibration and compliance with standards"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/526eb02b-898e-4bc9-bd8d-50e9f70561c9.webp",
+                    "alt": "Test Rigs"
+                  }
+                },
+                {
+                  "name": "RLDA (Road Load Data Acquisition)",
+                  "badges": [],
+                  "bullets": [
+                    "Data from real-life test drives, the starting point for durability testing on the test bench"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1459600a-7299-461e-a727-c2972534d759.webp",
+                    "alt": "RLDA (Road Load Data Acquisition)"
+                  }
+                },
+                {
+                  "name": "NVH",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement of vibration, sound pressure and sound power, with structural and order analysis"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0568746f-9c6c-4fbe-b4e8-7cbb91d83c9f.webp",
+                    "alt": "NVH"
+                  }
+                },
+                {
+                  "name": "Misuse Testing",
+                  "badges": [],
+                  "bullets": [
+                    "Data acquisition while components, ECUs and the whole vehicle are validated under extreme conditions, for passive safety"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/09be2d37-1a8c-4050-8441-ac39ad9c983b.webp",
+                    "alt": "Misuse Testing"
+                  }
+                },
+                {
+                  "name": "Complete Car Testing",
+                  "badges": [],
+                  "bullets": [
+                    "Testing the integration, efficiency, safety and environmental compatibility of interconnected vehicle systems"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/cabd2c2c-aff4-41e0-a968-5a2a3b1df2cf.webp",
+                    "alt": "Complete Car Testing"
+                  }
+                },
+                {
+                  "name": "Buzz, Squeak and Rattle Noise Testing",
+                  "badges": [],
+                  "bullets": [
+                    "Finding intermittent, low-level noises, with GRAS measurement microphones"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6642dc78-3875-4b00-a74f-016ae5741606.webp",
+                    "alt": "Buzz, Squeak and Rattle Noise Testing"
+                  }
+                },
+                {
+                  "name": "Steering System",
+                  "badges": [],
+                  "bullets": [
+                    "Reliable, precise and reproducible measurement of steering behaviour"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/470505d5-fbbc-464e-a7a6-d6f6f933ecbf.webp",
+                    "alt": "Steering System"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Products",
+              "products": [
+                {
+                  "name": "imc CRONOSflex",
+                  "badges": [],
+                  "bullets": [
+                    "Universal data acquisition system used for vehicle tests"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/2e3fef36-0f0b-49b6-a5e0-9d06832f51e4.webp",
+                    "alt": "imc CRONOSflex"
+                  }
+                },
+                {
+                  "name": "imc STUDIO",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement and analysis software"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4b2ca811-7ebc-408c-8323-48e4738f1da0.webp",
+                    "alt": "imc STUDIO"
+                  }
+                },
+                {
+                  "name": "WFT-Cx Wheel Force Transducer",
+                  "badges": [],
+                  "bullets": [
+                    "For wheel sizes from 13 inch",
+                    "Robust, waterproof and temperature compensated by thermosensors in the wheel",
+                    "Works as part of the imc CRONOSflex data acquisition system"
+                  ],
+                  "model": "WFT-Cx",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a5cc1311-b465-4d30-aa60-b6ea80b42b5c.webp",
+                    "alt": "WFT-Cx Wheel Force Transducer"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 0
+}

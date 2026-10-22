@@ -1,0 +1,941 @@
+{
+  "section": "products",
+  "slug": "cable-and-wire-test-and-equipment",
+  "title": "Cable and Wire Test and Equipment",
+  "group": "Lisun Group",
+  "seoDescription": "Lisun cable and wire test equipment for IEC 60245-1, IEC 60227-1, IEC 60502-1, IEC 60189-1, IEC 61196-1, EN 50305, UL 83 and UL 44.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "Lisun",
+          "title": "Cable and Wire Test and Equipment",
+          "paragraphs": [
+            "Lisun's cable and wire test solutions verify compliance with international safety and performance standards for rubber-insulated, PVC-insulated, medium and high-voltage, and communication cables.",
+            "They cover electrical tests (insulation resistance, dielectric strength, partial discharge, capacitance), mechanical tests (flexing, static flexibility, abrasion, tensile strength), environmental tests (temperature and humidity cycling, thermal shock, ozone, salt spray) and safety tests (flame retardance, heat resistance, pressure at high temperature)."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c8ff3504-99ef-4e40-aaf0-07e6843d80aa.webp",
+            "alt": "Cable and Wire Test and Equipment"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Test equipment by standard",
+          "intro": "Each group is a standard; each card is the Lisun product used for the clauses listed on it.",
+          "categories": [
+            {
+              "name": "Rubber-insulated cables · IEC 60245-1",
+              "products": [
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "3.2 Durability"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "5.2 Insulation"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "5.2.4 Mechanical properties before and after aging (Table 1)"
+                  ],
+                  "model": "GNGPL-3610-2PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Flexing Test Apparatus for Flexible Cables",
+                  "badges": [],
+                  "bullets": [
+                    "5.6.3.1 Flexing test for flexible cable"
+                  ],
+                  "model": "WDT-B42",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4f3a8ccb-6454-4b1a-8462-697c9de032f1.webp",
+                    "alt": "Flexing Test Apparatus for Flexible Cables"
+                  }
+                },
+                {
+                  "name": "Static Flexibility Test Machine for Flexible Cables",
+                  "badges": [],
+                  "bullets": [
+                    "5.6.3.2 Static Flexibility test"
+                  ],
+                  "model": "WDT-3",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/23085303-a681-45c7-bdc5-a0328ac989ef.webp",
+                    "alt": "Static Flexibility Test Machine for Flexible Cables"
+                  }
+                },
+                {
+                  "name": "Wire Damaged Tester",
+                  "badges": [],
+                  "bullets": [
+                    "5.6.3.3 Wear Resistance Test"
+                  ],
+                  "model": "WDT-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/138488f3-8e30-412f-a900-38c0257f04f8.webp",
+                    "alt": "Wire Damaged Tester"
+                  }
+                },
+                {
+                  "name": "Retention Tensile Force Test Device for Flexible Cables",
+                  "badges": [],
+                  "bullets": [
+                    "5.6.3.4 Tensile strength of central heart of lift cables"
+                  ],
+                  "model": "LS-B07",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/84a2ebe7-70fb-4251-807d-6a6564273d2e.webp",
+                    "alt": "Retention Tensile Force Test Device for Flexible Cables"
+                  }
+                },
+                {
+                  "name": "Heat Resistance Test Device for Cable Conduit",
+                  "badges": [],
+                  "bullets": [
+                    "5.6.3.6 Test for resistance to heat of texitile braids"
+                  ],
+                  "model": "LS-GWC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a6cdcc58-99b8-449e-8e63-4f879be64767.webp",
+                    "alt": "Heat Resistance Test Device for Cable Conduit"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "PVC-insulated cables · IEC 60227-1",
+              "products": [
+                {
+                  "name": "Wire Abrasion Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 4.2.3 Durability"
+                  ],
+                  "model": "LS-B36",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e81538d7-f508-40cf-9c29-9e53c7607d5f.webp",
+                    "alt": "Wire Abrasion Testing Machine"
+                  }
+                },
+                {
+                  "name": "Flexing Test Apparatus for Flexible Cables",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 5.6.3.1 Flexing test for flexible cables"
+                  ],
+                  "model": "WDT-B42",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4f3a8ccb-6454-4b1a-8462-697c9de032f1.webp",
+                    "alt": "Flexing Test Apparatus for Flexible Cables"
+                  }
+                },
+                {
+                  "name": "Power Cord Flexibility Bending Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 5.6.3.2 Bending test for tinsel cord"
+                  ],
+                  "model": "SW-6",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c285d8e6-9a4e-4655-a95e-e9f6bcfb4cfe.webp",
+                    "alt": "Power Cord Flexibility Bending Tester"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 5.6.4 Flame retardance"
+                  ],
+                  "model": "RSB-WC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/abb26b70-7a71-43f0-87fe-6f53de29d820.webp",
+                    "alt": "Wire and Cable Flame Test Chamber"
+                  }
+                },
+                {
+                  "name": "High and Low Temperature Thermal Shock Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.4 Heat shock test"
+                  ],
+                  "model": "HLST-500D",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c85b16a4-7d46-4d86-8a2d-99b414eb46cc.webp",
+                    "alt": "High and Low Temperature Thermal Shock Chamber"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.5 Pressure test at high temperature"
+                  ],
+                  "model": "GNGPL-3610-2PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Low Temperature Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.7 Elongation test at low temperature"
+                  ],
+                  "model": "LS-B40",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5cf20e9e-ec47-4d0e-9865-5fd011bdd750.webp",
+                    "alt": "Low Temperature Tensile Testing Machine"
+                  }
+                },
+                {
+                  "name": "Low-Temperature Impact Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.8 Impact test at low temperature"
+                  ],
+                  "model": "DWC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a231d4f7-b6f6-4009-b9c8-ac2856682d1b.webp",
+                    "alt": "Low-Temperature Impact Test Device"
+                  }
+                },
+                {
+                  "name": "Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.1 Tensile strength and elongation at break"
+                  ],
+                  "model": "PULL-2000KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e25698d-e290-410b-bb6f-3fa374b3d0a3.webp",
+                    "alt": "Tensile Testing Machine"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Reference No.1.2 Properties after ageing in the air oven"
+                  ],
+                  "model": "GW-225-400",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Power cables 1 to 30 kV · IEC 60502-1",
+              "products": [
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 17.3 Insulation resistance measurement at maximum conductor temperature"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.8 Pressure test at high temperature on insulation and non-metallic sheaths"
+                  ],
+                  "model": "GNGPL-3610-2PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Low-Temperature Impact Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.9 Test on PVC insulation and sheaths and halogen free sheaths at low temperatures"
+                  ],
+                  "model": "DWC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a231d4f7-b6f6-4009-b9c8-ac2856682d1b.webp",
+                    "alt": "Low-Temperature Impact Test Device"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Thermal Shock Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.10 Test for resistance of PVC insulation and sheaths to cracking (heat shock test)"
+                  ],
+                  "model": "LS-B38",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/994ed7d0-652e-4fd4-a90b-f1ef75cc6fbe.webp",
+                    "alt": "Wire and Cable Thermal Shock Test Device"
+                  }
+                },
+                {
+                  "name": "Ozone Aging Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.11 Ozone resistance test for EPR and HEPR insulation"
+                  ],
+                  "model": "OTC-150A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/02c9bd44-cac6-4ae4-af1b-e1d172076c7e.webp",
+                    "alt": "Ozone Aging Test Chamber"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.15 Fire tests"
+                  ],
+                  "model": "RSB-WC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/abb26b70-7a71-43f0-87fe-6f53de29d820.webp",
+                    "alt": "Wire and Cable Flame Test Chamber"
+                  }
+                },
+                {
+                  "name": "Non-solid Pins Testing Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 18.19 Determination of hardness of HEPR insulation"
+                  ],
+                  "model": "LS-B04",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9b8d417e-abbb-4f17-b0d4-06e0a484cbb1.webp",
+                    "alt": "Non-solid Pins Testing Device"
+                  }
+                },
+                {
+                  "name": "Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Table 15 Tensile Strength"
+                  ],
+                  "model": "PULL-2000KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e25698d-e290-410b-bb6f-3fa374b3d0a3.webp",
+                    "alt": "Tensile Testing Machine"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Power cables 30 to 150 kV · IEC 60840",
+              "products": [
+                {
+                  "name": "IP Waterproof Test Equipments（Open Type）",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 5 Precautions against water penetration in cables"
+                  ],
+                  "model": "JL-X",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6887a1a1-ec2b-419b-90ea-667341e473b6.webp",
+                    "alt": "IP Waterproof Test Equipments（Open Type）"
+                  }
+                },
+                {
+                  "name": "Magnetic Field Generator",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.2 Frequency and waveform of power frequency test voltages"
+                  ],
+                  "model": "PFM61000-8A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0de2c37a-e231-4305-bbfc-65a80dfbfa4f.webp",
+                    "alt": "Magnetic Field Generator"
+                  }
+                },
+                {
+                  "name": "Surge Generator",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.3 Waveform of lightning impulse test voltages"
+                  ],
+                  "model": "SG61000-5",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/64b448a4-350d-4114-ba74-fb781a41048a.webp",
+                    "alt": "Surge Generator"
+                  }
+                },
+                {
+                  "name": "Capacitor Meter",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 10.10 Measurement of capacitance"
+                  ],
+                  "model": "LS6515EN",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8fc3aa2d-603d-4e90-b5ed-f4073fec8de0.webp",
+                    "alt": "Capacitor Meter"
+                  }
+                },
+                {
+                  "name": "Power Cord Flexibility Bending Tester",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 12.4.3 Bending test"
+                  ],
+                  "model": "SW-6",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c285d8e6-9a4e-4655-a95e-e9f6bcfb4cfe.webp",
+                    "alt": "Power Cord Flexibility Bending Tester"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 12.4.6 Heating cycle voltage test",
+                    "Loss of mass in air oven"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Tensile strength and elongation at break"
+                  ],
+                  "model": "PULL-2000KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e25698d-e290-410b-bb6f-3fa374b3d0a3.webp",
+                    "alt": "Tensile Testing Machine"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Pressure test at high temperature"
+                  ],
+                  "model": "GNGPL-3610-2PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Low Temperature Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Cold elongation test at low temperature"
+                  ],
+                  "model": "LS-B40",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5cf20e9e-ec47-4d0e-9865-5fd011bdd750.webp",
+                    "alt": "Low Temperature Tensile Testing Machine"
+                  }
+                },
+                {
+                  "name": "Low-Temperature Impact Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Cold impact test at low temperature"
+                  ],
+                  "model": "DWC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a231d4f7-b6f6-4009-b9c8-ac2856682d1b.webp",
+                    "alt": "Low-Temperature Impact Test Device"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Thermal Shock Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Heat shock test"
+                  ],
+                  "model": "LS-B38",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/994ed7d0-652e-4fd4-a90b-f1ef75cc6fbe.webp",
+                    "alt": "Wire and Cable Thermal Shock Test Device"
+                  }
+                },
+                {
+                  "name": "Ozone Aging Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Ozone resistance test"
+                  ],
+                  "model": "OTC-150A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/02c9bd44-cac6-4ae4-af1b-e1d172076c7e.webp",
+                    "alt": "Ozone Aging Test Chamber"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Hot set test"
+                  ],
+                  "model": "RSB-WC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/abb26b70-7a71-43f0-87fe-6f53de29d820.webp",
+                    "alt": "Wire and Cable Flame Test Chamber"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Low-frequency PVC cables · IEC 60189-1",
+              "products": [
+                {
+                  "name": "Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 6.1 Selection, marking and preparation of samples for tensile tests"
+                  ],
+                  "model": "PULL-2000KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e25698d-e290-410b-bb6f-3fa374b3d0a3.webp",
+                    "alt": "Tensile Testing Machine"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 7.1 Accelerated ageing"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 7.2 Pressure test at high temperature"
+                  ],
+                  "model": "GNGPL-3610-2PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Thermal Shock Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 7.5 Heat shock test"
+                  ],
+                  "model": "LS-B38",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/994ed7d0-652e-4fd4-a90b-f1ef75cc6fbe.webp",
+                    "alt": "Wire and Cable Thermal Shock Test Device"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.3 Insulation resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "Capacitor Meter",
+                  "badges": [],
+                  "bullets": [
+                    "Clause 8.4 Mutual capacitance"
+                  ],
+                  "model": "LS6515EN",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8fc3aa2d-603d-4e90-b5ed-f4073fec8de0.webp",
+                    "alt": "Capacitor Meter"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Mineral-insulated cables · IEC 61196-1",
+              "products": [
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "8.2.1 Low temperature impact"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "11.3 Insulation resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "Pure Sine Wave AC Power Source (High Precision)",
+                  "badges": [],
+                  "bullets": [
+                    "12.2 Voltage test"
+                  ],
+                  "model": "LSP-500VARC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fdbfde8e-2a14-4488-9600-76fdb4632af5.webp",
+                    "alt": "Pure Sine Wave AC Power Source (High Precision)"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "12.4 Flame retardance"
+                  ],
+                  "model": "RSB-WC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/abb26b70-7a71-43f0-87fe-6f53de29d820.webp",
+                    "alt": "Wire and Cable Flame Test Chamber"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Railway rolling stock cables · EN 50305",
+              "products": [
+                {
+                  "name": "Low-Temperature Impact Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "5.1 Impact test at low temperature"
+                  ],
+                  "model": "DWC-1",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a231d4f7-b6f6-4009-b9c8-ac2856682d1b.webp",
+                    "alt": "Low-Temperature Impact Test Device"
+                  }
+                },
+                {
+                  "name": "Programmable AC/DC Testing Power Supply System",
+                  "badges": [],
+                  "bullets": [
+                    "6.3 Voltage test on sheath"
+                  ],
+                  "model": "LSP-EMC500VA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/291b2f25-cc6a-4276-a52f-006094407434.webp",
+                    "alt": "Programmable AC/DC Testing Power Supply System"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "6.4 Insulation resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "7.2.3 Apparatus",
+                    "7.2.4.2 Temperature selection and exposure"
+                  ],
+                  "model": "GW-225-AH",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "Ozone Aging Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "7.4 Ozone resistance"
+                  ],
+                  "model": "OTC-150A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/02c9bd44-cac6-4ae4-af1b-e1d172076c7e.webp",
+                    "alt": "Ozone Aging Test Chamber"
+                  }
+                },
+                {
+                  "name": "High Temperature Pressure Test Device",
+                  "badges": [],
+                  "bullets": [
+                    "7.5 Pressure test at high temperature"
+                  ],
+                  "model": "GNGPL-3610-3PA",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/578b5123-cb8e-45a8-9ef5-24314783e099.webp",
+                    "alt": "High Temperature Pressure Test Device"
+                  }
+                },
+                {
+                  "name": "IP Waterproof Test Equipments（Open Type）",
+                  "badges": [],
+                  "bullets": [
+                    "8 Tests in fluids,including water"
+                  ],
+                  "model": "JL-X",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6887a1a1-ec2b-419b-90ea-667341e473b6.webp",
+                    "alt": "IP Waterproof Test Equipments（Open Type）"
+                  }
+                },
+                {
+                  "name": "Wire and Cable Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "9 Reaction to fire tests"
+                  ],
+                  "model": "RSB-WC",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/abb26b70-7a71-43f0-87fe-6f53de29d820.webp",
+                    "alt": "Wire and Cable Flame Test Chamber"
+                  }
+                },
+                {
+                  "name": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)",
+                  "badges": [],
+                  "bullets": [
+                    "9.2 Toxicity"
+                  ],
+                  "model": "EDX-2A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d5b7fe35-5fb5-401b-b71a-b3f845a9c014.webp",
+                    "alt": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)"
+                  }
+                },
+                {
+                  "name": "Tensile Testing Machine",
+                  "badges": [],
+                  "bullets": [
+                    "Annex A List of other test methods applicable to rolling stock cables"
+                  ],
+                  "model": "PULL-2000KG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0e25698d-e290-410b-bb6f-3fa374b3d0a3.webp",
+                    "alt": "Tensile Testing Machine"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Thermoplastic-insulated wires · UL 83",
+              "products": [
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.9/7.4.4 Heat shock"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "High and Low Temperature Thermal Shock Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.10 Cold bend and cold impact"
+                  ],
+                  "model": "HLST-500D",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c85b16a4-7d46-4d86-8a2d-99b414eb46cc.webp",
+                    "alt": "High and Low Temperature Thermal Shock Chamber"
+                  }
+                },
+                {
+                  "name": "Horizontal Vertical Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.12 Flame and smoke"
+                  ],
+                  "model": "HVR-LS",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6d6707ab-aa89-4d0e-929e-b2a0473a86c0.webp",
+                    "alt": "Horizontal Vertical Flame Test Chamber"
+                  }
+                },
+                {
+                  "name": "UV Aging Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.13 Weather (sunlight) resistance (optional)"
+                  ],
+                  "model": "UV-263LS",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/87ce26f9-b2d4-48a5-9d0a-e1e51933aedd.webp",
+                    "alt": "UV Aging Test Chamber"
+                  }
+                },
+                {
+                  "name": "Spring Impact Hammer IK Level Tester",
+                  "badges": [],
+                  "bullets": [
+                    "5.18 Impact resistance"
+                  ],
+                  "model": "IK01-06",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7e8b062a-8a6f-4930-9b0f-8ea47cbb3c20.webp",
+                    "alt": "Spring Impact Hammer IK Level Tester"
+                  }
+                },
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "5.24/7.4.3 Insulation resistance"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Thermoset-insulated wires · UL 44",
+              "products": [
+                {
+                  "name": "Shell Insulation Resistance Test",
+                  "badges": [],
+                  "bullets": [
+                    "5.4&5.5 Long-term insulation resistance in water"
+                  ],
+                  "model": "WB2681A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1da4fd70-bc20-4249-8f42-9dc8eeba6a91.webp",
+                    "alt": "Shell Insulation Resistance Test"
+                  }
+                },
+                {
+                  "name": "High and Low Temperature Thermal Shock Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.9 Heat shock of thermoplastic jacket"
+                  ],
+                  "model": "HLST-500D",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c85b16a4-7d46-4d86-8a2d-99b414eb46cc.webp",
+                    "alt": "High and Low Temperature Thermal Shock Chamber"
+                  }
+                },
+                {
+                  "name": "Horizontal Vertical Flame Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.14 Flame and smoke"
+                  ],
+                  "model": "HVR-LS",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6d6707ab-aa89-4d0e-929e-b2a0473a86c0.webp",
+                    "alt": "Horizontal Vertical Flame Test Chamber"
+                  }
+                },
+                {
+                  "name": "UV Aging Test Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.15 Weather (sunlight) resistance (optional)"
+                  ],
+                  "model": "UV-263LS",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/87ce26f9-b2d4-48a5-9d0a-e1e51933aedd.webp",
+                    "alt": "UV Aging Test Chamber"
+                  }
+                },
+                {
+                  "name": "Thermal Chamber",
+                  "badges": [],
+                  "bullets": [
+                    "5.20 Durability of ink printing"
+                  ],
+                  "model": "GDJS-015B",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/69c4efcb-8b7f-41de-8859-9de3e25c2a5a.webp",
+                    "alt": "Thermal Chamber"
+                  }
+                },
+                {
+                  "name": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)",
+                  "badges": [],
+                  "bullets": [
+                    "Annex C (normative)- Chemical composition of aluminum conductors"
+                  ],
+                  "model": "EDX-2A",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d5b7fe35-5fb5-401b-b71a-b3f845a9c014.webp",
+                    "alt": "RoHS Testing Equipment – Element Analysis – Thickness Gauge (EDXRF)"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 2
+}

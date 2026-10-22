@@ -1,0 +1,368 @@
+{
+  "section": "products",
+  "slug": "ev-power-analyzer",
+  "title": "EV Power Analyzer",
+  "group": "IMC",
+  "seoDescription": "imc e-mobility measurement: high-voltage modules, current measurement, efficiency and power analysis and test stands for batteries, inverters and electric motors.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "EV Power Analyzer",
+          "paragraphs": [
+            "Optimising the electric drive train and the battery calls for measurement technology that works in high-voltage environments. imc offers measurement modules with isolation in the kV range, current measurement, test stands, mobile data acquisition systems and analysis software for e-mobility.",
+            "The modules cover battery cells and HV batteries, the power bus and DC link, the inverter and the electric motor, with online power calculation for efficiency analysis."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/77e62c35-f158-4556-8665-42c805a39393.webp",
+            "alt": "EV Power Analyzer"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Measurement modules and solutions",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Temperature in HV environments",
+              "products": [
+                {
+                  "name": "imc CANSASflex-HISO-T-8-2L",
+                  "badges": [],
+                  "bullets": [
+                    "Thermocouples at 1400 V potential",
+                    "2 x LEMO.2P sockets, 4 channels each",
+                    "Per-channel isolated inputs, filtering and ADCs"
+                  ],
+                  "model": "CANSASflex-HISO-T-8-2L",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/5c35b678-11e2-473b-a923-d02088525c4b.webp",
+                    "alt": "imc CANSASflex-HISO-T-8-2L"
+                  }
+                },
+                {
+                  "name": "imc CANSASfit-HISO-T-8-2L",
+                  "badges": [],
+                  "bullets": [
+                    "Thermocouples at 1000 V potential",
+                    "8 thermocouples (type K)",
+                    "Multi-channel plugs"
+                  ],
+                  "model": "CANSASfit-HISO-T-8-2L",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/75da2d2d-fff7-4a88-aa80-4c813443834b.webp",
+                    "alt": "imc CANSASfit-HISO-T-8-2L"
+                  }
+                },
+                {
+                  "name": "imc CANSASfit-HISO-UT-6-3L",
+                  "badges": [],
+                  "bullets": [
+                    "PT100 / PT1000 sensors and voltages at 1000 V potential",
+                    "6 channels: voltage, PT100 / PT1000, resistance, acceleration",
+                    "1 kHz sampling rate"
+                  ],
+                  "model": "CANSASfit-HISO-UT-6-3L",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/448ad6d2-7969-4b4b-af8f-42315d4da177.webp",
+                    "alt": "imc CANSASfit-HISO-UT-6-3L"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Voltage in HV environments",
+              "products": [
+                {
+                  "name": "imc CANSASflex-HISO8-L",
+                  "badges": [],
+                  "bullets": [
+                    "Voltages up to 100 V at 800 V potential",
+                    "8 channels: voltage, PT100 / PT1000, resistance, 20 mA",
+                    "1 kHz sampling rate"
+                  ],
+                  "model": "CANSASflex-HISO8-L",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/478518af-3c5b-4074-9456-ba657a525f28.webp",
+                    "alt": "imc CANSASflex-HISO8-L"
+                  }
+                },
+                {
+                  "name": "imc CRONOSflex-HISO-8",
+                  "badges": [],
+                  "bullets": [
+                    "Voltages up to 100 V at 800 V potential",
+                    "8 channels: voltage, PT100 / PT1000, resistance, 20 mA",
+                    "100 kHz sampling rate"
+                  ],
+                  "model": "CRONOSflex-HISO-8",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c76a7578-a3a9-4732-9a3e-c55d4df8fe36.webp",
+                    "alt": "imc CRONOSflex-HISO-8"
+                  }
+                },
+                {
+                  "name": "imc CANSASflex-HV4",
+                  "badges": [],
+                  "bullets": [
+                    "4 voltages up to 800 V",
+                    "Measurement category 300 V CAT II",
+                    "1 kHz sampling rate"
+                  ],
+                  "model": "CANSASflex-HV4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c1b410f5-85a4-45b7-aa62-bb0d5604883c.webp",
+                    "alt": "imc CANSASflex-HV4"
+                  }
+                },
+                {
+                  "name": "imc CANSASfit HISO-HV-4",
+                  "badges": [],
+                  "bullets": [
+                    "4 voltages up to 1500 V",
+                    "Measurement category 1000 V CAT II",
+                    "1 kHz sampling rate"
+                  ],
+                  "model": "CANSASfit HISO-HV-4",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1b897a73-97f9-4abf-ac41-34402052c89f.webp",
+                    "alt": "imc CANSASfit HISO-HV-4"
+                  }
+                },
+                {
+                  "name": "imc CRONOSflex-HV2-4U",
+                  "badges": [],
+                  "bullets": [
+                    "4 voltages up to 1000 Vrms",
+                    "Measurement category 300 V CAT II",
+                    "100 kHz sampling rate"
+                  ],
+                  "model": "CRONOSflex-HV2-4U",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/4cb689c1-ef48-483e-ad9a-7bf82f078e02.webp",
+                    "alt": "imc CRONOSflex-HV2-4U"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Current, power and efficiency",
+              "products": [
+                {
+                  "name": "imc CANSAS-IHR",
+                  "badges": [],
+                  "bullets": [
+                    "CAN-based wide-range current sensor",
+                    "Uninterrupted measurement from 50 nA to 50 A"
+                  ],
+                  "model": "CANSAS-IHR",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c18bc763-0060-43ce-9a50-fa5890808b93.webp",
+                    "alt": "imc CANSAS-IHR"
+                  }
+                },
+                {
+                  "name": "Power and efficiency measurement",
+                  "badges": [],
+                  "bullets": [
+                    "HV modules measure up to 1000 V directly",
+                    "Inputs for current probes, Rogowski coils and shunts",
+                    "Online 1-, 2- or 3-phase power calculation"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9ef10f3c-3558-4beb-b146-45eee064c983.webp",
+                    "alt": "Power and efficiency measurement"
+                  }
+                },
+                {
+                  "name": "Telemetric mechanical power measurement",
+                  "badges": [],
+                  "bullets": [
+                    "Drive power from shaft torque and speed, measured wirelessly in real driving conditions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7b134610-81bb-48a8-a13d-a0554b6e3264.webp",
+                    "alt": "Telemetric mechanical power measurement"
+                  }
+                },
+                {
+                  "name": "Wide range current measurement",
+                  "badges": [],
+                  "bullets": [
+                    "Recording current sequences of ECUs and components across idle and active states, with the imc CANSAS-IHR"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0ec5846d-59c8-40ed-a500-13352602c22c.webp",
+                    "alt": "Wide range current measurement"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Motor and vehicle tests",
+              "products": [
+                {
+                  "name": "Testing electric motors",
+                  "badges": [],
+                  "bullets": [
+                    "Test stands for the whole electromotive drive train (motor, inverter and battery), including climatic conditions and drive power up to 100 kW"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9cb5782e-87d9-4f02-98f0-438fe7ddca40.webp",
+                    "alt": "Testing electric motors"
+                  }
+                },
+                {
+                  "name": "LV test system",
+                  "badges": [],
+                  "bullets": [
+                    "Certification measurement for vehicle electrical systems to LV 124, LV 148 (12 V and 48 V) and LV 123 (high voltage)"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f106f3e8-c451-4edb-9fac-e90a5c7f4559.webp",
+                    "alt": "LV test system"
+                  }
+                },
+                {
+                  "name": "NVH of electric vehicles",
+                  "badges": [],
+                  "bullets": [
+                    "Body, chassis and powertrain NVH measurement for the sound of electric vehicles"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/bf92566d-0677-4b83-9b90-39ef46ba1f4f.webp",
+                    "alt": "NVH of electric vehicles"
+                  }
+                },
+                {
+                  "name": "Wheel brake development",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement system for developing wheel brakes in electric vehicles"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0fbda6d9-fcac-4a30-ba6c-38dacac79b7b.webp",
+                    "alt": "Wheel brake development"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Measurement wheels",
+              "products": [
+                {
+                  "name": "6-component Wheel Force Transducer WFT-Cx",
+                  "badges": [],
+                  "bullets": [
+                    "Weatherproof measurement wheel for test drives"
+                  ],
+                  "model": "WFT-Cx",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d4e84925-9bbc-4cd5-b041-8fbd4b99a07c.webp",
+                    "alt": "6-component Wheel Force Transducer WFT-Cx"
+                  }
+                },
+                {
+                  "name": "Torque measurement wheel WTT-Dx",
+                  "badges": [],
+                  "bullets": [
+                    "Records drive and brake torque"
+                  ],
+                  "model": "WTT-Dx",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c9e2bcf6-c09e-43a5-a60e-0b071126eab2.webp",
+                    "alt": "Torque measurement wheel WTT-Dx"
+                  }
+                },
+                {
+                  "name": "Brake temperature Dx-BrakeTemp",
+                  "badges": [],
+                  "bullets": [
+                    "Detects the brake temperature"
+                  ],
+                  "model": "Dx-BrakeTemp",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/96d54bbe-5f19-48fd-b2bc-71240b6ab837.webp",
+                    "alt": "Brake temperature Dx-BrakeTemp"
+                  }
+                },
+                {
+                  "name": "Rotation rate measurement Dx-Speed",
+                  "badges": [],
+                  "bullets": [
+                    "Measures the wheel rotation rate"
+                  ],
+                  "model": "Dx-Speed",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/9785ef66-387b-46d8-b0c6-bb55ed349ffc.webp",
+                    "alt": "Rotation rate measurement Dx-Speed"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "In practice",
+              "products": [
+                {
+                  "name": "Electric drive train",
+                  "badges": [],
+                  "bullets": [
+                    "Electric drive train test stand"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7fa11b69-f819-4630-9e72-e08b774edc77.webp",
+                    "alt": "Electric drive train"
+                  }
+                },
+                {
+                  "name": "Testing e-vehicle fleets",
+                  "badges": [],
+                  "bullets": [
+                    "Analysing and assessing the efficiency of electric vehicle fleets"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d4b2272c-a6fc-444e-9675-27420245a469.webp",
+                    "alt": "Testing e-vehicle fleets"
+                  }
+                },
+                {
+                  "name": "Battery test stand",
+                  "badges": [],
+                  "bullets": [
+                    "Battery test stand built with imc solutions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f4e9eae5-3975-4277-af77-88e9cafff574.webp",
+                    "alt": "Battery test stand"
+                  }
+                },
+                {
+                  "name": "Testing on solar-powered vehicles",
+                  "badges": [],
+                  "bullets": [
+                    "Measurement on a solar racing vehicle at the World Solar Challenge"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ab84ba1f-bc23-4093-9359-d778943946c3.webp",
+                    "alt": "Testing on solar-powered vehicles"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 1
+}

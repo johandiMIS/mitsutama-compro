@@ -1,0 +1,112 @@
+{
+  "section": "products",
+  "slug": "brake-noise-testing",
+  "title": "Brake Noise Testing",
+  "group": "GRAS",
+  "seoDescription": "GRAS microphones for brake noise testing: dynamometer squeal tests, wheelhouse tests and on-road measurement of brake noise on combustion and electric vehicles.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Brake Noise Testing",
+          "paragraphs": [
+            "Brake noise is caused by friction-induced vibration that makes the brake system radiate sound. It disturbs owners and bystanders, hurts customer satisfaction surveys and drives warranty costs, so it is tested throughout development.",
+            "Electrification changes the picture: engine masking disappears, and regenerative braking means friction brakes are used less, which calls for new brake designs and more attention to noise."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a6fa3c8d-0667-4693-8784-e6c05a730b01.webp",
+            "alt": "Brake Noise Testing"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Brake noise types",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Low frequency, 100 to 1,000 Hz",
+              "text": "Often broadband noise, described as scraping, grinding, grunt, groan, moan or judder."
+            },
+            {
+              "title": "Medium to high frequency, 1 to 5 kHz",
+              "text": "Friction-induced tonal noise, typically from coupled modes between pads and rotor. Squeal starts under specific brake pressure, rotor temperature and environment."
+            },
+            {
+              "title": "High-frequency tonal noise, above 5 kHz",
+              "text": "Squeal or squeak from in-plane resonances of the brake rotor."
+            }
+          ]
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Component testing and modal analysis of brake components, especially pads and rotor, with CAE correlation\n- Brake dynamometer squeal test and wheelhouse test, both with microphones"
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Recommended products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Recommended microphones",
+              "products": [
+                {
+                  "name": "GRAS 146AE",
+                  "badges": [],
+                  "bullets": [
+                    "Free-field microphone, the choice for test bench testing"
+                  ],
+                  "model": "146AE",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/10bdd0aa-cde9-4c7d-9f89-19e636cb0463.webp",
+                    "alt": "GRAS 146AE"
+                  }
+                },
+                {
+                  "name": "GRAS 147EB",
+                  "badges": [],
+                  "bullets": [
+                    "Rugged microphone with extra protection for on-road testing in all climates"
+                  ],
+                  "model": "147EB"
+                },
+                {
+                  "name": "GRAS 42AG",
+                  "badges": [],
+                  "bullets": [
+                    "Recommended for calibration"
+                  ],
+                  "model": "42AG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd8906e2-8eb5-4244-b88d-a22bcd479b85.webp",
+                    "alt": "GRAS 42AG"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "brake-microphone",
+  "_order": 2
+}

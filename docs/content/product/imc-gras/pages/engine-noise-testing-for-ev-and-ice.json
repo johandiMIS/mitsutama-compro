@@ -1,0 +1,97 @@
+{
+  "section": "products",
+  "slug": "engine-noise-testing-for-ev-and-ice",
+  "title": "Engine Noise Testing for EV and ICE",
+  "group": "GRAS",
+  "seoDescription": "GRAS acoustic measurement for engine noise testing on electric and combustion vehicles: engine bay, interior and pass-by noise, with rugged pressure microphones.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "GRAS",
+          "title": "Engine Noise Testing for EV and ICE",
+          "paragraphs": [
+            "An engine sound check covers much more than the engine itself: gearbox, belt drive, pumps, cooling fans, the A/C compressor and the power steering motors all shape the acoustic comfort of a vehicle, and engine bay noise also affects the legally regulated pass-by noise.",
+            "On electric vehicles the low-frequency engine noise is gone, so other noises are no longer masked. New high-frequency tonal noise from the electric motor and inverter can be very disturbing, which makes reliable measurement at higher frequencies more important."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/de3be63d-9369-45a1-8ae7-0e99dee1ea7d.webp",
+            "alt": "Engine Noise Testing for EV and ICE"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "What engine bay measurements show",
+          "intro": ""
+        }
+      },
+      {
+        "type": "RichText",
+        "props": {
+          "body": "- Source location, source strength, frequency content, engine order content and time variation of the noise\n- How well acoustic packages, which insulate or absorb sound, perform when combined with interior or exterior measurements\n- Measurements on development vehicles, production follow-up vehicles and for benchmarking"
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Recommended products",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Recommended microphones",
+              "products": [
+                {
+                  "name": "GRAS 147AX",
+                  "badges": [],
+                  "bullets": [
+                    "Rugged pressure microphone with a mounting system for repeatable cold and hot engine testing, also on the proving ground"
+                  ],
+                  "model": "147AX",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/0a7a5de9-5d19-4306-bf53-de4c5efa4b62.webp",
+                    "alt": "GRAS 147AX"
+                  }
+                },
+                {
+                  "name": "GRAS 146AE",
+                  "badges": [],
+                  "bullets": [
+                    "Free-field microphone, the choice for testing inside the car"
+                  ],
+                  "model": "146AE",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/10bdd0aa-cde9-4c7d-9f89-19e636cb0463.webp",
+                    "alt": "GRAS 146AE"
+                  }
+                },
+                {
+                  "name": "GRAS 42AG",
+                  "badges": [],
+                  "bullets": [
+                    "Recommended for calibration"
+                  ],
+                  "model": "42AG",
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fd8906e2-8eb5-4244-b88d-a22bcd479b85.webp",
+                    "alt": "GRAS 42AG"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "engine-microphone",
+  "_order": 1
+}

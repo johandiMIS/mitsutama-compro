@@ -1,0 +1,142 @@
+{
+  "section": "products",
+  "slug": "aeroplanes-nvh-and-analysis",
+  "title": "Aeroplanes NVH and Analysis",
+  "group": "IMC",
+  "seoDescription": "imc aerospace test equipment: flight test instrumentation, structural test beds, eVTOL testing, HiL rigs and ground equipment built around IRIG 106.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Aeroplanes NVH and Analysis",
+          "paragraphs": [
+            "Avionics testing ensures passenger safety, and modern avionics rely on precise measurement data. imc data acquisition delivers accurate, reliable and synchronised measurements for flight test, structural test beds and ground equipment, built around the IRIG 106 standards.",
+            "The systems support virtually all sensors and interfaces, provide real-time analysis, monitoring and data reduction, and handle high-speed rotating components and harsh environments."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/096ec98c-3d43-4f65-8e21-5d02f0bd2da2.webp",
+            "alt": "Aeroplanes NVH and Analysis"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Aerospace applications",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Applications",
+              "products": [
+                {
+                  "name": "eVTOL testing",
+                  "badges": [],
+                  "bullets": [
+                    "Structural, powertrain, electrical and acoustic testing of eVTOL aircraft, together with GRAS acoustic sensors"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/f848515a-e835-4e9a-a38f-c484bf66a9ee.webp",
+                    "alt": "eVTOL testing"
+                  }
+                },
+                {
+                  "name": "Flight test instrumentation",
+                  "badges": [],
+                  "bullets": [
+                    "Several hundred to a thousand analogue channels plus ARINC 429, ARINC 664 and MIL-STD-1553B bus data",
+                    "Data stored on board or sent to a ground station over IRIG 106 telemetry"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/043f2d56-d18b-4ae2-bd46-069e243064f6.webp",
+                    "alt": "Flight test instrumentation"
+                  }
+                },
+                {
+                  "name": "Structural analysis of components",
+                  "badges": [],
+                  "bullets": [
+                    "Strain and stress measurement on airframes, wings, rotor blades, landing gear, actuators and motors",
+                    "For calibration, static, fatigue and endurance test beds"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/a4e03de9-0b2a-486d-b7c7-341dd285f01a.webp",
+                    "alt": "Structural analysis of components"
+                  }
+                },
+                {
+                  "name": "Test rigs and hardware-in-the-loop",
+                  "badges": [],
+                  "bullets": [
+                    "HiL for nose-wheel steering, iron bird and ISTR rigs, cargo loading systems and ATP test stands"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7e8c427a-b0ce-47aa-ba0b-b957dbdb508d.webp",
+                    "alt": "Test rigs and hardware-in-the-loop"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "In practice",
+              "products": [
+                {
+                  "name": "Aircraft certification testing",
+                  "badges": [],
+                  "bullets": [
+                    "Evektor chooses imc measurement systems"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d935e53c-8129-4f00-8cc1-59196c5444ba.webp",
+                    "alt": "Aircraft certification testing"
+                  }
+                },
+                {
+                  "name": "Aircraft recertification testing",
+                  "badges": [],
+                  "bullets": [
+                    "Recertification tests at LET Aircraft Industries"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/c8d7e1dd-2f22-410f-b7b1-9c0e31af4e61.webp",
+                    "alt": "Aircraft recertification testing"
+                  }
+                },
+                {
+                  "name": "Ultra-light helicopter flight tests",
+                  "badges": [],
+                  "bullets": [
+                    "Data acquisition and analysis applied by CURTI"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d9f2d434-99f3-4099-bfe9-a97648b1824b.webp",
+                    "alt": "Ultra-light helicopter flight tests"
+                  }
+                },
+                {
+                  "name": "Winglets: testing wing-end components",
+                  "badges": [],
+                  "bullets": [
+                    "FACC tests winglets for the A350 XWB with imc measurement solutions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/7e8c427a-b0ce-47aa-ba0b-b957dbdb508d.webp",
+                    "alt": "Winglets: testing wing-end components"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": null,
+  "_order": 3
+}

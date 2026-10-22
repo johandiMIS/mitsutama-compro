@@ -1,0 +1,67 @@
+{
+  "section": "products",
+  "slug": "structure-and-bridge-monitoring-and-analysis",
+  "title": "Structure & Bridge Monitoring and Analysis",
+  "group": "IMC",
+  "seoDescription": "imc measurement technology for civil engineering: long-term monitoring of bridges and structures, oscillation measurement, remote monitoring with imc LINK.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Structure & Bridge Monitoring and Analysis",
+          "paragraphs": [
+            "Measurement systems keep bridges and other structures safe through inspection and monitoring over long periods. Vibration and oscillation caused by environmental influences and traffic reveal how a structure behaves.",
+            "imc measurement technology covers short-term and long-term measurements, with remote monitoring and automatic data transfer."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/19421ff9-b7c4-42f2-8192-a48c2bc85312.webp",
+            "alt": "Structure & Bridge Monitoring and Analysis"
+          }
+        }
+      },
+      {
+        "type": "SectionHeading",
+        "props": {
+          "tagline": "",
+          "title": "Capabilities",
+          "intro": ""
+        }
+      },
+      {
+        "type": "FeatureGrid",
+        "props": {
+          "items": [
+            {
+              "title": "Oscillation measurement",
+              "text": "Immediate and long-term measurement of oscillations and vibrations."
+            },
+            {
+              "title": "Close to the sensor",
+              "text": "Decentralised modular technology measures near the sensor for higher signal quality."
+            },
+            {
+              "title": "Remote monitoring",
+              "text": "Automatic data transfer and remote monitoring with imc LINK."
+            },
+            {
+              "title": "Analysis and visualisation",
+              "text": "Comprehensive analysis and visualisation of the captured data with imc FAMOS."
+            },
+            {
+              "title": "Building physics",
+              "text": "Thermal measurement of room climate, sound and noise measurement, and measurement of energy use in buildings."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "bridge-monitoring-and-analysis",
+  "_order": 5
+}

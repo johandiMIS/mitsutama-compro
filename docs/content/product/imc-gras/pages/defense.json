@@ -1,0 +1,187 @@
+{
+  "section": "products",
+  "slug": "defense",
+  "title": "Defense",
+  "group": "IMC",
+  "seoDescription": "Defense test and measurement from imc, GRAS and Audio Precision (Axiometrix Solutions): air force, ground and naval platforms, custom systems and test labs.",
+  "data": {
+    "root": {
+      "props": {}
+    },
+    "content": [
+      {
+        "type": "ProductIntro",
+        "props": {
+          "tagline": "imc",
+          "title": "Defense",
+          "paragraphs": [
+            "Performance, reliability and safety in defense start with precise measurement. The Axiometrix Solutions brands Audio Precision, GRAS Acoustics and imc Test & Measurement bring three decades of experience delivering test and measurement solutions to the defense industry.",
+            "Solutions range from complete systems for test labs and integrators to tailored sensing and turnkey systems for specialised missions."
+          ],
+          "imageSide": "right",
+          "image": {
+            "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/994a92af-9039-4cb8-891b-8556859feb59.webp",
+            "alt": "Defense"
+          }
+        }
+      },
+      {
+        "type": "CategorizedProducts",
+        "props": {
+          "tagline": "",
+          "title": "Defense solutions",
+          "intro": "",
+          "categories": [
+            {
+              "name": "Defense segments",
+              "products": [
+                {
+                  "name": "Air Force",
+                  "badges": [],
+                  "bullets": [
+                    "Aircraft, helicopters, UAVs, missiles and space",
+                    "Survivability, durability and acoustic performance under extreme conditions"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ceff9394-bb9b-42ef-99c4-b005d95af829.webp",
+                    "alt": "Air Force"
+                  }
+                },
+                {
+                  "name": "Ground Platforms",
+                  "badges": [],
+                  "bullets": [
+                    "Armored vehicles, tactical systems, artillery and weapons testing",
+                    "Performance, reliability and crew safety in harsh environments"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/1e0d1cd1-0244-4a7a-ad79-3afa2666eb84.webp",
+                    "alt": "Ground Platforms"
+                  }
+                },
+                {
+                  "name": "Naval Platforms",
+                  "badges": [],
+                  "bullets": [
+                    "Naval vessels, subsystems and maritime installations",
+                    "Measuring and controlling noise and vibration"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/e9419f43-a7bb-4e08-87f1-fc44a9db5681.webp",
+                    "alt": "Naval Platforms"
+                  }
+                },
+                {
+                  "name": "Custom and OEM Defense Solutions",
+                  "badges": [],
+                  "bullets": [
+                    "Tailored sensing and turnkey systems designed around the customer's requirements"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/31b7dab2-918d-420f-80b3-9c39f23a8754.webp",
+                    "alt": "Custom and OEM Defense Solutions"
+                  }
+                },
+                {
+                  "name": "Soldier and Communication Systems",
+                  "badges": [],
+                  "bullets": [
+                    "Headsets, radios, hearing protection and tactical audio"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/6bc5f043-0e44-44b4-9dd9-d63759e4c4ee.webp",
+                    "alt": "Soldier and Communication Systems"
+                  }
+                },
+                {
+                  "name": "Test Labs and Qualification Facilities",
+                  "badges": [],
+                  "bullets": [
+                    "Scalable measurement systems for R&D, qualification, production and field deployment"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/91bced64-1b64-4b74-8533-c3cf87539a97.webp",
+                    "alt": "Test Labs and Qualification Facilities"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Applications",
+              "products": [
+                {
+                  "name": "Acoustic Source Localization and Identification",
+                  "badges": [],
+                  "bullets": [
+                    "High-performance GRAS acoustic sensors for source localization and identification systems"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/fa57b84a-542d-4642-b11c-8c5a17c18f94.webp",
+                    "alt": "Acoustic Source Localization and Identification"
+                  }
+                },
+                {
+                  "name": "Aircrew Hearing and Performance",
+                  "badges": [],
+                  "bullets": [
+                    "Protecting aircrew from noise exposure, ensuring effective communication and reducing noise-induced fatigue"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/d5630991-d02c-4f41-8c16-8103abca6b10.webp",
+                    "alt": "Aircrew Hearing and Performance"
+                  }
+                },
+                {
+                  "name": "Aviation and Tactical Communications",
+                  "badges": [],
+                  "bullets": [
+                    "Reliable communication and hearing protection in high-stakes environments"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/8251bf1e-513a-4edd-8947-2b4d725af933.webp",
+                    "alt": "Aviation and Tactical Communications"
+                  }
+                },
+                {
+                  "name": "Blast and Ordnance Characterization",
+                  "badges": [],
+                  "bullets": [
+                    "Acoustic and pressure effects of explosions, for safety, design and impact assessment"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/3bc5eb9f-269e-4bba-af47-448d20298818.webp",
+                    "alt": "Blast and Ordnance Characterization"
+                  }
+                },
+                {
+                  "name": "Hearing Aid and Implant Development",
+                  "badges": [],
+                  "bullets": [
+                    "Acoustic measurement equipment for developing and testing hearing aids and implants"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/41ca8587-4eee-4ce8-bdf7-a7fbd615d3e0.webp",
+                    "alt": "Hearing Aid and Implant Development"
+                  }
+                },
+                {
+                  "name": "Military Communication Systems",
+                  "badges": [],
+                  "bullets": [
+                    "Clear, reliable communication for mission-critical environments, with GRAS and Audio Precision"
+                  ],
+                  "image": {
+                    "url": "https://mitsutama-compro.s3.ap-southeast-1.amazonaws.com/media/ca264c4a-aed4-4a1e-b8da-365b0e59f1da.webp",
+                    "alt": "Military Communication Systems"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_oldSlug": "structure-analyzer",
+  "_order": 4
+}
